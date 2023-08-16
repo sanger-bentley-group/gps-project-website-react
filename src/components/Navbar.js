@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const NavBarContent = [
+const NavbarContent = [
   {
     title: 'About',
     submenu: [
@@ -107,10 +107,8 @@ const Button = ({ title, url }) => (
   <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn">{title}</label></Link>
 )
 
-const DropdownContent = ({ submenu }) => (
-  submenu.map(( item, index ) => (
-    <li onClick={deactivate} key={index}><Link to={item.url}>{item.title}</Link></li>
-  ))
+const ListItem = ({ title, url }) => (
+  <li onClick={deactivate}><Link to={url}>{title}</Link></li>
 )
 
 const DropdownButton = ({ title, submenu }) => (
@@ -118,18 +116,37 @@ const DropdownButton = ({ title, submenu }) => (
     <div className="dropdown dropdown-hover dropdown-end">
     <label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn">{title}</label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <DropdownContent submenu={submenu}/>
+      { submenu.map((item , index) => <ListItem title={item.title} url={item.url} key={index}/>) }
       </ul>
     </div>
   </>
 )
 
-const NavbarItems = () => (
-  NavBarContent.map((content, index) => (
-    content.submenu ?
-      <DropdownButton title={content.title} submenu={content.submenu} key={index}/>
+const TwoLevelMenuItem = ({ title, submenu }) => (
+  <li>
+    <div>{title}</div>
+    <ul className="p2">
+    { submenu.map((item , index) => <ListItem title={item.title} url={item.url} key={index}/>) }
+    </ul>
+  </li>
+)
+
+const NavbarItems = ({ variant }) => (
+  NavbarContent.map((content, index) => (
+    variant === 'main' ? 
+      (
+        content.submenu ?
+          <DropdownButton title={content.title} submenu={content.submenu} key={index} />
+        :
+          <Button title={content.title} url={content.url} key={index} />
+      )
     :
-      <Button title={content.title} url={content.url} key={index} />
+      (
+        content.submenu ?
+          <TwoLevelMenuItem title={content.title} submenu={content.submenu} key={index} />
+        :
+          <ListItem title={content.title} url={content.url} key={index} />
+      )
   ))
 )
 
@@ -141,7 +158,7 @@ const Navbar = () => (
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
         </label>
         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <NavbarItems />
+          <NavbarItems variant='side'/>
         </ul>
       </div>
       <Link to="/" className="btn btn-ghost normal-case h-20">
@@ -155,7 +172,7 @@ const Navbar = () => (
     </div>
     <div className="flex-none hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
-        <NavbarItems />
+        <NavbarItems variant='main' />
       </ul>
     </div>
   </div>
