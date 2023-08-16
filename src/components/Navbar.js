@@ -162,7 +162,7 @@ const Navbar = () => (
         </ul>
       </div>
       <Link to="/" className="btn btn-ghost normal-case h-20">
-        <img className='w-10' src='gps_logo.png' alt="GPS Project Logo"></img>
+        <img className='w-14' src='gps_logo.png' alt="GPS Project Logo"></img>
         <div>
           <div className="text-xl text-left">GPS</div>
           <div className="text-xs text-left">Global Pneumococcal</div>
