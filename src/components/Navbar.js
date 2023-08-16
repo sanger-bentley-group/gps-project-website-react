@@ -151,7 +151,7 @@ const NavbarItems = ({ variant }) => (
 )
 
 const Navbar = () => (
-  <div className="navbar bg-primary text-primary-content h-20">
+  <div className="navbar bg-primary text-primary-content min-h-[6rem]">
     <div className="flex-1">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost lg:hidden">
