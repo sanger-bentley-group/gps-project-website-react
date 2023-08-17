@@ -8,7 +8,7 @@ import Contact from "./Contact"
 import PageNotFound from "./PageNotFound"
 
 const Content = () => (
-  <div className='mb-auto'>
+  <div className='grow'>
   {
     <Routes>
         <Route path="/" element={<Home />} />

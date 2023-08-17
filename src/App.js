@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <div className='flex flex-col h-screen justify-between'>
+      <div className='flex flex-col h-screen'>
         <Navbar />
         <Content />
         <Footer />
