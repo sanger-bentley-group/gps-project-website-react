@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { Fragment } from 'react';
 
 const sites = [
   {
@@ -25,10 +26,10 @@ const Footer = () => (
         <div className="flex space-x-4">
           {
             sites.map((site, index) => (
-              <>
+              <Fragment key={index}>
                 {index !== 0 ? <div className="min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-20 dark:opacity-100"></div> : ''}
-                <Link to={site.url} target="_blank" key={index}>{site.title}</Link>
-              </>
+                <Link to={site.url} target="_blank">{site.title}</Link>
+              </Fragment>
             ))
           }
         </div>
