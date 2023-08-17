@@ -104,7 +104,7 @@ const deactivate = () => {
 }
 
 const Button = ({ title, url }) => (
-  <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn">{title}</label></Link>
+  <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn normal-case">{title}</label></Link>
 )
 
 const ListItem = ({ title, url }) => (
@@ -114,7 +114,7 @@ const ListItem = ({ title, url }) => (
 const DropdownButton = ({ title, submenu }) => (
   <>
     <div className="dropdown dropdown-hover dropdown-end">
-    <label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn">{title}</label>
+    <label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn normal-case">{title}</label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       { submenu.map((item , index) => <ListItem title={item.title} url={item.url} key={index}/>) }
       </ul>
@@ -166,7 +166,7 @@ const Navbar = () => (
       </Link>
     </div>
     <div className="flex-none hidden lg:flex">
-      <ul className="menu menu-horizontal px-1">
+      <ul className="menu menu-horizontal px-1 space-x-3">
         <NavbarItems variant='main' />
       </ul>
     </div>
