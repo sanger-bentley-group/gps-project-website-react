@@ -13,7 +13,7 @@ const NavbarContent = [
         url: '/team',
       },
       {
-        title: 'Projet Partners',
+        title: 'Project Partners',
         url: '/partners',
       },
       {
