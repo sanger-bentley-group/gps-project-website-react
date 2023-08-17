@@ -151,7 +151,7 @@ const NavbarItems = ({ variant }) => (
 )
 
 const Navbar = () => (
-  <div className="navbar bg-primary text-primary-content min-h-[6rem]">
+  <div className="navbar bg-primary text-primary-content h-24 min-h-[6rem]">
     <div className="flex-1">
       <div className="dropdown">
         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -161,13 +161,8 @@ const Navbar = () => (
           <NavbarItems variant='side'/>
         </ul>
       </div>
-      <Link to="/" className="btn btn-ghost normal-case h-20">
-        <img className='w-14' src='gps_logo.png' alt="GPS Project Logo"></img>
-        <div>
-          <div className="text-xl text-left">GPS</div>
-          <div className="text-xs text-left">Global Pneumococcal</div>
-          <div className="text-xs text-left">Sequencing Project</div>
-        </div>
+      <Link to="/" className="btn btn-ghost normal-case h-20 min-h-[5rem]">
+        <img className='h-20 min-h-[5rem]' src='gps_logo.png' alt="GPS Project Logo"></img>
       </Link>
     </div>
     <div className="flex-none hidden lg:flex">
