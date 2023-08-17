@@ -104,7 +104,7 @@ const deactivate = () => {
 }
 
 const Button = ({ title, url }) => (
-  <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn normal-case">{title}</label></Link>
+  <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label></Link>
 )
 
 const ListItem = ({ title, url }) => (
@@ -114,7 +114,7 @@ const ListItem = ({ title, url }) => (
 const DropdownButton = ({ title, submenu }) => (
   <>
     <div className="dropdown dropdown-hover dropdown-end">
-    <label tabIndex={0} className="btn btn-ghost btn-xs rounded-btn normal-case">{title}</label>
+    <label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       { submenu.map((item , index) => <ListItem title={item.title} url={item.url} key={index}/>) }
       </ul>
@@ -150,27 +150,31 @@ const NavbarItems = ({ variant }) => (
   ))
 )
 
-const Navbar = () => (
-  <div className="navbar bg-primary text-primary-content h-24 min-h-[6rem]">
-    <div className="flex-1">
-      <div className="dropdown">
-        <label tabIndex={0} className="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-        </label>
-        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 lg:hidden">
-          <NavbarItems variant='side'/>
+const Navbar = () => {
+  const breakpoint = 'xl'
+
+  return (
+    <div className="navbar bg-primary text-primary-content h-24 min-h-[6rem]">
+      <div className="flex-1">
+        <div className="dropdown">
+          <label tabIndex={0} className={`btn btn-ghost ${breakpoint}:hidden`}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabIndex={0} className={`menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ${breakpoint}:hidden`}>
+            <NavbarItems variant='side'/>
+          </ul>
+        </div>
+        <Link to="/" className="btn btn-ghost normal-case h-20 min-h-[5rem]">
+          <img className='h-20 min-h-[5rem]' src='gps_logo.png' alt="GPS Project Logo"></img>
+        </Link>
+      </div>
+      <div className={`flex-none hidden ${breakpoint}:flex`}>
+        <ul className="menu menu-horizontal px-1 space-x-3">
+          <NavbarItems variant='main' />
         </ul>
       </div>
-      <Link to="/" className="btn btn-ghost normal-case h-20 min-h-[5rem]">
-        <img className='h-20 min-h-[5rem]' src='gps_logo.png' alt="GPS Project Logo"></img>
-      </Link>
     </div>
-    <div className="flex-none hidden lg:flex">
-      <ul className="menu menu-horizontal px-1 space-x-3">
-        <NavbarItems variant='main' />
-      </ul>
-    </div>
-  </div>
-)
+  )
+}
 
 export default Navbar
