@@ -166,7 +166,7 @@ const Navbar = () => {
             <NavbarItems variant='side'/>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost normal-case h-20 min-h-[5rem]">
+        <Link to="/" className="btn btn-ghost h-20 min-h-[5rem]">
           <img className='h-20 min-h-[5rem]' src='gps_logo.png' alt="GPS Project Logo"></img>
         </Link>
       </div>
