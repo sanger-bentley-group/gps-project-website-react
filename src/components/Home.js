@@ -159,7 +159,7 @@ const Home = () => {
         </div>
         <div className="w-full space-y-5 flex flex-col items-center xl:items-start">
           <SubtitleText text='Founding Partners' />
-          <div className="w-full flex flex-wrap justify-between space-x-4">
+          <div className="w-full flex flex-wrap justify-around space-x-4 xl:justify-between">
             {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
           </div>
         </div> 
