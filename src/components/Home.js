@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 const Home = () => {
+
   const content = {
     title: 'The Global Pneumococcal Sequencing Project',
     subtitle: 'A worldwide genomic survey of the impact of vaccination on the pathogen population',
@@ -74,70 +75,81 @@ const Home = () => {
     ]
   }
 
-  const TitleText = ({text}) => <h1 className="text-4xl font-bold">{text}</h1>
-  const SubtitleText = ({text}) => <h2 className="text-2xl font-bold">{text}</h2>
-  const ContentText = ({text}) => <h4 className="text-xl">{text}</h4>
+  const TitleText = ({text}) => (
+    <h1 className="text-4xl font-bold">{text}</h1>
+  )
+
+  const SubtitleText = ({text}) => (
+    <h2 className="text-2xl font-bold">{text}</h2>
+  )
+
+  const ContentText = ({text}) => (
+    <h4 className="text-xl">{text}</h4>
+  )
 
   const NameAndInstitute = ({name, url, institute, instituteUrl}) => (
     <div className="flex w-full">
       {
         url !== '' 
-        ? <Link to={url} target="_blank"><div className="link link-hover"><ContentText text={name} /></div></Link> 
+        ? <div className="link link-hover"><Link to={url} target="_blank"><ContentText text={name} /></Link></div>
         : <ContentText text={name} />
       }
       <div className="divider divider-horizontal"></div>
       {
         instituteUrl !== '' 
-        ? <Link to={instituteUrl} target="_blank"><div className="link link-hover"><ContentText text={institute} /></div></Link> 
+        ? <div className="link link-hover"><Link to={instituteUrl} target="_blank"><ContentText text={institute} /></Link></div>
         : <ContentText text={institute} />
       }
-    </div>
-    
+    </div> 
   )
 
-  const Logo = ({logo, alt, url}) =>(
+  const Logo = ({logo, alt, url}) => (
     <Link to={url} target="_blank">
       <img className='h-20 min-h-[5rem] my-4' src={logo} alt={alt}></img>
     </Link>
   )
 
-  const YoutubeEmbed = ({id, title}) => <iframe className="flex-1 w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
+  const YoutubeEmbed = ({id, title}) => (
+    <iframe className="w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
+  )
 
   return (
     <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-20 py-20">
-      <div className="hero-content text-center w-full">
+      <div className="hero-content w-full text-center">
         <div className="space-y-5">
           <TitleText text={content.title}/>
           <SubtitleText text={content.subtitle} />
         </div>
       </div>
-      <div className="hero-content flex-col xl:flex-row text-left w-full">
+      <div className="hero-content w-full text-left flex-col xl:flex-row ">
         <div className="flex-1 space-y-5">
           <SubtitleText text={content.missionTitle} />
           <ContentText text={content.missionContent} />
         </div>  
-        <YoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
+        <div className="flex-1">
+          <YoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
+        </div>
       </div>
-      <div className="hero-content flex-col w-full space-y-20">
-        <div className="flex flex-col xl:flex-row text-left xl:justify-between w-full space-y-20 xl:space-y-0 space-x-0 xl:space-x-20 items-start">
-          <div className="space-y-20 w-full">
-            <div className="flex-1 space-y-5">
+      <div className="hero-content w-full flex-col space-y-10">
+        <div className="w-full text-left flex flex-col space-x-0 space-y-20 xl:flex-row xl:justify-between xl:space-x-20 xl:space-y-0">
+          <div className="w-full space-y-20">
+            <div className="space-y-5">
               <SubtitleText text='Project Leaders' />
               <div className="flex flex-col space-y-5">
                 {content.leaders.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
               </div>
             </div>  
-            <div className="flex-1 space-y-5">
+            <div className="space-y-5">
               <SubtitleText text='Project Manager' />
               <NameAndInstitute {...content.projectManager} />
             </div>
           </div>
-          <div className="space-y-20 w-full">
-            <div className="flex-1 space-y-5">
+          <div className="w-full space-y-20">
+            <div className="space-y-5">
               <SubtitleText text='Funded by' />
               <Logo {...content.funder}/>
             </div> 
-            <div className="flex-1 space-y-5">
+            <div className="space-y-5">
               <SubtitleText text='Co-funded by' />
               <Logo {...content.cofunder}/>
               </div>  
@@ -145,7 +157,7 @@ const Home = () => {
         </div>
         <div className="w-full space-y-5">
           <SubtitleText text='Founding Partners' />
-          <div className="flex flex-wrap justify-between gap-x-4">
+          <div className="flex flex-wrap justify-between space-x-4">
             {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
           </div>
         </div> 
