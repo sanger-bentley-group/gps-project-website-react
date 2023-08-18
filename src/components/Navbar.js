@@ -151,16 +151,18 @@ const NavbarItems = ({ variant }) => (
 )
 
 const Navbar = () => {
-  const breakpoint = 'xl'
+  // Both variables should have the same breakpoint prefix
+  const breakpointHidden = 'xl:hidden'
+  const breakpointFlex = `xl:flex`
 
   return (
     <div className="navbar bg-primary text-primary-content h-24 min-h-[6rem]">
       <div className="flex-1">
         <div className="dropdown">
-          <label tabIndex={0} className={`btn btn-ghost ${breakpoint}:hidden`}>
+          <label tabIndex={0} className={`btn btn-ghost ${breakpointHidden}`}>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </label>
-          <ul tabIndex={0} className={`menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ${breakpoint}:hidden`}>
+          <ul tabIndex={0} className={`menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ${breakpointHidden}`}>
             <NavbarItems variant='side'/>
           </ul>
         </div>
@@ -168,7 +170,7 @@ const Navbar = () => {
           <img className='h-20 min-h-[5rem]' src='gps_logo.png' alt="GPS Project Logo"></img>
         </Link>
       </div>
-      <div className={`flex-none hidden ${breakpoint}:flex`}>
+      <div className={`flex-none hidden ${breakpointFlex}`}>
         <ul className="menu menu-horizontal px-1 space-x-3">
           <NavbarItems variant='main' />
         </ul>
