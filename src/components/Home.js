@@ -104,46 +104,46 @@ const Home = () => {
   const YoutubeEmbed = ({id, title}) => <iframe className="flex-1 w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
 
   return (
-    <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-24 py-24">
+    <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-20 py-20">
       <div className="hero-content text-center w-full">
-        <div className="max-w-screen-xl space-y-5">
+        <div className="space-y-5">
           <TitleText text={content.title}/>
           <SubtitleText text={content.subtitle} />
         </div>
       </div>
       <div className="hero-content flex-col xl:flex-row text-left w-full">
-        <div className="max-w-screen-xl flex-1 space-y-5">
+        <div className="flex-1 space-y-5">
           <SubtitleText text={content.missionTitle} />
           <ContentText text={content.missionContent} />
         </div>  
         <YoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
       </div>
-      <div className="hero-content flex-col w-full">
-        <div className="flex flex-col xl:flex-row text-left xl:justify-between w-full space-y-10 xl:space-y-0 space-x-0 xl:space-x-20 items-start">
-          <div className="space-y-10 w-full">
-            <div className="max-w-screen-xl flex-1 space-y-5">
+      <div className="hero-content flex-col w-full space-y-20">
+        <div className="flex flex-col xl:flex-row text-left xl:justify-between w-full space-y-20 xl:space-y-0 space-x-0 xl:space-x-20 items-start">
+          <div className="space-y-20 w-full">
+            <div className="flex-1 space-y-5">
               <SubtitleText text='Project Leaders' />
               <div className="flex flex-col space-y-5">
                 {content.leaders.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
               </div>
             </div>  
-            <div className="max-w-screen-xl flex-1 space-y-5">
+            <div className="flex-1 space-y-5">
               <SubtitleText text='Project Manager' />
               <NameAndInstitute {...content.projectManager} />
             </div>
           </div>
-          <div className="space-y-10 w-full">
-            <div className="max-w-screen-xl flex-1 space-y-5">
+          <div className="space-y-20 w-full">
+            <div className="flex-1 space-y-5">
               <SubtitleText text='Funded by' />
               <Logo {...content.funder}/>
             </div> 
-            <div className="max-w-screen-xl flex-1 space-y-5">
+            <div className="flex-1 space-y-5">
               <SubtitleText text='Co-funded by' />
               <Logo {...content.cofunder}/>
               </div>  
           </div>
         </div>
-        <div className="max-w-screen-xl w-full flex-1 space-y-5">
+        <div className="w-full space-y-5">
           <SubtitleText text='Founding Partners' />
           <div className="flex flex-wrap justify-between gap-x-4">
             {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
