@@ -88,7 +88,7 @@ const Home = () => {
   )
 
   const NameAndInstitute = ({name, url, institute, instituteUrl}) => (
-    <div className="flex w-full">
+    <div className="flex">
       {
         url !== '' 
         ? <div className="link link-hover"><Link to={url} target="_blank"><ContentText text={name} /></Link></div>
@@ -121,8 +121,8 @@ const Home = () => {
           <SubtitleText text={content.subtitle} />
         </div>
       </div>
-      <div className="hero-content w-full text-left flex-col xl:flex-row ">
-        <div className="flex-1 space-y-5">
+      <div className="hero-content w-full flex-col xl:flex-row ">
+        <div className="flex-1 space-y-5 flex flex-col items-center xl:items-start">
           <SubtitleText text={content.missionTitle} />
           <ContentText text={content.missionContent} />
         </div>  
@@ -131,33 +131,35 @@ const Home = () => {
         </div>
       </div>
       <div className="hero-content w-full flex-col space-y-10">
-        <div className="w-full text-left flex flex-col space-x-0 space-y-20 xl:flex-row xl:justify-between xl:space-x-20 xl:space-y-0">
+        <div className="w-full flex flex-col space-x-0 space-y-20 xl:flex-row xl:justify-between xl:space-x-20 xl:space-y-0">
           <div className="w-full space-y-20">
-            <div className="space-y-5">
+            <div className="flex flex-col items-center space-y-5 xl:items-start">
               <SubtitleText text='Project Leaders' />
-              <div className="flex flex-col space-y-5">
+              <div className="flex flex-col items-center space-y-5 xl:items-start">
                 {content.leaders.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
               </div>
             </div>  
-            <div className="space-y-5">
+            <div className="space-y-5 flex flex-col items-center xl:items-start">
               <SubtitleText text='Project Manager' />
+                <div className="flex flex-col space-y-5">
               <NameAndInstitute {...content.projectManager} />
+              </div>
             </div>
           </div>
           <div className="w-full space-y-20">
-            <div className="space-y-5">
+            <div className="space-y-5 flex flex-col items-center xl:items-start">
               <SubtitleText text='Funded by' />
               <Logo {...content.funder}/>
             </div> 
-            <div className="space-y-5">
+            <div className="space-y-5 flex flex-col items-center xl:items-start">
               <SubtitleText text='Co-funded by' />
               <Logo {...content.cofunder}/>
               </div>  
           </div>
         </div>
-        <div className="w-full space-y-5">
+        <div className="w-full space-y-5 flex flex-col items-center xl:items-start">
           <SubtitleText text='Founding Partners' />
-          <div className="flex flex-wrap justify-between space-x-4">
+          <div className="w-full flex flex-wrap justify-between space-x-4">
             {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
           </div>
         </div> 
