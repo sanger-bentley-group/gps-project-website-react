@@ -126,7 +126,7 @@ const Home = () => {
           <SubtitleText text={content.missionTitle} />
           <ContentText text={content.missionContent} />
         </div>  
-        <div className="flex-1">
+        <div className="flex-1 w-full">
           <YoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
         </div>
       </div>
