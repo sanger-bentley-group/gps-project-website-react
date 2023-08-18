@@ -116,7 +116,7 @@ const DropdownButton = ({ title, submenu }) => (
     <div className="dropdown dropdown-hover dropdown-end">
     <label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label>
       <ul tabIndex={0} className="menu menu-sm dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-      { submenu.map((item , index) => <ListItem title={item.title} url={item.url} key={index}/>) }
+      { submenu.map((item , index) => <ListItem {...item} key={index}/>) }
       </ul>
     </div>
   </>
@@ -126,7 +126,7 @@ const TwoLevelMenuItem = ({ title, submenu }) => (
   <li>
     <div>{title}</div>
     <ul className="p2">
-    { submenu.map((item , index) => <ListItem title={item.title} url={item.url} key={index}/>) }
+    { submenu.map((item , index) => <ListItem {...item} key={index}/>) }
     </ul>
   </li>
 )
@@ -136,16 +136,16 @@ const NavbarItems = ({ variant }) => (
     variant === 'main' ? 
       (
         content.submenu ?
-          <DropdownButton title={content.title} submenu={content.submenu} key={index} />
+          <DropdownButton {...content} key={index} />
         :
-          <Button title={content.title} url={content.url} key={index} />
+          <Button {...content} key={index} />
       )
     :
       (
         content.submenu ?
-          <TwoLevelMenuItem title={content.title} submenu={content.submenu} key={index} />
+          <TwoLevelMenuItem {...content} key={index} />
         :
-          <ListItem title={content.title} url={content.url} key={index} />
+          <ListItem {...content} key={index} />
       )
   ))
 )
