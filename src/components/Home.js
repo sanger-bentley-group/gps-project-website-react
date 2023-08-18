@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Home = () => {
   const content = {
     title: 'The Global Pneumococcal Sequencing Project',
@@ -8,28 +10,145 @@ const Home = () => {
       title: 'How can whole-genome sequencing be used to make vaccines more effective?',
       id: 'trMW18aKXjo'
     },
+    leaders: [
+      {
+        name: 'Stephen Bentley',
+        url: 'https://www.sanger.ac.uk/people/directory/bentley-stephen-d',
+        institute: 'Wellcome Sanger Institute',
+        instituteUrl: 'https://www.sanger.ac.uk/'
+      },
+      {
+        name: 'Lesley McGee',
+        url: '',
+        institute: 'Centers for Disease Control and Prevention',
+        instituteUrl: 'https://www.cdc.gov/'
+      }
+    ],
+    projectManager: {
+      name: 'Stephanie Lo',
+      url: 'https://www.sanger.ac.uk/person/lo-stephanie/',
+      institute: 'Wellcome Sanger Institute',
+      instituteUrl: 'https://www.sanger.ac.uk/'
+    },
+    funder: {
+      logo: 'gates_foundation_logo.png',
+      alt: 'Bill & Melinda Gates Foundation',
+      url: 'https://www.gatesfoundation.org/'
+    },
+    cofunder: {
+      logo: 'wellcome_trust_logo.png',
+      alt: 'Wellcome Trust Logo',
+      url: 'https://wellcome.org/'
+    },
+    founders: [
+      {
+        logo: 'cdc_logo.png',
+        alt: 'CDC Logo',
+        url: 'https://www.cdc.gov/'
+      },
+      {
+        logo: 'emory_logo.png',
+        alt: 'Emory University Logo',
+        url: 'https://www.globalhealth.emory.edu/'
+      },
+      {
+        logo: 'mlw_logo.png',
+        alt: 'Malawi Liverpool Wellcome Programme Logo',
+        url: 'https://www.mlw.mw/'
+      },
+      {
+        logo: 'mrc_gambia_logo.png',
+        alt: 'MRC Unit The Gambia at LSHTM Logo',
+        url: 'https://www.mrc.gm'
+      },
+      {
+        logo: 'nicd_logo.png',
+        alt: 'The National Institute for Communicable Diseases Logo',
+        url: 'https://www.nicd.ac.za/'
+      },
+      {
+        logo: 'sanger_logo.png',
+        alt: 'Wellcome Sanger Institute Logo',
+        url: 'https://www.sanger.ac.uk/'
+      }
+    ]
   }
 
   const TitleText = ({text}) => <h1 className="text-4xl font-bold">{text}</h1>
-  const SubtitleText = ({text}) => <h2 className="text-3xl font-bold">{text}</h2>
-  const ContentText = ({text}) => <h3 className="text-2xl">{text}</h3>
+  const SubtitleText = ({text}) => <h2 className="text-2xl font-bold">{text}</h2>
+  const ContentText = ({text}) => <h4 className="text-xl">{text}</h4>
+
+  const NameAndInstitute = ({name, url, institute, instituteUrl}) => (
+    <div className="flex w-full">
+      {
+        url !== '' 
+        ? <Link to={url} target="_blank"><div className="link link-hover"><ContentText text={name} /></div></Link> 
+        : <ContentText text={name} />
+      }
+      <div className="divider divider-horizontal"></div>
+      {
+        instituteUrl !== '' 
+        ? <Link to={instituteUrl} target="_blank"><div className="link link-hover"><ContentText text={institute} /></div></Link> 
+        : <ContentText text={institute} />
+      }
+    </div>
+    
+  )
+
+  const Logo = ({logo, alt, url}) =>(
+    <Link to={url} target="_blank">
+      <img className='h-20 min-h-[5rem] my-4' src={logo} alt={alt}></img>
+    </Link>
+  )
 
   const YoutubeEmbed = ({id, title}) => <iframe className="flex-1 w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
 
   return (
     <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-24 py-24">
-      <div className="hero-content text-center">
+      <div className="hero-content text-center w-full">
         <div className="max-w-screen-xl space-y-5">
           <TitleText text={content.title}/>
-          <ContentText text={content.subtitle} />
+          <SubtitleText text={content.subtitle} />
         </div>
       </div>
-      <div className="hero-content flex-col md:flex-row text-center">
-        <div className="max-w-screen-xl flex-1 space-y-5 text-left">
+      <div className="hero-content flex-col xl:flex-row text-left w-full">
+        <div className="max-w-screen-xl flex-1 space-y-5">
           <SubtitleText text={content.missionTitle} />
           <ContentText text={content.missionContent} />
         </div>  
         <YoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
+      </div>
+      <div className="hero-content flex-col w-full">
+        <div className="flex flex-col xl:flex-row text-left xl:justify-between w-full space-y-10 xl:space-y-0 space-x-0 xl:space-x-20 items-start">
+          <div className="space-y-10 w-full">
+            <div className="max-w-screen-xl flex-1 space-y-5">
+              <SubtitleText text='Project Leaders' />
+              <div className="flex flex-col space-y-5">
+                {content.leaders.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
+              </div>
+            </div>  
+            <div className="max-w-screen-xl flex-1 space-y-5">
+              <SubtitleText text='Project Manager' />
+              <NameAndInstitute {...content.projectManager} />
+            </div>
+          </div>
+          <div className="space-y-10 w-full">
+            <div className="max-w-screen-xl flex-1 space-y-5">
+              <SubtitleText text='Funded by' />
+              <Logo {...content.funder}/>
+            </div> 
+            <div className="max-w-screen-xl flex-1 space-y-5">
+              <SubtitleText text='Co-funded by' />
+              <Logo {...content.cofunder}/>
+              </div>  
+          </div>
+        </div>
+        <div className="max-w-screen-xl w-full flex-1 space-y-5">
+          <SubtitleText text='Founding Partners' />
+          <div className="flex flex-wrap justify-between gap-x-4">
+            {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
+          </div>
+        </div> 
       </div>
     </div>
   )
