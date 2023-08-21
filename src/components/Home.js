@@ -25,12 +25,14 @@ const Home = () => {
         instituteUrl: 'https://www.cdc.gov/'
       }
     ],
-    projectManager: {
-      name: 'Stephanie Lo',
-      url: 'https://www.sanger.ac.uk/person/lo-stephanie/',
-      institute: 'Wellcome Sanger Institute',
-      instituteUrl: 'https://www.sanger.ac.uk/'
-    },
+    pms: [
+      {
+        name: 'Stephanie Lo',
+        url: 'https://www.sanger.ac.uk/person/lo-stephanie/',
+        institute: 'Wellcome Sanger Institute',
+        instituteUrl: 'https://www.sanger.ac.uk/'
+      }
+    ],
     funder: {
       logo: 'gates_foundation_logo.png',
       alt: 'Bill & Melinda Gates Foundation',
@@ -113,57 +115,72 @@ const Home = () => {
     <iframe className="w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
   )
 
+  const HeroTwoColumns = ({colOne, colTwo}) => (
+    <div className="hero-content w-full flex-col items-center xl:items-start xl:flex-row">
+      <div className="hero-content w-full flex-col items-center xl:items-start">
+        {colOne}
+      </div>  
+      <div className="hero-content w-full flex-col items-center xl:items-start">
+        {colTwo}
+      </div>
+    </div>
+  )
+
   return (
-    <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-20 py-20">
-      <div className="hero-content w-full text-center">
-        <div className="space-y-5">
-          <TitleText text={content.title}/>
-          <SubtitleText text={content.subtitle} />
-        </div>
+    <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-10 py-20">
+      <div className="hero-content w-full flex-col text-center">
+        <TitleText text={content.title}/>
+        <SubtitleText text={content.subtitle} />
       </div>
-      <div className="hero-content w-full flex-col xl:flex-row ">
-        <div className="flex-1 space-y-5 flex flex-col items-center xl:items-start">
-          <SubtitleText text={content.missionTitle} />
-          <ContentText text={content.missionContent} />
-        </div>  
-        <div className="flex-1 w-full">
+      <HeroTwoColumns
+        colOne={
+          <>
+            <SubtitleText text={content.missionTitle} />
+            <ContentText text={content.missionContent} />
+          </>
+        }
+        colTwo={
           <YoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
-        </div>
-      </div>
-      <div className="hero-content w-full flex-col space-y-10">
-        <div className="w-full flex flex-col space-x-0 space-y-20 xl:flex-row xl:justify-between xl:space-x-20 xl:space-y-0">
-          <div className="w-full space-y-20">
+        }
+      />
+      <HeroTwoColumns
+        colOne={
+          <>
+            <SubtitleText text='Project Leaders' />
             <div className="flex flex-col items-center space-y-5 xl:items-start">
-              <SubtitleText text='Project Leaders' />
-              <div className="flex flex-col items-center space-y-5 xl:items-start">
-                {content.leaders.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
-              </div>
-            </div>  
-            <div className="space-y-5 flex flex-col items-center xl:items-start">
-              <SubtitleText text='Project Manager' />
-                <div className="flex flex-col space-y-5">
-              <NameAndInstitute {...content.projectManager} />
-              </div>
+              {content.leaders.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
             </div>
-          </div>
-          <div className="w-full space-y-20">
-            <div className="space-y-5 flex flex-col items-center xl:items-start">
-              <SubtitleText text='Funded by' />
-              <Logo {...content.funder}/>
-            </div> 
-            <div className="space-y-5 flex flex-col items-center xl:items-start">
+          </>
+        }
+        colTwo={
+          <>
+            <SubtitleText text='Project Manager' />
+            <div className="flex flex-col items-center space-y-5 xl:items-start">
+              {content.pms.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
+            </div>
+          </>
+        }
+      />
+      <HeroTwoColumns
+        colOne={
+          <>
+            <SubtitleText text='Funded by' />
+            <Logo {...content.funder}/>
+          </>
+        }
+        colTwo={
+          <>
               <SubtitleText text='Co-funded by' />
               <Logo {...content.cofunder}/>
-              </div>  
-          </div>
+          </>
+        }
+      />
+      <div className="hero-content w-full flex-col items-center xl:items-start">
+        <SubtitleText text='Founding Partners' />
+        <div className="w-full flex flex-wrap justify-around space-x-4 xl:justify-between">
+          {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
         </div>
-        <div className="w-full space-y-5 flex flex-col items-center xl:items-start">
-          <SubtitleText text='Founding Partners' />
-          <div className="w-full flex flex-wrap justify-around space-x-4 xl:justify-between">
-            {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
-          </div>
-        </div> 
-      </div>
+      </div> 
     </div>
   )
 }
