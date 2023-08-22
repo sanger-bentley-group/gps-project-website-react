@@ -9,7 +9,7 @@ const SubtitleText = ({text}) => (
 )
 
 const ContentText = ({text}) => (
-  <p className="text-lg">
+  <div className="text-lg">
     <ReactMarkdown 
       components={{
         a: ({ href, children })  => <a href={href} className='link'>{children}</a>,
@@ -18,13 +18,13 @@ const ContentText = ({text}) => (
       }} 
       children={text} 
     />
-  </p>
+  </div>
 )
 
 const ContentCode = ({code}) => (
   <div className="mockup-code">
-    {code.map((line) => 
-      <pre data-prefix="$"><code>{line}</code></pre>
+    {code.map((line, index) => 
+      <pre data-prefix="$" key={index}><code>{line}</code></pre>
     )}
   </div>
 )
