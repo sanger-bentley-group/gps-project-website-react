@@ -2,7 +2,7 @@ const content = {
   title: 'The Global Pneumococcal Sequencing Project',
   subtitle: 'A worldwide genomic survey of the impact of vaccination on the pathogen population',
   missionTitle: 'Our Mission',
-  missionContent: 'We establish a worldwide genomic surveillance network of Streptococcus pneumoniae to provide evidence for pneumococcal disease control by building a decentralised system for local data generation and analysis that will be sustainable into the future.',
+  missionContent: 'We establish a worldwide genomic surveillance network of *Streptococcus pneumoniae* to provide evidence for pneumococcal disease control by building a decentralised system for local data generation and analysis that will be sustainable into the future.',
   introVideo: {
     title: 'How can whole-genome sequencing be used to make vaccines more effective?',
     id: 'trMW18aKXjo'
