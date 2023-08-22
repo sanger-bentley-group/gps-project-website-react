@@ -38,14 +38,14 @@ const Footer = () => {
     ]
   }
 
-  const SeparatedLinkList = ({title, items}) => (
+  const LinksWithDivider = ({title, items}) => (
     <div className="flex flex-col items-center xl:items-start">
       <span className="footer-title normal-case">{title}</span>
       <div className="flex space-x-4">
         {
           items.map((item, index) => (
             <Fragment key={index}>
-              {index !== 0 ? <div className="min-h-[1em] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-20 dark:opacity-100"></div> : ''}
+              {index !== 0 ? <div className="divider divider-horizontal"></div> : ''}
               <Link to={item.url} target="_blank">{item.title}</Link>
             </Fragment>
           ))
@@ -57,11 +57,11 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-300 justify-between flex flex-col items-center xl:items-start xl:flex-row">
       <img className='w-36 min-w-[9rem]' src='sanger_logo.png' alt="Wellcome Sanger Institute Logo"></img>
-      <SeparatedLinkList
+      <LinksWithDivider
         title={'Contacts'}
         items={content.contacts}
       />
-      <SeparatedLinkList
+      <LinksWithDivider
         title={'Sites'}
         items={content.sites}
       />
