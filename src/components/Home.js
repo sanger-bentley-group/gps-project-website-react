@@ -1,21 +1,11 @@
 import { Link } from "react-router-dom"
-import ReactMarkdown from 'react-markdown'
+
+import { TitleText, SubtitleText, ContentText } from "./Common"
 
 import content from '../content/homeContent'
 
 
 const Home = () => {
-  const TitleText = ({text}) => (
-    <h1 className="text-4xl font-bold"><ReactMarkdown children={text} /></h1>
-  )
-
-  const SubtitleText = ({text}) => (
-    <h2 className="text-2xl font-bold"><ReactMarkdown children={text} /></h2>
-  )
-
-  const ContentText = ({text}) => (
-    <h4 className="text-xl"><ReactMarkdown children={text} /></h4>
-  )
 
   const NameAndInstitute = ({name, url, institute, instituteUrl}) => (
     <div className="flex">
