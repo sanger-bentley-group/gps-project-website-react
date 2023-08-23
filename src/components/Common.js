@@ -13,7 +13,8 @@ const ContentText = ({text}) => (
     <ReactMarkdown 
       components={{
         a: ({ href, children })  => <a href={href} className='link'>{children}</a>,
-        ol: ({ start, children }) => <ol start={start} className='list-decimal list-inside'>{children}</ol>,
+        ol: ({ start, children }) => <ol start={start} className='list-decimal list-outside ms-8'>{children}</ol>,
+        ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
         h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>
       }} 
       children={text} 
