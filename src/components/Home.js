@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import { TitleText, SubtitleText, ContentText } from "./Common"
+import { TitleText, SubtitleText, ContentMD } from "./Common"
 
 import content from '../content/homeContent'
 
@@ -11,14 +11,14 @@ const Home = () => {
     <div className="flex">
       {
         url !== '' 
-        ? <div className="link link-hover"><Link to={url} target="_blank"><ContentText text={name} /></Link></div>
-        : <ContentText text={name} />
+        ? <div className="link link-hover"><Link to={url} target="_blank"><ContentMD md={name} /></Link></div>
+        : <ContentMD md={name} />
       }
       <div className="divider divider-horizontal"></div>
       {
         instituteUrl !== '' 
-        ? <div className="link link-hover"><Link to={instituteUrl} target="_blank"><ContentText text={institute} /></Link></div>
-        : <ContentText text={institute} />
+        ? <div className="link link-hover"><Link to={instituteUrl} target="_blank"><ContentMD md={institute} /></Link></div>
+        : <ContentMD md={institute} />
       }
     </div> 
   )
@@ -54,7 +54,7 @@ const Home = () => {
         colOne={
           <>
             <SubtitleText text={content.missionTitle} />
-            <ContentText text={content.missionContent} />
+            <ContentMD md={content.missionContent} />
           </>
         }
         colTwo={

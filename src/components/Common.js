@@ -10,7 +10,7 @@ const SubtitleText = ({text}) => (
   <h2 className="text-2xl font-bold"><ReactMarkdown children={text} /></h2>
 )
 
-const ContentText = ({text}) => (
+const ContentMD = ({md}) => (
   <div className="text-lg">
     <ReactMarkdown 
       components={{
@@ -20,7 +20,7 @@ const ContentText = ({text}) => (
         h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
         img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
       }} 
-      children={text} 
+      children={md} 
     />
   </div>
 )
@@ -33,9 +33,9 @@ const ContentCode = ({code}) => (
   </div>
 )
 
-const SectionContent = ({text, code}) => (
-  text
-  ? <ContentText text={text} />
+const SectionContent = ({md, code}) => (
+  md
+  ? <ContentMD md={md} />
   : code 
     ? <ContentCode code={code} />
     : ''
@@ -51,4 +51,4 @@ const Section = ({subtitle, content}) => (
   </div>
 )
 
-export {TitleText, SubtitleText, ContentText, ContentCode, Section}
+export {TitleText, SubtitleText, ContentMD, ContentCode, Section}
