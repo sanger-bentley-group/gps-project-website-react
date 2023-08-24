@@ -11,7 +11,7 @@ const SubtitleText = ({text}) => (
 )
 
 const ContentText = ({text}) => (
-  <div className="w-full text-lg">
+  <div className="text-lg">
     <ReactMarkdown 
       components={{
         a: ({ href, children })  => <Link to={href} className='link' target='_blank'>{children}</Link>,
