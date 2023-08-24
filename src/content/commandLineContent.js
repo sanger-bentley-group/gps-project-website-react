@@ -32,7 +32,7 @@ const content = {
           text: '### Run *in silico* Serotyping',
         },
         {
-          text: '**Single sample**',
+          text: '**Single Sample**',
         },
         {
           text: '1. Run SeroBA on the sample',
@@ -41,16 +41,17 @@ const content = {
           code: ['# <read1> and <read2> are the paired-end FASTQ files', 'seroba runSerotyping seroba/database <read1> <read2> <output folder prefix>']
         },
         {
-          text: '**Multiple samples**',
+          text: '**Multiple Samples**',
         },
         {
-          text: '1. Save list of sample names as `samplelist.txt`'
+          text: '1. Save list of sample names as `samplelist.txt` with each name on a new line'
         },
         {
           text: '2. Run SeroBA on all samples listed in `samplelist.txt`',
         },
         {
-          code: ['for f in $(cat samplelist.txt); do seroba runSerotyping seroba/database ${f}_1.fastq.gz ${f}_2.fastq.gz ${f}; done'],
+          /* eslint-disable no-template-curly-in-string */
+          code: ['while read -r SAMPLE; do seroba runSerotyping seroba/database "${SAMPLE}_1.fastq.gz" "${SAMPLE}_2.fastq.gz" "${SAMPLE}"; done < samplelist.txt'],
         },
         {
           text: '3. Summaries the output in one .tsv file (`summary.tsv`)'
@@ -79,13 +80,13 @@ const content = {
           text: '### Files Required',
         },
         {
-          text: '- `qfile.txt`: a 2-column tab-delimited file containing sample names and paths to the corresponding assembly',
+          text: '- `qfile.txt`: a 2-column tab-delimited file containing sample names and their assembly paths',
         },
         {
-          text: '- GPS reference database v6 (`GPS_v6`)',
+          text: '- `GPS_v6`: GPS reference database v6',
         },
         {
-          text: '- GPS designation v6 (`GPS_v6_external_clusters.csv`)'
+          text: '- `GPS_v6_external_clusters.csv`: GPS designation v6'
         },
         {
           text: '### Run GPSC Assignment',
