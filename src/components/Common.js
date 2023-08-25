@@ -33,19 +33,22 @@ const ContentCode = ({code}) => (
   </div>
 )
 
-const SectionContent = ({md, code}) => (
-  md
-  ? <ContentMD md={md} />
-  : code 
-    ? <ContentCode code={code} />
-    : ''
-)
+const SectionContent = ({type, content}) => {
+  switch (type) {
+    case 'md':
+      return <ContentMD md={content} />
+    case 'code':
+      return <ContentCode code={content} />
+    default:
+      return
+  }
+}
 
 const Section = ({subtitle, content}) => (
   <div className="hero-content flex-col w-full items-start">
     <SubtitleText text={subtitle} />
     {
-      content.map( (props, index) => 
+      content.map( (props, index) =>
         <SectionContent {...props} key={index} />)
     }
   </div>
