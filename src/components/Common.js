@@ -26,7 +26,7 @@ const ContentMD = ({md}) => (
 )
 
 const ContentCode = ({code}) => (
-  <div className="mockup-code">
+  <div className="mockup-code w-full">
     {code.map((line, index) => 
       <pre data-prefix="$" key={index}><code>{line}</code></pre>
     )}
