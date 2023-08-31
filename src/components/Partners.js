@@ -25,7 +25,7 @@ const Markers = () => (
   content.partnerByCity.map((info, index) => (
     <Marker coordinates={[info.longitude, info.latitude]} key={index} >
       <circle 
-        className='opacity-70 hover:opacity-100'
+        className='opacity-80 hover:opacity-100'
         r={4} 
         fill="hsl(var(--p))" 
         stroke="#FFFFFF"
