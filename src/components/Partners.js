@@ -9,7 +9,7 @@ import topoJSON from '../content/worldTopoJSON.json'
 
 const TooltipContent = ({ info }) => (
   <div className='text-center space-y-4'>
-    <div className='italic'>{info.country}, {info.city}</div>
+    <div className='italic'>{info.city}, {info.country}</div>
     {
       info.affiliations.map((affiliation, index) => (
         <div key={index}>
@@ -22,10 +22,10 @@ const TooltipContent = ({ info }) => (
 )
 
 const Markers = () => (
-  content.partnerInfo.map((info, index) => (
+  content.partnerByCity.map((info, index) => (
     <Marker coordinates={[info.longitude, info.latitude]} key={index} >
       <circle 
-        r={5} 
+        r={3} 
         fill="hsl(var(--p))" 
         stroke="#FFFFFF"
         strokeWidth={1}
