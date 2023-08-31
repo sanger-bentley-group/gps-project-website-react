@@ -1,6 +1,5 @@
 import { TitleText, Section } from "./Common"
 
-
 import content from '../content/outlineContent'
 
 const Outline = () => (
