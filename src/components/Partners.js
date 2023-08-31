@@ -25,7 +25,8 @@ const Markers = () => (
   content.partnerByCity.map((info, index) => (
     <Marker coordinates={[info.longitude, info.latitude]} key={index} >
       <circle 
-        r={3} 
+        className='opacity-70 hover:opacity-100'
+        r={4} 
         fill="hsl(var(--p))" 
         stroke="#FFFFFF"
         strokeWidth={1}
@@ -44,7 +45,7 @@ const Map = () => (
     <Geographies geography={topoJSON}>
       {({ geographies }) =>
         geographies.map((geo) => (
-          <Geography key={geo.rsmKey} geography={geo} />
+          <Geography key={geo.rsmKey} geography={geo} fill="#D5D5D5" stroke="#505050" strokeWidth={0.5} />
         ))
       }
     </Geographies>
