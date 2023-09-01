@@ -19,18 +19,18 @@ const ListItem = ({ title, url }) => (
   <li onClick={deactivate}><Link to={url}>{title}</Link></li>
 )
 
-const DropdownButton = ({ title, submenu }) => (
+const DropdownButton = ({ title, url, submenu }) => (
   <div className="dropdown dropdown-hover dropdown-end">
-    <label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label>
+    <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label></Link>
     <ul tabIndex={0} className="menu menu-sm dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       { submenu.map((item , index) => <ListItem {...item} key={index}/>) }
     </ul>
   </div>
 )
 
-const TwoLevelMenuItem = ({ title, submenu }) => (
+const TwoLevelMenuItem = ({ title, url, submenu }) => (
   <li>
-    <div>{title}</div>
+    <Link onClick={deactivate} to={url}><div>{title}</div></Link>
     <ul className="p2">
       { submenu.map((item , index) => <ListItem {...item} key={index}/>) }
     </ul>

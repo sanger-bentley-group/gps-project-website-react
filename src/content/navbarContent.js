@@ -1,22 +1,23 @@
 const content = [
   {
     title: 'About',
+    url: '/about',
     submenu: [
       {
         title: 'Project Outline',
-        url: '/outline',
+        url: '/about#outline',
       },
       {
         title: 'The Team',
-        url: '/team',
+        url: '/about#team',
       },
       {
         title: 'Project Partners',
-        url: '/partners',
+        url: '/about#partners',
       },
       {
         title: 'Sub-studies',
-        url: '/substudies',
+        url: '/about#substudies',
       },
     ]
   },

@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Navbar from "./components/Navbar";
 import Content from './components/Content';
 import Footer from './components/Footer';
+import ScrollToAnchor from './components/ScrollToAnchor';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Content />
         <Footer />
+        <ScrollToAnchor />
       </div>
     </Router>
   );

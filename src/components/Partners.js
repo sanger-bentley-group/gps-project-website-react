@@ -54,7 +54,7 @@ const Map = () => (
 )
 
 const Partners = () => (
-  <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-10 py-20">
+  <div className="hero bg-base-200 flex flex-col justify-center space-y-10 py-20">
     <div className="hero-content w-full flex-col text-center">
       <TitleText text={content.title}/>
     </div>
