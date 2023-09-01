@@ -188,12 +188,12 @@ const content = {
       longitude: '2.452600',
       affiliations: [
         { 
-          name: "National Reference Center for Pneumococci", 
-          partners: ['Emmanuelle Varon']
-        },
-        { 
           name: "ACTIV", 
           partners: ['Robert Cohen']
+        },
+        { 
+          name: "National Reference Center for Pneumococci", 
+          partners: ['Emmanuelle Varon']
         },
       ]
     },
@@ -316,12 +316,12 @@ const content = {
       longitude: '101.6942371',
       affiliations: [
         { 
-          name: "University of Southampton", 
-          partners: ['Stuart C Clarke']
-        },
-        { 
           name: "MAHSA University", 
           partners: ['Shamala Devi Sekaran (Sekaran SD)']
+        },
+        { 
+          name: "University of Southampton", 
+          partners: ['Stuart C Clarke']
         },
       ]
     },
@@ -366,6 +366,430 @@ const content = {
         { 
           name: "Centro de Investigação em Saúde de Manhiça", 
           partners: ['Benild Moiane', 'Betuel Sigauque', 'Helio Mucavele']
+        },
+      ]
+    },
+    {
+      country: 'Nepal',
+      city:'Kathmandu', 
+      latitude: '27.708317',
+      longitude: '85.3205817',
+      affiliations: [
+        { 
+          name: "University of Oxford", 
+          partners: ['Rama Kandasamy', 'Andrew J Pollard']
+        },
+      ]
+    },
+    {
+      country: 'Netherlands',
+      city:'Nijmegen', 
+      latitude: '51.84169',
+      longitude: '5.85865',
+      affiliations: [
+        { 
+          name: "Radboud University Medical Center", 
+          partners: ['Marien de Jonger']
+        },
+      ]
+    },
+    {
+      country: 'New Zealand',
+      city:'Auckland', 
+      latitude: '-36.852095',
+      longitude: '174.7631803',
+      affiliations: [
+        { 
+          name: "Kenepuru Science Centre", 
+          partners: ['Philip E Carter']
+        },
+      ]
+    },
+    {
+      country: 'Nigeria',
+      city:'Abuja', 
+      latitude: '9.0643305',
+      longitude: '7.4892974',
+      affiliations: [
+        { 
+          name: "The University of Alabama", 
+          partners: ['Stephen Obaro']
+        },
+      ]
+    },
+    {
+      country: 'Nigeria',
+      city:'Ede & Ibadan', 
+      latitude: '7.733890',
+      longitude: '4.434980',
+      affiliations: [
+        { 
+          name: "Redeemer's University", 
+          partners: ['Christian Happi']
+        },
+        { 
+          name: "University of Ibadan", 
+          partners: ['Iruka Okeke']
+        },
+      ]
+    },
+    {
+      country: 'Pakistan',
+      city:'Karachi', 
+      latitude: '25.1446897',
+      longitude: '67.18477673',
+      affiliations: [
+        { 
+          name: "Aga Khan University", 
+          partners: ['Imran Nisar', 'Sadia Shakoor']
+        },
+      ]
+    },
+    {
+      country: 'Pakistan',
+      city:'Lahore', 
+      latitude: '31.5656079',
+      longitude: '74.3141775',
+      affiliations: [
+        { 
+          name: "LUMS", 
+          partners: ['Shaper Misra']
+        },
+      ]
+    },
+    {
+      country: 'Papua New Guinea',
+      city:'Papua New Guinea', 
+      latitude: '-5.6816069',
+      longitude: '144.2489081',
+      affiliations: [
+        { 
+          name: "Papua New Guinea Institute of Medical Research", 
+          partners: ['Rebecca Ford']
+        },
+        { 
+          name: "The University of Western Australia", 
+          partners: ['Deborah Lehmann']
+        },
+      ]
+    },
+    {
+      country: 'Paraguay',
+      city:'Asunción', 
+      latitude: '-25.2966809',
+      longitude: '-57.6681289',
+      affiliations: [
+        { 
+          name: "Laboratorio Central de Salud Pública", 
+          partners: ['Gustavo Chamorro Cortesi', 'María Eugenia León']
+        },
+      ]
+    },
+    {
+      country: 'Peru',
+      city:'Lima', 
+      latitude: '-12.0621065',
+      longitude: '-77.0365256',
+      affiliations: [
+        { 
+          name: "Instituto de Medicina Tropical", 
+          partners: ['Theresa J. Ochoa']
+        },
+      ]
+    },
+    {
+      country: 'Poland',
+      city:'Warsaw', 
+      latitude: '52.2319581',
+      longitude: '21.0067249',
+      affiliations: [
+        { 
+          name: "National Medicines Institute", 
+          partners: ['Anna Skoczynska', 'Ewa Sadowy', 'Waleria Hryniewicz']
+        },
+      ]
+    },
+    {
+      country: 'Qatar',
+      city:'Doha', 
+      latitude: '25.2856329',
+      longitude: '51.5264162',
+      affiliations: [
+        { 
+          name: "Hamad Medical Corporation", 
+          partners: ['Sanjay Doiphode']
+        },
+      ]
+    },
+    {
+      country: 'Russia',
+      city:'Moscow', 
+      latitude: '55.7504461',
+      longitude: '37.6174943',
+      affiliations: [
+        { 
+          name: "G.N. Gabrichevsky Research Institute for Epidemiology and Microbiology", 
+          partners: ['Yulia Urban', 'Elena Voropaeva', 'Ekaterina Egorova']
+        },
+      ]
+    },
+    {
+      country: 'Singapore',
+      city:'Singapore', 
+      latitude: '1.340863',
+      longitude: '103.8303918',
+      affiliations: [
+        { 
+          name: "University of Southampton", 
+          partners: ['Stuart C Clarke']
+        },
+      ]
+    },
+    {
+      country: 'Slovenia',
+      city:'Ljublijana', 
+      latitude: '43.4208218',
+      longitude: '21.18074989',
+      affiliations: [
+        { 
+          name: "National Laboratory for Health, Environment and Food", 
+          partners: ['Metka Paragi', 'Tamara Kastrin']
+        },
+      ]
+    },
+    {
+      country: 'South Africa',
+      city:'Johannesburg', 
+      latitude: '-26.205',
+      longitude: '29.049722',
+      affiliations: [
+        { 
+          name: "National Institute for Communicable Diseases", 
+          partners: ['Anne von Gottberg', 'Cebile Lekhuleni', 'Kedibone M. Ndlangisa', 'Linda De Gouveia', 'Mignon du Plessis', 'Mushal Ali', 'Nicole Wolter']
+        },
+      ]
+    },
+    {
+      country: 'South Africa',
+      city:'Soweto', 
+      latitude: '-26.2227778',
+      longitude: '26.89',
+      affiliations: [
+        { 
+          name: "University of the Witwatersrand", 
+          partners: ['Shabir A. Madhi', 'Susan A Nzenze']
+        },
+      ]
+    },
+    {
+      country: 'Spain',
+      city:'Barcelona', 
+      latitude: '41.3828939',
+      longitude: '2.1774322',
+      affiliations: [
+        { 
+          name: "Hospital Sant Joan de Déu", 
+          partners: ['Alba Redin Alonso', 'Carmen Muñoz Almagro']
+        },
+      ]
+    },
+    {
+      country: 'Tanzania',
+      city:'Moshi', 
+      latitude: '-3.34882',
+      longitude: '37.343151',
+      affiliations: [
+        { 
+          name: "Kilimanjaro Clinical Research Institute", 
+          partners: ['Blandina Mmbaga', 'James Ngocho']
+        },
+      ]
+    },
+    {
+      country: 'Thailand',
+      city:'Bangkok', 
+      latitude: '13.7542529',
+      longitude: '100.493087',
+      affiliations: [
+        { 
+          name: "Siriraj Hospital and Siam University", 
+          partners: ['Somporn Srifuengfung']
+        },
+        { 
+          name: "University of Southampton", 
+          partners: ['Stuart C Clarke']
+        },
+      ]
+    },
+    {
+      country: 'Thailand',
+      city:'Maesot', 
+      latitude: '16.713140',
+      longitude: '98.573837',
+      affiliations: [
+        { 
+          name: "University of Oxford", 
+          partners: ['Paul Turner']
+        },
+      ]
+    },
+    {
+      country: 'The Gambia',
+      city:'Banjul', 
+      latitude: '13.45535',
+      longitude: '-16.575646',
+      affiliations: [
+        { 
+          name: "MRC Unit The Gambia at LSHTM", 
+          partners: ['Brenda Kwambana-Adams', 'Ebenezer Foster-Nyarko', 'Ebrima Bojang', 'Martin Antonio', 'Peggy-Estelle Tientcheu ']
+        },
+      ]
+    },
+    {
+      country: 'Togo',
+      city:'Lome', 
+      latitude: '6.130419',
+      longitude: '1.215829',
+      affiliations: [
+        { 
+          name: "Agence de Médecine Préventive", 
+          partners: ['Jennifer Moïsi']
+        },
+      ]
+    },
+    {
+      country: 'Trinidad and Tobago',
+      city:'St. Augustine', 
+      latitude: '10.65782',
+      longitude: '-61.516708',
+      affiliations: [
+        { 
+          name: "The University of the West Indies", 
+          partners: ['Michele Nurse-Lucas', 'Patrick E Akpaka']
+        },
+      ]
+    },
+    {
+      country: 'Turkey',
+      city:'Ankara', 
+      latitude: '39.9207774',
+      longitude: '32.854067',
+      affiliations: [
+        { 
+          name: "Hacettepe University", 
+          partners: ['Özgen Köseoglu Eser']
+        },
+      ]
+    },
+    {
+      country: 'United Kingdom',
+      city:'Cambridge & London', 
+      latitude: '52.2034823',
+      longitude: '0.1235817',
+      affiliations: [
+        { 
+          name: "Imperial College London", 
+          partners: ['David Aanensen', 'John A Lees', 'Nicholas Croucher', 'Rafal Mostowy']
+        },
+        { 
+          name: "University of Cambridge", 
+          partners: ['Alison Maguire']
+        },
+        { 
+          name: "Wellcome Sanger Institute", 
+          partners: ['Jyothish N Nair Thulasee Bhai', 'Leon Bentley', 'Rebecca A Gladstone', 'Rebecca Henderson', 'Stephanie W Lo', 'Stephen D Bentley']
+        },
+      ]
+    },
+    {
+      country: 'Uruguay',
+      city:'Montevideo ', 
+      latitude: '-34.8207362',
+      longitude: '-56.3765215',
+      affiliations: [
+        { 
+          name: "Departamento de Laboratorios, Ministerio de Salud Pública", 
+          partners: ['Cristina Modgasy', 'Gabriela García', 'Teresa Camou']
+        },
+      ]
+    },
+    {
+      country: 'United States',
+      city:'Atlanta', 
+      latitude: '33.7490987',
+      longitude: '-84.3901849',
+      affiliations: [
+        { 
+          name: "Centers for Disease Control and Prevention", 
+          partners: ['Bernard Beall', 'Jennifer Verani', 'Lesley McGee']
+        },
+        { 
+          name: "Rollins School of Public Health", 
+          partners: ['Paulina Hawkins']
+        },
+        { 
+          name: "The Emory Global Health Institute", 
+          partners: ['Robert F Breiman']
+        },
+      ]
+    },
+    {
+      country: 'United States',
+      city:'Seattle', 
+      latitude: '47.6038321',
+      longitude: '-122.3300624',
+      affiliations: [
+        { 
+          name: "Bill & Melinda Gates Foundation", 
+          partners: ['Keith P Klugman']
+        },
+      ]
+    },
+    {
+      country: 'United States',
+      city:'Tuscaloosa', 
+      latitude: '33.210833',
+      longitude: '-87.546111',
+      affiliations: [
+        { 
+          name: "The University of Alabama", 
+          partners: ['Feroze Ganaie', 'Jamil Saad', 'Moon Nahm']
+        },
+      ]
+    },
+    {
+      country: 'United States',
+      city:'Washington, DC', 
+      latitude: '38.8938672',
+      longitude: '-77.0846158',
+      affiliations: [
+        { 
+          name: "Independent", 
+          partners: ['José Luis Di Fabio']
+        },
+      ]
+    },
+    {
+      country: 'Venezuela',
+      city:'Caracas', 
+      latitude: '10.4686988',
+      longitude: '-67.0304508',
+      affiliations: [
+        { 
+          name: 'Instituto Nacional de Higiene "Rafael Rangel"', 
+          partners: ['Daisy Payares', 'Noreyda Marcano']
+        },
+      ]
+    },
+    {
+      country: 'Vietnam',
+      city:'Ho Chi Minh City', 
+      latitude: '10.823099',
+      longitude: '106.629662',
+      affiliations: [
+        { 
+          name: "Oxford University Clinical Research Unit", 
+          partners: ['Hoa Ngo Thi']
         },
       ]
     },
