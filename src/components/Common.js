@@ -11,18 +11,16 @@ const SubtitleText = ({text, className}) => (
 )
 
 const ContentMD = ({md}) => (
-  <div className="text-lg">
-    <ReactMarkdown 
-      components={{
-        a: ({ href, children })  => <Link to={href} className='link' target='_blank'>{children}</Link>,
-        ol: ({ start, children }) => <ol start={start} className='list-decimal list-outside ms-8'>{children}</ol>,
-        ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
-        h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
-        img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
-      }} 
-      children={md} 
-    />
-  </div>
+  <ReactMarkdown 
+    components={{
+      a: ({ href, children })  =>  <Link to={href} className='link' { ...(/^(http|www)/.test(href) && {target: '_blank'}) }>{children}</Link>,
+      ol: ({ start, children }) => <ol start={start} className='list-decimal list-outside ms-8'>{children}</ol>,
+      ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
+      h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
+      img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
+    }} 
+    children={md} 
+  />
 )
 
 const ContentCode = ({code}) => (
@@ -51,14 +49,31 @@ const ContentNameCard = ({cards}) => (
   </div>
 )
 
+const ContentArticleCard = ({cards}) => (
+  <div className='hero-content w-full flex flex-col gap-y-10'>
+    {cards.map((card, index) => (
+      <div className="card card-side w-full bg-base-100 shadow-md" key={index}>
+        <div className="card-body">
+          <div className="card-title text-lg"><ContentMD md={card.title} /></div>
+          <div className="text-sm"><ContentMD md={card.authors} /></div>
+          <div className="text-sm italic"><ContentMD md={card.affiliations} /></div>
+          <div className="text-md"><ContentMD md={card.details} /></div>
+        </div>
+      </div>
+    ))}
+  </div>
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
-      return <ContentMD md={content} />
+      return <div className='text-lg'><ContentMD md={content} /></div>
     case 'code':
       return <ContentCode code={content} />
     case 'nameCard':
       return <ContentNameCard cards={content} />
+    case 'articleCard':
+      return <ContentArticleCard cards={content} />
     default:
       return
   }
@@ -66,7 +81,7 @@ const SectionContent = ({type, content}) => {
 
 const Section = ({subtitle, content}) => (
   <div className="hero-content flex-col w-full items-start">
-    <SubtitleText text={subtitle} className="self-center xl:self-start"/>
+    {subtitle ? <SubtitleText text={subtitle} className="self-center xl:self-start"/> : ''}
     {
       content.map( (props, index) =>
         <SectionContent {...props} key={index} />)
