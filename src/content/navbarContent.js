@@ -64,11 +64,13 @@ const content = [
   },
   {
     title: 'GPS Database',
-    url: '/gps_database'
+    url: '/gps-database-overview',
+    external: true
   },
   {
     title: 'GPS Visualiser',
-    url: '/gps_visualiser'
+    url: '/gps-visualiser',
+    external: true
   },
   {
     title: 'Training',
