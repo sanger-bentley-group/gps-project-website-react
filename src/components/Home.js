@@ -31,7 +31,7 @@ const YoutubeEmbed = ({id, title}) => (
 )
 
 const HeroTwoColumns = ({colOne, colTwo}) => (
-  <div className="hero-content w-full flex-col items-center xl:items-start xl:flex-row">
+  <div className="hero-content w-full flex-col text-lg items-center xl:items-start xl:flex-row">
     <div className="hero-content w-full flex-col items-center xl:items-start">
       {colOne}
     </div>  
