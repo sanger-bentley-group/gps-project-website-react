@@ -68,6 +68,13 @@ const ContentYoutubeEmbed = ({id, title}) => (
   <iframe className="w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
 )
 
+const ContentButton = ({text, url}) => (
+  <div className='place-self-center'>
+    <a class="btn btn-primary text-lg font-bold normal-case" href={url} target='_blank' rel="noreferrer">{text}</a>
+  </div>
+  
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
@@ -79,7 +86,9 @@ const SectionContent = ({type, content}) => {
     case 'articleCard':
       return <ContentArticleCard cards={content} />
     case 'youtube':
-        return <ContentYoutubeEmbed id={content.id} title={content.title}/>
+      return <ContentYoutubeEmbed id={content.id} title={content.title}/>
+    case 'button':
+      return <ContentButton text={content.text} url={content.url}/>
     default:
       return
   }
