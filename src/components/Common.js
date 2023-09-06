@@ -64,6 +64,10 @@ const ContentArticleCard = ({cards}) => (
   </div>
 )
 
+const ContentYoutubeEmbed = ({id, title}) => (
+  <iframe className="w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
@@ -74,6 +78,8 @@ const SectionContent = ({type, content}) => {
       return <ContentNameCard cards={content} />
     case 'articleCard':
       return <ContentArticleCard cards={content} />
+    case 'youtube':
+        return <ContentYoutubeEmbed id={content.id} title={content.title}/>
     default:
       return
   }
@@ -89,4 +95,4 @@ const Section = ({subtitle, content}) => (
   </div>
 )
 
-export {TitleText, SubtitleText, ContentMD, ContentCode, Section}
+export {TitleText, SubtitleText, ContentMD, ContentCode, ContentYoutubeEmbed, Section}
