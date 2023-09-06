@@ -92,7 +92,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '2. Download [GPS reference database v6](https://gps-project.cog.sanger.ac.uk/GPS_v6.zip) and [GPS designation v6](https://www.pneumogen.net/gps/GPS_v6_external_clusters.csv)'
+          content: '2. Download [GPS reference database v6](https://gps-project.cog.sanger.ac.uk/GPS_v6.zip) and [GPS designation v6](https://gps-project.cog.sanger.ac.uk/GPS_v6_external_clusters.csv)'
         },
         {
           type: 'md',
