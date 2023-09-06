@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-import { TitleText, SubtitleText, ContentMD } from "./Common"
+import { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed } from "./Common"
 
 import content from '../content/homeContent'
 
@@ -24,10 +24,6 @@ const Logo = ({logo, alt, url}) => (
   <Link to={url} target="_blank">
     <img className='h-20 min-h-[5rem] my-4 object-contain' src={logo} alt={alt}></img>
   </Link>
-)
-
-const YoutubeEmbed = ({id, title}) => (
-  <iframe className="w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
 )
 
 const HeroTwoColumns = ({colOne, colTwo}) => (
@@ -55,7 +51,7 @@ const Home = () => (
         </>
       }
       colTwo={
-        <YoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
+        <ContentYoutubeEmbed id={content.introVideo.id} title={content.introVideo.title}/>
       }
     />
     <HeroTwoColumns
