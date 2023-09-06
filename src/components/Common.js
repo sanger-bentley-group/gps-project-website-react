@@ -64,15 +64,28 @@ const ContentArticleCard = ({cards}) => (
   </div>
 )
 
+const ContentVideoEmbed = ({url, title, }) => (
+  <iframe className="w-full aspect-video" src={url} title={title} allowFullScreen></iframe>
+)
+
 const ContentYoutubeEmbed = ({id, title}) => (
-  <iframe className="w-full aspect-video" src={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} allowFullScreen></iframe>
+  <ContentVideoEmbed url={`https://www.youtube.com/embed/${id}?rel=0&amp;cc_load_policy=1`} title={title} />
+)
+
+const ContentVimeoEmbed = ({id, title}) => (
+  <ContentVideoEmbed url={`https://player.vimeo.com/video/${id}`} title={title} />
 )
 
 const ContentButton = ({text, url}) => (
   <div className='place-self-center'>
-    <a class="btn btn-primary text-lg font-bold normal-case" href={url} target='_blank' rel="noreferrer">{text}</a>
+    <a className="btn btn-primary text-lg font-bold normal-case" href={url} target='_blank' rel="noreferrer">{text}</a>
   </div>
-  
+)
+
+const ContentLogo = ({logo, url, alt}) => (
+  <div className='place-self-center xl:place-self-auto'>
+    <a href={url} target='_blank' rel="noreferrer"><img src={logo} alt={alt} className='w-64'></img></a>
+  </div>
 )
 
 const SectionContent = ({type, content}) => {
@@ -86,9 +99,13 @@ const SectionContent = ({type, content}) => {
     case 'articleCard':
       return <ContentArticleCard cards={content} />
     case 'youtube':
-      return <ContentYoutubeEmbed id={content.id} title={content.title}/>
+      return <ContentYoutubeEmbed id={content.id} title={content.title} />
+    case 'vimeo':
+      return <ContentVimeoEmbed id={content.id} title={content.title} />
     case 'button':
-      return <ContentButton text={content.text} url={content.url}/>
+      return <ContentButton text={content.text} url={content.url} />
+    case 'logo':
+      return <ContentLogo logo={content.logo} url={content.url} alt={content.url} />
     default:
       return
   }
@@ -104,4 +121,4 @@ const Section = ({subtitle, content}) => (
   </div>
 )
 
-export {TitleText, SubtitleText, ContentMD, ContentCode, ContentYoutubeEmbed, Section}
+export {TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section}
