@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom"
 
 import Home from "./Home"
 import About from "./About"
-import CommandLine from "./CommandLine"
+import Training from "./Training"
 import PageNotFound from "./PageNotFound"
 
 const Content = () => (
@@ -11,7 +11,7 @@ const Content = () => (
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path="/command_line" element={<CommandLine />} />
+        <Route path="/training" element={<Training />} />
         <Route path="*" element={<PageNotFound />} />
     </Routes>
   }

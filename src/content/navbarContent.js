@@ -74,22 +74,23 @@ const content = [
   },
   {
     title: 'Training',
+    url: '/training',
     submenu: [
       {
         title: 'GPS Tools',
-        url: '/gps_tools',
+        url: '/training#gps-tools',
       },
       {
         title: 'Bioinformatics Training',
-        url: '/bioinformatics_training',
+        url: '/training#bioinformatics-training',
       },
       {
         title: 'Drag and Drop Tools',
-        url: '/drag_and_drop_tools',
+        url: '/training#drag-and-drop-tools',
       },
       {
         title: 'Command Line',
-        url: '/command_line',
+        url: '/training#command-line',
       },
     ]
   }
