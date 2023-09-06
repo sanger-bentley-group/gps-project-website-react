@@ -22,7 +22,7 @@ const NameAndInstitute = ({name, url, institute, instituteUrl}) => (
 
 const Logo = ({logo, alt, url}) => (
   <Link to={url} target="_blank">
-    <img className='h-20 min-h-[5rem] my-4' src={logo} alt={alt}></img>
+    <img className='h-20 min-h-[5rem] my-4 object-contain' src={logo} alt={alt}></img>
   </Link>
 )
 
@@ -90,7 +90,7 @@ const Home = () => (
         </>
       }
     />
-    <div className="hero-content w-full flex-col items-center xl:items-start">
+    <div className="hero-content w-full flex-col items-center xl:items-start px-8">
       <SubtitleText text='Founding Partners' />
       <div className="w-full flex flex-wrap justify-around space-x-4 xl:justify-between">
         {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
