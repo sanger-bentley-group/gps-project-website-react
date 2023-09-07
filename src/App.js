@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Content from './components/Content';
 import Footer from './components/Footer';
 import ScrollToAnchor from './components/ScrollToAnchor';
+import ScrollToTopButton from './components/ScrollToTopButton'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Content />
         <Footer />
         <ScrollToAnchor />
+        <ScrollToTopButton />
       </div>
     </Router>
   );
