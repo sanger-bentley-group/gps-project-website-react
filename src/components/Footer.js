@@ -21,7 +21,7 @@ const LinksWithDivider = ({title, items}) => (
 
 const Footer = () => (
   <footer className="footer p-10 bg-base-300 justify-between flex flex-col items-center xl:items-start xl:flex-row">
-    <img className='w-36 min-w-[9rem]' src='sanger_logo.png' alt="Wellcome Sanger Institute Logo"></img>
+    <img className='w-36 min-w-[9rem]' src='images/sanger_logo.png' alt="Wellcome Sanger Institute Logo"></img>
     <LinksWithDivider
       title={'Contacts'}
       items={content.contacts}

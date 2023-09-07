@@ -10,42 +10,42 @@ const content = {
             {
               name: 'Professor Stephen D. Bentley',
               position: 'Team Leader',
-              photo: 'stephen_bentley.jpg'
+              photo: 'images/stephen_bentley.jpg'
             },
             {
               name: 'Dr. Stephanie W. Lo',
               position: 'Project Manager and Principal Bioinformatician',
-              photo: 'stephanie_lo.jpg'
+              photo: 'images/stephanie_lo.jpg'
             },
             {
               name: 'Dr. Narender Kumar',
               position: 'Senior Bioinformatician',
-              photo: 'narender_kumar.jpg'
+              photo: 'images/narender_kumar.jpg'
             },
             {
               name: 'Dr. Kate Mellor',
               position: 'Senior Bioinformatician',
-              photo: 'kate_mellor.jpg'
+              photo: 'images/kate_mellor.jpg'
             },
             {
               name: 'Dr. Victoria Dyster',
               position: 'Principal Bioinformatician',
-              photo: 'victoria_dyster.jpg'
+              photo: 'images/victoria_dyster.jpg'
             },
             {
               name: 'Dr. Ana Ferreira',
               position: 'Postdoctoral Fellow',
-              photo: 'ana_ferreira.jpg'
+              photo: 'images/ana_ferreira.jpg'
             },
             {
               name: 'Dr. Harry Hung',
               position: 'Senior Bioinformatician',
-              photo: 'harry_hung.jpg'
+              photo: 'images/harry_hung.jpg'
             },
             {
               name: 'Dr. Jolynne Mokaya',
               position: 'Senior Bioinformatician',
-              photo: 'jolynne_mokaya.jpg'
+              photo: 'images/jolynne_mokaya.jpg'
             },
           ],
         },
@@ -60,12 +60,12 @@ const content = {
             {
               name: 'Dr. Lesley McGee',
               position: 'Project Leader',
-              photo: 'lesley_mcgee.jpg'
+              photo: 'images/lesley_mcgee.jpg'
             },
             {
               name: 'Paulina Hawkins',
               position: 'Research Project Coordinator',
-              photo: 'paulina_hawkins.jpg'
+              photo: 'images/paulina_hawkins.jpg'
             },
           ],
         },
@@ -80,7 +80,7 @@ const content = {
             {
               name: 'Dr. Nicholas Croucher',
               position: 'Sir Henry Dale Fellow and Senior Lecturer',
-              photo: 'nicholas_croucher.jpg'
+              photo: 'images/nicholas_croucher.jpg'
             },
           ],
         },
@@ -95,7 +95,7 @@ const content = {
             {
               name: 'Dr. John A Lees',
               position: 'Group Leader (Pathogens, Informatics and Modelling) ',
-              photo: 'john_lees.jpg'
+              photo: 'images/john_lees.jpg'
             },
           ],
         },

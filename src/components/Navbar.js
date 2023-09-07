@@ -72,7 +72,7 @@ const Navbar = () => (
         </ul>
       </div>
       <Link to="/" className="btn btn-ghost h-20 min-h-[5rem]">
-        <img className='h-20 min-h-[5rem]' src='gps_logo.png' alt="GPS Project Logo"></img>
+        <img className='h-20 min-h-[5rem]' src='images/gps_logo.png' alt="GPS Project Logo"></img>
       </Link>
     </div>
     <div className={`flex-none hidden ${breakpointFlex}`}>

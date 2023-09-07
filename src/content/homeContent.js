@@ -30,43 +30,43 @@ const content = {
     }
   ],
   funder: {
-    logo: 'gates_foundation_logo.png',
+    logo: 'images/gates_foundation_logo.png',
     alt: 'Bill & Melinda Gates Foundation',
     url: 'https://www.gatesfoundation.org/'
   },
   cofunder: {
-    logo: 'wellcome_trust_logo.png',
+    logo: 'images/wellcome_trust_logo.png',
     alt: 'Wellcome Trust Logo',
     url: 'https://wellcome.org/'
   },
   founders: [
     {
-      logo: 'cdc_logo.png',
+      logo: 'images/cdc_logo.png',
       alt: 'CDC Logo',
       url: 'https://www.cdc.gov/'
     },
     {
-      logo: 'emory_logo.png',
+      logo: 'images/emory_logo.png',
       alt: 'Emory University Logo',
       url: 'https://www.globalhealth.emory.edu/'
     },
     {
-      logo: 'mlw_logo.png',
+      logo: 'images/mlw_logo.png',
       alt: 'Malawi Liverpool Wellcome Programme Logo',
       url: 'https://www.mlw.mw/'
     },
     {
-      logo: 'mrc_gambia_logo.png',
+      logo: 'images/mrc_gambia_logo.png',
       alt: 'MRC Unit The Gambia at LSHTM Logo',
       url: 'https://www.mrc.gm'
     },
     {
-      logo: 'nicd_logo.png',
+      logo: 'images/nicd_logo.png',
       alt: 'The National Institute for Communicable Diseases Logo',
       url: 'https://www.nicd.ac.za/'
     },
     {
-      logo: 'sanger_logo.png',
+      logo: 'images/sanger_logo.png',
       alt: 'Wellcome Sanger Institute Logo',
       url: 'https://www.sanger.ac.uk/'
     }

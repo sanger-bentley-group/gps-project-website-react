@@ -14,7 +14,7 @@ const content = {
         {
           type: 'logo',
           content: {
-            logo: 'pathogenwatch_logo.svg',
+            logo: 'images/pathogenwatch_logo.svg',
             url: 'https://pathogen.watch/genomes/all?genusId=1301&speciesId=1313',
             alt: 'Click to access Pathogenwatch website'
           }
@@ -34,7 +34,7 @@ const content = {
           type: 'button',
           content: {
             text: 'Download Example Assemblies',
-            url: 'example-assemblies.zip',
+            url: 'resources/example-assemblies.zip',
           }
         },
       ]
@@ -44,7 +44,7 @@ const content = {
         {
           type: 'logo',
           content: {
-            logo: 'microreact_logo.svg',
+            logo: 'images/microreact_logo.svg',
             url: 'https://microreact.org/',
             alt: 'Click to access Microreact website'
           }
@@ -68,7 +68,7 @@ const content = {
           type: 'button',
           content: {
             text: 'Download Example Data',
-            url: 'microreact-examples.zip',
+            url: 'resources/microreact-examples.zip',
           }
         },
       ]
@@ -78,7 +78,7 @@ const content = {
         {
           type: 'logo',
           content: {
-            logo: 'phandango_logo.png',
+            logo: 'images/phandango_logo.png',
             url: 'https://jameshadfield.github.io/phandango/#/gps',
             alt: 'Click to access phandango website'
           }
@@ -98,14 +98,14 @@ const content = {
           type: 'button',
           content: {
             text: 'Download Example Recombination Data',
-            url: 'recombination-examples.zip',
+            url: 'resources/recombination-examples.zip',
           }
         },
         {
           type: 'button',
           content: {
             text: 'Download Pan Genome Data',
-            url: 'pangenome-examples.zip',
+            url: 'resources/pangenome-examples.zip',
           }
         },
       ]

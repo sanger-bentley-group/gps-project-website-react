@@ -10,7 +10,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '![Image of Streptococcus pneumoniae](streptococcus.jpg)'
+          content: '![Image of Streptococcus pneumoniae](images/streptococcus.jpg)'
         },
         {
           type: 'md',
@@ -18,7 +18,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '![Current PCV formulations](PCV_formulation.png)'
+          content: '![Current PCV formulations](images/PCV_formulation.png)'
         },
       ]
     },
