@@ -60,7 +60,7 @@ const content = [
   },
   {
     title: 'Capacity Building',
-    url: '/capacity_building'
+    url: '/capacity-building'
   },
   {
     title: 'GPS Database',
