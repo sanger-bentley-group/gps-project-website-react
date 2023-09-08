@@ -17,6 +17,7 @@ const ContentMD = ({md}) => (
       ol: ({ start, children }) => <ol start={start} className='list-decimal list-outside ms-8'>{children}</ol>,
       ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
       h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
+      h6: ({children}) => <h6 className='text-sm italic text-center'>{children}</h6>,
       img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
     }} 
     children={md} 
@@ -91,7 +92,7 @@ const ContentLogo = ({logo, url, alt}) => (
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
-      return <div className='text-lg'><ContentMD md={content} /></div>
+      return <div className='text-lg w-full'><ContentMD md={content} /></div>
     case 'code':
       return <ContentCode code={content} />
     case 'nameCard':
