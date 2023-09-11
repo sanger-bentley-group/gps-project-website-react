@@ -89,6 +89,28 @@ const ContentLogo = ({logo, url, alt}) => (
   </div>
 )
 
+const ContentQuoteCard = ({photo, name, quotes}) => (
+  <div className="card xl:card-side w-full bg-base-100 shadow-md">
+    { photo
+      ?
+        <div className="avatar place-self-center pt-8 pl-0 xl:pl-8 xl:pt-0">
+          <div className="w-36 h-36 rounded-xl">
+            <img src={photo} alt={`${name}`} />
+          </div>
+        </div>
+      :
+        ''
+    }
+
+    <div className="card-body">
+      {quotes.map((quote, index) => (
+        <div key={index}><ContentMD md={quote} /></div>
+      ))}
+      <p className="text-md italic">{name}</p>
+    </div>
+  </div>
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
@@ -107,6 +129,8 @@ const SectionContent = ({type, content}) => {
       return <ContentButton text={content.text} url={content.url} />
     case 'logo':
       return <ContentLogo logo={content.logo} url={content.url} alt={content.url} />
+    case 'quoteCard':
+      return <ContentQuoteCard photo={content.photo} name={content.name} quotes={content.quotes} />
     default:
       return
   }
