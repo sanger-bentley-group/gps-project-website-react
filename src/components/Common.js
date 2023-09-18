@@ -2,26 +2,36 @@ import ReactMarkdown from 'react-markdown'
 import { Link } from "react-router-dom"
 
 
+const mdComponents = {
+  a: ({ href, children })  =>  <Link to={href} className='link' { ...(/^(http|www)/.test(href) && {target: '_blank'}) }>{children}</Link>,
+  ol: ({ start, children }) => <ol start={start} className='list-decimal list-outside ms-8'>{children}</ol>,
+  ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
+  h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
+  h6: ({children}) => <h6 className='text-sm italic text-center'>{children}</h6>,
+  img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
+}
+
 const TitleText = ({text}) => (
-  <h1 className="text-4xl font-bold"><ReactMarkdown children={text} /></h1>
+  <h1 className="text-4xl font-bold">
+    <ReactMarkdown components={mdComponents} children={text} />
+  </h1>
 )
 
 const SubtitleText = ({text, className}) => (
-  <h2 className={`text-2xl font-bold ${className ? className : ''}`}><ReactMarkdown children={text} /></h2>
+  <h2 className={`text-2xl font-bold ${className ? className : ''}`}>
+    <ReactMarkdown components={mdComponents} children={text} />
+  </h2>
+)
+
+const SubtitleLogo = ({text, logo, className}) => (
+  <div className='flex gap-x-4'>
+    <SubtitleText text={text} className={className}/>
+    <img className='h-10 self-center' src={logo.url} alt={logo.alt}/>
+  </div>
 )
 
 const ContentMD = ({md}) => (
-  <ReactMarkdown 
-    components={{
-      a: ({ href, children })  =>  <Link to={href} className='link' { ...(/^(http|www)/.test(href) && {target: '_blank'}) }>{children}</Link>,
-      ol: ({ start, children }) => <ol start={start} className='list-decimal list-outside ms-8'>{children}</ol>,
-      ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
-      h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
-      h6: ({children}) => <h6 className='text-sm italic text-center'>{children}</h6>,
-      img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
-    }} 
-    children={md} 
-  />
+  <ReactMarkdown components={mdComponents} children={md} />
 )
 
 const ContentCode = ({code}) => (
@@ -111,6 +121,24 @@ const ContentQuoteCard = ({photo, name, quotes}) => (
   </div>
 )
 
+const PublicationCard = ({cards}) => (
+  <div className='grid grid-cols-1 w-full gap-10 xl:grid-cols-2'>
+    {cards.map((card, index) => (
+      <div className="card w-full bg-base-100 shadow-md" key={index}>
+        <div className="card-body justify-between">
+          <div className="card-title text-lg"><ContentMD md={card.title} /></div>
+          <div className="text-md italic"><ContentMD md={card.platform} /></div>
+          <div className="flex flex-wrap gap-4 place-self-end">
+            {card.buttons.map((button, index) => (
+              <a className="btn btn-primary text-lg font-bold normal-case" href={button.url} target='_blank' rel="noreferrer" key={index}>↓ {button.text}</a>
+            ))}
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
@@ -131,14 +159,17 @@ const SectionContent = ({type, content}) => {
       return <ContentLogo logo={content.logo} url={content.url} alt={content.url} />
     case 'quoteCard':
       return <ContentQuoteCard photo={content.photo} name={content.name} quotes={content.quotes} />
+    case 'publicationGrid':
+      return <PublicationCard cards={content} />
     default:
       return
   }
 }
 
-const Section = ({subtitle, content}) => (
+const Section = ({subtitle, subtitleLogo, content}) => (
   <div className="hero-content flex-col w-full items-start">
     {subtitle ? <SubtitleText text={subtitle} className="self-center xl:self-start"/> : ''}
+    {subtitleLogo ? <SubtitleLogo text={subtitleLogo.content} logo={subtitleLogo.logo} className="self-center xl:self-start"/> : ''}
     {
       content.map( (props, index) =>
         <SectionContent {...props} key={index} />)
