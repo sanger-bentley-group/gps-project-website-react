@@ -14,6 +14,17 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
+              title: 'Molecular characterization of *Streptococcus pneumoniae* causing disease among children in Nigeria during the introduction of PCV10 (GSK)',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001094'
+                }
+
+              ]
+            },
+            {
               title: 'Key features of pneumococcal isolates recovered in Central and Northwestern Russia in 2011-2018 determined through whole-genome sequencing',
               platform: 'Microbial Genomics',
               buttons: [
