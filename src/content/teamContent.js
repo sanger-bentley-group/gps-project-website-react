@@ -18,16 +18,6 @@ const content = {
               photo: 'images/stephanie_lo.jpg'
             },
             {
-              name: 'Dr. Narender Kumar',
-              position: 'Senior Bioinformatician',
-              photo: 'images/narender_kumar.jpg'
-            },
-            {
-              name: 'Dr. Kate Mellor',
-              position: 'Senior Bioinformatician',
-              photo: 'images/kate_mellor.jpg'
-            },
-            {
               name: 'Dr. Victoria Dyster',
               position: 'Principal Bioinformatician',
               photo: 'images/victoria_dyster.jpg'
@@ -41,6 +31,21 @@ const content = {
               name: 'Dr. Harry Hung',
               position: 'Senior Bioinformatician',
               photo: 'images/harry_hung.jpg'
+            },
+            {
+              name: 'Dr. Narender Kumar',
+              position: 'Senior Bioinformatician',
+              photo: 'images/narender_kumar.jpg'
+            },
+            {
+              name: 'Oliver Lorenz',
+              position: 'Senior Bioinformatician',
+              photo: 'images/oliver_lorenz.jpeg'
+            },
+            {
+              name: 'Dr. Kate Mellor',
+              position: 'Senior Bioinformatician',
+              photo: 'images/kate_mellor.jpg'
             },
             {
               name: 'Dr. Jolynne Mokaya',
