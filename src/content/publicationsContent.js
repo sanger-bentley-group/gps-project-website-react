@@ -159,6 +159,86 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2022 Conference',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Comparing GPSCs and Clonal complex clusters for *Streptococcus pneumoniae*',
+              platform: 'Europneumo 2022',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/Europneumo2022-Narender_Kumar-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/Europneumo2022-Narender_Kumar-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Emergence of a multidrug resistant and virulent *Streptococcus pneumoniae* lineage GPSC10/CC230 mediates serotype replacement after PCV13 ',
+              platform: 'Europneumo 2022',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/Europneumo2022-Stephanie_Lo-Abstract.pdf'
+                },
+                {
+                  text: 'Slides',
+                  url: 'resources/conferences/Europneumo2022-Stephanie_Lo-Slides.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Evidence of virulence and resistance in *Streptococcus pneumoniae* serotype 16F lineages ',
+              platform: 'Europneumo 2022',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/Europneumo2022-Jolynne_Mokaya-Abstract.pdf'
+                },
+                {
+                  text: 'Slides',
+                  url: 'resources/conferences/Europneumo2022-Jolynne_Mokaya-Slides.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Genomic characterisation of *Streptococcus pneumoniae* vaccine serotypes pre- and post-PCV introduction in The Netherlands',
+              platform: 'Europneumo 2022',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/Europneumo2022-Ana_Ferreira-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/Europneumo2022-Ana_Ferreira-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Global population structure of serotype 12F pneumococci',
+              platform: 'Europneumo 2022',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/Europneumo2022-Thi_N_M_Huynh-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/Europneumo2022-Thi_N_M_Huynh-Poster.pdf'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
