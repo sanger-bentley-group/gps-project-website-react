@@ -109,6 +109,56 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2023 Journal Articles',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Novel pneumococcal capsule type 33E results from the inactivation of glycosyltransferase WciE in vaccine type 33F',
+              platform: 'Journal of Biological Chemistry',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.jbc.org/article/S0021-9258(23)02113-0/fulltext'
+                }
+              ]
+            },
+            {
+              title: 'A global genomic perspective on the multidrug-resistant *Streptococcus pneumoniae* 15A-CC63 sub-lineage following pneumococcal conjugate vaccine introduction',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000998'
+                }
+              ]
+            },
+            {
+              title: 'Discovery and Characterization of Pneumococcal Serogroup 36 Capsule Subtypes, Serotypes 36A and 36B',
+              platform: 'Journal of Clinical Microbiology',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://journals.asm.org/doi/10.1128/jcm.00024-23'
+                }
+              ]
+            },
+            {
+              title: 'Robust analysis of prokaryotic pangenome gene gain and loss rates with Panstripe',
+              platform: 'Genome Research',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://genome.cshlp.org/content/33/1/129'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
