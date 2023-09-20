@@ -239,6 +239,76 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2022 Journal Articles',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Emergence of a multidrug-resistant and virulent *Streptococcus pneumoniae* lineage mediates serotype replacement after PCV13: an international whole-genome sequencing study',
+              platform: 'The Lancet Microbe',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(22)00158-6/fulltext'
+                }
+              ]
+            },
+            {
+              title: 'Effect of childhood vaccination and antibiotic use on pneumococcal populations and genome-wide associations with disease among children in Nepal: an observational study',
+              platform: 'The Lancet Microbe',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(22)00066-0/fulltext'
+                }
+              ]
+            },
+            {
+              title: 'International links between *Streptococcus pneumoniae* vaccine serotype 4 sequence type (ST) 801 in Northern European shipyard outbreaks of invasive pneumococcal disease',
+              platform: 'Vaccine',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://pubmed.ncbi.nlm.nih.gov/34996643/'
+                }
+              ]
+            },
+            {
+              title: 'Widespread sharing of pneumococcal strains in a rural African setting: proximate villages are more likely to share similar strains that are carried at multiple timepoints',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000732'
+                }
+              ]
+            },
+            {
+              title: 'A new perspective on ancient Mitis group streptococcal genetics',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000753'
+                }
+              ]
+            },
+            {
+              title: 'Endocarditis Caused by Nontypeable *Streptococcus pneumoniae*',
+              platform: 'Clinical Infectious Diseases',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://academic.oup.com/cid/article/75/4/719/6520531'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
