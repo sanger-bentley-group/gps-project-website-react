@@ -309,6 +309,76 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2021 Conference',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Strain features of pneumococcal isolates in Pakistan in pre and post-PCV10 era',
+              youtube_id: 'FuerV3Cld3U',
+              platform: 'ABPHM 2021',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ABPHM2021-Nida_Javaid-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ABPHM2021-Nida_Javaid-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Diverse and distinct S. pneumoniae cause invasive disease in Papua New Guinea ',
+              youtube_id: 'LKd-cVu5eTw',
+              platform: 'ABPHM 2021',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ABPHM2021-Kate_Mellor-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ABPHM2021-Kate_Mellor-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Vaccine escape: emergence of a multidrug resistant and virulent *Streptococcus pneumoniae* lineage GPSC10/CC230 post PCV13 poses a global threat',
+              youtube_id: 'dlZQ06xFwXw',
+              platform: 'ABPHM 2021',
+              buttons: [
+                {
+                  text: 'Authors',
+                  url: 'resources/conferences/ABPHM2021-Stephanie_Lo-Authors.xlsx'
+                },
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ABPHM2021-Stephanie_Lo-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ABPHM2021-Stephanie_Lo-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Developing a global genomics partnership to inform pneumococcal vaccine strategy',
+              youtube_id: 'GY4kWcEP4jo',
+              platform: 'ABPHM 2021',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ABPHM2021-Christine Boinett-Abstract.pdf'
+                },
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
