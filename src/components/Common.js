@@ -128,6 +128,7 @@ const PublicationCard = ({cards}) => (
         <div className="card-body justify-between">
           <div className="card-title text-lg"><ContentMD md={card.title} /></div>
           <div className="text-md italic"><ContentMD md={card.platform} /></div>
+          {card.youtube_id ? <ContentYoutubeEmbed id={card.youtube_id} title={card.title} /> : ''}
           <div className="flex flex-wrap gap-4 place-self-end">
             {card.buttons.map((button, index) => (
               <a className="btn btn-primary text-lg font-bold normal-case" href={button.url} target='_blank' rel="noreferrer" key={index}>↓ {button.text}</a>
