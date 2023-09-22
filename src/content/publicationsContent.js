@@ -439,6 +439,234 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2020 Conference',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Following a decade of PCV in The Gambia should a decline in resistance be anticipated?',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Muhammed_Arafat_Cham-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Predominance of clonal complex 320 among invasive *Streptococcus pneumoniae* serotype 19F isolates from India in pre-vaccine era',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Sravani_Dharmavaram-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'https://cslide.ctimeetingtech.com/isppd20/attendee/eposter/poster/1203'
+                }
+              ]
+            },
+            {
+              title: 'Delineating the perturbation by PCV13 in composition of *Streptococcus pneumoniae* carriage isolates in Cambodia',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Sophie_Belman-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'https://cslide.ctimeetingtech.com/isppd20/attendee/eposter/poster/1159'
+                }
+              ]
+            },
+            {
+              title: 'Genetic diversity of cbpA among invasive *Streptococcus pneumoniae* isolates from India',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Kariyappa_Vijay-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'https://cslide.ctimeetingtech.com/isppd20/attendee/eposter/poster/1152'
+                }
+              ]
+            },
+            {
+              title: 'Genetic variation associated with serotype 19A vaccine failures in Ireland',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Mary_Corcoran-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'zmpB allelic variation in *Streptococcus pneumoniae* isolates causing meningitis in India population',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-P_R_Sowmya-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'https://cslide.ctimeetingtech.com/isppd20/attendee/eposter/poster/1138'
+                }
+              ]
+            },
+            {
+              title: 'Serotype, genotype and antibiotic resistance of non-vaccine type invasive pneumococcal isolates from pre-vaccine era (before 2018) - An Indian study',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Shincy_M_R-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'https://cslide.ctimeetingtech.com/isppd20/attendee/eposter/poster/1125'
+                }
+              ]
+            },
+            {
+              title: 'Global genomic epidemiology of pneumococcal serotype 2 isolated during 1989 to 2019',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Roly_Malaker_1-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Molecular epidemiology of pneumococcus isolated from invasive pneumococcal diseases before introduction of PCV-10 in Bangladesh, 2002-2015',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Roly_Malaker_1-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Acquisition and clearance of pneumococcal serotypes in naturally-colonised PCV-exposed Gambian infants',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Chrispin_Chaguza-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Antibiotic resistance patterns and phylogeography of *Streptococcus pneumoniae* associated with paediatric meningitis in pre- and post-PCV-introduction West and Central Africa',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Madikay_Senghore_1-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Spatial distance is a key determinant of pneumococcal strain sharing and the sustained carriage of shared strains',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Madikay_Senghore_2-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Genome analysis of invasive serotype 1 *Streptococcus pneumoniae* isolates from India',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Akshata_Krishna_Prabhu-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'https://cslide.ctimeetingtech.com/isppd20/attendee/eposter/poster/768'
+                }
+              ]
+            },
+            {
+              title: 'PCV10 impact on pneumococcal lineages isolated from healthy Nepalese children',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Rama_Kandasamy_1-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Genome-wide association study of colonising nasopharyngeal pneumococci obtained from children in Nepal to identify genes associated with pneumonia',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Rama_Kandasamy_2-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Genomics surveillance of invasive *Streptococcus pneumoniae* isolates (SPN) in Brazil, Periods pre- (2008-2009) and post-PCV10 (2012-2013) introduction',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Samanta_Cristine_Grassi_Almeida-Abstract.pdf'
+                },
+                {
+                  text: 'Poster',
+                  url: 'https://cslide.ctimeetingtech.com/isppd20/attendee/eposter/poster/464'
+                }
+              ]
+            },
+            {
+              title: 'Population genetic structure, serotype distribution and antibiotic resistance of *Streptococcus pneumoniae* isolates collected in Moscow in 2011-2015',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Ekaterina_Egorova-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: '*Streptococcus pneumoniae* vaccine serotypes acquire penicillin binding protein gene mosaics from *Streptococcus mitis*',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Akuzike_Kalizangoma-Abstract.pdf'
+                },
+              ]
+            },
+            {
+              title: 'Genomics structure of invasive *Streptococcus pneumoniae* population from children under five years before and after vaccine introduction in Casablanca, Morocco',
+              platform: 'ISPPD 2020',
+              buttons: [
+                {
+                  text: 'Abstract',
+                  url: 'resources/conferences/ISPPD2020-Nehemie_Nzoyikorera-Abstract.pdf'
+                },
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
