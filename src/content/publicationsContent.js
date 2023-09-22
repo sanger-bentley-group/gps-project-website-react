@@ -379,6 +379,66 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2021 Journal Articles',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Phylogeography and resistome of pneumococcal meningitis in West Africa before and after vaccine introduction',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000506#tab2'
+                }
+              ]
+            },
+            {
+              title: 'RCandy: an R package for visualizing homologous recombinations in bacterial genomes',
+              platform: 'Bioinformatics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://academic.oup.com/bioinformatics/article/38/5/1450/6448222'
+                }
+              ]
+            },
+            {
+              title: 'Using genomics to examine the persistence of *Streptococcus pneumoniae* serotype 19A in Ireland and the emergence of a sub-clade associated with vaccine failures',
+              platform: 'Vaccine',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://pubmed.ncbi.nlm.nih.gov/34301430/'
+                }
+              ]
+            },
+            {
+              title: 'Carriage Dynamics of Pneumococcal Serotypes in Naturally Colonized Infants in a Rural African Setting During the First Year of Life',
+              platform: 'Frontiers in Pediatrics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.frontiersin.org/articles/10.3389/fped.2020.587730/full'
+                }
+              ]
+            },
+            {
+              title: 'Global genomic pathogen surveillance to inform vaccine strategies: a decade-long expedition in pneumococcal genomics',
+              platform: 'Genome Medicine',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-021-00901-2'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
