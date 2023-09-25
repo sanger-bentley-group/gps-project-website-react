@@ -41,13 +41,13 @@ const Home = () => (
   <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-10 py-20">
     <div className="hero-content w-full flex-col text-center">
       <TitleText text={content.title}/>
-      <SubtitleText text={content.subtitle} />
+      <SubtitleText text={content.subtitle.content} />
     </div>
     <HeroTwoColumns
       colOne={
         <>
-          <SubtitleText text={content.missionTitle} />
-          <ContentMD md={content.missionContent} />
+          <SubtitleText text={content.mission.title} />
+          <ContentMD md={content.mission.content} />
         </>
       }
       colTwo={
@@ -57,17 +57,17 @@ const Home = () => (
     <HeroTwoColumns
       colOne={
         <>
-          <SubtitleText text='Project Leaders' />
+          <SubtitleText text={content.leaders.subtitle.content} />
           <div className="flex flex-col items-center space-y-5 xl:items-start">
-            {content.leaders.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
+            {content.leaders.content.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
           </div>
         </>
       }
       colTwo={
         <>
-          <SubtitleText text='Project Manager' />
+          <SubtitleText text={content.pms.subtitle.content} />
           <div className="flex flex-col items-center space-y-5 xl:items-start">
-            {content.pms.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
+            {content.pms.content.map( (props, index)  => <NameAndInstitute {...props} key={index} />)}
           </div>
         </>
       }
@@ -75,21 +75,21 @@ const Home = () => (
     <HeroTwoColumns
       colOne={
         <>
-          <SubtitleText text='Funded by' />
-          <Logo {...content.funder}/>
+          <SubtitleText text={content.funder.subtitle.content} />
+          <Logo {...content.funder.content}/>
         </>
       }
       colTwo={
         <>
-            <SubtitleText text='Co-funded by' />
-            <Logo {...content.cofunder}/>
+            <SubtitleText text={content.cofunder.subtitle.content} />
+            <Logo {...content.cofunder.content}/>
         </>
       }
     />
     <div className="hero-content w-full flex-col items-center xl:items-start px-8">
-      <SubtitleText text='Founding Partners' />
+      <SubtitleText text={content.founders.subtitle.content} />
       <div className="w-full flex flex-wrap justify-around space-x-4 xl:justify-between">
-        {content.founders.map( (props, index ) => <Logo {...props} key={index}/>)}
+        {content.founders.content.map( (props, index ) => <Logo {...props} key={index}/>)}
       </div>
     </div> 
   </div>
