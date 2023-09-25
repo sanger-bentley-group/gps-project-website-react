@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { useState, useRef, useEffect } from "react";
 
 import content from '../content/navbarContent'
+import publicationsContent from '../content/publicationsContent'
 
 // Both variables should have the same breakpoint prefix
 const breakpointHidden = 'xl:hidden'
@@ -41,24 +43,49 @@ const TwoLevelMenuItem = ({ title, url, submenu }) => (
   </li>
 )
 
-const NavbarItems = ({ variant }) => (
-  content.map((content, index) => (
-    variant === 'main' ? 
-      (
-        content.submenu ?
-          <DropdownButton {...content} key={index} />
-        :
-          <Button {...content} key={index} />
-      )
-    :
-      (
-        content.submenu ?
-          <TwoLevelMenuItem {...content} key={index} />
-        :
-          <ListItem {...content} key={index} />
-      )
-  ))
-)
+const NavbarItems = ({ variant }) => {
+  const [navbarContent, setNavBarContent] = useState(content)
+  const addedPublicationsSubmenu = useRef(false)
+
+  useEffect(() => {
+    if (addedPublicationsSubmenu.current) { return }
+
+    setNavBarContent(
+      navbarContent => navbarContent.map((item) => {
+        if (item.title === 'Publications') {
+          item.submenu = publicationsContent.sections.map((section) => (
+            {
+              title: section.subtitle.content,
+              url: `publications#${section.subtitle.content.replace(/\s+/g, '-').toLowerCase()}`
+            }
+          ))
+        }
+        
+        return item
+      })
+    )
+    addedPublicationsSubmenu.current = true
+  }, []) 
+
+  return (
+    navbarContent.map((content, index) => (
+      variant === 'main' ? 
+        (
+          content.submenu ?
+            <DropdownButton {...content} key={index} />
+          :
+            <Button {...content} key={index} />
+        )
+      :
+        (
+          content.submenu ?
+            <TwoLevelMenuItem {...content} key={index} />
+          :
+            <ListItem {...content} key={index} />
+        )
+    ))
+  )
+}
 
 const Navbar = () => (
   <div className="navbar bg-primary text-primary-content h-24 min-h-[6rem]">
@@ -67,7 +94,7 @@ const Navbar = () => (
         <label tabIndex={0} className={`btn btn-ghost ${breakpointHidden}`}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
         </label>
-        <ul tabIndex={0} className={`menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ${breakpointHidden}`}>
+        <ul tabIndex={0} className={`menu menu-sm w-fit dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ${breakpointHidden}`}>
           <NavbarItems variant='side'/>
         </ul>
       </div>

@@ -3,11 +3,12 @@ const content = {
   sections: [
     {
       subtitle: {
-        content: '[Global Pneumococcal Sequencing Collection](https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection)',
+        content: 'Global Pneumococcal Sequencing Collection',
         logo: {
           url: 'images/microbiology-society-logo.png',
           alt: 'Microbiology Society Logo'
-        }
+        },
+        url: 'https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection'
       },
       content: [
         {

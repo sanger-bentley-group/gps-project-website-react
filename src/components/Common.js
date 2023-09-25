@@ -17,14 +17,22 @@ const TitleText = ({text}) => (
   </h1>
 )
 
-const SubtitleText = ({text, logo, className}) => (
-  <div className='flex gap-x-4'>
-    <h2 className={`text-2xl font-bold ${className ? className : ''}`}>
-      <ReactMarkdown components={mdComponents} children={text} />
-    </h2>
-    {logo ? <img className='h-10 self-center' src={logo.url} alt={logo.alt}/> : '' }
-  </div>
-)
+const SubtitleText = ({text, logo, url, className}) => {
+  const content = (
+    <div className='flex gap-x-4'>
+      <h2 className={`text-2xl font-bold ${className ? className : ''}`}>
+        <ReactMarkdown components={mdComponents} children={text} />
+      </h2>
+      {logo ? <img className='h-10 self-center' src={logo.url} alt={logo.alt}/> : null }
+    </div>
+  )
+  
+  return (
+    url
+    ? <Link to={url} className='link' { ...(/^(http|www)/.test(url) && {target: '_blank'}) }>{content}</Link>
+    : content
+  )
+}
 
 const ContentMD = ({md}) => (
   <ReactMarkdown components={mdComponents} children={md} />
@@ -124,7 +132,7 @@ const PublicationCard = ({cards}) => (
         <div className="card-body justify-between">
           <div className="card-title text-lg"><ContentMD md={card.title} /></div>
           <div className="text-md italic"><ContentMD md={card.platform} /></div>
-          {card.youtube_id ? <ContentYoutubeEmbed id={card.youtube_id} title={card.title} /> : ''}
+          {card.youtube_id ? <ContentYoutubeEmbed id={card.youtube_id} title={card.title} /> : null}
           <div className="flex flex-wrap gap-4 place-self-end place-content-end">
             {card.buttons.map((button, index) => (
               <a className="btn btn-primary text-lg font-bold normal-case" href={button.url} target='_blank' rel="noreferrer" key={index}>↓ {button.text}</a>
@@ -164,8 +172,8 @@ const SectionContent = ({type, content}) => {
 }
 
 const Section = ({subtitle, content}) => (
-  <div className="hero-content flex-col w-full items-start">
-    {subtitle ? <SubtitleText text={subtitle.content} logo={subtitle.logo} className="self-center xl:self-start"/> : ''}
+  <div className="hero-content flex-col w-full items-start" id={subtitle ? subtitle.content.replace(/\s+/g, '-').toLowerCase() : null}>
+    {subtitle ? <SubtitleText text={subtitle.content} logo={subtitle.logo} url={subtitle.url} className="self-center xl:self-start"/> : ''}
     {
       content.map( (props, index) =>
         <SectionContent {...props} key={index} />)
