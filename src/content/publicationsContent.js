@@ -371,7 +371,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ABPHM2021-Christine Boinett-Abstract.pdf'
+                  url: 'resources/conferences/ABPHM2021-Christine_Boinett-Abstract.pdf'
                 },
               ]
             },
@@ -1121,6 +1121,30 @@ const content = {
                 {
                   text: 'Journal',
                   url: 'https://pubmed.ncbi.nlm.nih.gov/28711389/'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      subtitle: '2017 Conference',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Rapid pneumococcal evolution in response to co-trimoxazole prophylaxis in a high-HIV burden population',
+              platform: 'ABPMH 2017',
+              buttons: [
+                {
+                  text: 'Authors',
+                  url: 'resources/conferences/ABPHM2017-Stephanie_W_Lo-Authors.xlsx'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ABPHM2017-Stephanie_W_Lo-Abstract.pdf'
                 }
               ]
             },
