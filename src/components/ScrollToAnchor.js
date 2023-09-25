@@ -9,7 +9,9 @@ function ScrollToAnchor() {
   // https://jasonwatmore.com/react-router-v6-listen-to-location-route-change-without-history-listen
   useEffect(() => {
     if (location.hash) {
-      lastHash.current = location.hash.slice(1); // safe hash for further use after navigation
+      lastHash.current = location.hash.slice(1); // save hash for further use after navigation
+    } else {
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }) // else scroll to top
     }
 
     if (lastHash.current && document.getElementById(lastHash.current)) {
