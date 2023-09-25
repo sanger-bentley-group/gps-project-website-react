@@ -1088,6 +1088,46 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2017 Journal Articles',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Antimicrobial resistance determinants and susceptibility profiles of pneumococcal isolates recovered from Trinidad and Tobago',
+              platform: 'Journal of Global Antimicrobial Resistance',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5711790/'
+                }
+              ]
+            },
+            {
+              title: 'Key features of invasive pneumococcal isolates recovered in Lima, Peru determined through whole genome sequencing',
+              platform: 'International Journal of Medical Microbiology',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://pubmed.ncbi.nlm.nih.gov/28756964/'
+                }
+              ]
+            },
+            {
+              title: 'Population genetic structure, antibiotic resistance, capsule switching and evolution of invasive pneumococci before conjugate vaccination in Malawi',
+              platform: 'Vaccine',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://pubmed.ncbi.nlm.nih.gov/28711389/'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
