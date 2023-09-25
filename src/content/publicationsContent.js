@@ -391,7 +391,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000506#tab2'
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000506'
                 }
               ]
             },
@@ -661,6 +661,72 @@ const content = {
                   text: 'Abstract',
                   url: 'resources/conferences/ISPPD2020-Nehemie_Nzoyikorera-Abstract.pdf'
                 },
+              ]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      subtitle: '2020 Journal Articles',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Within-host microevolution of *Streptococcus pneumoniae* is rapid and adaptive during natural colonisation',
+              platform: 'Nature Communication',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.nature.com/articles/s41467-020-17327-w'
+                }
+              ]
+            },
+            {
+              title: 'A New Pneumococcal Capsule Type, 10D, is the 100th Serotype and Has a Large *cps* Fragment from an Oral Streptococcus',
+              platform: 'mBio',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://journals.asm.org/doi/10.1128/mbio.00937-20'
+                }
+              ]
+            },
+            {
+              title: 'Bacterial genome-wide association study of hyper-virulent pneumococcal serotype 1 identifies genetic variation associated with neurotropism',
+              platform: 'Communications Biology',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.nature.com/articles/s42003-020-01290-9'
+                }
+              ]
+            },
+            {
+              title: 'Visualising variation within Global Pneumococcal Sequence Clusters (GPSCs) and country population snapshots to contextualise pneumococcal isolates',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000357'
+                },
+                {
+                  text: 'Analysis Input & Output',
+                  url: 'https://doi.org/10.6084/m9.figshare.c.4860771.v1'
+                },
+                {
+                  text: 'Recombination Analysis',
+                  url: 'https://jameshadfield.github.io/phandango/#/GPS'
+                },
+                {
+                  text: 'Country Microreact',
+                  url: 'resources#countries'
+                },
+                {
+                  text: 'GPSC Microreact',
+                  url: 'resources#lineages'
+                }
               ]
             },
           ]
