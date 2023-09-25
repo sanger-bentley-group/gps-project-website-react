@@ -8,7 +8,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: '*Streptococcus pneumoniae* (the pneumococcus) is the leading vaccine preventable cause of pneumonia, septicaemia and meningitis in young children. In 2015, it was estimated to be responsible for about 9 million cases of disease and over 317,000 deaths in children under 5 with the main burden in low- and middle- income countries ([Wahl 2018](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(18)30247-X/fulltext)).',
+          content: '*Streptococcus pneumoniae* (the pneumococcus) is the leading vaccine preventable cause of pneumonia, septicaemia and meningitis in young children. In 2015, it was estimated to be responsible for about 9 million cases of disease and over 317,000 deaths in children under 5 with the main burden in low- and middle- income countries ([Wahl 2018](https://doi.org/10.1016/S2214-109X(18)30247-X)).',
         },
         {
           type: 'md',
@@ -16,7 +16,7 @@ const content = {
         },
         {
           type: 'md',
-          content: 'Pneumococcal conjugate vaccines (PCVs) target the capsule surrounding pneumococcal cells has proven to be very effective in reducing pneumococcal disease since its advent in 2000. However, there are at least [100 different forms of capsule](../serotypes), or serotypes, based on antigen-antibody reaction. The current PCVs are only able to target some serotypes and the population overall is able to evolve to evade the vaccine. This creates an arms race between vaccine and pneumococcus.'
+          content: 'Pneumococcal conjugate vaccines (PCVs) target the capsule surrounding pneumococcal cells has proven to be very effective in reducing pneumococcal disease since its advent in 2000. However, there are at least [100 different forms of capsule](../resources#serotypes), or serotypes, based on antigen-antibody reaction. The current PCVs are only able to target some serotypes and the population overall is able to evolve to evade the vaccine. This creates an arms race between vaccine and pneumococcus.'
         },
         {
           type: 'md',
@@ -51,15 +51,15 @@ const content = {
         },
         {
           type: 'md',
-          content: 'The GPS project has made a major breakthrough in defining pneumococcal strains in high-resolution by taking genome-wide DNA variations into account ([Gladstone and Lo *et al* 2019](https://www.thelancet.com/article/S2352-3964(19)30259-2/fulltext)). This robust typing method is coupled with a coherent and dynamic naming system ([GPSC](https://www.pneumogen.net/gps/GPSC_lineages.html)) so as to enable joint efforts in tracking pneumococcal lineages across geographical regions and over time, especially before and after the roll-out of PCVs.'
+          content: 'The GPS project has made a major breakthrough in defining pneumococcal strains in high-resolution by taking genome-wide DNA variations into account ([Gladstone and Lo *et al* 2019](https://doi.org/10.1016/j.ebiom.2019.04.021)). This robust typing method is coupled with a coherent and dynamic naming system ([GPSC](../resources#lineages)) so as to enable joint efforts in tracking pneumococcal lineages across geographical regions and over time, especially before and after the roll-out of PCVs.'
         },
         {
           type: 'md',
-          content: 'Using this typing scheme, we found a subset of strains were globally disseminated, many of which were associated with antibiotic resistance and composed of vaccine- and non-vaccine serotypes. Our recent work, published in the Lancet Infectious Diseases, has shown that these globally-spreading strains played an important role in the arms race by driving the expansion of pneumococcal bacteria with non-vaccine targets ([Lo and Gladstone *et al* 2019](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext)).'
+          content: 'Using this typing scheme, we found a subset of strains were globally disseminated, many of which were associated with antibiotic resistance and composed of vaccine- and non-vaccine serotypes. Our recent work, published in the Lancet Infectious Diseases, has shown that these globally-spreading strains played an important role in the arms race by driving the expansion of pneumococcal bacteria with non-vaccine targets ([Lo and Gladstone *et al* 2019](https://doi.org/10.1016/S1473-3099(19)30297-X)).'
         },
         {
           type: 'md',
-          content: 'The DNA data also allowed us to unlock the genetic diversity of the capsule and discovered nine potential new serotypes ([van Tonder *et al* 2019](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000274)) and shed light on previously unrecognised antimicrobial resistance in pneumococcus ([Lo *et al* 2019](https://academic.oup.com/jac/article/75/3/512/5650366)). For more exciting findings, please browse our [Publications page](../publications).'
+          content: 'The DNA data also allowed us to unlock the genetic diversity of the capsule and discovered nine potential new serotypes ([van Tonder *et al* 2019](https://doi.org/10.1099/mgen.0.000274)) and shed light on previously unrecognised antimicrobial resistance in pneumococcus ([Lo *et al* 2019](https://doi.org/10.1093/jac/dkz477)). For more exciting findings, please browse our [Publications page](../publications).'
         },
       ]
     },
@@ -70,7 +70,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'The GPS project generates a rich source of genome and epidemiological data for tracking pneumococcal transmission and evolution on both national and international levels. The genome data are deposited in [ENA](https://www.ebi.ac.uk/ena/data/view/PRJEB3084). High-level analyses are interactively presented by [countries](../countries) and by [strains](../strains) using [Microreact](https://microreact.org/) and [Phandango](https://jameshadfield.github.io/phandango/#/GPS). Illustrations of how to use these resources are summarised in a recent publication ([Gladstone *et al* 2020](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000357?originator=authorOffprint&identity=176964&timestamp=20210430151417&signature=3ebadc206d0b1fda9098a00fc65d31ec)) and videos on the [Resources pages](../overview). '
+          content: 'The GPS project generates a rich source of genome and epidemiological data for tracking pneumococcal transmission and evolution on both national and international levels. The genome data are deposited in [ENA](https://www.ebi.ac.uk/ena/data/view/PRJEB3084). High-level analyses are interactively presented by [countries](../resources#countries) and by [strains](../resources#lineages) using [Microreact](https://microreact.org/) and [Phandango](https://jameshadfield.github.io/phandango/#/GPS). Illustrations of how to use these resources are summarised in a recent publication ([Gladstone *et al* 2020](https://doi.org/10.1099/mgen.0.000357)) and videos on the [Resources pages](../resources#overview). '
         },
       ]
     },
