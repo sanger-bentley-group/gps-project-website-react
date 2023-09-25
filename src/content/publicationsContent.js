@@ -828,6 +828,266 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2018 Conference',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Diversity of pneumococcal carriage in the Upper River Region of The Gambia in 2009 prior to the introduction of pneumococcal conjugate vaccines',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Cham_MA-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Molecular characterization of *Streptococcus pneumoniae* strains isolated from invasive disease in the pre- and post-PCV10 periods in Brazil, 2005-2015',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Samanta_C_G_Almeida-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Global emergence and population dynamics of divergent serotype 3 CC180 pneumococci',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Taj_Azarian-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Longitudinal surveillance reveals high clonality of pneumococcal carriage in the first year of life in The Gambia',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Senghore_M-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Genetic diversity and distribution of pneumococcal surface lipoproteins and implications on potential protein-based vaccines',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Ebrima_Bojang-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Population genomics reveals vaccination-induced genotypic changes in carried pneumococcal population',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Chrispin_Chaguza-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Genetic diversity, serotype prediction and resistotyping of nasopharyngeal isolates of *S. pneumoniae* from Indian Hajj pilgrims by whole genome sequencing',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Feroze_Ganaie-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Defining the lineages of the pneumococcus to understand disease and vaccine impact: a multi-continent genome analysis',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Rebecca_A_Gladstone-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Hotspots of recombination in pneumococci isolated from nepalese children prior to PCV introduction',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Rama_Kandasamy_1-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Insights into potential PCV effects on pneumococcal lineages using whole genome sequencing',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Rama_Kandasamy_2-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Comparative genomic analysis of samples collected pre- and post-introduction of pneumococcal conjugate vaccine (PCV7) in Hong Kong',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-P_Y_T_Law-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'A multidrug resistant pneumococcal CC230 sub-lineage harbouring a mosaic *tet*(S/M) gene encoding tetracycline resistance in South Africa',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Stephanie_W_Lo_1-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Whole genome sequencing of *Streptococcus pneumoniae* serogroup 19 isolates before the introduction of vaccine in the National Immunization Programme of India (NIP)',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Geetha_N_1-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Indian population genomics datasets describing the pre-vaccine evolutionary epidemiology of *Streptococcus pneumoniae* using a whole genome sequencing approach',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Geetha_N_2-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Nasopharyngeal carriage of *Streptococcus pneumoniae* serotype 6A/6B in Gambian infants is highly dynamic within the first year of life: a longitudinal study',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-S_M_S_Suso-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Serotype diversity and putative novel *cps* loci in a large, global collection of pneumococci',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Andries_J_van_Tonder-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Invasive *Streptococcus pneumoniae* serotype 35B in South Africa, 2005-2016',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Mignon_du_Plessis-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Antimicrobial resistance determinants and susceptibility profiles of pneumococcal carriage isolates recovered from healthy children in Peru pre-PCV introduction',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-P_A_Hawkins-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Antibiotic resistance of *Streptococcus pneumoniae* causing paediatric meningitis in west and central Africa, 2007-2016',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Okoi_C-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Population structure and erythromycin resistance of *Streptococcus pneumoniae* isolates collected in Moscow between 2011-2015',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-E_Voropaeva-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Understanding the links between non-invasive and invasive pneumococci in children with severe pneumonia through comparative genomics',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Tientcheu_PE-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Hospital based surveillance of vaccine preventable pneumococcal meningitis among children ≤ 59 months in west and central Africa, 2010 to 2016',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Bola_Lawal_QN-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Continued surveillance of invasive pneumococcal disease in African countries is needed to guide optimal vaccine design',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Stephanie_W_Lo_2-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Impact of vaccination on nasopharyngeal carriage pneumococcal genotypic diversity among children in The Gambia: a longitudinal study',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Khan_D-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Genomic epidemiology of *Streptococcus pneumoniae* serotype 5 pre and post introduction of PCV13 in The Gambia',
+              platform: 'ISPPD 2018',
+              buttons: [
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2018-Ngwa_D-Poster.pdf'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
