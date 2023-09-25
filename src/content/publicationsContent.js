@@ -1152,6 +1152,26 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2016 Journal Article',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Phylogenetic analysis of invasive serotype 1 pneumococcus in South Africa, 1989 to 2013',
+              platform: 'Journal of Clinical Microbiology',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://journals.asm.org/doi/10.1128/jcm.00055-16'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
