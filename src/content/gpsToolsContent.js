@@ -10,7 +10,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'GPS Database Overview & Monocle Data Viewer',
+      subtitle: {
+        content: 'GPS Database Overview & Monocle Data Viewer'
+      },
       content: [
         {
           type: 'md',
@@ -30,7 +32,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'GPS Visualiser',
+      subtitle: {
+        content: 'GPS Visualiser'
+      },
       content: [
         {
           type: 'md',

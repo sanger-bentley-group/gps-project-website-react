@@ -2,7 +2,9 @@ const content = {
   title: 'Project Outline',
   sections: [
     {
-      subtitle: 'Pneumococcal Disease',
+      subtitle: {
+        content: 'Pneumococcal Disease'
+      },
       content: [
         {
           type: 'md',
@@ -23,7 +25,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'GPS',
+      subtitle: { 
+        content: 'GPS'
+      },
       content: [
         {
           type: 'md',
@@ -60,7 +64,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'Open Data and Findings',
+      subtitle: { 
+        content: 'Open Data and Findings'
+      },
       content: [
         {
           type: 'md',
@@ -69,7 +75,9 @@ const content = {
       ]
     },
     {
-      subtitle: "What's Next?",
+      subtitle: {
+        content: "What's Next?"
+      },
       content: [
         {
           type: 'md',
@@ -110,7 +118,9 @@ const content = {
       ]
     },
     {
-      subtitle: "Related Links",
+      subtitle: { 
+        content: "Related Links"
+      },
       content: [
         {
           type: 'md',

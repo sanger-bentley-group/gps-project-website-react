@@ -2,7 +2,7 @@ const content = {
   title: "Publications",
   sections: [
     {
-      subtitleLogo: {
+      subtitle: {
         content: '[Global Pneumococcal Sequencing Collection](https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection)',
         logo: {
           url: 'images/microbiology-society-logo.png',
@@ -110,7 +110,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2023 Journal Articles',
+      subtitle: {
+        content: '2023 Journal Articles'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -160,7 +162,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2022 Conference',
+      subtitle: {
+        content: '2022 Conference'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -240,7 +244,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2022 Journal Articles',
+      subtitle: {
+        content: '2022 Journal Articles'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -310,7 +316,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2021 Conference',
+      subtitle: { 
+        content: '2021 Conference'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -380,7 +388,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2021 Journal Articles',
+      subtitle: {
+        content: '2021 Journal Articles'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -440,7 +450,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2020 Conference',
+      subtitle: {
+        content: '2020 Conference'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -668,7 +680,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2020 Journal Articles',
+      subtitle: {
+        content: '2020 Journal Articles'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -734,7 +748,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2019 Journal Articles',
+      subtitle: {
+        content: '2019 Journal Articles'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -794,7 +810,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2018 Journal Articles',
+      subtitle: {
+        content: '2018 Journal Articles'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -829,7 +847,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2018 Conference',
+      subtitle: {
+        content: '2018 Conference'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -1089,7 +1109,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2017 Journal Articles',
+      subtitle: {
+        content: '2017 Journal Articles'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -1129,7 +1151,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2017 Conference',
+      subtitle: {
+        content: '2017 Conference'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -1153,7 +1177,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2016 Journal Article',
+      subtitle: {
+        content: '2016 Journal Article'
+      },
       content: [
         {
           type: 'publicationGrid',
@@ -1173,7 +1199,9 @@ const content = {
       ]
     },
     {
-      subtitle: '2016 Conference',
+      subtitle: {
+        content: '2016 Conference'
+      },
       content: [
         {
           type: 'publicationGrid',

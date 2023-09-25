@@ -2,7 +2,9 @@ const content = {
   title: 'Command Line Training',
   sections: [
     {
-      subtitle: '*In silico* Serotyping',
+      subtitle: {
+        content: '*In silico* Serotyping'
+      },
       content: [
         {
           type: 'md',
@@ -80,7 +82,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'GPSC Assignment',
+      subtitle: {
+        content: 'GPSC Assignment'
+      },
       content: [
         {
           type: 'md',

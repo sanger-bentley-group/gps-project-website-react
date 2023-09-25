@@ -17,16 +17,12 @@ const TitleText = ({text}) => (
   </h1>
 )
 
-const SubtitleText = ({text, className}) => (
-  <h2 className={`text-2xl font-bold ${className ? className : ''}`}>
-    <ReactMarkdown components={mdComponents} children={text} />
-  </h2>
-)
-
-const SubtitleLogo = ({text, logo, className}) => (
+const SubtitleText = ({text, logo, className}) => (
   <div className='flex gap-x-4'>
-    <SubtitleText text={text} className={className}/>
-    <img className='h-10 self-center' src={logo.url} alt={logo.alt}/>
+    <h2 className={`text-2xl font-bold ${className ? className : ''}`}>
+      <ReactMarkdown components={mdComponents} children={text} />
+    </h2>
+    {logo ? <img className='h-10 self-center' src={logo.url} alt={logo.alt}/> : '' }
   </div>
 )
 
@@ -167,10 +163,9 @@ const SectionContent = ({type, content}) => {
   }
 }
 
-const Section = ({subtitle, subtitleLogo, content}) => (
+const Section = ({subtitle, content}) => (
   <div className="hero-content flex-col w-full items-start">
-    {subtitle ? <SubtitleText text={subtitle} className="self-center xl:self-start"/> : ''}
-    {subtitleLogo ? <SubtitleLogo text={subtitleLogo.content} logo={subtitleLogo.logo} className="self-center xl:self-start"/> : ''}
+    {subtitle ? <SubtitleText text={subtitle.content} logo={subtitle.logo} className="self-center xl:self-start"/> : ''}
     {
       content.map( (props, index) =>
         <SectionContent {...props} key={index} />)

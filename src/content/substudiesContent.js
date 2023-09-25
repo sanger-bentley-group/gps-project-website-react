@@ -10,7 +10,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'On-going',
+      subtitle: {
+        content: 'On-going'
+      },
       content: [
         {
           type: 'articleCard',

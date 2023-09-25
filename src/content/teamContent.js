@@ -2,7 +2,9 @@ const content = {
   title: 'The Team',
   sections: [
     {
-      subtitle: 'Wellcome Sanger Institute',
+      subtitle: {
+        content: 'Wellcome Sanger Institute'
+      },
       content: [
         {
           type: 'nameCard',
@@ -57,7 +59,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'Centers for Disease Control and Prevention',
+      subtitle: {
+        content: 'Centers for Disease Control and Prevention'
+      },
       content: [
         {
           type: 'nameCard',
@@ -77,7 +81,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'Imperial College London',
+      subtitle: {
+        content: 'Imperial College London'
+      },
       content: [
         {
           type: 'nameCard',
@@ -92,7 +98,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'EMBL-EBI',
+      subtitle: {
+        content: 'EMBL-EBI'
+      },
       content: [
         {
           type: 'nameCard',

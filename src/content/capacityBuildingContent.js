@@ -10,7 +10,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'Sustainable Local Sequencing',
+      subtitle: {
+        content: 'Sustainable Local Sequencing'
+      },
       content: [
         {
           type: 'md',
@@ -51,7 +53,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'Enhancing Local Capacity for Data Analysis',
+      subtitle: {
+        content: 'Enhancing Local Capacity for Data Analysis'
+      },
       content: [
         {
           type: 'md',
@@ -92,7 +96,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'One-to-one Training',
+      subtitle: {
+        content: 'One-to-one Training'
+      },
       content: [
         {
           type: 'md',
@@ -120,7 +126,9 @@ const content = {
       ]
     },
     {
-      subtitle: 'Portable Pipeline: Reducing the Bioinformatics Burden',
+      subtitle: {
+        content: 'Portable Pipeline: Reducing the Bioinformatics Burden'
+      },
       content: [
         {
           type: 'md',
