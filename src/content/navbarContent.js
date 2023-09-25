@@ -23,34 +23,35 @@ const content = [
   },
   {
     title: 'Resources',
+    url: '/resources',
     submenu: [
       {
         title: 'Overview',
-        url: '/overview',
+        url: '/resources#overview',
       },
       {
         title: 'Countries',
-        url: '/countries',
+        url: '/resources#countries',
       },
       {
-        title: 'Strains',
-        url: '/strains',
+        title: 'Lineages',
+        url: '/resources#lineages',
       },
       {
         title: 'GPSC-ST Lookup Table',
-        url: '/gpsc_st_lookup_table',
+        url: '/resources#gpsc_st_lookup_table',
       },
       {
         title: 'Serotypes',
-        url: '/serotypes',
+        url: '/resources#serotypes',
       },
       {
         title: 'PMEN Clones',
-        url: '/pmen_clones',
+        url: '/resources#pmen_clones',
       },
       {
         title: 'Isolate Bank Request',
-        url: '/isolate_bank_request',
+        url: '/resources#isolate_bank_request',
       },
     ]
   },
