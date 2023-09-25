@@ -1172,6 +1172,44 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2016 Conference',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Detection of *Streptococcus pneumoniae* non vaccine serotype 12F clone 989 with acquired antibiotic resistance, circulating globally',
+              platform: 'ISPPD 2016',
+              buttons: [
+                {
+                  text: 'Authors',
+                  url: 'resources/conferences/ISPPD2016-Rebecca_A_Gladstone-Authors.xlsx'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/ISPPD2016-Rebecca_A_Gladstone-Poster.pdf'
+                }
+              ]
+            },
+            {
+              title: 'Detection of Streptococcus pneumoniae non vaccine serotype 12F clone 989 with acquired antibiotic resistance, circulating globally',
+              platform: 'IMMEM XI',
+              buttons: [
+                {
+                  text: 'Authors',
+                  url: 'resources/conferences/IMMEM_XI-Rebecca_A_Gladstone-Authors.xlsx'
+                },
+                {
+                  text: 'Poster',
+                  url: 'resources/conferences/IMMEM_XI-Rebecca_A_Gladstone-Poster.pdf'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
