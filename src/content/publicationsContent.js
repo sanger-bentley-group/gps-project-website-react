@@ -19,7 +19,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.001094'
+                  url: 'https://doi.org/10.1099/mgen.0.001094'
                 }
 
               ]
@@ -30,7 +30,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000851'
+                  url: 'https://doi.org/10.1099/mgen.0.000851'
                 }
 
               ]
@@ -41,7 +41,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000835'
+                  url: 'https://doi.org/10.1099/mgen.0.000835'
                 },
               ]
             },
@@ -51,7 +51,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000837'
+                  url: 'https://doi.org/10.1099/mgen.0.000837'
                 },
               ]
             },
@@ -61,7 +61,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000831'
+                  url: 'https://doi.org/10.1099/mgen.0.000831'
                 },
               ]
             },
@@ -71,7 +71,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000746'
+                  url: 'https://doi.org/10.1099/mgen.0.000746'
                 },
               ]
             },
@@ -81,7 +81,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000635'
+                  url: 'https://doi.org/10.1099/mgen.0.000635'
                 },
               ]
             },
@@ -91,7 +91,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000636'
+                  url: 'https://doi.org/10.1099/mgen.0.000636'
                 },
               ]
             },
@@ -101,7 +101,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000645'
+                  url: 'https://doi.org/10.1099/mgen.0.000645'
                 },
               ]
             },
@@ -121,7 +121,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.jbc.org/article/S0021-9258(23)02113-0/fulltext'
+                  url: 'https://doi.org/10.1016/j.jbc.2023.105085'
                 }
               ]
             },
@@ -131,7 +131,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000998'
+                  url: 'https://doi.org/10.1099/mgen.0.000998'
                 }
               ]
             },
@@ -141,7 +141,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://journals.asm.org/doi/10.1128/jcm.00024-23'
+                  url: 'https://doi.org/10.1128/jcm.00024-23'
                 }
               ]
             },
@@ -151,7 +151,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://genome.cshlp.org/content/33/1/129'
+                  url: 'https://doi.org/10.1101/gr.277340.122'
                 }
               ]
             },
@@ -251,7 +251,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(22)00158-6/fulltext'
+                  url: 'https://doi.org/10.1016/S2666-5247(22)00158-6'
                 }
               ]
             },
@@ -261,7 +261,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247(22)00066-0/fulltext'
+                  url: 'https://doi.org/10.1016/S2666-5247(22)00066-0'
                 }
               ]
             },
@@ -271,7 +271,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://pubmed.ncbi.nlm.nih.gov/34996643/'
+                  url: 'https://doi.org/10.1016/j.vaccine.2021.10.046'
                 }
               ]
             },
@@ -281,7 +281,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000732'
+                  url: 'https://doi.org/10.1099/mgen.0.000732'
                 }
               ]
             },
@@ -291,7 +291,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000753'
+                  url: 'https://doi.org/10.1099/mgen.0.000753'
                 }
               ]
             },
@@ -301,7 +301,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://academic.oup.com/cid/article/75/4/719/6520531'
+                  url: 'https://doi.org/10.1093/cid/ciac079'
                 }
               ]
             },
@@ -391,7 +391,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000506'
+                  url: 'https://doi.org/10.1099/mgen.0.000506'
                 }
               ]
             },
@@ -401,7 +401,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://academic.oup.com/bioinformatics/article/38/5/1450/6448222'
+                  url: 'https://doi.org/10.1093/bioinformatics/btab814'
                 }
               ]
             },
@@ -411,7 +411,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://pubmed.ncbi.nlm.nih.gov/34301430/'
+                  url: 'https://doi.org/10.1016/j.vaccine.2021.06.017'
                 }
               ]
             },
@@ -421,7 +421,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.frontiersin.org/articles/10.3389/fped.2020.587730/full'
+                  url: 'https://doi.org/10.3389/fped.2020.587730'
                 }
               ]
             },
@@ -431,7 +431,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-021-00901-2'
+                  url: 'https://doi.org/10.1186/s13073-021-00901-2'
                 }
               ]
             },
@@ -679,7 +679,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.nature.com/articles/s41467-020-17327-w'
+                  url: 'https://doi.org/10.1038/s41467-020-17327-w'
                 }
               ]
             },
@@ -689,7 +689,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://journals.asm.org/doi/10.1128/mbio.00937-20'
+                  url: 'https://doi.org/10.1128/mbio.00937-20'
                 }
               ]
             },
@@ -699,7 +699,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.nature.com/articles/s42003-020-01290-9'
+                  url: 'https://doi.org/10.1038/s42003-020-01290-9'
                 }
               ]
             },
@@ -709,7 +709,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000357'
+                  url: 'https://doi.org/10.1099/mgen.0.000357'
                 },
                 {
                   text: 'Analysis Input & Output',
@@ -740,12 +740,12 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
-              title: 'A mosaic tetracycline resistance gene tet(S/M) detected in an MDR pneumococcal CC230 lineage that underwent capsular switching in South Africa',
+              title: 'A mosaic tetracycline resistance gene *tet*(S/M) detected in an MDR pneumococcal CC230 lineage that underwent capsular switching in South Africa',
               platform: 'Journal of Antimicrobial Chemotherapy',
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://academic.oup.com/jac/article/75/3/512/5650366'
+                  url: 'https://doi.org/10.1093/jac/dkz477'
                 }
               ]
             },
@@ -755,7 +755,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://academic.oup.com/cid/article/70/7/1294/5490137'
+                  url: 'https://doi.org/10.1093/cid/ciz404'
                 }
               ]
             },
@@ -765,7 +765,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext'
+                  url: 'https://doi.org/10.1016/S1473-3099(19)30297-X'
                 }
               ]
             },
@@ -775,7 +775,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000274#tab2'
+                  url: 'https://doi.org/10.1099/mgen.0.000274'
                 }
               ]
             },
@@ -785,7 +785,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://pubmed.ncbi.nlm.nih.gov/31003929/'
+                  url: 'https://doi.org/10.1016/j.ebiom.2019.04.021'
                 }
               ]
             },
@@ -805,7 +805,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://journals.asm.org/doi/full/10.1128/jcm.00228-18'
+                  url: 'https://doi.org/10.1128/jcm.00228-18'
                 },
                 {
                   text: 'Microreact',
@@ -819,7 +819,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1007438'
+                  url: 'https://doi.org/10.1371/journal.ppat.1007438'
                 },
 
               ]
@@ -1100,7 +1100,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5711790/'
+                  url: 'https://doi.org/10.1016%2Fj.jgar.2017.08.004'
                 }
               ]
             },
@@ -1110,7 +1110,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://pubmed.ncbi.nlm.nih.gov/28756964/'
+                  url: 'https://doi.org/10.1016/j.ijmm.2017.07.008'
                 }
               ]
             },
@@ -1120,7 +1120,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://pubmed.ncbi.nlm.nih.gov/28711389/'
+                  url: 'https://doi.org/10.1016/j.vaccine.2017.07.009'
                 }
               ]
             },
@@ -1164,7 +1164,7 @@ const content = {
               buttons: [
                 {
                   text: 'Journal',
-                  url: 'https://journals.asm.org/doi/10.1128/jcm.00055-16'
+                  url: 'https://doi.org/10.1128/jcm.00055-16'
                 }
               ]
             },
