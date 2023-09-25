@@ -793,6 +793,41 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2018 Journal Articles',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Global Distribution of Invasive Serotype 35D *Streptococcus pneumoniae* Isolates following Introduction of 13-Valent Pneumococcal Conjugate Vaccine',
+              platform: 'Journal of Clinical Microbiology',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://journals.asm.org/doi/full/10.1128/jcm.00228-18'
+                },
+                {
+                  text: 'Microreact',
+                  url: 'https://microreact.org/project/GPS_serotype_35B_35D'
+                }
+              ]
+            },
+            {
+              title: 'Global emergence and population dynamics of divergent serotype 3 CC180 pneumococci',
+              platform: 'PLOS Pathogens',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1007438'
+                },
+
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
