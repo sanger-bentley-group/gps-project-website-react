@@ -733,6 +733,66 @@ const content = {
         },
       ]
     },
+    {
+      subtitle: '2019 Journal Articles',
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'A mosaic tetracycline resistance gene tet(S/M) detected in an MDR pneumococcal CC230 lineage that underwent capsular switching in South Africa',
+              platform: 'Journal of Antimicrobial Chemotherapy',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://academic.oup.com/jac/article/75/3/512/5650366'
+                }
+              ]
+            },
+            {
+              title: 'Early Signals of Vaccine-driven Perturbation Seen in Pneumococcal Carriage Population Genomic Data',
+              platform: 'Clinical Infectious Diseases',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://academic.oup.com/cid/article/70/7/1294/5490137'
+                }
+              ]
+            },
+            {
+              title: 'Pneumococcal lineages associated with serotype replacement and antibiotic resistance in childhood invasive pneumococcal disease in the post-PCV13 era: an international whole-genome sequencing study',
+              platform: 'The Lancet Infectious Diseases',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext'
+                }
+              ]
+            },
+            {
+              title: 'Putative novel *cps* loci in a large global collection of pneumococci',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000274#tab2'
+                }
+              ]
+            },
+            {
+              title: 'International genomic definition of pneumococcal lineages, to contextualise disease, antibiotic resistance and vaccine impact',
+              platform: 'eBioMedicine',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://pubmed.ncbi.nlm.nih.gov/31003929/'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
   ]
 }
 
