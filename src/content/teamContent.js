@@ -16,7 +16,7 @@ const content = {
             },
             {
               name: 'Dr. Stephanie W. Lo',
-              position: 'Project Manager and Principal Bioinformatician',
+              position: 'Translational Science Lead and Senior Scientific Manager',
               photo: 'images/stephanie_lo.jpg'
             },
             {
@@ -36,7 +36,7 @@ const content = {
             },
             {
               name: 'Dr. Narender Kumar',
-              position: 'Senior Bioinformatician',
+              position: 'Senior Bioinformatician and Lead Genomics Capacity Building',
               photo: 'images/narender_kumar.jpg'
             },
             {
@@ -46,7 +46,7 @@ const content = {
             },
             {
               name: 'Dr. Kate Mellor',
-              position: 'Senior Bioinformatician',
+              position: 'Senior Staff Scientist',
               photo: 'images/kate_mellor.jpg'
             },
             {
