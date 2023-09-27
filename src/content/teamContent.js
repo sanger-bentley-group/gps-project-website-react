@@ -51,7 +51,7 @@ const content = {
             },
             {
               name: 'Dr. Jolynne Mokaya',
-              position: 'Senior Bioinformatician',
+              position: 'Senior Bioinformatician and Bioinformatics Training Lead',
               photo: 'images/jolynne_mokaya.jpg'
             },
           ],
