@@ -7,8 +7,9 @@ import publicationsContent from '../content/publicationsContent'
 import { ReactComponent as NewWindowIcon} from './new_window_icon.svg'
 
 // Both variables should have the same breakpoint prefix
-const breakpointHidden = 'xl:hidden'
-const breakpointFlex = `xl:flex`
+const breakpointPrefix = 'xl'
+const breakpointHidden = `${breakpointPrefix}:hidden`
+const breakpointFlex = `${breakpointPrefix}:flex`
 
 const deactivate = () => {
   const elem = document.activeElement
