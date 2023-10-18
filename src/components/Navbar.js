@@ -4,6 +4,8 @@ import { useState, useRef, useEffect } from "react";
 import content from '../content/navbarContent'
 import publicationsContent from '../content/publicationsContent'
 
+import { ReactComponent as NewWindowIcon} from './new_window_icon.svg'
+
 // Both variables should have the same breakpoint prefix
 const breakpointHidden = 'xl:hidden'
 const breakpointFlex = `xl:flex`
@@ -15,14 +17,28 @@ const deactivate = () => {
 
 const Button = ({ title, url, external }) => (
   external 
-  ? <a onClick={deactivate} href={url} target="_blank" rel="noreferrer"><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label></a>
-  : <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label></Link>
+  ? 
+    <a onClick={deactivate} href={url} target="_blank" rel="noreferrer">
+      <label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">
+        <NewWindowIcon className="stroke-current h-5" />
+        {title}
+      </label>
+    </a>
+  : 
+    <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label></Link>
 )
 
 const ListItem = ({ title, url, external }) => (
   external
-  ? <li onClick={deactivate}><a href={url} target="_blank" rel="noreferrer">{title}</a></li>
-  : <li onClick={deactivate}><Link to={url}>{title}</Link></li>
+  ? 
+    <li onClick={deactivate}>
+      <a href={url} target="_blank" rel="noreferrer">
+        <NewWindowIcon className="stroke-current h-3" />
+        {title}
+      </a>
+    </li>
+  : 
+    <li onClick={deactivate}><Link to={url}>{title}</Link></li>
 )
 
 const DropdownButton = ({ title, url, submenu }) => (
