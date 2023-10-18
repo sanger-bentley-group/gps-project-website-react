@@ -64,16 +64,6 @@ const content = [
     url: '/capacity-building'
   },
   {
-    title: 'GPS Database',
-    url: '/gps-database-overview',
-    external: true
-  },
-  {
-    title: 'GPS Visualiser',
-    url: '/gps-visualiser',
-    external: true
-  },
-  {
     title: 'Training',
     url: '/training',
     submenu: [
@@ -94,7 +84,17 @@ const content = [
         url: '/training#command-line',
       },
     ]
-  }
+  },
+  {
+    title: 'GPS Database',
+    url: '/gps-database-overview',
+    external: true
+  },
+  {
+    title: 'GPS Visualiser',
+    url: '/gps-visualiser',
+    external: true
+  },
 ]
 
 export default content
