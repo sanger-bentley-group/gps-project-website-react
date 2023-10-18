@@ -8,9 +8,9 @@ import { ReactComponent as NewWindowIcon} from './new_window_icon.svg'
 import gpsLogo from './gps_logo.png'
 
 // Both variables should have the same breakpoint prefix
-const breakpointPrefix = 'xl'
-const breakpointHidden = `${breakpointPrefix}:hidden`
-const breakpointFlex = `${breakpointPrefix}:flex`
+// Using a const to insert the prefix does not work properly
+const breakpointHidden = 'xl:hidden'
+const breakpointFlex = 'xl:flex'
 
 const deactivate = () => {
   const elem = document.activeElement
