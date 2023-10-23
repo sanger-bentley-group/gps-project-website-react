@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom"
 
 import Home from "./Home"
 import About from "./About"
+import Resources from "./Resources"
 import Publications from "./Publications"
 import CapacityBuilding from "./CapacityBuilding"
 import Training from "./Training"
@@ -13,6 +14,7 @@ const Content = () => (
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/resources' element={<Resources />} />
         <Route path='/publications' element={<Publications />} />
         <Route path='/capacity-building' element={<CapacityBuilding />} />
         <Route path="/training" element={<Training />} />
