@@ -8,7 +8,7 @@ import Training from "./Training"
 import PageNotFound from "./PageNotFound"
 
 const Content = () => (
-  <div className='grow'>
+  <div className='grow bg-base-200'>
   {
     <Routes>
         <Route path="/" element={<Home />} />

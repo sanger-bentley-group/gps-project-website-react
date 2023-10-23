@@ -1,5 +1,5 @@
 const PageNotFound = () => (
-  <div className="hero h-full bg-base-200 py-24">
+  <div className="hero h-full py-24">
     <div className="hero-content flex flex-col text-center space-y-10">
       <h1 className="text-5xl font-bold">404: Page Not Found</h1>
       <div className="space-y-2">

@@ -38,7 +38,7 @@ const HeroTwoColumns = ({colOne, colTwo}) => (
 )
 
 const Home = () => (
-  <div className="hero h-full bg-base-200 flex flex-col justify-center space-y-10 py-20">
+  <div className="hero h-full flex flex-col justify-center space-y-10 py-20">
     <div className="hero-content w-full flex-col text-center">
       <TitleText text={content.title}/>
       <SubtitleText text={content.subtitle.content} />
