@@ -39,7 +39,7 @@ const content = [
       },
       {
         title: 'GPSC-ST Lookup Table',
-        url: '/resources#gpsc_st_lookup_table',
+        url: '/resources#gpsc-st-lookup-table',
       },
       {
         title: 'Serotypes',
@@ -47,11 +47,11 @@ const content = [
       },
       {
         title: 'PMEN Clones',
-        url: '/resources#pmen_clones',
+        url: '/resources#pmen-clones',
       },
       {
         title: 'Isolate Bank Request',
-        url: '/resources#isolate_bank_request',
+        url: '/resources#isolate-bank-request',
       },
     ]
   },
