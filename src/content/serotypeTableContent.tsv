@@ -1,0 +1,117 @@
+count	serotype	accessionNumber	comments	reference	link
+1	1	CR931632	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+2	2	CR931633	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+3	3	CR931634	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+4	4	CR931635	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+5	5	CR931636	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+6	6A	CR931638	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+-	"6E(6A)"	-	Genetic variant of 6A	Park et al 2017 Genome Announc 	https://doi.org/10.1128/genomeA.01728-16
+7	6B	CR931639	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+-	"6E(6B)"	KU168827	Genetic variant of 6B	Burton et al 2016 J Clin Microbiol	https://doi.org/10.1128/JCM.03194-15	
+8	6C	EF538714 to EF538718	-	Park et al 2007 Carbohydr Res; Park et al 2007 Infect Immun.	https://doi.org/10.1128/JCM.02199-06
+9	6D	GQ848645 to GQ848646	-	Bratcher et al 2010 Microbiology; Bratcher et al 2009 Microbiology 	https://doi.org/10.1099/mic.0.034116-0
+10	6H	KF597302	-	Park et al 2015 Clin Vaccine Immunol 	https://doi.org/10.1128/CVI.00647-14
+11	7F	CR931643	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+12	7A	CR931640	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+13	7B	CR931641	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+14	7C	CR931642	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+15	7D	-	-	Kjeldsen et al 2018 Carbohydr Res	https://doi.org/10.1016/j.carres.2018.04.011
+16	8	CR931644	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+17	9A	CR931645	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+18	9L	CR931646               	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+19	9N	CR931647	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+20	9V	CR931648	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+21	10F	CR931652	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+22	10A	CR931649	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+23	10B	CR931650	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+24	10C	CR931651	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+25	10D	ERR051587	-	Ganaie et al 2020 mbio	https://doi.org/10.1128/mBio.00937-20
+26	10F	CR931652	-	Yang et al 2011 Journal of Biological Chemistry 	https://doi.org/10.1074/jbc.M111.255422
+27	11F	CR931657	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+28	11A	CR931653	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+29	11B	CR931654	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+30	11C	CR931655	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+31	11D	CR931656	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+32	11E	-	-	Calix et al 2010 J Infect Dis	https://doi.org/10.1086/653123
+-	11Av	-	A serovariant which is an intermediate variant of 11A and 11E	Camilli et al 2014 PloS ONE	https://doi.org/10.1371/journal.pone.0100722
+33	11F	CR931657	-	Calix et al 2011 J Bacteriology	https://doi.org/10.1128/JB.05034-11
+34	12F	CR931660	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+35	12A	CR931658	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+36	12B	CR931659	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+37	13	CR931661	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+38	14	CR931662	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+39	15F	CR931666	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+40	15A	CR931663	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+41	15B	CR931664	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+42	15C	CR931665	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+43	16F	CR931668	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+44	16A	CR931667	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+45	17F	CR931670	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+46	17A	CR931669	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+47	18F	CR931674	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+48	18A	CR931671	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+49	18B	CR931672	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+50	18C	CR931673	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+51	19F	CR931678	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+52	19A	CR931675	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+53	19B	CR931676	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+54	19C	CR931677	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+-	20	CR931679	Sub-typed to 20A and 20B	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+55	20A	-	-	Burton et al 2012 Clin Vaccine Immunol 	https://doi.org/10.1128/CVI.00086-12
+56	20B	-	-	Burton et al 2012 Clin Vaccine Immunol 	https://doi.org/10.1128/CVI.00086-12
+57	21	CR931680	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+58	22F	CR931682	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+59	22A	CR931681	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+60	23F	CR931685	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+61	23A	CR931683	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+62	23B	CR931684	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+63	24F	CR931688	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+64	24A	CR931686	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+65	24B	CR931687	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+66	24C	MW683298	-	Ganaie et al 2021 J Clin Microbiol	https://doi.org/10.1128/JCM.00540-21
+67	25F	CR931690	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+68	25A	CR931689	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+69	27	CR931691	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+70	28F	CR931693	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+71	28A	CR931692	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+72	29	CR931694	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+73	31	CR931695	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+74	32F	CR931697	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+75	32A	CR931696	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+76	33F	CR931702	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+77	33A	CR931698	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+78	33B	CR931699	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+79	33C	CR931700	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+80	33D	CR931701	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+81	34	CR931703	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+82	35F	CR931707	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+83	35A	CR931704	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+84	35B	CR931705	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+85	35C	CR931706	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+86	35D	KY084476	various disruptive mutations in wciG	Geno et al 2017 J Clin Microbiol; Lo et al 2018 J Clin Microbiol	https://doi.org/10.1128/JCM.00054-17
+87	36	CR931708	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+88	37	CR931709	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+89	38	CR931710	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+90	39	CR931711	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+91	40	CR931712	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+92	41F	CR931714	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+93	41A	CR931713	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+94	42	CR931715	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+95	43	CR931716	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+96	44	CR931717	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+97	45	CR931718	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+98	46	CR931719	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+99	47F	CR931721	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+100	47A	CR931720	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+101	48	CR931722	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
+-	9X	MK606437	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	11X	MK606429	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	16X	MK606430	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	18X1	MK606431	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	18X2	MK606432	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	18X3	MK606433	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	29X	MK606434	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	33X	MK606435	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	36X	MK606436	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
+-	Group I nonencapsulated 	-	do not produce capsule due to mutations or deletion of genes encoding capsule 	Hathaway et al 2014 J Bacteriology	https://doi.org/10.1128/JB.186.12.3721-3729.2004
+-	Group II nonencapsulated 	-	do not produce capsule due to novel genes in place of genes encoding capsule	Park et al 2012 mBio; Salter et al 2012 Microbiology 	https://doi.org/10.1128/mBio.00035-12
