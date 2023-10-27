@@ -224,7 +224,7 @@ const Table = ({columns, data}) => {
           ))}
         </select>
       </div>
-      <table className='table table-sm' {...getTableProps()}>
+      <table className='table table-sm table-fixed' {...getTableProps()}>
         <thead>
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupProps()}>
