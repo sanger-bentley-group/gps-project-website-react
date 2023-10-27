@@ -1,5 +1,7 @@
 import ReactMarkdown from 'react-markdown'
 import { Link } from "react-router-dom"
+import { useTable, useFilters, usePagination } from "react-table"
+import { useMemo } from "react"
 
 
 const mdComponents = {
@@ -181,4 +183,73 @@ const Section = ({subtitle, content}) => (
   </div>
 )
 
-export {TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section}
+const Table = ({columns, data}) => {
+  const defaultColumn = useMemo(() => ({ Filter: "" }), [])
+  const { 
+    getTableProps, 
+    getTableBodyProps, 
+    headerGroups, 
+    prepareRow, 
+    page,  
+    canPreviousPage,
+    canNextPage,
+    pageOptions,
+    pageCount,
+    gotoPage,
+    nextPage,
+    previousPage,
+    setPageSize,
+    state
+  } = useTable({ columns, data, defaultColumn }, useFilters, usePagination)
+
+  return (
+    <div className='hero-content flex-col w-full items-start'>
+      <div className='w-full flex justify-around'>
+        <div className="join">
+          <button className="join-item btn btn-outline btn-xs" onClick={() => gotoPage(0)} disabled={!canPreviousPage}>«</button>
+          <button className="join-item btn btn-outline btn-xs" onClick={() => previousPage()} disabled={!canPreviousPage}>‹</button>
+          <button className="join-item btn btn-outline btn-xs">Page {state.pageIndex + 1} of {pageOptions.length}</button>
+          <button className="join-item btn btn-outline btn-xs" onClick={() => nextPage()} disabled={!canNextPage}>›</button>
+          <button className="join-item btn btn-outline btn-xs" onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>»</button>
+        </div>
+        <select
+          className='select select-ghost select-bordered select-xs max-w-xs'
+          value={state.pageSize}
+          onChange={ e => setPageSize(Number(e.target.value)) }
+        >
+          {[10, 20, 50, 100].map(pageSize => (
+            <option key={pageSize} value={pageSize}>
+              Show {pageSize}
+            </option>
+          ))}
+        </select>
+      </div>
+      <table className='table table-sm' {...getTableProps()}>
+        <thead>
+          {headerGroups.map((headerGroup) => (
+            <tr {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map((column) => (
+                <th {...column.getHeaderProps()}>
+                  {column.canFilter ? column.render("Filter") : null}
+                  <div>{column.render("Header")}</div>
+                </th>
+              ))}
+            </tr>
+          ))}
+        </thead>
+        <tbody {...getTableBodyProps()}>
+          {page.map((row) => {
+            prepareRow(row)
+            return (
+              <tr {...row.getRowProps()}>
+                { row.cells.map((cell) => <td {...cell.getCellProps()}>{cell.render("Cell")}</td>) }
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+export { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section, Table }
