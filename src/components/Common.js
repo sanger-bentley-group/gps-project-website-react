@@ -1,7 +1,7 @@
+import { useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Link } from "react-router-dom"
-import { useTable, useFilters, usePagination } from "react-table"
-import { useMemo } from "react"
+import { useReactTable, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, flexRender } from '@tanstack/react-table'
 
 
 const mdComponents = {
@@ -184,101 +184,144 @@ const Section = ({subtitle, content}) => (
 )
 
 const Table = ({columns, data}) => {
-  const defaultColumn = useMemo(() => ({ Filter: "" }), [])
-  const { 
-    getTableProps, 
-    getTableBodyProps, 
-    headerGroups, 
-    prepareRow, 
-    rows,
-    page,  
-    canPreviousPage,
-    canNextPage,
-    pageOptions,
-    pageCount,
-    gotoPage,
-    nextPage,
-    previousPage,
-    setPageSize,
-    state
-  } = useTable({ columns, data, defaultColumn }, useFilters, usePagination)
+  const [columnFilters, setColumnFilters] = useState([])
+
+  const defaultColumn = useMemo(() => ({enableColumnFilter: false}), [])
+
+  const table = useReactTable({
+    data,
+    columns, 
+    getCoreRowModel: getCoreRowModel(),
+    getFilteredRowModel: getFilteredRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
+    state: {
+      columnFilters
+    },
+    onColumnFiltersChange: setColumnFilters,
+    defaultColumn: defaultColumn
+  })
+
+  const pageIndex = table.getState().pagination.pageIndex
+  const pageSize = table.getState().pagination.pageSize
+  const startingRow = pageIndex * pageSize + 1
+  const currentRows = table.getRowModel().rows
+  const totalRowLength = table.getPrePaginationRowModel().rows.length
 
   return (
     <div className='hero-content flex-col w-full items-start'>
       <div className='w-full flex justify-around'>
         <div className="join">
-          <button className="join-item btn btn-outline btn-xs" onClick={() => gotoPage(0)} disabled={!canPreviousPage}>«</button>
-          <button className="join-item btn btn-outline btn-xs" onClick={() => previousPage()} disabled={!canPreviousPage}>‹</button>
-          <select 
-            className="join-item btn btn-outline btn-xs"
-            value={state.pageIndex}
-            onChange={ e => gotoPage(Number(e.target.value)) }
-          >
-            {
-              [...Array(pageOptions.length).keys()].map(page => (
-                <option key={page} value={page}>
-                  Page {page + 1} of {pageOptions.length}
-                </option>
-              ))
-            }
-          </select>
-          <button className="join-item btn btn-outline btn-xs" onClick={() => nextPage()} disabled={!canNextPage}>›</button>
-          <button className="join-item btn btn-outline btn-xs" onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>»</button>
+          <button className="join-item btn btn-outline btn-xs" onClick={() => table.setPageIndex(0)} disabled={!table.getCanPreviousPage()}>«</button>
+          <button className="join-item btn btn-outline btn-xs" onClick={() => table.previousPage()} disabled={!table.getCanPreviousPage()}>‹</button>
+          {
+            table.getPageCount()
+            ? 
+              <select 
+                className="join-item btn btn-outline btn-xs"
+                value={pageIndex}
+                onChange={ e => table.setPageIndex(Number(e.target.value)) }
+              >
+                {
+                  [...Array(table.getPageCount()).keys()].map(page => (
+                    <option key={page} value={page}>
+                      Page {page + 1} of {table.getPageCount()}
+                    </option>
+                  ))
+                }
+              
+              </select>
+            :
+              <select className="join-item btn btn-outline btn-xs btn-disabled"> <option>Page 0 of 0</option> </select>
+          } 
+          <button className="join-item btn btn-outline btn-xs" onClick={() => table.nextPage()} disabled={!table.getCanNextPage()}>›</button>
+          <button className="join-item btn btn-outline btn-xs" onClick={() => table.setPageIndex(table.getPageCount() - 1)} disabled={!table.getCanNextPage()}>»</button>
         </div>
         <div className='join'>
           <div className='join-item btn btn-outline btn-xs pointer-events-none'>
-            Records {state.pageIndex * state.pageSize + (page.length ? 1 : 0)} - {state.pageIndex * state.pageSize + page.length} of { rows.length }
+            {
+              table.getPageCount()
+              ?
+                `Records ${startingRow} - ${startingRow + currentRows.length - 1} of ${ totalRowLength }`
+              :
+                "No Record"
+            }
           </div>
           <select
-            className='join-item btn btn-outline btn-xs'
-            value={state.pageSize}
-            onChange={ e => setPageSize(Number(e.target.value)) }
+            className={`join-item btn btn-outline btn-xs ${table.getPageCount() ? null : 'btn-disabled'}`}
+            value={pageSize}
+            onChange={ e => table.setPageSize(Number(e.target.value)) }
           >
             {
               [
-                rows.length > 10 ? 10 : null, 
-                rows.length > 20 ? 20 : null, 
-                rows.length > 50 ? 50 : null, 
-                rows.length > 100 ? 100 : null, 
-                rows.length
+                totalRowLength > 10 ? 10 : null, 
+                totalRowLength > 20 ? 20 : null, 
+                totalRowLength > 50 ? 50 : null, 
+                totalRowLength > 100 ? 100 : null, 
+                totalRowLength
               ]
               .filter(x => x)
               .map((pageSize, i, arr) => (
-                i + 1 === arr.length ?
                   <option key={pageSize} value={pageSize}>
-                    Show All
-                  </option>
-                :
-                  <option key={pageSize} value={pageSize}>
-                  Show {pageSize}
+                    {
+                      i + 1 === arr.length 
+                      ?
+                        'Show All'
+                      :
+                        `Show ${pageSize}`
+                    }
                   </option>
               ))
             }
           </select>
         </div>
       </div>
-      <table className='table table-sm table-fixed' {...getTableProps()}>
+      <table className='table table-sm table-fixed'>
         <thead>
-          {headerGroups.map((headerGroup) => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map((column) => (
-                <th className='align-top' {...column.getHeaderProps()}>
-                  <div>{column.render("Header")}</div>
-                  <div className='pt-2.5'>{column.canFilter ? column.render("Filter") : null}</div>
+          {table.getHeaderGroups().map(headerGroup => (
+            <tr key={headerGroup.id}>
+              {headerGroup.headers.map(header => (
+                <th className='align-top' key={header.id}>
+                  <div>
+                    {flexRender(
+                        header.column.columnDef.header,
+                        header.getContext()
+                      )}
+                  </div>
+                  {
+                    header.column.getCanFilter()
+                    ? 
+                      <div className='pt-2.5'>
+                          <input
+                            className="input input-xs w-full max-w-xs"
+                            type="text"
+                            value={(header.column.getFilterValue() ?? '')}
+                            onChange={event => header.column.setFilterValue(event.target.value)}
+                            placeholder={'Search...'}
+                          />
+                      </div>
+                    :
+                      null
+                  }
                 </th>
               ))}
             </tr>
           ))}
         </thead>
-        <tbody {...getTableBodyProps()}>
-          {page.map((row) => {
-            prepareRow(row)
-            return (
-              <tr {...row.getRowProps()}>
-                { row.cells.map((cell) => <td {...cell.getCellProps()}>{cell.render("Cell")}</td>) }
+        <tbody>
+          {table.getRowModel().rows.map(row => (
+              <tr key={row.id}>
+                {row.getVisibleCells().map(cell => (
+                  <td key={cell.id}>
+                    {flexRender(
+                      cell.column.columnDef.cell,
+                      cell.getContext()
+                    )}
+                  </td>
+                )) 
+                }
               </tr>
-            )
-          })}
+            ))
+          }
         </tbody>
       </table>
     </div>

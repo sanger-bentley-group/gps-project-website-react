@@ -3,8 +3,6 @@ import { useEffect, useState, useMemo } from "react"
 
 import { TitleText, Table } from "./Common"
 
-import { TextSearchFilter } from '../utilities/filters'
-
 import content from '../content/serotypeContent'
 import tableContent from '../content/serotypeTableContent.tsv'
 
@@ -24,27 +22,27 @@ const Serortype = () => {
 
   const memoisedTableColumns = useMemo(() => [
     {
-      Header: "Count",
-      accessor: "count"
+      header: "Count",
+      accessorKey: "count",
     },
     {
-      Header: "Serotype",
-      accessor: "serotype",
-      Filter: TextSearchFilter,
+      header: "Serotype",
+      accessorKey: "serotype",
+      enableColumnFilter: true
     },
     {
-      Header: "Accession Number",
-      accessor: "accessionNumber",
-      Filter: TextSearchFilter,
+      header: "Accession Number",
+      accessorKey: "accessionNumber",
+      enableColumnFilter: true
     },
     {
-      Header: "Comments",
-      accessor: "comments",
+      header: "Comments",
+      accessorKey: "comments",
     },
     {
-      Header: "Reference",
-      accessor: "reference",
-      Cell: props => <a className="link" href={props.row.original.link} target='_blank' rel="noreferrer">{props.value}</a>
+      header: "Reference",
+      accessorKey: "reference",
+      cell: props => <a className="link" href={props.row.original.link} target='_blank' rel="noreferrer">{props.getValue()}</a>
     },
   ], [])
 

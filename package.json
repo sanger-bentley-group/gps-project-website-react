@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tanstack/react-table": "^8.10.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,7 +14,6 @@
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
     "react-simple-maps": "^3.0.0",
-    "react-table": "^7.8.0",
     "react-tooltip": "^5.21.6",
     "web-vitals": "^2.1.4"
   },
