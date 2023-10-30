@@ -190,6 +190,7 @@ const Table = ({columns, data}) => {
     getTableBodyProps, 
     headerGroups, 
     prepareRow, 
+    rows,
     page,  
     canPreviousPage,
     canNextPage,
@@ -208,30 +209,62 @@ const Table = ({columns, data}) => {
         <div className="join">
           <button className="join-item btn btn-outline btn-xs" onClick={() => gotoPage(0)} disabled={!canPreviousPage}>«</button>
           <button className="join-item btn btn-outline btn-xs" onClick={() => previousPage()} disabled={!canPreviousPage}>‹</button>
-          <button className="join-item btn btn-outline btn-xs">Page {state.pageIndex + 1} of {pageOptions.length}</button>
+          <select 
+            className="join-item btn btn-outline btn-xs"
+            value={state.pageIndex}
+            onChange={ e => gotoPage(Number(e.target.value)) }
+          >
+            {
+              [...Array(pageOptions.length).keys()].map(page => (
+                <option key={page} value={page}>
+                  Page {page + 1} of {pageOptions.length}
+                </option>
+              ))
+            }
+          </select>
           <button className="join-item btn btn-outline btn-xs" onClick={() => nextPage()} disabled={!canNextPage}>›</button>
           <button className="join-item btn btn-outline btn-xs" onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>»</button>
         </div>
-        <select
-          className='select select-ghost select-bordered select-xs max-w-xs'
-          value={state.pageSize}
-          onChange={ e => setPageSize(Number(e.target.value)) }
-        >
-          {[10, 20, 50, 100].map(pageSize => (
-            <option key={pageSize} value={pageSize}>
-              Show {pageSize}
-            </option>
-          ))}
-        </select>
+        <div className='join'>
+          <div className='join-item btn btn-outline btn-xs pointer-events-none'>
+            Records {state.pageIndex * state.pageSize + (page.length ? 1 : 0)} - {state.pageIndex * state.pageSize + page.length} of { rows.length }
+          </div>
+          <select
+            className='join-item btn btn-outline btn-xs'
+            value={state.pageSize}
+            onChange={ e => setPageSize(Number(e.target.value)) }
+          >
+            {
+              [
+                rows.length > 10 ? 10 : null, 
+                rows.length > 20 ? 20 : null, 
+                rows.length > 50 ? 50 : null, 
+                rows.length > 100 ? 100 : null, 
+                rows.length
+              ]
+              .filter(x => x)
+              .map((pageSize, i, arr) => (
+                i + 1 === arr.length ?
+                  <option key={pageSize} value={pageSize}>
+                    Show All
+                  </option>
+                :
+                  <option key={pageSize} value={pageSize}>
+                  Show {pageSize}
+                  </option>
+              ))
+            }
+          </select>
+        </div>
       </div>
       <table className='table table-sm table-fixed' {...getTableProps()}>
         <thead>
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map((column) => (
-                <th {...column.getHeaderProps()}>
-                  {column.canFilter ? column.render("Filter") : null}
+                <th className='align-top' {...column.getHeaderProps()}>
                   <div>{column.render("Header")}</div>
+                  <div className='pt-2.5'>{column.canFilter ? column.render("Filter") : null}</div>
                 </th>
               ))}
             </tr>
