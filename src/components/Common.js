@@ -275,8 +275,8 @@ const Table = ({columns, data}) => {
           </select>
         </div>
       </div>
-      <table className='table table-sm table-fixed'>
-        <thead>
+      <table className='table table-zebra bg-base-300 table-sm table-fixed'>
+        <thead className='bg-base-200'>
           {table.getHeaderGroups().map(headerGroup => (
             <tr key={headerGroup.id}>
               {headerGroup.headers.map(header => (
@@ -311,7 +311,7 @@ const Table = ({columns, data}) => {
           {table.getRowModel().rows.map(row => (
               <tr key={row.id}>
                 {row.getVisibleCells().map(cell => (
-                  <td key={cell.id}>
+                  <td className='align-top' key={cell.id}>
                     {flexRender(
                       cell.column.columnDef.cell,
                       cell.getContext()
