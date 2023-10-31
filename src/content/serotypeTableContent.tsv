@@ -8,8 +8,8 @@ count	serotype	accessionNumber	comments	reference	link
 -	"6E(6A)"	-	Genetic variant of 6A	Park et al 2017 Genome Announc 	https://doi.org/10.1128/genomeA.01728-16
 7	6B	CR931639	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 -	"6E(6B)"	KU168827	Genetic variant of 6B	Burton et al 2016 J Clin Microbiol	https://doi.org/10.1128/JCM.03194-15	
-8	6C	EF538714 to EF538718	-	Park et al 2007 Carbohydr Res; Park et al 2007 Infect Immun.	https://doi.org/10.1128/JCM.02199-06
-9	6D	GQ848645 to GQ848646	-	Bratcher et al 2010 Microbiology; Bratcher et al 2009 Microbiology 	https://doi.org/10.1099/mic.0.034116-0
+8	6C	EF538714,EF538715,EF538716,EF538717,EF538718	-	Park et al 2007 Carbohydr Res; Park et al 2007 Infect Immun.	https://doi.org/10.1128/JCM.02199-06
+9	6D	GQ848645,GQ848646	-	Bratcher et al 2010 Microbiology; Bratcher et al 2009 Microbiology 	https://doi.org/10.1099/mic.0.034116-0
 10	6H	KF597302	-	Park et al 2015 Clin Vaccine Immunol 	https://doi.org/10.1128/CVI.00647-14
 11	7F	CR931643	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 12	7A	CR931640	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
