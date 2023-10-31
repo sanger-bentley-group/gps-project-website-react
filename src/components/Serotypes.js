@@ -1,22 +1,12 @@
-import Papa from 'papaparse'
-import { useEffect, useState, useMemo } from "react"
+import { useMemo } from "react"
 
-import { TitleText, Table } from "./Common"
+import { TitleText, Table, ParseTable } from "./Common"
 
 import content from '../content/serotypeContent'
 import tableContent from '../content/serotypeTableContent.tsv'
 
 const Serortype = () => {
-  const [tableData, setTableData] = useState([])
-
-  useEffect(() => {
-    Papa.parse(tableContent, {
-      header: true,
-      download: true,
-      complete: res => setTableData(res.data)
-      }
-    )
-  }, [])
+  const tableData = ParseTable({content: tableContent})
 
   const memoisedTableData = useMemo(() => tableData, [tableData])
 
@@ -33,7 +23,23 @@ const Serortype = () => {
     {
       header: "Accession Number",
       accessorKey: "accessionNumber",
-      enableColumnFilter: true
+      enableColumnFilter: true,
+      cell: props => {
+        const cellValue = props.getValue()
+        if (cellValue === '-'){
+          return '-'
+        } else if (cellValue.indexOf(",") === -1) {
+          return (<a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${cellValue}`} target='_blank' rel="noreferrer">{cellValue}</a>)
+        } else {
+          return (
+              <div className='flex flex-col items-start'>
+                {cellValue.split(',').map(element => 
+                  <a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${element}`} target='_blank' rel="noreferrer">{element}</a>
+                )}
+              </div>
+          )
+        }
+      }
     },
     {
       header: "Comments",

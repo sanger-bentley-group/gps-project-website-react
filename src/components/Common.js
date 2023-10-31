@@ -1,8 +1,8 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Link } from "react-router-dom"
+import Papa from 'papaparse'
 import { useReactTable, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, flexRender } from '@tanstack/react-table'
-
 
 const mdComponents = {
   a: ({ href, children })  =>  <Link to={href} className='link' { ...(/^(http|www)/.test(href) && {target: '_blank'}) }>{children}</Link>,
@@ -183,6 +183,22 @@ const Section = ({subtitle, content}) => (
   </div>
 )
 
+const ParseTable = ({content}) => {
+  const [tableData, setTableData] = useState([])
+
+  useEffect(() => {
+    Papa.parse(content, {
+      header: true,
+      download: true,
+      skipEmptyLines: true,
+      complete: res => setTableData(res.data)
+      }
+    )
+  }, [content])
+
+  return tableData
+}
+
 const Table = ({columns, data}) => {
   const [columnFilters, setColumnFilters] = useState([])
 
@@ -328,4 +344,4 @@ const Table = ({columns, data}) => {
   )
 }
 
-export { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section, Table }
+export { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section, Table, ParseTable }
