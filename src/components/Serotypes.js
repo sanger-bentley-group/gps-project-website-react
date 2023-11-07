@@ -34,7 +34,7 @@ const Serortype = () => {
           return (
               <div className='flex flex-col items-start'>
                 {cellValue.split(',').map(element => 
-                  <a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${element}`} target='_blank' rel="noreferrer">{element}</a>
+                  <a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${element}`} target='_blank' rel="noreferrer" key={element}>{element}</a>
                 )}
               </div>
           )
