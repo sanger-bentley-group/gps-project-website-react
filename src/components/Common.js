@@ -291,55 +291,57 @@ const Table = ({columns, data}) => {
           </select>
         </div>
       </div>
-      <table className='table table-zebra bg-base-300 table-sm table-fixed'>
-        <thead className='bg-base-200'>
-          {table.getHeaderGroups().map(headerGroup => (
-            <tr key={headerGroup.id}>
-              {headerGroup.headers.map(header => (
-                <th className='align-top' key={header.id}>
-                  <div>
-                    {flexRender(
-                        header.column.columnDef.header,
-                        header.getContext()
-                      )}
-                  </div>
-                  {
-                    header.column.getCanFilter()
-                    ? 
-                      <div className='pt-2.5'>
-                          <input
-                            className="input input-xs w-full max-w-xs"
-                            type="text"
-                            value={(header.column.getFilterValue() ?? '')}
-                            onChange={event => header.column.setFilterValue(event.target.value)}
-                            placeholder={'Search...'}
-                          />
-                      </div>
-                    :
-                      null
-                  }
-                </th>
-              ))}
-            </tr>
-          ))}
-        </thead>
-        <tbody>
-          {table.getRowModel().rows.map(row => (
-              <tr key={row.id}>
-                {row.getVisibleCells().map(cell => (
-                  <td className='align-top' key={cell.id}>
-                    {flexRender(
-                      cell.column.columnDef.cell,
-                      cell.getContext()
-                    )}
-                  </td>
-                )) 
-                }
+      <div className='w-full overflow-visible overflow-x-auto'>
+        <table className='table table-zebra bg-base-300 table-sm table-auto'>
+          <thead className='bg-base-200'>
+            {table.getHeaderGroups().map(headerGroup => (
+              <tr key={headerGroup.id}>
+                {headerGroup.headers.map(header => (
+                  <th className='align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={header.id} colSpan={header.colSpan}>
+                    <div>
+                      {flexRender(
+                          header.column.columnDef.header,
+                          header.getContext()
+                        )}
+                    </div>
+                    {
+                      header.column.getCanFilter()
+                      ? 
+                        <div className='pt-2.5'>
+                            <input
+                              className="input input-xs w-full max-w-xs"
+                              type="text"
+                              value={(header.column.getFilterValue() ?? '')}
+                              onChange={event => header.column.setFilterValue(event.target.value)}
+                              placeholder={'Search...'}
+                            />
+                        </div>
+                      :
+                        null
+                    }
+                  </th>
+                ))}
               </tr>
-            ))
-          }
-        </tbody>
-      </table>
+            ))}
+          </thead>
+          <tbody>
+            {table.getRowModel().rows.map(row => (
+                <tr key={row.id} className='border-x'>
+                  {row.getVisibleCells().map(cell => (
+                    <td className='align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={cell.id}>
+                      {flexRender(
+                        cell.column.columnDef.cell,
+                        cell.getContext()
+                      )}
+                    </td>
+                  )) 
+                  }
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
     </div>
   )
 }
