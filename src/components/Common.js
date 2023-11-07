@@ -186,15 +186,26 @@ const Section = ({subtitle, content}) => (
 const ParseTable = ({content}) => {
   const [tableData, setTableData] = useState([])
 
+  let delimiter
+
+  if (content.toLowerCase().endsWith('tsv')) {
+    delimiter = '\t'
+  } else if (content.toLowerCase().endsWith('csv')) {
+    delimiter = ','
+  } else {
+    delimiter = ''
+  }
+
   useEffect(() => {
     Papa.parse(content, {
       header: true,
+      delimiter: delimiter,
       download: true,
       skipEmptyLines: true,
       complete: res => setTableData(res.data)
       }
     )
-  }, [content])
+  }, [content, delimiter])
 
   return tableData
 }
@@ -313,7 +324,7 @@ const Table = ({columns, data}) => {
                               type="text"
                               value={(header.column.getFilterValue() ?? '')}
                               onChange={event => header.column.setFilterValue(event.target.value)}
-                              placeholder={'Search...'}
+                              placeholder={header.column.columnDef.meta && header.column.columnDef.meta.searchPlaceHolder ? header.column.columnDef.meta.searchPlaceHolder : 'Search...' }
                             />
                         </div>
                       :
