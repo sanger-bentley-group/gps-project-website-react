@@ -23,7 +23,8 @@ const PMENClones = () => {
           header: "Clone",
           accessorKey: "clone",
           enableColumnFilter: true,
-          cell: props => <div dangerouslySetInnerHTML={{__html: props.getValue()}} />
+          cell: props => <div dangerouslySetInnerHTML={{__html: props.getValue()}} />,
+          filterFn: (row, id, filterValue) => row.getValue(id).replace(/<sup>|<\/sup>/g, "").toLowerCase().includes(filterValue.toLowerCase())
         },
         {
           header: "Reference no.",
