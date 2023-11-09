@@ -146,6 +146,25 @@ const PublicationCard = ({cards}) => (
   </div>
 )
 
+const GPSCGrid = ({clusters}) => (
+  <div className='card bg-base-300'>
+    <div className='glass rounded-lg m-4 p-4 flex items-center gap-4 max-w-max'>
+      <span className='font-bold'>Search</span>
+      <div className="join ">
+        <input className="join-item btn btn-sm" type="radio" name="searchBy" aria-label="GPSC" checked />
+        <input className="join-item btn btn-sm" type="radio" name="searchBy" aria-label="Serotype" />
+        <input className="join-item btn btn-sm" type="radio" name="searchBy" aria-label="ST" />
+        <input className="input input-bordered input-sm join-item" placeholder="Type to search..."/>
+      </div>
+    </div>
+    <div className='card-body p-1 w-full flex flex-wrap flex-row justify-center'>
+      {clusters.map(({ gpsc }) => (
+        <img srcSet={`img/gpsc_clusters/gpsc_${gpsc}.png 2x`} alt={`GPSC ${gpsc}`} key={gpsc} className='object-contain' />
+      ))}
+    </div>
+  </div>
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
@@ -168,6 +187,8 @@ const SectionContent = ({type, content}) => {
       return <ContentQuoteCard photo={content.photo} name={content.name} quotes={content.quotes} />
     case 'publicationGrid':
       return <PublicationCard cards={content} />
+    case 'gpscGrid':
+      return <GPSCGrid clusters={content} />
     default:
       return
   }
