@@ -63,7 +63,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '![Participants at the 2019 writers workshop at the Wellcome Sanger Institute](images/2019_writers_workshop.jpg)'
+          content: '![Participants at the 2019 writers workshop at the Wellcome Sanger Institute](img/2019_writers_workshop.jpg)'
         },
         {
           type: 'md',
@@ -106,7 +106,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '![Nida Javaid and Steph Lo at the Wellcome Genome Campus](images/steph_and_nida.jpg)'
+          content: '![Nida Javaid and Steph Lo at the Wellcome Genome Campus](img/steph_and_nida.jpg)'
         },
         {
           type: 'md',
@@ -136,7 +136,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '![GPS2 Portable Pipeline Flowchart](images/gps2_portable_pipeline_flowchart.jpg)'
+          content: '![GPS2 Portable Pipeline Flowchart](img/gps2_portable_pipeline_flowchart.jpg)'
         },
       ]
     },
