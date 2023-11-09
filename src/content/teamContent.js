@@ -12,47 +12,47 @@ const content = {
             {
               name: 'Professor Stephen D. Bentley',
               position: 'Team Leader',
-              photo: 'images/stephen_bentley.jpg'
+              photo: 'img/stephen_bentley.jpg'
             },
             {
               name: 'Dr. Stephanie W. Lo',
               position: 'Translational Science Lead and Senior Scientific Manager',
-              photo: 'images/stephanie_lo.jpg'
+              photo: 'img/stephanie_lo.jpg'
             },
             {
               name: 'Dr. Victoria Dyster',
               position: 'Principal Bioinformatician',
-              photo: 'images/victoria_dyster.jpg'
+              photo: 'img/victoria_dyster.jpg'
             },
             {
               name: 'Dr. Ana Ferreira',
               position: 'Postdoctoral Fellow',
-              photo: 'images/ana_ferreira.jpg'
+              photo: 'img/ana_ferreira.jpg'
             },
             {
               name: 'Dr. Harry Hung',
               position: 'Senior Bioinformatician',
-              photo: 'images/harry_hung.jpg'
+              photo: 'img/harry_hung.jpg'
             },
             {
               name: 'Dr. Narender Kumar',
               position: 'Senior Bioinformatician and Lead Genomics Capacity Building',
-              photo: 'images/narender_kumar.jpg'
+              photo: 'img/narender_kumar.jpg'
             },
             {
               name: 'Oliver Lorenz',
               position: 'Senior Bioinformatician',
-              photo: 'images/oliver_lorenz.jpeg'
+              photo: 'img/oliver_lorenz.jpeg'
             },
             {
               name: 'Dr. Kate Mellor',
               position: 'Senior Staff Scientist',
-              photo: 'images/kate_mellor.jpg'
+              photo: 'img/kate_mellor.jpg'
             },
             {
               name: 'Dr. Jolynne Mokaya',
               position: 'Senior Bioinformatician and Bioinformatics Training Lead',
-              photo: 'images/jolynne_mokaya.jpg'
+              photo: 'img/jolynne_mokaya.jpg'
             },
           ],
         },
@@ -69,12 +69,12 @@ const content = {
             {
               name: 'Dr. Lesley McGee',
               position: 'Project Leader',
-              photo: 'images/lesley_mcgee.jpg'
+              photo: 'img/lesley_mcgee.jpg'
             },
             {
               name: 'Paulina Hawkins',
               position: 'Research Project Coordinator',
-              photo: 'images/paulina_hawkins.jpg'
+              photo: 'img/paulina_hawkins.jpg'
             },
           ],
         },
@@ -91,7 +91,7 @@ const content = {
             {
               name: 'Dr. Nicholas Croucher',
               position: 'Sir Henry Dale Fellow and Senior Lecturer',
-              photo: 'images/nicholas_croucher.jpg'
+              photo: 'img/nicholas_croucher.jpg'
             },
           ],
         },
@@ -108,7 +108,7 @@ const content = {
             {
               name: 'Dr. John A Lees',
               position: 'Group Leader (Pathogens, Informatics and Modelling) ',
-              photo: 'images/john_lees.jpg'
+              photo: 'img/john_lees.jpg'
             },
           ],
         },

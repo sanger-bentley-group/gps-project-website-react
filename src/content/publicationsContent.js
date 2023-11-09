@@ -5,7 +5,7 @@ const content = {
       subtitle: {
         content: 'Global Pneumococcal Sequencing Collection',
         logo: {
-          url: 'images/microbiology-society-logo.png',
+          url: 'img/microbiology-society-logo.png',
           alt: 'Microbiology Society Logo'
         },
         url: 'https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection'
@@ -176,11 +176,11 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/Europneumo2022-Narender_Kumar-Abstract.pdf'
+                  url: 'res/conferences/Europneumo2022-Narender_Kumar-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/Europneumo2022-Narender_Kumar-Poster.pdf'
+                  url: 'res/conferences/Europneumo2022-Narender_Kumar-Poster.pdf'
                 }
               ]
             },
@@ -190,11 +190,11 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/Europneumo2022-Stephanie_Lo-Abstract.pdf'
+                  url: 'res/conferences/Europneumo2022-Stephanie_Lo-Abstract.pdf'
                 },
                 {
                   text: 'Slides',
-                  url: 'resources/conferences/Europneumo2022-Stephanie_Lo-Slides.pdf'
+                  url: 'res/conferences/Europneumo2022-Stephanie_Lo-Slides.pdf'
                 }
               ]
             },
@@ -204,11 +204,11 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/Europneumo2022-Jolynne_Mokaya-Abstract.pdf'
+                  url: 'res/conferences/Europneumo2022-Jolynne_Mokaya-Abstract.pdf'
                 },
                 {
                   text: 'Slides',
-                  url: 'resources/conferences/Europneumo2022-Jolynne_Mokaya-Slides.pdf'
+                  url: 'res/conferences/Europneumo2022-Jolynne_Mokaya-Slides.pdf'
                 }
               ]
             },
@@ -218,11 +218,11 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/Europneumo2022-Ana_Ferreira-Abstract.pdf'
+                  url: 'res/conferences/Europneumo2022-Ana_Ferreira-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/Europneumo2022-Ana_Ferreira-Poster.pdf'
+                  url: 'res/conferences/Europneumo2022-Ana_Ferreira-Poster.pdf'
                 }
               ]
             },
@@ -232,11 +232,11 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/Europneumo2022-Thi_N_M_Huynh-Abstract.pdf'
+                  url: 'res/conferences/Europneumo2022-Thi_N_M_Huynh-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/Europneumo2022-Thi_N_M_Huynh-Poster.pdf'
+                  url: 'res/conferences/Europneumo2022-Thi_N_M_Huynh-Poster.pdf'
                 }
               ]
             },
@@ -331,11 +331,11 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ABPHM2021-Nida_Javaid-Abstract.pdf'
+                  url: 'res/conferences/ABPHM2021-Nida_Javaid-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ABPHM2021-Nida_Javaid-Poster.pdf'
+                  url: 'res/conferences/ABPHM2021-Nida_Javaid-Poster.pdf'
                 }
               ]
             },
@@ -346,11 +346,11 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ABPHM2021-Kate_Mellor-Abstract.pdf'
+                  url: 'res/conferences/ABPHM2021-Kate_Mellor-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ABPHM2021-Kate_Mellor-Poster.pdf'
+                  url: 'res/conferences/ABPHM2021-Kate_Mellor-Poster.pdf'
                 }
               ]
             },
@@ -361,15 +361,15 @@ const content = {
               buttons: [
                 {
                   text: 'Authors',
-                  url: 'resources/conferences/ABPHM2021-Stephanie_Lo-Authors.xlsx'
+                  url: 'res/conferences/ABPHM2021-Stephanie_Lo-Authors.xlsx'
                 },
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ABPHM2021-Stephanie_Lo-Abstract.pdf'
+                  url: 'res/conferences/ABPHM2021-Stephanie_Lo-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ABPHM2021-Stephanie_Lo-Poster.pdf'
+                  url: 'res/conferences/ABPHM2021-Stephanie_Lo-Poster.pdf'
                 }
               ]
             },
@@ -380,7 +380,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ABPHM2021-Christine_Boinett-Abstract.pdf'
+                  url: 'res/conferences/ABPHM2021-Christine_Boinett-Abstract.pdf'
                 },
               ]
             },
@@ -464,7 +464,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Muhammed_Arafat_Cham-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Muhammed_Arafat_Cham-Abstract.pdf'
                 },
               ]
             },
@@ -474,7 +474,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Sravani_Dharmavaram-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Sravani_Dharmavaram-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
@@ -488,7 +488,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Sophie_Belman-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Sophie_Belman-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
@@ -502,7 +502,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Kariyappa_Vijay-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Kariyappa_Vijay-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
@@ -516,7 +516,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Mary_Corcoran-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Mary_Corcoran-Abstract.pdf'
                 },
               ]
             },
@@ -526,7 +526,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-P_R_Sowmya-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-P_R_Sowmya-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
@@ -540,7 +540,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Shincy_M_R-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Shincy_M_R-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
@@ -554,7 +554,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Roly_Malaker_1-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Roly_Malaker_1-Abstract.pdf'
                 },
               ]
             },
@@ -564,7 +564,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Roly_Malaker_1-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Roly_Malaker_1-Abstract.pdf'
                 },
               ]
             },
@@ -574,7 +574,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Chrispin_Chaguza-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Chrispin_Chaguza-Abstract.pdf'
                 },
               ]
             },
@@ -584,7 +584,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Madikay_Senghore_1-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Madikay_Senghore_1-Abstract.pdf'
                 },
               ]
             },
@@ -594,7 +594,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Madikay_Senghore_2-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Madikay_Senghore_2-Abstract.pdf'
                 },
               ]
             },
@@ -604,7 +604,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Akshata_Krishna_Prabhu-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Akshata_Krishna_Prabhu-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
@@ -618,7 +618,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Rama_Kandasamy_1-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Rama_Kandasamy_1-Abstract.pdf'
                 },
               ]
             },
@@ -628,7 +628,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Rama_Kandasamy_2-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Rama_Kandasamy_2-Abstract.pdf'
                 },
               ]
             },
@@ -638,7 +638,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Samanta_Cristine_Grassi_Almeida-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Samanta_Cristine_Grassi_Almeida-Abstract.pdf'
                 },
                 {
                   text: 'Poster',
@@ -652,7 +652,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Ekaterina_Egorova-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Ekaterina_Egorova-Abstract.pdf'
                 },
               ]
             },
@@ -662,7 +662,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Akuzike_Kalizangoma-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Akuzike_Kalizangoma-Abstract.pdf'
                 },
               ]
             },
@@ -672,7 +672,7 @@ const content = {
               buttons: [
                 {
                   text: 'Abstract',
-                  url: 'resources/conferences/ISPPD2020-Nehemie_Nzoyikorera-Abstract.pdf'
+                  url: 'res/conferences/ISPPD2020-Nehemie_Nzoyikorera-Abstract.pdf'
                 },
               ]
             },
@@ -861,7 +861,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Cham_MA-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Cham_MA-Poster.pdf'
                 }
               ]
             },
@@ -871,7 +871,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Samanta_C_G_Almeida-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Samanta_C_G_Almeida-Poster.pdf'
                 }
               ]
             },
@@ -881,7 +881,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Taj_Azarian-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Taj_Azarian-Poster.pdf'
                 }
               ]
             },
@@ -891,7 +891,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Senghore_M-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Senghore_M-Poster.pdf'
                 }
               ]
             },
@@ -901,7 +901,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Ebrima_Bojang-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Ebrima_Bojang-Poster.pdf'
                 }
               ]
             },
@@ -911,7 +911,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Chrispin_Chaguza-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Chrispin_Chaguza-Poster.pdf'
                 }
               ]
             },
@@ -921,7 +921,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Feroze_Ganaie-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Feroze_Ganaie-Poster.pdf'
                 }
               ]
             },
@@ -931,7 +931,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Rebecca_A_Gladstone-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Rebecca_A_Gladstone-Poster.pdf'
                 }
               ]
             },
@@ -941,7 +941,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Rama_Kandasamy_1-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Rama_Kandasamy_1-Poster.pdf'
                 }
               ]
             },
@@ -951,7 +951,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Rama_Kandasamy_2-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Rama_Kandasamy_2-Poster.pdf'
                 }
               ]
             },
@@ -961,7 +961,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-P_Y_T_Law-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-P_Y_T_Law-Poster.pdf'
                 }
               ]
             },
@@ -971,7 +971,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Stephanie_W_Lo_1-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Stephanie_W_Lo_1-Poster.pdf'
                 }
               ]
             },
@@ -981,7 +981,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Geetha_N_1-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Geetha_N_1-Poster.pdf'
                 }
               ]
             },
@@ -991,7 +991,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Geetha_N_2-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Geetha_N_2-Poster.pdf'
                 }
               ]
             },
@@ -1001,7 +1001,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-S_M_S_Suso-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-S_M_S_Suso-Poster.pdf'
                 }
               ]
             },
@@ -1011,7 +1011,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Andries_J_van_Tonder-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Andries_J_van_Tonder-Poster.pdf'
                 }
               ]
             },
@@ -1021,7 +1021,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Mignon_du_Plessis-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Mignon_du_Plessis-Poster.pdf'
                 }
               ]
             },
@@ -1031,7 +1031,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-P_A_Hawkins-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-P_A_Hawkins-Poster.pdf'
                 }
               ]
             },
@@ -1041,7 +1041,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Okoi_C-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Okoi_C-Poster.pdf'
                 }
               ]
             },
@@ -1051,7 +1051,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-E_Voropaeva-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-E_Voropaeva-Poster.pdf'
                 }
               ]
             },
@@ -1061,7 +1061,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Tientcheu_PE-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Tientcheu_PE-Poster.pdf'
                 }
               ]
             },
@@ -1071,7 +1071,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Bola_Lawal_QN-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Bola_Lawal_QN-Poster.pdf'
                 }
               ]
             },
@@ -1081,7 +1081,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Stephanie_W_Lo_2-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Stephanie_W_Lo_2-Poster.pdf'
                 }
               ]
             },
@@ -1091,7 +1091,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Khan_D-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Khan_D-Poster.pdf'
                 }
               ]
             },
@@ -1101,7 +1101,7 @@ const content = {
               buttons: [
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2018-Ngwa_D-Poster.pdf'
+                  url: 'res/conferences/ISPPD2018-Ngwa_D-Poster.pdf'
                 }
               ]
             },
@@ -1165,11 +1165,11 @@ const content = {
               buttons: [
                 {
                   text: 'Authors',
-                  url: 'resources/conferences/ABPHM2017-Stephanie_W_Lo-Authors.xlsx'
+                  url: 'res/conferences/ABPHM2017-Stephanie_W_Lo-Authors.xlsx'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ABPHM2017-Stephanie_W_Lo-Abstract.pdf'
+                  url: 'res/conferences/ABPHM2017-Stephanie_W_Lo-Abstract.pdf'
                 }
               ]
             },
@@ -1213,11 +1213,11 @@ const content = {
               buttons: [
                 {
                   text: 'Authors',
-                  url: 'resources/conferences/ISPPD2016-Rebecca_A_Gladstone-Authors.xlsx'
+                  url: 'res/conferences/ISPPD2016-Rebecca_A_Gladstone-Authors.xlsx'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/ISPPD2016-Rebecca_A_Gladstone-Poster.pdf'
+                  url: 'res/conferences/ISPPD2016-Rebecca_A_Gladstone-Poster.pdf'
                 }
               ]
             },
@@ -1227,11 +1227,11 @@ const content = {
               buttons: [
                 {
                   text: 'Authors',
-                  url: 'resources/conferences/IMMEM_XI-Rebecca_A_Gladstone-Authors.xlsx'
+                  url: 'res/conferences/IMMEM_XI-Rebecca_A_Gladstone-Authors.xlsx'
                 },
                 {
                   text: 'Poster',
-                  url: 'resources/conferences/IMMEM_XI-Rebecca_A_Gladstone-Poster.pdf'
+                  url: 'res/conferences/IMMEM_XI-Rebecca_A_Gladstone-Poster.pdf'
                 }
               ]
             },
