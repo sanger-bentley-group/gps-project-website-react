@@ -1,6 +1,5 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { ComposableMap, Geographies, Geography, Sphere, Graticule, Marker } from "react-simple-maps"
-import { Tooltip } from "react-tooltip"
 
 import { TitleText } from "./Common"
 
@@ -30,7 +29,7 @@ const Markers = () => (
         fill="hsl(var(--p))" 
         stroke="#FFFFFF"
         strokeWidth={1}
-        data-tooltip-id="partner-info"
+        data-tooltip-id="react-tooltip"
         data-tooltip-html={renderToStaticMarkup(<TooltipContent info={info} />)}
         data-tooltip-place="top"
       />
@@ -60,7 +59,6 @@ const Partners = () => (
     </div>
     <div className="hero-content w-full">
       <Map />
-      <Tooltip id="partner-info" />
     </div>
   </div>
 )

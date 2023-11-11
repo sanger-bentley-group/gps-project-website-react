@@ -1,5 +1,4 @@
 import { useMemo } from "react"
-import { Tooltip } from "react-tooltip"
 
 import { TitleText, Table, ParseTable } from "./Common"
 
@@ -50,7 +49,7 @@ const PMENClones = () => {
           header: 
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="Penicillin"
             >
               <span className="link">PEN</span>
@@ -61,7 +60,7 @@ const PMENClones = () => {
           header: 
             <div 
                 className="tooltip" 
-                data-tooltip-id="pmen-header"
+                data-tooltip-id="react-tooltip"
                 data-tooltip-html="Cefotaxime"
               >
                 <span className="link">TAX</span>
@@ -72,7 +71,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="Erythromycin"
             >
               <span className="link">ERY</span>
@@ -83,7 +82,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="Clindamycin"
             >
               <span className="link">CLI</span>
@@ -94,7 +93,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="Chloramphenicol"
             >
               <span className="link">CHL</span>
@@ -105,7 +104,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="Tetracycline"
             >
               <span className="link">TET</span>
@@ -116,7 +115,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="Sulfamethoxazole"
             >
               <span className="link">SXT</span>
@@ -137,7 +136,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="Global Pneumococcal Sequence Cluster"
             >
               <span className="link">GPSC</span>
@@ -149,7 +148,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="
                   Multilocus Sequence Typing Profile:<br>
                   aroE (shikimate dehydrogenae)<br>
@@ -167,7 +166,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="
                   PBP (Penicillin-binding Protein) Profile:<br>
                   pbp1a - pbp2b - pbp2x
@@ -181,7 +180,7 @@ const PMENClones = () => {
           header:
             <div 
               className="tooltip" 
-              data-tooltip-id="pmen-header"
+              data-tooltip-id="react-tooltip"
               data-tooltip-html="
                   erm(B) gene<br>
                   mef(A) gene
@@ -221,7 +220,6 @@ const PMENClones = () => {
         <TitleText text={content.title}/>
       </div>
         <Table columns={memoisedTableColumns} data={memoisedTableData}/>
-        <Tooltip id="pmen-header" place="top" offset={50}/>
     </div>
   )
 }

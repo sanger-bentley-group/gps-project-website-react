@@ -1,4 +1,5 @@
 import { BrowserRouter as Router } from 'react-router-dom'
+import { Tooltip } from "react-tooltip"
 
 import Navbar from "./components/Navbar";
 import Content from './components/Content';
@@ -15,6 +16,7 @@ function App() {
         <Footer />
         <ScrollToAnchor />
         <ScrollToTopButton />
+        <Tooltip id="react-tooltip" clickable/>
       </div>
     </Router>
   );

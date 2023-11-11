@@ -1,5 +1,4 @@
 import { useMemo } from "react"
-import { Tooltip } from "react-tooltip"
 
 import { TitleText, Table, ParseTable } from "./Common"
 
@@ -25,8 +24,9 @@ const GPSCSTLookupTable = () => {
         header:
           <div 
             className="tooltip" 
-            data-tooltip-id="gpsc-st-header"
+            data-tooltip-id="react-tooltip"
             data-tooltip-html="Unknown sequence types are excluded"
+            data-tooltip-place="top"
           >
             <span className="link">Known Sequence Type(s)</span>
           </div>,
@@ -34,7 +34,7 @@ const GPSCSTLookupTable = () => {
         enableColumnFilter: true,
         filterFn: (row, id, filterValue) => row.getValue(id).split(", ").includes(filterValue),
         meta: {
-          searchPlaceHolder: 'Search (exact match)...'
+          searchPlaceHolder: 'Search... (exact match)'
         }
       },
     ], [])
@@ -45,7 +45,6 @@ const GPSCSTLookupTable = () => {
         <TitleText text={content.title}/>
       </div>
         <Table columns={memoisedTableColumns} data={memoisedTableData}/>
-        <Tooltip id="gpsc-st-header" place="top" offset={50}/>
     </div>
   )
 }
