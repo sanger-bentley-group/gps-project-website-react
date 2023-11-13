@@ -183,25 +183,31 @@ const GPSCGrid = ({clusters}) => {
   clusters.map(({serotype}) => serotypes.add(...serotype))
   const sortedSerotypes = [...serotypes].sort(serotypeSort)
 
+  function handleSelectedRadioChange(e) {
+    setSelectedRadio(e.target.value)
+    setSelectedSerotype(serotypeSelectPrompt)
+    setSearchValue('')
+  }
+
   return (    
     <div className='card bg-base-300 w-full'>
       <div className='m-4 p-4 flex items-center gap-4 max-w-max rounded-lg bg-base-100 shadow-md'>
         <span className='font-bold'>Search</span>
         <div className="join">
           {['GPSC', 'Serotype', 'ST'].map((value) => (
-            <input className="join-item btn btn-sm" type="radio" name="searchBy" value={value} aria-label={value} checked={selectedRadio === value} onChange={e => setSelectedRadio(e.target.value)} key={value} />
+            <input className="join-item btn btn-sm" type="radio" name="searchBy" value={value} aria-label={value} checked={selectedRadio === value} onChange={e => handleSelectedRadioChange(e)} key={value} />
           ))}
           {
             selectedRadio === 'Serotype'
             ?
-              <select className="select select-bordered select-sm join-item" defaultValue={selectedSerotype} onChange={e => setSelectedSerotype(e.target.value)}>
+              <select className="select select-bordered select-sm join-item" value={selectedSerotype} onChange={e => setSelectedSerotype(e.target.value)}>
                 <option value={serotypeSelectPrompt}>Select a serotype...</option>
                 {sortedSerotypes.map((serotype) => (
                     <option key={serotype} value={serotype}>{serotype}</option>
                 ))}
               </select>
             :
-              <input className="input input-bordered input-sm join-item" placeholder="Search... (exact match)" onChange={e => setSearchValue(e.target.value)}/>
+              <input className="input input-bordered input-sm join-item" placeholder="Search... (exact match)" value={searchValue} onChange={e => setSearchValue(e.target.value)}/>
           }
         </div>
       </div>
