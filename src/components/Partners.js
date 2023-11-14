@@ -38,7 +38,7 @@ const Markers = ({partnerByCity}) => (
 )
 
 const Map = (props) => (
-  <ComposableMap width={1000} height={500} >
+  <ComposableMap width={1000} height={500} style={{ width: "100%" }} >
     <Sphere stroke="#AAAAAA" strokeWidth={0.5} />
     <Graticule stroke="#AAAAAA" strokeWidth={0.5} />
     <Geographies geography={topoJSON}>
