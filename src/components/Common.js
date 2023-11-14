@@ -262,6 +262,8 @@ const SectionContent = ({type, content}) => {
       return <PublicationCard cards={content} />
     case 'gpscGrid':
       return <GPSCGrid clusters={content} />
+    case 'html':
+        return <div className='w-full' dangerouslySetInnerHTML={{__html: content}} />
     default:
       return
   }
