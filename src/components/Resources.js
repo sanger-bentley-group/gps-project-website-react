@@ -1,4 +1,5 @@
 import Overview from "./Overview"
+import Countries from "./Countries"
 import Lineages from "./Lineages"
 import GPSCSTLookupTable from "./GPSCSTLookupTable"
 import Serortypes from "./Serotypes"
@@ -8,7 +9,7 @@ import IsolateBankRequest from "./IsolateBankRequest"
 const About = () => (
   <div className="h-full">
     <section id="overview"><Overview /></section>
-    <section id="countries"></section>
+    <section id="countries"><Countries /></section>
     <section id="lineages"><Lineages /></section>
     <section id="gpsc-st-lookup-table"><GPSCSTLookupTable /></section>
     <section id="serotypes"><Serortypes /></section>
