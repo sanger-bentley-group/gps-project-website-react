@@ -20,8 +20,8 @@ const TooltipContent = ({ info }) => (
   </div>
 )
 
-const Markers = () => (
-  content.samplingByCountry.map((info, index) => (
+const Markers = ({samplingByCountry}) => (
+  samplingByCountry.map((info, index) => (
     <Marker coordinates={[info.longitude, info.latitude]} key={index} >
       <circle 
         className='opacity-80 hover:opacity-100'
@@ -37,7 +37,7 @@ const Markers = () => (
   ))
 )
 
-const Map = () => (
+const Map = (props) => (
   <ComposableMap width={1000} height={500} >
     <Sphere stroke="#AAAAAA" strokeWidth={0.5} />
     <Graticule stroke="#AAAAAA" strokeWidth={0.5} />
@@ -48,7 +48,7 @@ const Map = () => (
         ))
       }
     </Geographies>
-    <Markers />
+    <Markers {...props} />
   </ComposableMap>
 )
 
@@ -61,7 +61,7 @@ const Countries = () => (
         <Section {...props} key={index} />
       )}
     <div className="hero-content mt-0 w-full">
-      <Map />
+      <Map samplingByCountry={content.samplingByCountry}/>
     </div>
   </div>
 )
