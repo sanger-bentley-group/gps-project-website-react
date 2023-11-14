@@ -20,11 +20,6 @@ const content = {
               photo: 'img/stephanie_lo.jpg'
             },
             {
-              name: 'Dr. Victoria Dyster',
-              position: 'Principal Bioinformatician',
-              photo: 'img/victoria_dyster.jpg'
-            },
-            {
               name: 'Dr. Ana Ferreira',
               position: 'Postdoctoral Fellow',
               photo: 'img/ana_ferreira.jpg'
