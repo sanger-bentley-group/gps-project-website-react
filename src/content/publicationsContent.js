@@ -119,6 +119,16 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
+              title: 'Genomic epidemiology of *Streptococcus pneumoniae* serotype 16F lineages',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001123'
+                }
+              ]
+            },
+            {
               title: 'Novel pneumococcal capsule type 33E results from the inactivation of glycosyltransferase WciE in vaccine type 33F',
               platform: 'Journal of Biological Chemistry',
               buttons: [
