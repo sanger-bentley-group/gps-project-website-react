@@ -85,7 +85,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '1. **Increasing geographical coverage** in countries, especially those with high disease burden, such as India, Nigeria, DRC Congo and Pakistan, together these four countries accounted for approximately 50% of global pneumococcal disease burden in 2015.'
+          content: '1. **Increasing geographical coverage** in countries, especially those with high disease burden, such as India, Nigeria, DR Congo and Pakistan, together these four countries accounted for approximately 50% of global pneumococcal disease burden in 2015.'
         },
         {
           type: 'md',
