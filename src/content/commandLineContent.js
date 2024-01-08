@@ -92,11 +92,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '1. Install the latest PopPUNK as per instructions at [PopPUNK documentation](https://poppunk.readthedocs.io/en/latest/installation.html)',
+          content: '1. Install the latest PopPUNK (v2.6.3 or later) as per instructions at [PopPUNK documentation](https://poppunk.readthedocs.io/en/latest/installation.html)',
         },
         {
           type: 'md',
-          content: '2. Download GPS reference database v8 ([.zip format](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.zip) or [.tar.gz format](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.tar.gz)) and [GPSC designation v8](https://gps-project.cog.sanger.ac.uk/GPS_v8_external_clusters.csv)'
+          content: '2. Download GPS reference database v8 ([.zip](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.zip) or [.tar.gz](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.tar.gz)) and [GPSC designation v8](https://gps-project.cog.sanger.ac.uk/GPS_v8_external_clusters.csv)'
         },
         {
           type: 'md',
