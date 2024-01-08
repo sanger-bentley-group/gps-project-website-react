@@ -92,15 +92,15 @@ const content = {
         },
         {
           type: 'md',
-          content: '1. Install PopPUNK as per instructions at [PopPUNK documentation](https://poppunk.readthedocs.io/en/latest/installation.html)',
+          content: '1. Install the latest PopPUNK as per instructions at [PopPUNK documentation](https://poppunk.readthedocs.io/en/latest/installation.html)',
         },
         {
           type: 'md',
-          content: '2. Download [GPS reference database v6](https://gps-project.cog.sanger.ac.uk/GPS_v6.zip) and [GPS designation v6](https://gps-project.cog.sanger.ac.uk/GPS_v6_external_clusters.csv)'
+          content: '2. Download GPS reference database v8 ([.zip format](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.zip) or [.tar.gz format](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.tar.gz)) and [GPSC designation v8](https://gps-project.cog.sanger.ac.uk/GPS_v8_external_clusters.csv)'
         },
         {
           type: 'md',
-          content: '3. Unzip the downloaded GPS reference database v6'
+          content: '3. Unzip the downloaded GPS reference database v8'
         },
         {
           type: 'md',
@@ -112,11 +112,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `GPS_v6`: GPS reference database v6',
+          content: '- `GPS_v8_ref`: GPS reference database v8',
         },
         {
           type: 'md',
-          content: '- `GPS_v6_external_clusters.csv`: GPS designation v6'
+          content: '- `GPS_v8_external_clusters.csv`: GPSC designation v8'
         },
         {
           type: 'md',
@@ -126,7 +126,7 @@ const content = {
           type: 'code',
           content: [
             '# (Optional) To increase speed, add: --threads <number of threads>',
-            'poppunk_assign --db GPS_v6 --external-clustering GPS_v6_external_clusters.csv --query qfile.txt --output <output folder>'
+            'poppunk_assign --db GPS_v8_ref --external-clustering GPS_v8_external_clusters.csv --query qfile.txt --output <output folder>'
           ]
         },
         {
@@ -139,7 +139,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `*_external_clusters.csv`: GPSC v6 scheme designations',
+          content: '- `*_external_clusters.csv`: GPSC designation based on v8 scheme',
         },
         {
           type: 'md',
