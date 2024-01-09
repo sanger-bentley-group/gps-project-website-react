@@ -553,7 +553,7 @@ const content = {
       affiliations: [
         { 
           name: "National Laboratory for Health, Environment and Food", 
-          partners: ['Metka Paragi', 'Tamara Kastrin']
+          partners: ['Tamara Kastrin']
         },
       ]
     },
