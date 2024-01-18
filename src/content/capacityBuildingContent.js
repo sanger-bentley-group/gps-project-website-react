@@ -5,7 +5,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'Surveillance is an inherently longitudinal process so sustainability in the future is vital. A key focus of the second phase of the GPS project (GPS2) is to establish a working system for sustainable genomic surveillance with an emphasis on decentralization of data generation and analysis, especially in low- and middle- income countries (LMICs) where the burden of pneumococcal disease is high. In view of variation in local infrastructure and resources, the GPS project devises bespoke support for project partners to cater for different needs in sequencing, training and mentorship.',
+          content: 'Sustainability is vital to the future of infectious disease surveillance, including for the pneumococcus. As such, a key focus of the second phase of the GPS project (GPS2) is to establish a sustainable genomic surveillance system with an emphasis on decentralisation of data generation and analysis, especially in low- and middle-income countries (LMICs), where the burden of pneumococcal disease is high. In view of the variation in local infrastructure and resources, we devises bespoke support for project partners to cater for different needs in sequencing, training and mentorship.',
         },
       ]
     },
@@ -16,7 +16,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'At the beginning of GPS2, the GPS team engaged with key partners to discuss the feasibility of local data generation and resources required, identifying 11 institutes in 8 LMIC countries:'
+          content: 'At the beginning of GPS2, the GPS team engaged with key partners to discuss the feasibility of local data generation and resources required, identifying 11 institutes in 8 LMIC countries with which the GPS project is now working to establish decentralised data generation and analysis:'
         },
         {
           type: 'md',
@@ -71,7 +71,11 @@ const content = {
         },
         {
           type: 'md',
-          content: 'In 2019, collaborators from six LMIC countries joined the GPS team at the Wellcome Sanger institute for an intensive week focused on analysis and drafting of country analysis papers for publication, some of which have been published. Our plans for an in person bioinformatics workshop are currently on hold due to the pandemic. However, free [online training](https://training.bactgen.sanger.ac.uk/) resources have been developed by the GPS and JUNO training manager Christine Boinett. We aim to deploy a face-to-face or virtual format 5 day bioinformatics course to supplement the online courses in partnership with colleagues from [Wellcome Connecting Science](https://www.wellcomeconnectingscience.org/) (WCS). [Other FREE courses](https://www.futurelearn.com/partners/wellcome-genome-campus) from WCS, in partnership with FutureLearn are currently available online for anyone to take in their own time. Some of these courses offer [continuing professional development](https://cpduk.co.uk/explained) (CPD) credits.'
+          content: 'In 2019, collaborators from six LMIC countries joined the GPS team at the Wellcome Sanger institute for an intensive week focused on analysis and drafting of country analysis papers for publication, many of which have since been published. After a hiatus owing to the COVID-19 pandemic, in person bioinformatics workshop have since been resumed in 2022. '
+        },
+        {
+          type: 'md',
+          content: 'In addition, free [online training](https://training.bactgen.sanger.ac.uk/) resources have been developed by the GPS and JUNO training manager Christine Boinettand and we are working with colleagues from Wellcome Connecting Science (WCS) to develop and deploy face-to-face and virtual 5 day bioinformatics courses to supplement the existing online courses. [Other FREE courses](https://www.futurelearn.com/partners/wellcome-genome-campus) from WCS, in partnership with FutureLearn are currently available online for anyone to take in their own time. Some of these courses offer [continuing professional development](https://cpduk.co.uk/explained) (CPD) credits.'
         },
         {
           type: 'md',
@@ -97,7 +101,7 @@ const content = {
     },
     {
       subtitle: {
-        content: 'One-to-one Training'
+        content: 'One-to-One Training'
       },
       content: [
         {
@@ -127,16 +131,16 @@ const content = {
     },
     {
       subtitle: {
-        content: 'Portable Pipeline: Reducing the Bioinformatics Burden'
+        content: 'GPS Pipeline: A Portable Pipeline to Reduce the Bioinformatics Burden'
       },
       content: [
         {
           type: 'md',
-          content: "Ensuring quality control of sequence data and generating succinct, reliable data characterising genomes can be time consuming and require substantial bioinformatic training. During GPS2 a portable pipeline is being developed which will enable collaborators to easily input whole genome sequencing data and generate the *in silico* typing data required for downstream analysis."
+          content: "Ensuring quality control of sequence data and generating succinct, reliable data characterising genomes can be time consuming and require substantial bioinformatic training. During GPS2, a portable pipeline named GPS Pipeline is being developed which will enable collaborators to easily input whole genome sequencing data and generate the *in silico* typing data required for downstream analysis. Although the pipeline is still under active development, its latest version is available on GitHub for testing: [https://github.com/sanger-bentley-group/gps-pipeline/](https://github.com/sanger-bentley-group/gps-pipeline/)"
         },
         {
           type: 'md',
-          content: '![GPS2 Portable Pipeline Flowchart](img/gps2_portable_pipeline_flowchart.jpg)'
+          content: '![GPS Pipeline Flowchart](img/gps_pipeline_flowchart.drawio.png)'
         },
       ]
     },

@@ -5,15 +5,15 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'Global Pneumococcal Sequence Cluster (GPSC) is **an international genomic definition of pneumococcal lineage** ([Gladstone & Lo et al 2019 Ebiomedicine](https://doi.org/10.1016/j.ebiom.2019.04.021) defined using a clustering software named [PopPUNK](https://doi.org/10.1101/gr.241455.118). This typing scheme captures all variations across the entire genome and gives us the best chance of monitoring and understanding the processes of vaccine evasion ([Lo & Gladstone et al 2019 Lancet Infectious Diseases](https://doi.org/10.1016/S1473-3099(19)30297-X)).',
+          content: 'Each Global Pneumococcal Sequence Cluster (GPSC) is **an international genomic definition of a pneumococcal lineage** ([Gladstone & Lo et al 2019 Ebiomedicine](https://doi.org/10.1016/j.ebiom.2019.04.021) defined using the clustering software [PopPUNK](https://doi.org/10.1101/gr.241455.118). Using GPSCs, we can capture all variation across the entire pneumococcal genome, allowing us to monitor and understanding the processes involved in vaccine escape ([Lo & Gladstone et al 2019 Lancet Infectious Diseases](https://doi.org/10.1016/S1473-3099(19)30297-X)).'        
         },
         {
           type: 'md',
-          content: '- You can assign GPSC using Pathogenwatch ([tutorial video](https://www.youtube.com/watch?v=Q8bDuZZ3hXg)) or command line ([step-by-step instruction](../training#gpsc-assignment)).',
+          content: '- You can assign GPSCs using Pathogenwatch ([tutorial video](https://www.youtube.com/watch?v=Q8bDuZZ3hXg)) or command line ([step-by-step instruction](../training#gpsc-assignment)).',
         },
         {
           type: 'md',
-          content: "- You can explore the common GPSCs' phylogenies in Microreact and recombination pattern in Phandango by hovering over the cluster (each cluster represents a GPSC) in the following grid.",
+          content: "- You can explore the phylogenies of common GPSCs in Microreact, and their recombination pattern in Phandango by hovering over the cluster (each cluster represents a GPSC) in the following grid",
         },
       ]
     }

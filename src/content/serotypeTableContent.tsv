@@ -1,4 +1,4 @@
-count	serotype	accessionNumber	comments	reference	link
+count	serotype	accessionNumber	comments	reference	referenceUrl
 1	1	CR931632	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 2	2	CR931633	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 3	3	CR931634	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
@@ -8,8 +8,8 @@ count	serotype	accessionNumber	comments	reference	link
 -	"6E(6A)"	-	Genetic variant of 6A	Park et al 2017 Genome Announc 	https://doi.org/10.1128/genomeA.01728-16
 7	6B	CR931639	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 -	"6E(6B)"	KU168827	Genetic variant of 6B	Burton et al 2016 J Clin Microbiol	https://doi.org/10.1128/JCM.03194-15	
-8	6C	EF538714,EF538715,EF538716,EF538717,EF538718	-	Park et al 2007 Carbohydr Res; Park et al 2007 Infect Immun.	https://doi.org/10.1128/JCM.02199-06
-9	6D	GQ848645,GQ848646	-	Bratcher et al 2010 Microbiology; Bratcher et al 2009 Microbiology 	https://doi.org/10.1099/mic.0.034116-0
+8	6C	EF538714,EF538715,EF538716,EF538717,EF538718	-	Park et al 2007 J Clin Microbiol,Park et al 2007 Infect Immun	https://doi.org/10.1128/JCM.02199-06,https://doi.org/10.1128/iai.00510-07
+9	6D	GQ848645,GQ848646	-	Bratcher et al 2009 Microbiology,Bratcher et al 2010 Microbiology 	https://doi.org/10.1099/mic.0.024521-0,https://doi.org/10.1099/mic.0.034116-0
 10	6H	KF597302	-	Park et al 2015 Clin Vaccine Immunol 	https://doi.org/10.1128/CVI.00647-14
 11	7F	CR931643	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 12	7A	CR931640	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
@@ -25,8 +25,8 @@ count	serotype	accessionNumber	comments	reference	link
 22	10A	CR931649	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 23	10B	CR931650	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 24	10C	CR931651	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
-25	10D	ERR051587	-	Ganaie et al 2020 mbio	https://doi.org/10.1128/mBio.00937-20
-26	10F	CR931652	-	Yang et al 2011 Journal of Biological Chemistry 	https://doi.org/10.1074/jbc.M111.255422
+25	10D	ERR051587	-	Ganaie et al 2020 mBio	https://doi.org/10.1128/mBio.00937-20
+26	10F	CR931652	-	Yang et al 2011 J Biol Chem 	https://doi.org/10.1074/jbc.M111.255422
 27	11F	CR931657	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 28	11A	CR931653	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 29	11B	CR931654	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
@@ -88,7 +88,7 @@ count	serotype	accessionNumber	comments	reference	link
 83	35A	CR931704	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 84	35B	CR931705	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 85	35C	CR931706	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
-86	35D	KY084476	various disruptive mutations in wciG	Geno et al 2017 J Clin Microbiol; Lo et al 2018 J Clin Microbiol	https://doi.org/10.1128/JCM.00054-17
+86	35D	KY084476	various disruptive mutations in wciG	Geno et al 2017 J Clin Microbiol,Lo et al 2018 J Clin Microbiol	https://doi.org/10.1128/JCM.00054-17,https://doi.org/10.1128/jcm.00228-18
 87	36	CR931708	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 88	37	CR931709	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 89	38	CR931710	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
@@ -114,4 +114,4 @@ count	serotype	accessionNumber	comments	reference	link
 -	33X	MK606435	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
 -	36X	MK606436	putative novel serotype based on nucleotide sequence encoding pneumococcal capsule	van Tonder et al 2019 Mgen	https://doi.org/10.1099/mgen.0.000274
 -	Group I nonencapsulated 	-	do not produce capsule due to mutations or deletion of genes encoding capsule 	Hathaway et al 2014 J Bacteriology	https://doi.org/10.1128/JB.186.12.3721-3729.2004
--	Group II nonencapsulated 	-	do not produce capsule due to novel genes in place of genes encoding capsule	Park et al 2012 mBio; Salter et al 2012 Microbiology 	https://doi.org/10.1128/mBio.00035-12
+-	Group II nonencapsulated 	-	do not produce capsule due to novel genes in place of genes encoding capsule	Park et al 2012 mBio,Salter et al 2012 Microbiology 	https://doi.org/10.1128/mBio.00035-12,https://doi.org/10.1099%2Fmic.0.056580-0

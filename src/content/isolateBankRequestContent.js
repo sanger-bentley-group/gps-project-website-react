@@ -5,11 +5,11 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'A global collection of pneumococcal isolates is published through the GPS project. To request for bacterial samples, requestor is required to fill in the [request form](https://forms.gle/JDNHLd5RYxQbwRxc9). Project leaders review requests and facilitate seeking permission from project partners.',
+          content: 'Through the GPS project, a global collection of pneumococcal isolates has been created. If you are looking to obtain an isolate, you are required to fill in the [request form](https://forms.gle/JDNHLd5RYxQbwRxc9). Project leaders will review requests and facilitate the process of seeking permission from relevant project partners.',
         },
         {
           type: 'md',
-          content: ' The release of the bacterial samples is decided by the project partners who contributed to the collection. The request may involve cost for sample preparation. The requestor should coordinate and pay for the shipment, and complete the paperwork required for material transfer. If there is any resulting publication, the GPS project leaders, GPS team who facilitates the process, and project partner should be appropriately acknowledged.',
+          content: 'Release of the bacterial samples is decided by the project partners who contributed to the collection. Requests may incur cost for sample preparation and shipping. The requestor should coordinate and pay for the shipment, and complete the paperwork required for material transfer. If there are any resulting publications, the GPS project leaders, GPS team who facilitates the process, and project partner should be appropriately acknowledged.',
         },
       ]
     },
@@ -20,7 +20,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'GPS includes bacterial samples collected through US-based Active Bacterial Core surveillance (ABCs). For such a request, the requestor is additionally required to fill in the [Isolate Bank Requests form](https://wwwn.cdc.gov/vaccines/abcs/requestisolate.aspx) from CDC.'
+          content: 'The GPS collection includes bacterial samples collected through US-based Active Bacterial Core surveillance (ABCs). For such a request, the requestor is additionally required to fill in the [Isolate Bank Requests form](https://wwwn.cdc.gov/vaccines/abcs/requestisolate.aspx) from CDC.'
         },
       ]
     },

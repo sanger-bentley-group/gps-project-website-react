@@ -5,7 +5,7 @@ const content = {
   },
   mission: {
     title: 'Our Mission',
-    content: 'We establish a worldwide genomic surveillance network of *Streptococcus pneumoniae* to provide evidence for pneumococcal disease control by building a decentralised system for local data generation and analysis that will be sustainable into the future.'
+    content: 'To strengthen worldwide genomic surveillance of *Streptococcus pneumoniae* through a decentralised data generation and analysis network to provide evidence for pneumococcal disease control.'
   },
   introVideo: {
     title: 'How can whole-genome sequencing be used to make vaccines more effective?',
