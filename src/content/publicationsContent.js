@@ -15,6 +15,17 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
+              title: 'Strain features of pneumococcal isolates in the pre- and post-PCV10 era in Pakistan',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001163'
+                }
+
+              ]
+            },
+            {
               title: 'Molecular characterization of *Streptococcus pneumoniae* causing disease among children in Nigeria during the introduction of PCV10 (GSK)',
               platform: 'Microbial Genomics',
               buttons: [
