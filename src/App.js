@@ -8,8 +8,10 @@ import ScrollToAnchor from './components/ScrollToAnchor';
 import ScrollToTopButton from './components/ScrollToTopButton'
 
 function App() {
+  const getBasename = path => path.substr(0, path.lastIndexOf('/'));
+
   return (
-    <Router>
+    <Router basename={getBasename(window.location.pathname)}> 
       <div className='flex flex-col h-screen min-h-[48rem]'>
         <Navbar />
         <Content />
