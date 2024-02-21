@@ -8,7 +8,7 @@ import ScrollToAnchor from './components/ScrollToAnchor';
 import ScrollToTopButton from './components/ScrollToTopButton'
 
 function App() {
-  const getBasename = path => path.substr(0, path.lastIndexOf('/'));
+  const getBasename = path => path.substr(0, path.lastIndexOf('/') + 1);
 
   return (
     <Router basename={getBasename(window.location.pathname)}> 
