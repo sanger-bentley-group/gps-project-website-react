@@ -63,11 +63,11 @@ const content = {
         },
         {
           type: 'md',
-          content: 'In 2019, collaborators from six LMIC countries joined the GPS team at the Wellcome Sanger institute for an intensive week focused on analysis and drafting of country analysis papers for publication, many of which have since been published. After a hiatus owing to the COVID-19 pandemic, in person bioinformatics workshop have since been resumed in 2022. '
+          content: 'In 2019, collaborators from six LMIC countries joined the GPS team at the Wellcome Sanger institute for an intensive week focused on analysis and drafting of country analysis papers for publication, [many of which have since been published](https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection/). After a hiatus owing to the COVID-19 pandemic, in person bioinformatics workshop have since been resumed in 2022. '
         },
         {
           type: 'md',
-          content: 'In addition, free [online training](https://training.bactgen.sanger.ac.uk/) resources have been developed by the GPS and JUNO training manager Christine Boinettand and we are working with colleagues from Wellcome Connecting Science (WCS) to develop and deploy face-to-face and virtual 5 day bioinformatics courses to supplement the existing online courses. [Other FREE courses](https://www.futurelearn.com/partners/wellcome-genome-campus) from WCS, in partnership with FutureLearn are currently available online for anyone to take in their own time. Some of these courses offer [continuing professional development](https://cpduk.co.uk/explained) (CPD) credits.'
+          content: 'In addition, free [online training](https://training.bactgen.sanger.ac.uk/) resources have been developed by the GPS and JUNO training lead Jolynne Mokaya and we are working with colleagues from Wellcome Connecting Science (WCS) to develop and deploy face-to-face and virtual 5 day bioinformatics courses to supplement the existing online courses. [Other free courses](https://www.futurelearn.com/partners/wellcome-genome-campus) from WCS, in partnership with FutureLearn are currently available online for anyone to take in their own time. Some of these courses offer [continuing professional development](https://cpduk.co.uk/explained) (CPD) credits.'
         },
         {
           type: 'md',
@@ -102,11 +102,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '![Nida Javaid and Steph Lo at the Wellcome Genome Campus](img/steph_and_nida.jpg)'
+          content: '![Nida Javaid and Stephanie Lo at the Wellcome Genome Campus](img/steph_and_nida.jpg)'
         },
         {
           type: 'md',
-          content: '###### Nida Javaid and Steph Lo at the Wellcome Genome Campus'
+          content: '###### Nida Javaid and Stephanie Lo at the Wellcome Genome Campus'
         },
         {
           type: 'md',
