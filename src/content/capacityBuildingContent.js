@@ -16,7 +16,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'At the beginning of GPS2, the GPS team engaged with key partners to discuss the feasibility of local data generation and resources required, identifying 11 institutes in 8 LMIC countries with which the GPS project is now working to establish decentralised data generation and analysis:'
+          content: 'At the beginning of GPS2, the GPS team engaged with key partners to discuss the feasibility of local data generation and resources required, identifying 8 institutes in 6 LMIC countries with which the GPS project is now working to establish decentralised data generation and analysis:'
         },
         {
           type: 'md',
@@ -28,15 +28,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- Kenya ([KEMRI](https://www.kemri.go.ke/))'
-        },
-        {
-          type: 'md',
           content: '- Malawi ([MLW](https://www.mlw.mw/))'
-        },
-        {
-          type: 'md',
-          content: "- Nigeria ([University of Ibadan](https://www.ui.edu.ng/) and [Redeemer's University](https://run.edu.ng/))"
         },
         {
           type: 'md',
