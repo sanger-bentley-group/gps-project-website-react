@@ -42,12 +42,6 @@ const content = {
               details: 'Serotype 2 is currently the most common cause of meningitis in Bangladesh though it is rare elsewhere. This study aims to understand the pathogenicity of meningitis-causing serotype 2 pneumococci in Bangladesh using comparative genomics.'
             },
             {
-              title: 'Comparing pneumococcal population structure to understand patterns of local strain prevalence and the impact of geographic transmission',
-              authors: 'Rama Kandasamy, Rebecca Gladstone, Nicholas Croucher, Andrew J. Pollard, Stephen Bentley',
-              affiliations: 'University of Oxford',
-              details: 'Studies consistently demonstrate geographical differences in pneumococcal serotype-specific distribution. This study aims to identify the dynamics of novel strains and transmission events between regions.'
-            },
-            {
               title: 'Defining the mechanisms and evolution of cotrimoxazole resistance in a global dataset of *Streptococcus pneumoniae*',
               authors: 'Jennifer Cornick, Anmol Kiran, Dean Everett',
               affiliations: 'Malawi-Liverpool-Wellcome Trust Clinical Research Programme',
@@ -82,24 +76,6 @@ const content = {
               authors: 'Paulina Hawkins',
               affiliations: 'Centers for Disease Control and Prevention',
               details: 'Macrolide has increasingly been used as empirical treatment for respiratory tract infection. After PCV13, rising macrolide resistance was observed in pneumococci with non-vaccine serotype ([Lo *et al* 2019](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext)). This study will improve our understanding of the genetic diversity of ribosomal mutations related to macrolide resistance in *S. pneumoniae.*'
-            },
-            {
-              title: 'Emergence of a cotrimoxazole resistant serotype 16F lineage GPSC46 in an intensively vaccinated African birth cohort',
-              authors: 'Felix Dube, Stephanie Lo',
-              affiliations: 'Wellcome Sanger Institute and University of Cape Town',
-              details: 'In a longitudinal carriage study in Drakenstein, serotype 16F appears to be a common serotype and most of them belong to GPSC46. This study combines the GPSC46 isolates from both studies to understand its global distribution and evolution.'
-            },
-            {
-              title: 'Epidemiology of invasive pneumococcal disease in Thailand, 2009-2012',
-              authors: 'Rebecca Hocknell, David W. Cleary, Somporn Srifeungfung, Stuart Clarke',
-              affiliations: 'University of Southampton and Siam University',
-              details: 'Current understanding of invasive pneumococcal disease in Thailand is very limited, and this sub-study will probably be the first to report the population structure of IPD isolates in this region and served as the baseline data to evaluate the PCV impact once it is implemented nationally.'
-            },
-            {
-              title: 'Evolution of CC63 (PMEN25) pre and post PCV introduction',
-              authors: 'Paulina Hawkins',
-              affiliations: 'Centers for Disease Control and Prevention',
-              details: 'CC63 belongs to GPSC9 is one of the top globally-spreading strain after PCV13. It is multidrug-resistant. This study will shed light on adaptation and evolution under vaccine-selective pressure.'
             },
             {
               title: 'Genetic diversity and distribution of the pneumococcal ABC transporter proteins and implications on potential protein-based vaccines',
@@ -178,12 +154,6 @@ const content = {
               authors: 'Carmen Sheppard, Stephanie Lo',
               affiliations: 'Public Health of England and Wellcome Sanger Institute',
               details: 'PHE developed a WGS-based tool [PneumoCaT](https://pubmed.ncbi.nlm.nih.gov/27672516/) to infer serotype from genome data. This study will harness the global collection in the GPS project to understand a 19F divergent. The knowledge learned will ultimately be integrated into a new version of PneumoCaT.'
-            },
-            {
-              title: 'Population genetic structure, serotype distribution and antibiotic resistance of *Streptococcus pneumoniae* in Nigeria',
-              authors: 'Stephen Obaro, Stephanie Lo',
-              affiliations: 'University of Nebraska Medical Center and Wellcome Sanger Institute',
-              details: 'Nigeria introduced PCV10 in 2014. Current understanding about the epidemiology of *S. pneumoniae* is scarce. This study will be the first to describe the pneumococcal population using whole-genome sequencing during the introduction of PCV10.'
             },
             {
               title: 'Population genomics of mobile genetic elements',
