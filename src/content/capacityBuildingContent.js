@@ -54,16 +54,33 @@ const content = {
           content: 'A key aim of GPS2 is to support the development of skills of local researchers who become confident to independently analyse genomic data. Supporting the development of bioinformatics expertise is achieved through a multi-faceted approach, through a combination of online training, in person workshops and ongoing mentoring.'
         },
         {
-          type: 'md',
-          content: '![Participants at the 2019 writers workshop at the Wellcome Sanger Institute](img/2019_writers_workshop.jpg)'
+          type: 'carousel',
+          content: [
+            {
+              url: 'img/advanced_bioinformatics_workshop_colombia.jpeg',
+              alt: 'Advanced Bioinformatics Workshop in Colombia'
+            },
+            {
+              url: 'img/advanced_bioinformatics_workshop_gambia.jpeg',
+              alt: 'Advanced Bioinformatics Workshop in the Gambia'
+            },
+            {
+              url: 'img/advanced_bioinformatics_workshop_india.jpeg',
+              alt: 'Advanced Bioinformatics Workshop in India'
+            },
+            {
+              url: 'img/advanced_bioinformatics_workshop_turkey.jpeg',
+              alt: 'Advanced Bioinformatics Workshop in Turkey'
+            },
+          ]
         },
         {
           type: 'md',
-          content: '###### Participants at the 2019 writers workshop at the Wellcome Sanger Institute'
+          content: '###### Participants and trainers in Advanced Bioinformatics Training Workshops in different locations'
         },
         {
           type: 'md',
-          content: 'In 2019, collaborators from six LMIC countries joined the GPS team at the Wellcome Sanger institute for an intensive week focused on analysis and drafting of country analysis papers for publication, [many of which have since been published](https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection/). After a hiatus owing to the COVID-19 pandemic, in person bioinformatics workshop have since been resumed in 2022. '
+          content: 'In 2019, collaborators from six LMIC countries joined the GPS team at the Wellcome Sanger institute for an intensive week focused on analysis and drafting of country analysis papers for publication, [many of which have since been published](https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection/). After a hiatus owing to the COVID-19 pandemic, in person bioinformatics workshop have since been resumed in 2023.'
         },
         {
           type: 'md',
@@ -101,8 +118,11 @@ const content = {
           content: "Nida Javaid is a PhD student from a partner group in the Department of Biology, Lahore University of Management Sciences, Pakistan. Nida obtained an 8 months research fellowship funded by Higher Education Commission in Pakistan and joined the Bentley group the Wellcome Sanger Institute for hands-on training in genomic analyses of *S. pneumoniae*. Unfortunately, Nida's arrival coincided with the UK national lockdown and the switch to working from home. Despite these challenges, Nida quickly integrated with the team, and learnt how to apply key tools used for characterising the genomic epidemiology of pneumococci to datasets from South Africa and Pakistan. Dr. Stephanie Lo is Nida's main mentor and together they made a great mentor-mentee team. As the lockdown restrictions started easing, Nida started having weekly in-person meetings with Stephanie, and joined occasional get-togethers with other team members."
         },
         {
-          type: 'md',
-          content: '![Nida Javaid and Stephanie Lo at the Wellcome Genome Campus](img/steph_and_nida.jpg)'
+          type: 'imageHalfWidth',
+          content: {
+            url: 'img/steph_and_nida.jpg',
+            alt: 'Nida Javaid and Stephanie Lo at the Wellcome Genome Campus'
+          }
         },
         {
           type: 'md',
