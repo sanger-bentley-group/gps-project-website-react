@@ -11,8 +11,11 @@ const content = {
           content: '*Streptococcus pneumoniae* bacteria (also known as the pneumococcus) are the leading vaccine-preventable cause of pneumonia, septicaemia and meningitis in young children. In 2015, the pneumococcus was estimated to be responsible for about 9 million cases of disease, and over 317,000 deaths in children under five years of age, with the main burden in low- and middle-income countries ([Wahl 2018](https://doi.org/10.1016/S2214-109X(18)30247-X)).',
         },
         {
-          type: 'md',
-          content: '![Image of Streptococcus pneumoniae](img/streptococcus.jpg)'
+          type: 'imageHalfWidth',
+          content: {
+            url: 'img/streptococcus.jpg',
+            alt: 'Image of Streptococcus pneumoniae'
+          }
         },
         {
           type: 'md',
