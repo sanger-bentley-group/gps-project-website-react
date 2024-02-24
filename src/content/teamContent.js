@@ -30,11 +30,6 @@ const content = {
               photo: 'img/harry_hung.jpg'
             },
             {
-              name: 'Dr. Narender Kumar',
-              position: 'Senior Bioinformatician and Lead Genomics Capacity Building',
-              photo: 'img/narender_kumar.jpg'
-            },
-            {
               name: 'Oliver Lorenz',
               position: 'Senior Bioinformatician',
               photo: 'img/oliver_lorenz.jpeg'
@@ -106,6 +101,41 @@ const content = {
               photo: 'img/john_lees.jpg'
             },
           ],
+        },
+      ]
+    },
+    {
+      subtitle: {
+        content: 'Former Member'
+      },
+      content: [
+        {
+          type: 'md',
+          content: '- Leon Bentley',
+        },
+        {
+          type: 'md',
+          content: '- Jyothish N Nair Thulasee Bhai',
+        },
+        {
+          type: 'md',
+          content: '- Robert F Breiman *(Former Project Leader)*',
+        },
+        {
+          type: 'md',
+          content: '- Rebecca A Gladstone',
+        },
+        {
+          type: 'md',
+          content: '- Hani Kim *(Former Gates Program Officer)*',
+        },
+        {
+          type: 'md',
+          content: '- Narender Kumar',
+        },
+        {
+          type: 'md',
+          content: '- Alison Maguire',
         },
       ]
     },
