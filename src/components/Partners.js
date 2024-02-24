@@ -26,7 +26,7 @@ const Markers = ({partnerByCity}) => (
       <circle 
         className='opacity-80 hover:opacity-100'
         r={4} 
-        fill="hsl(var(--p))" 
+        fill="oklch(var(--p))" 
         stroke="#FFFFFF"
         strokeWidth={1}
         data-tooltip-id="react-tooltip"

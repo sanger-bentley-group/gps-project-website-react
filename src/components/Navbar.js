@@ -21,13 +21,13 @@ const Button = ({ title, url, external }) => (
   external 
   ? 
     <a onClick={deactivate} href={url} target="_blank" rel="noreferrer">
-      <label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">
+      <label tabIndex={0} className="btn btn-ghost btn-s rounded-btn">
         <NewWindowIcon className="stroke-current h-5" />
         {title}
       </label>
     </a>
   : 
-    <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label></Link>
+    <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn">{title}</label></Link>
 )
 
 const ListItem = ({ title, url, external }) => (
@@ -45,7 +45,7 @@ const ListItem = ({ title, url, external }) => (
 
 const DropdownButton = ({ title, url, submenu }) => (
   <div className="dropdown dropdown-hover dropdown-end">
-    <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn normal-case">{title}</label></Link>
+    <Link onClick={deactivate} to={url}><label tabIndex={0} className="btn btn-ghost btn-s rounded-btn">{title}</label></Link>
     <ul tabIndex={0} className="menu menu-sm dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       { submenu.map((item , index) => <ListItem {...item} key={index}/>) }
     </ul>

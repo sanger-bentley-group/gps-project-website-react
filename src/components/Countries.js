@@ -26,7 +26,7 @@ const Markers = ({samplingByCountry}) => (
       <circle 
         className='opacity-80 hover:opacity-100'
         r={4} 
-        fill={info.microreactURL ? "hsl(var(--a))" : "hsl(var(--p))"}
+        fill={info.microreactURL ? "oklch(var(--a))" : "oklch(var(--p))"}
         stroke="#FFFFFF"
         strokeWidth={1}
         data-tooltip-id="react-tooltip"

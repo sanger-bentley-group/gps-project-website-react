@@ -95,7 +95,7 @@ const ContentVimeoEmbed = ({id, title}) => (
 
 const ContentButton = ({text, url}) => (
   <div className='place-self-center'>
-    <a className="btn btn-primary text-lg font-bold normal-case" href={url} target='_blank' rel="noreferrer">{text}</a>
+    <a className="btn btn-primary text-lg font-bold" href={url} target='_blank' rel="noreferrer">{text}</a>
   </div>
 )
 
@@ -137,7 +137,7 @@ const PublicationCard = ({cards}) => (
           {card.youtube_id ? <ContentYoutubeEmbed id={card.youtube_id} title={card.title} /> : null}
           <div className="flex flex-wrap gap-4 place-self-end place-content-end">
             {card.buttons.map((button, index) => (
-              <a className="btn btn-primary text-lg font-bold normal-case" href={button.url} target='_blank' rel="noreferrer" key={index}>↓ {button.text}</a>
+              <a className="btn btn-primary text-lg font-bold" href={button.url} target='_blank' rel="noreferrer" key={index}>↓ {button.text}</a>
             ))}
           </div>
         </div>
