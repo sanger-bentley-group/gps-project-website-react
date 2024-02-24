@@ -146,6 +146,16 @@ const PublicationCard = ({cards}) => (
   </div>
 )
 
+const Carousel = ({photos}) => (
+  <div className="carousel carousel-center rounded-box p-1 space-x-1 bg-neutral">
+    {photos.map(({url, alt}, index) => (
+      <div className="carousel-item w-8/12" key={index}>
+        <img src={url} alt={alt} className='rounded-box'/>
+      </div> 
+    ))}
+  </div>
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
@@ -168,6 +178,10 @@ const SectionContent = ({type, content}) => {
       return <ContentQuoteCard photo={content.photo} name={content.name} quotes={content.quotes} />
     case 'publicationGrid':
       return <PublicationCard cards={content} />
+    case 'carousel':
+      return <Carousel photos={content} />
+    case 'imageHalfWidth':
+      return <div className='w-full hero'><img src={content.url} alt={content.alt} className='rounded-box w-full xl:w-1/2'/></div> 
     case 'html':
         return <div className='w-full' dangerouslySetInnerHTML={{__html: content}} />
     default:
