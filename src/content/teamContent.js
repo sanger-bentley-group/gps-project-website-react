@@ -35,7 +35,7 @@ const content = {
               photo: 'img/alannah_king.jpg'
             },
             {
-              name: 'Oliver Lorenz',
+              name: 'Mr. Oliver Lorenz',
               position: 'Senior Bioinformatician',
               photo: 'img/oliver_lorenz.jpg'
             },
@@ -67,7 +67,7 @@ const content = {
               photo: 'img/lesley_mcgee.jpg'
             },
             {
-              name: 'Paulina Hawkins',
+              name: 'Ms. Paulina Hawkins',
               position: 'Research Project Coordinator',
               photo: 'img/paulina_hawkins.jpg'
             },
@@ -116,31 +116,35 @@ const content = {
       content: [
         {
           type: 'md',
-          content: '- Leon Bentley',
+          content: '- Mr. Leon Bentley',
         },
         {
           type: 'md',
-          content: '- Jyothish N Nair Thulasee Bhai',
+          content: '- Mr. Jyothish N Nair Thulasee Bhai',
         },
         {
           type: 'md',
-          content: '- Robert F Breiman *(Former Project Leader)*',
+          content: '- Professor Robert F Breiman *(Former Project Leader)*',
         },
         {
           type: 'md',
-          content: '- Rebecca A Gladstone',
+          content: '- Dr. Victoria Dyster'
         },
         {
           type: 'md',
-          content: '- Hani Kim *(Former Gates Program Officer)*',
+          content: '- Dr. Rebecca A Gladstone',
         },
         {
           type: 'md',
-          content: '- Narender Kumar',
+          content: '- Dr. Hani Kim *(Former Gates Program Officer)*',
         },
         {
           type: 'md',
-          content: '- Alison Maguire',
+          content: '- Dr. Narender Kumar',
+        },
+        {
+          type: 'md',
+          content: '- Ms. Alison Maguire',
         },
       ]
     },
