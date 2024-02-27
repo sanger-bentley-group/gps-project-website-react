@@ -30,9 +30,14 @@ const content = {
               photo: 'img/harry_hung.jpg'
             },
             {
+              name: 'Dr. Alannah King',
+              position: 'Bioinformatician',
+              photo: 'img/alannah_king.jpg'
+            },
+            {
               name: 'Oliver Lorenz',
               position: 'Senior Bioinformatician',
-              photo: 'img/oliver_lorenz.jpeg'
+              photo: 'img/oliver_lorenz.jpg'
             },
             {
               name: 'Dr. Kate Mellor',
