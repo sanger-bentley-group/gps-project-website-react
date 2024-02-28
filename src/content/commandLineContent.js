@@ -147,7 +147,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- **Novel Clusters are assigned NA** in the `*_external_clusters.csv` as they have not been defined in the dataset used to designate the GPSCs. Please email [globalpneumoseq@gmail.com](mailto:globalpneumoseq@gmail.com) to have novel clusters added to the database and a GPSC cluster name assigned after you have checked for low level contamination which may contribute to biased accessory distances.',
+          content: '- **Novel Clusters are assigned NA** in the `*_external_clusters.csv` as they have not been defined in the dataset used to designate the GPSCs. Please email [gps@pneumogen.net](mailto:gps@pneumogen.net) to have novel clusters added to the database and a GPSC cluster name assigned after you have checked for low level contamination which may contribute to biased accessory distances.',
         },
         {
           type: 'md',
