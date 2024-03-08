@@ -87,12 +87,12 @@ const content = [
   },
   {
     title: 'GPS Database',
-    url: './gps-database-overview',
+    url: './gps-database-overview/',
     external: true
   },
   {
     title: 'GPS Visualiser',
-    url: './gps-visualiser',
+    url: './gps-visualiser/',
     external: true
   },
 ]
