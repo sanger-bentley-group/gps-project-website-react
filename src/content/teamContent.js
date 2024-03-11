@@ -71,6 +71,11 @@ const content = {
               position: 'Research Project Coordinator',
               photo: 'img/paulina_hawkins.jpg'
             },
+            {
+              name: 'Ms. Simran Utreja',
+              position: 'Microbiologist',
+              photo: 'img/simran_utreja.jpg'
+            },
           ],
         },
       ]
