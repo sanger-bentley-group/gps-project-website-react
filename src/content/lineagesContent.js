@@ -5,7 +5,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'Each Global Pneumococcal Sequence Cluster (GPSC) is **an international genomic definition of a pneumococcal lineage** ([Gladstone & Lo et al 2019 Ebiomedicine](https://doi.org/10.1016/j.ebiom.2019.04.021) defined using the clustering software [PopPUNK](https://doi.org/10.1101/gr.241455.118). Using GPSCs, we can capture all variation across the entire pneumococcal genome, allowing us to monitor and understanding the processes involved in vaccine escape ([Lo & Gladstone et al 2019 Lancet Infectious Diseases](https://doi.org/10.1016/S1473-3099(19)30297-X)).'        
+          content: 'Each Global Pneumococcal Sequence Cluster (GPSC) is **an international genomic definition of a pneumococcal lineage** ([Gladstone & Lo et al 2019 Ebiomedicine](https://doi.org/10.1016/j.ebiom.2019.04.021) defined using the clustering software [PopPUNK](https://doi.org/10.1101/gr.241455.118). Using GPSCs, we can capture all variations across the entire pneumococcal genome, allowing us to monitor and understand the processes involved in vaccine escape ([Lo & Gladstone et al 2019 Lancet Infectious Diseases](https://doi.org/10.1016/S1473-3099(19)30297-X)).'        
         },
         {
           type: 'md',
