@@ -44,11 +44,6 @@ const content = {
               position: 'Senior Staff Scientist',
               photo: 'img/kate_mellor.jpg'
             },
-            {
-              name: 'Dr. Jolynne Mokaya',
-              position: 'Senior Bioinformatician and Bioinformatics Training Lead',
-              photo: 'img/jolynne_mokaya.jpg'
-            },
           ],
         },
       ]
@@ -151,6 +146,10 @@ const content = {
           type: 'md',
           content: '- Ms. Alison Maguire',
         },
+        {
+          type: 'md',
+          content: '- Dr. Jolynne Mokaya'
+        }
       ]
     },
   ]
