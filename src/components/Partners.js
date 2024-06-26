@@ -32,6 +32,7 @@ const Markers = ({partnerByCity}) => (
         data-tooltip-id="react-tooltip"
         data-tooltip-html={renderToStaticMarkup(<TooltipContent info={info} />)}
         data-tooltip-place="top"
+        data-tooltip-class-name="max-w-[80%]"
       />
     </Marker>
   ))
