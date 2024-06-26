@@ -57,8 +57,8 @@ count	serotype	accessionNumber	comments	reference	referenceUrl
 53	19B	CR931676	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 54	19C	CR931677	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 -	20	CR931679	Sub-typed to 20A and 20B	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
-55	20A	-	-	Burton et al 2012 Clin Vaccine Immunol 	https://doi.org/10.1128/CVI.00086-12
-56	20B	-	-	Burton et al 2012 Clin Vaccine Immunol 	https://doi.org/10.1128/CVI.00086-12
+55	20A	JQ653094	-	Calix et al 2012 J Biol Chem 	https://doi.org/10.1074/jbc.M112.380451
+56	20B	JQ653093	-	Calix et al 2012 J Biol Chem 	https://doi.org/10.1074/jbc.M112.380451
 57	21	CR931680	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 58	22F	CR931682	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
 59	22A	CR931681	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031
