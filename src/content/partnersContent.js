@@ -9,7 +9,31 @@ const content = {
       affiliations: [
         { 
           name: 'Administración Nacional de Laboratorios e Institutos de Salud', 
-          partners: ['Alejandra Corso', 'Diego Faccone', 'Paula Gagetti', 'Jonathan Zintgraff']
+          partners: ['Alejandra Corso', 'Claudia Lara', 'Diego Faccone', 'Jonathan Zintgraff', 'Nahuel Sanchez Eluchans', 'Paula Gagetti']
+        },
+      ]
+    },
+    {
+      country: 'Australia',
+      city:'Adelaide', 
+      latitude: '-34.999757',
+      longitude: '138.2808329',
+      affiliations: [
+        { 
+          name: 'Central Adelaide Local Health Network', 
+          partners: ['Lex Leong']
+        },
+      ]
+    },
+    {
+      country: 'Australia',
+      city:'Melbourne', 
+      latitude: '-37.9696356',
+      longitude: '144.392391',
+      affiliations: [
+        { 
+          name: 'Murdoch Childrens Research Institute', 
+          partners: ['Catherine Satzke', 'Laura Boelsen']
         },
       ]
     },
@@ -21,7 +45,7 @@ const content = {
       affiliations: [
         { 
           name: 'Child Health Research Foundation', 
-          partners: ['Md Hasanuzzaman', 'Roly Malaker', 'Samir K. Saha']
+          partners: ['Md Hasanuzzaman', 'Senjuti Saha', 'Samir K. Saha']
         },
         { 
           name: 'International Centre for Diarrheal Diseases Research', 
@@ -61,7 +85,7 @@ const content = {
       affiliations: [
         { 
           name: 'Instituto Adolfo Lutz de São Paulo', 
-          partners: ['Ana Paula Silva de Lemos', 'Maria Cristina de Cunto Brandileone', 'Samanta Cristine Grassi Almeida']
+          partners: ['Ana Paula Cassiolato', 'Maria Cristina de Cunto Brandileone', 'Samanta Cristine Grassi Almeida']
         },
       ]
     },
@@ -118,18 +142,34 @@ const content = {
       ]
     },
     {
+      country: 'China',
+      city:'Shanghai', 
+      latitude: '31.2243489',
+      longitude: '121.4767528',
+      affiliations: [
+        { 
+          name: "China Pneumococcal Research Alliance", 
+          partners: ['Mingliang Chen', 'Xuebin Xu', 'Yue Liu']
+        },
+      ]
+    },
+    {
       country: 'Colombia',
       city:'Bogotá', 
       latitude: '4.6486259',
       longitude: '-74.247892',
       affiliations: [
         { 
+          name: "Independent", 
+          partners: ['José Luis Di Fabio']
+        },
+        { 
           name: "Instituto Nacional de Salud", 
-          partners: ['Clara Inés Agudelo', 'Elizabeth Castañeda', 'Carolina Duarte', 'Jaime Moreno']
+          partners: ['Carolina Duarte','Clara Inés Agudelo', 'Elizabeth Castañeda', 'Jaime Moreno']
         },
         { 
           name: "Universidad De La Sabana", 
-          partners: ['Luis Felipe Reyes Velasco ']
+          partners: ['Luis Felipe Reyes Velasco']
         },
       ]
     },
@@ -154,6 +194,18 @@ const content = {
         { 
           name: "Hospital Infantil Dr. Robert Reid Cabral", 
           partners: ['Doraliza Cedano', 'Jacqueline Sánchez']
+        },
+      ]
+    },
+    {
+      country: 'Denmark',
+      city:'Faroe Islands', 
+      latitude: '61.8943873',
+      longitude: '-8.2758366',
+      affiliations: [
+        { 
+          name: "Roskilde University", 
+          partners: ['Arnfinnur Kallsberg']
         },
       ]
     },
@@ -204,6 +256,10 @@ const content = {
       longitude: '-0.2057437',
       affiliations: [
         { 
+          name: "Noguchi Memorial Institute for Medical Research", 
+          partners: ['Augustina Frimpong', 'Eliza Marie Kwesi-Maliepaard']
+        },
+        { 
           name: "School of Biomedical and Allied Health Sciences", 
           partners: ['Eric Sampane-Donkor']
         },
@@ -223,6 +279,18 @@ const content = {
     },
     {
       country: 'India',
+      city:'Tamil Nadu', 
+      latitude: '10.8152952',
+      longitude: '75.6426035',
+      affiliations: [
+        { 
+          name: "National Institute of Epidemiology", 
+          partners: ['Yuvaraj Jeyaraman']
+        },
+      ]
+    },
+    {
+      country: 'India',
       city:'Vellore', 
       latitude: '12.7948109',
       longitude: '79.0006411',
@@ -235,10 +303,14 @@ const content = {
     },
     {
       country: 'Indonesia',
-      city:'Central Jakarta', 
+      city:'Jakarta', 
       latitude: '-6.1823119',
       longitude: '106.8014452',
       affiliations: [
+        { 
+          name: "Eijkman Institute for Molecular Biology", 
+          partners: ['Dodi Safari']
+        },
         { 
           name: "University of Oxford", 
           partners: ['Dwi Daningrat']
@@ -270,6 +342,18 @@ const content = {
       ]
     },
     {
+      country: 'Japan',
+      city:'Nagasaki', 
+      latitude: '32.7587826',
+      longitude: '129.6022233',
+      affiliations: [
+        { 
+          name: "Nagasaki University", 
+          partners: ['Lay Myint']
+        },
+      ]
+    },
+    {
       country: 'Kenya',
       city:'Kilifi', 
       latitude: '-3.15073925',
@@ -288,8 +372,24 @@ const content = {
       longitude: '36.8172449',
       affiliations: [
         { 
+          name: "Centers for Disease Control and Prevention", 
+          partners: ['Jennifer Verani']
+        },
+        { 
           name: "Kenya Medical Research Institute", 
           partners: ['Godfrey Bigogo']
+        },
+      ]
+    },
+    {
+      country: 'Lebanon',
+      city:'Beirut', 
+      latitude: '33.8892522',
+      longitude: '35.4836398',
+      affiliations: [
+        { 
+          name: "Center for Infectious Diseases Research", 
+          partners: ['Ghassan Dbaibo']
         },
       ]
     },
@@ -316,8 +416,8 @@ const content = {
       longitude: '101.6942371',
       affiliations: [
         { 
-          name: "MAHSA University", 
-          partners: ['Shamala Devi Sekaran (Sekaran SD)']
+          name: "UCSI University", 
+          partners: ['Shamala Devi Sekaran']
         },
         { 
           name: "University of Southampton", 
@@ -345,15 +445,11 @@ const content = {
       affiliations: [
         { 
           name: "Faculté de médecine et de pharmacie de Casablanca", 
-          partners: ['Khalid Zerouali']
+          partners: ['Idrissa Diawara', 'Khalid Zerouali']
         },
         { 
           name: "Ibn Rochd University Hospital", 
           partners: ['Naima Elmdaghri', 'Houria Belabbès']
-        },
-        { 
-          name: "Université Mohammed VI des Sciences de la Santé", 
-          partners: ['Idrissa Diawara']
         },
       ]
     },
@@ -389,7 +485,7 @@ const content = {
       affiliations: [
         { 
           name: "Radboud University Medical Center", 
-          partners: ['Marien de Jonger']
+          partners: ['Amelieke Cremers', 'Marien de Jonger']
         },
       ]
     },
@@ -434,6 +530,18 @@ const content = {
       ]
     },
     {
+      country: 'Norway',
+      city:'Oslo', 
+      latitude: '59.8939239',
+      longitude: '10.6199696',
+      affiliations: [
+        { 
+          name: "Norwegian Institute of Public Health", 
+          partners: ['Magnus Nygård Osnes', 'Vegard Eldholm']
+        },
+      ]
+    },
+    {
       country: 'Pakistan',
       city:'Karachi', 
       latitude: '25.1446897',
@@ -441,7 +549,7 @@ const content = {
       affiliations: [
         { 
           name: "Aga Khan University", 
-          partners: ['Imran Nisar', 'Sadia Shakoor']
+          partners: ['Imran Nisar', 'Sadia Shakoor', 'Zahra Hasan']
         },
       ]
     },
@@ -505,7 +613,19 @@ const content = {
       affiliations: [
         { 
           name: "National Medicines Institute", 
-          partners: ['Anna Skoczynska', 'Ewa Sadowy', 'Waleria Hryniewicz']
+          partners: ['Anna Skoczynska', 'Ewa Sadowy', 'Waleria Hryniewicz', 'Weronika Puzia']
+        },
+      ]
+    },
+    {
+      country: 'Portugal',
+      city:'Oeiras', 
+      latitude: '38.6933335',
+      longitude: '-9.3335373',
+      affiliations: [
+        { 
+          name: "ITQB NOVA", 
+          partners: ['Raquel Sa Leao']
         },
       ]
     },
@@ -529,19 +649,7 @@ const content = {
       affiliations: [
         { 
           name: "G.N. Gabrichevsky Research Institute for Epidemiology and Microbiology", 
-          partners: ['Yulia Urban', 'Elena Voropaeva', 'Ekaterina Egorova']
-        },
-      ]
-    },
-    {
-      country: 'Singapore',
-      city:'Singapore', 
-      latitude: '1.340863',
-      longitude: '103.8303918',
-      affiliations: [
-        { 
-          name: "University of Southampton", 
-          partners: ['Stuart C Clarke']
+          partners: ['Ekaterina Egorova', 'Elena Voropaeva','Yulia Urban']
         },
       ]
     },
@@ -567,14 +675,6 @@ const content = {
           name: "National Institute for Communicable Diseases", 
           partners: ['Anne von Gottberg', 'Cebile Lekhuleni', 'Kedibone M. Ndlangisa', 'Linda De Gouveia', 'Mignon du Plessis', 'Mushal Ali', 'Nicole Wolter']
         },
-      ]
-    },
-    {
-      country: 'South Africa',
-      city:'Soweto', 
-      latitude: '-26.2227778',
-      longitude: '26.89',
-      affiliations: [
         { 
           name: "University of the Witwatersrand", 
           partners: ['Shabir A. Madhi', 'Susan A Nzenze']
@@ -590,6 +690,18 @@ const content = {
         { 
           name: "Hospital Sant Joan de Déu", 
           partners: ['Alba Redin Alonso', 'Carmen Muñoz Almagro']
+        },
+      ]
+    },
+    {
+      country: 'Taiwan',
+      city:'Miaoli County', 
+      latitude: '24.515071',
+      longitude: '120.6113922',
+      affiliations: [
+        { 
+          name: "National Health Research Institutes", 
+          partners: ['Shu-Chen Kuo', 'Ying-Chi Huang']
         },
       ]
     },
@@ -615,22 +727,6 @@ const content = {
           name: "Siriraj Hospital and Siam University", 
           partners: ['Somporn Srifuengfung']
         },
-        { 
-          name: "University of Southampton", 
-          partners: ['Stuart C Clarke']
-        },
-      ]
-    },
-    {
-      country: 'Thailand',
-      city:'Maesot', 
-      latitude: '16.713140',
-      longitude: '98.573837',
-      affiliations: [
-        { 
-          name: "University of Oxford", 
-          partners: ['Paul Turner']
-        },
       ]
     },
     {
@@ -641,7 +737,7 @@ const content = {
       affiliations: [
         { 
           name: "MRC Unit The Gambia at LSHTM", 
-          partners: ['Brenda Kwambana-Adams', 'Ebenezer Foster-Nyarko', 'Ebrima Bojang', 'Martin Antonio', 'Peggy-Estelle Tientcheu ']
+          partners: ['Brenda Kwambana-Adams', 'Ebenezer Foster-Nyarko', 'Ebrima Bojang', 'Martin Antonio', 'Peggy-Estelle Tientcheu']
         },
       ]
     },
@@ -689,15 +785,19 @@ const content = {
       affiliations: [
         { 
           name: "Imperial College London", 
-          partners: ['David Aanensen', 'John A Lees', 'Nicholas Croucher', 'Rafal Mostowy']
+          partners: ['David Aanensen', 'John A Lees', 'Nicholas Croucher']
         },
         { 
           name: "University of Cambridge", 
           partners: ['Alison Maguire']
         },
         { 
+          name: "University of Southampton", 
+          partners: ['David Cleary']
+        },
+        { 
           name: "Wellcome Sanger Institute", 
-          partners: ['Jyothish N Nair Thulasee Bhai', 'Leon Bentley', 'Rebecca A Gladstone', 'Rebecca Henderson', 'Stephanie W Lo', 'Stephen D Bentley']
+          partners: ['Alannah King', 'Ana Ferreira', 'Chrispin Chaguza', 'Gerry Tonkin-Hill', 'Harry Hung', 'Jolynne Mokaya', 'Jyothish N Nair Thulasee Bhai', 'Kate Mellor', 'Leon Bentley', 'Narender Kumar', 'Oliver Lorenz', 'Raymond Cheng', 'Rebecca A Gladstone', 'Sophie Belman', 'Stephanie W Lo', 'Stephen D Bentley']
         },
       ]
     },
@@ -709,7 +809,7 @@ const content = {
       affiliations: [
         { 
           name: "Departamento de Laboratorios, Ministerio de Salud Pública", 
-          partners: ['Cristina Modgasy', 'Gabriela García', 'Teresa Camou']
+          partners: ['Cristina Modgasy', 'Gabriela García Gabarrot', 'Teresa Camou']
         },
       ]
     },
@@ -721,7 +821,7 @@ const content = {
       affiliations: [
         { 
           name: "Centers for Disease Control and Prevention", 
-          partners: ['Bernard Beall', 'Jennifer Verani', 'Lesley McGee']
+          partners: ['Bernard Beall', 'Lesley McGee']
         },
         { 
           name: "Rollins School of Public Health", 
@@ -741,7 +841,7 @@ const content = {
       affiliations: [
         { 
           name: "Bill & Melinda Gates Foundation", 
-          partners: ['Keith P Klugman']
+          partners: ['Gail Rodgers', 'Kate Fay', 'Keith P Klugman']
         },
       ]
     },
@@ -754,18 +854,6 @@ const content = {
         { 
           name: "The University of Alabama", 
           partners: ['Feroze Ganaie', 'Jamil Saad', 'Moon Nahm']
-        },
-      ]
-    },
-    {
-      country: 'United States',
-      city:'Washington, DC', 
-      latitude: '38.8938672',
-      longitude: '-77.0846158',
-      affiliations: [
-        { 
-          name: "Independent", 
-          partners: ['José Luis Di Fabio']
         },
       ]
     },
@@ -790,6 +878,10 @@ const content = {
         { 
           name: "Oxford University Clinical Research Unit", 
           partners: ['Hoa Ngo Thi']
+        },
+        { 
+          name: "Pasteur Institute", 
+          partners: ['Phan Van Thanh']
         },
       ]
     },
