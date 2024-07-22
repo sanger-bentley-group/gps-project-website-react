@@ -688,6 +688,10 @@ const content = {
       longitude: '2.1774322',
       affiliations: [
         { 
+          name: "Barcelona Supercomputing Center", 
+          partners: ['Sophie Belman']
+        },
+        { 
           name: "Hospital Sant Joan de Déu", 
           partners: ['Alba Redin Alonso', 'Carmen Muñoz Almagro']
         },
@@ -797,7 +801,7 @@ const content = {
         },
         { 
           name: "Wellcome Sanger Institute", 
-          partners: ['Alannah King', 'Ana Ferreira', 'Chrispin Chaguza', 'Gerry Tonkin-Hill', 'Harry Hung', 'Jolynne Mokaya', 'Jyothish N Nair Thulasee Bhai', 'Kate Mellor', 'Leon Bentley', 'Narender Kumar', 'Oliver Lorenz', 'Raymond Cheng', 'Rebecca A Gladstone', 'Sophie Belman', 'Stephanie W Lo', 'Stephen D Bentley']
+          partners: ['Alannah King', 'Ana Ferreira', 'Chrispin Chaguza', 'Gerry Tonkin-Hill', 'Harry Hung', 'Jolynne Mokaya', 'Jyothish N Nair Thulasee Bhai', 'Kate Mellor', 'Leon Bentley', 'Narender Kumar', 'Oliver Lorenz', 'Raymond Cheng', 'Rebecca A Gladstone', 'Stephanie W Lo', 'Stephen D Bentley']
         },
       ]
     },
