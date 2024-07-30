@@ -96,11 +96,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '2. Download GPS reference database v8 ([.zip](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.zip) or [.tar.gz](https://gps-project.cog.sanger.ac.uk/GPS_v8_ref.tar.gz)) and [GPSC designation v8](https://gps-project.cog.sanger.ac.uk/GPS_v8_external_clusters.csv)'
+          content: '2. Download PopPUNK GPS database v9 ([.zip](https://gps-project.cog.sanger.ac.uk/GPS_v9.zip) or [.tar.gz](https://gps-project.cog.sanger.ac.uk/GPS_v9.tar.gz)) (10GB) and [GPSC designation v9](https://gps-project.cog.sanger.ac.uk/GPS_v9_external_clusters.csv) (716 kB)'
         },
         {
           type: 'md',
-          content: '3. Unzip the downloaded GPS reference database v8'
+          content: '3. Unzip the downloaded PopPUNK GPS database v9'
         },
         {
           type: 'md',
@@ -112,11 +112,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `GPS_v8_ref`: GPS reference database v8',
+          content: '- `GPS_v9`: PopPUNK GPS database v9',
         },
         {
           type: 'md',
-          content: '- `GPS_v8_external_clusters.csv`: GPSC designation v8'
+          content: '- `GPS_v9_external_clusters.csv`: GPSC designation v9'
         },
         {
           type: 'md',
@@ -126,7 +126,7 @@ const content = {
           type: 'code',
           content: [
             '# (Optional) To increase speed, add: --threads <number of threads>',
-            'poppunk_assign --db GPS_v8_ref --external-clustering GPS_v8_external_clusters.csv --query qfile.txt --output <output folder>'
+            'poppunk_assign --db GPS_v9 --external-clustering GPS_v9_external_clusters.csv --query qfile.txt --output <output folder>'
           ]
         },
         {
@@ -139,7 +139,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `*_external_clusters.csv`: GPSC designation based on v8 scheme',
+          content: '- `*_external_clusters.csv`: GPSC designation based on v9 scheme',
         },
         {
           type: 'md',
@@ -151,7 +151,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '- Merged clusters: Unsampled diversity may represent missing variation linking two clusters. GPSCs are then merged. For example if GPSC23 and GPSC362 merged, the GPSC would be then reported as GPSC23, with a merge history of GPSC23;362.',
+          content: '- Merged clusters: Unsampled diversity may represent missing variation linking two clusters. GPSCs are then merged. For example if GPSC23 and GPSC362 merged, the GPSC would be then reported as the smaller GPSC value (i.e. GPSC23), with a merge history of GPSC23;362.',
+        },
+        {
+          type: 'md',
+          content: '- GPSC235;9 is an exception. This lineage is a mixture of GPSC9 and GPSC235, but do not indicate the merging of GPSC9 and GPSC235 lineages.',
         },
       ]
     }

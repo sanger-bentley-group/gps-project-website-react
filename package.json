@@ -4,19 +4,26 @@
   "homepage": "gps",
   "private": true,
   "dependencies": {
-    "@tanstack/react-table": "^8.12.0",
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
+    "@tanstack/react-table": "^8.19.3",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^14.3.1",
     "@testing-library/user-event": "^14.5.2",
     "papaparse": "^5.4.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-markdown": "^9.0.1",
-    "react-router-dom": "^6.22.1",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
     "react-simple-maps": "^3.0.0",
-    "react-tooltip": "^5.26.3",
+    "react-tooltip": "^5.27.1",
     "web-vitals": "^3.5.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "d3-color": "^3.1.0",
+      "nth-check": "^2.0.1",
+      "postcss": "^8.4.31"
+    }
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,8 +50,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "daisyui": "^4.7.2",
-    "tailwindcss": "^3.4.1"
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "daisyui": "^4.12.10",
+    "tailwindcss": "^3.4.7"
   }
 }
