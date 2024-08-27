@@ -1,0 +1,4629 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="clusterMap"
+   id="root-svg"
+   cursor="grab"
+   width="641.26202"
+   height="240"
+   version="1.1"
+   sodipodi:docname="serotype_19F_cps.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1329"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.84384114"
+     inkscape:cx="251.82465"
+     inkscape:cy="139.83675"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1326" />
+  <defs
+     id="defs7">
+    <filter
+       id="filter_solid"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feFlood
+         flood-color="rgba(0, 0, 0, 0.8)"
+         id="feFlood2"
+         result="result1" />
+      <feComposite
+         in="SourceGraphic"
+         in2="result1"
+         id="feComposite4" />
+    </filter>
+  </defs>
+  <g
+     class="clusterMapG"
+     transform="translate(98.532219,31.423498)"
+     id="g1326">
+    <g
+       class="links"
+       id="g759">
+      <g
+         id="link-6d93d433-ea55-4d2e-9057-98e00754af72"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 71.785,55 V 99"
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path9" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="71.785004"
+           y="77"
+           id="text11">0.99</text>
+      </g>
+      <g
+         id="link-4b28ab08-1a4d-49f4-bcc2-2040efe75b3e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 88.135,55 V 99"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path14" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="88.135002"
+           y="77"
+           id="text16">1.00</text>
+      </g>
+      <g
+         id="link-d5be4a7e-63bb-4e9a-8227-cec603d85785"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 98.9425,55 V 99"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path19" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="98.942497"
+           y="77"
+           id="text21">1.00</text>
+      </g>
+      <g
+         id="link-d61f60a6-5562-4a70-841e-51bd535b3b38"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 109.405,55 V 99"
+           style="fill:none;stroke:#040404;stroke-width:0.5px"
+           id="path24" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="109.405"
+           y="77"
+           id="text26">0.99</text>
+      </g>
+      <g
+         id="link-598691f5-6b59-40e9-acd9-6e5864cd3567"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 125.02,55 V 99"
+           style="fill:none;stroke:#111111;stroke-width:0.5px"
+           id="path29" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="125.02"
+           y="77"
+           id="text31">0.94</text>
+      </g>
+      <g
+         id="link-22921d7a-8787-4250-9364-7a8f261cc92b"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 140.905,55 V 99"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path34" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="140.905"
+           y="77"
+           id="text36">1.00</text>
+      </g>
+      <g
+         id="link-dad4630a-14e3-4c98-a9c2-2ffd1738d9c0"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 152.6125,55 V 99"
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path39" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="152.6125"
+           y="77"
+           id="text41">0.99</text>
+      </g>
+      <g
+         id="link-fc2afe4c-effb-49eb-b5fb-2356fef2a794"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 165.4075,55 V 99"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path44" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="165.4075"
+           y="77"
+           id="text46">1.00</text>
+      </g>
+      <g
+         id="link-d5ad5055-118d-4f9c-851e-4de05aa442e7"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 182.035,55 V 99"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path49" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="182.035"
+           y="77"
+           id="text51">1.00</text>
+      </g>
+      <g
+         id="link-2a40cc81-3d54-4b63-8eef-a192c45e5d13"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 203.065,55 V 99"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path54" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="203.065"
+           y="77"
+           id="text56">1.00</text>
+      </g>
+      <g
+         id="link-d4190e2c-9991-4aa0-97da-78eb2e8b0cb3"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 222.8425,55 V 99"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path59" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="222.8425"
+           y="77"
+           id="text61">1.00</text>
+      </g>
+      <g
+         id="link-ea08ed9c-f5e0-4ef6-872b-5b228afc4156"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 238.105,55 V 99"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path64" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="238.105"
+           y="77"
+           id="text66">1.00</text>
+      </g>
+      <g
+         id="link-69e43794-97f0-4cb0-8cf0-ef685d374f1f"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 249.1075,55 V 99"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path69" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="249.1075"
+           y="77"
+           id="text71">1.00</text>
+      </g>
+      <g
+         id="link-a3be180a-c029-4929-941f-d71138ab82be"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 261.595,55 V 99"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path74" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="261.595"
+           y="77"
+           id="text76">1.00</text>
+      </g>
+      <g
+         id="link-0c3eb888-bb60-4883-ac75-60d2d4aa5483"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 276.835,55 V 99"
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path79" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="276.83499"
+           y="77"
+           id="text81">0.99</text>
+      </g>
+      <g
+         id="link-b18b41a0-1162-423f-a2dd-8212b4bd95fe"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path84" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text86">0.99</text>
+      </g>
+      <g
+         id="link-5787a5e1-c58f-49b3-ac77-ed189741c5c9"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path89" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text91">1.00</text>
+      </g>
+      <g
+         id="link-3603a760-1a2e-4031-b11a-b54800b5eb0b"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#030303;stroke-width:0.5px"
+           id="path94" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text96">0.99</text>
+      </g>
+      <g
+         id="link-23864f03-4e14-4885-9cf7-5690f91c8d13"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#060606;stroke-width:0.5px"
+           id="path99" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text101">0.98</text>
+      </g>
+      <g
+         id="link-c502c8d7-9a01-4257-b9c7-717b3f92a70c"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path104" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text106">1.00</text>
+      </g>
+      <g
+         id="link-3fc6a389-97cd-4d2c-859d-ad6bfb8ec4b3"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path109" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text111">1.00</text>
+      </g>
+      <g
+         id="link-e37f3e45-c4ea-4d5e-bb70-f17d661253b7"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path114" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text116">1.00</text>
+      </g>
+      <g
+         id="link-b434028f-d165-46a9-b910-34e460e95ee4"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path119" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text121">1.00</text>
+      </g>
+      <g
+         id="link-7879ec67-9180-42d5-b631-cb9deb1d0303"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path124" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text126">1.00</text>
+      </g>
+      <g
+         id="link-e7b9ea51-9500-4aa1-a5d3-fd0a0c131363"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path129" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text131">1.00</text>
+      </g>
+      <g
+         id="link-3b105689-3f43-4336-9b7c-a61555aa707c"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path134" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text136">1.00</text>
+      </g>
+      <g
+         id="link-ff2924b2-a19c-426c-b57b-3814f59d4dcd"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path139" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text141">1.00</text>
+      </g>
+      <g
+         id="link-85523fff-b2bc-4425-b8b2-ca4e26241432"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path144" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text146">1.00</text>
+      </g>
+      <g
+         id="link-6b80a731-51a5-4aa8-a5fa-a847001d7752"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path149" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text151">1.00</text>
+      </g>
+      <g
+         id="link-59fa5187-f848-4439-af62-f548c6d248a1"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path154" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text156">1.00</text>
+      </g>
+      <g
+         id="link-bc2409ef-c0d3-4501-ba9b-7d76088f50c4"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#0a0a0a;stroke-width:0.5px"
+           id="path159" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text161">0.96</text>
+      </g>
+      <g
+         id="link-fa93f778-1814-456c-9dfe-7450584a4937"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path164" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text166">1.00</text>
+      </g>
+      <g
+         id="link-66e5aad8-2087-462c-baef-92834d168b84"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path169" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text171">1.00</text>
+      </g>
+      <g
+         id="link-af341bed-e00c-4a93-baae-43aa115d0244"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#050505;stroke-width:0.5px"
+           id="path174" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text176">0.98</text>
+      </g>
+      <g
+         id="link-6ab1e147-6a55-4a39-9104-cf84e6c54892"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#111111;stroke-width:0.5px"
+           id="path179" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text181">0.94</text>
+      </g>
+      <g
+         id="link-a3692596-c046-4919-93df-2405cd5c1e4d"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path184" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text186">1.00</text>
+      </g>
+      <g
+         id="link-f557c36c-57cf-461c-aec6-4546e2cfd695"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path189" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text191">0.99</text>
+      </g>
+      <g
+         id="link-f883eed2-7583-46f2-853e-6c1ad44fc1ee"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path194" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text196">1.00</text>
+      </g>
+      <g
+         id="link-132e1327-4371-473c-b42e-66504b1c20f8"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path199" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text201">1.00</text>
+      </g>
+      <g
+         id="link-aa0464ae-40cd-452e-ba3b-8bfb77d36b35"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path204" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text206">1.00</text>
+      </g>
+      <g
+         id="link-98d9aaf7-caa2-456a-9801-a89b23d152f4"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path209" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text211">1.00</text>
+      </g>
+      <g
+         id="link-ba95200b-1618-48ea-be46-625b3b12ec29"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path214" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text216">1.00</text>
+      </g>
+      <g
+         id="link-7358e5d4-eb0a-46d4-a812-f1bb1bf9d706"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path219" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text221">1.00</text>
+      </g>
+      <g
+         id="link-2d31ae83-3347-4169-9bd2-ce76ee4a97c5"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path224" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text226">1.00</text>
+      </g>
+      <g
+         id="link-456cc9c4-2c82-420e-a228-55896fbddae1"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#030303;stroke-width:0.5px"
+           id="path229" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text231">0.99</text>
+      </g>
+      <g
+         id="link-785cc75f-122e-4824-b8af-62046fdce112"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 62.395,11 9.39,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path234" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="67.089996"
+           y="33"
+           id="text236">1.00</text>
+      </g>
+      <g
+         id="link-3728ccba-832e-4185-b7fc-69248b9f5625"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 78.745,11 9.39,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path239" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="83.440002"
+           y="33"
+           id="text241">1.00</text>
+      </g>
+      <g
+         id="link-23966694-735f-4213-8646-ae839ff656fb"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 89.5525,11 9.39,44"
+           style="fill:none;stroke:#040404;stroke-width:0.5px"
+           id="path244" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="94.247498"
+           y="33"
+           id="text246">0.99</text>
+      </g>
+      <g
+         id="link-34e14398-f141-4d5f-9a3e-78a6c34d3f43"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 100.06,11 9.345,44"
+           style="fill:none;stroke:#060606;stroke-width:0.5px"
+           id="path249" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="104.7325"
+           y="33"
+           id="text251">0.98</text>
+      </g>
+      <g
+         id="link-c324bff2-c7e2-4d82-b645-6d7a813b4ab2"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 115.645,11 9.375,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path254" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="120.3325"
+           y="33"
+           id="text256">1.00</text>
+      </g>
+      <g
+         id="link-0de555d0-46d2-428b-9726-d88b033ca97f"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 131.53,11 9.375,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path259" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="136.2175"
+           y="33"
+           id="text261">1.00</text>
+      </g>
+      <g
+         id="link-dbd784ae-58c1-4e53-94d8-7e4ea1438ad4"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 143.2375,11 9.375,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path264" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="147.925"
+           y="33"
+           id="text266">1.00</text>
+      </g>
+      <g
+         id="link-e76736f2-b548-4f46-8c8f-67605471d44d"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 156.0325,11 9.375,44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path269" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="160.72"
+           y="33"
+           id="text271">1.00</text>
+      </g>
+      <g
+         id="link-d28aa5bf-fe8e-49fc-bd60-4f61e41b296e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 172.66,11 9.375,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path274" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="177.3475"
+           y="33"
+           id="text276">1.00</text>
+      </g>
+      <g
+         id="link-9ee2ce61-7dc0-4e2d-ac3f-fc8c9b43718c"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 193.69,11 9.375,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path279" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="198.3775"
+           y="33"
+           id="text281">1.00</text>
+      </g>
+      <g
+         id="link-1b1e3bef-4ac2-4c62-a388-4b486fda1d26"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 213.4675,11 9.375,44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path284" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="218.155"
+           y="33"
+           id="text286">1.00</text>
+      </g>
+      <g
+         id="link-640b3d64-c42a-4471-b537-9b181fe69330"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 228.73,11 9.375,44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path289" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="233.4175"
+           y="33"
+           id="text291">1.00</text>
+      </g>
+      <g
+         id="link-927eb683-d92a-4739-8172-5c84e3d1351b"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 239.7325,11 9.375,44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path294" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="244.42"
+           y="33"
+           id="text296">1.00</text>
+      </g>
+      <g
+         id="link-3622a009-4ac9-4f71-b1a0-fd96d3672f06"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 252.22,11 9.375,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path299" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="256.9075"
+           y="33"
+           id="text301">1.00</text>
+      </g>
+      <g
+         id="link-b24606ce-39bf-40c9-9e04-5706f617d949"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 267.46,11 9.375,44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path304" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="272.14749"
+           y="33"
+           id="text306">1.00</text>
+      </g>
+      <g
+         id="link-924dd054-7072-466c-8910-230c6d40171c"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 71.785,99 71.77,143"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path309" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="71.777496"
+           y="121"
+           id="text311">1.00</text>
+      </g>
+      <g
+         id="link-d88bb4c7-b87f-435b-bfc4-b9aa24338faf"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="M 88.135,99 88.12,143"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path314" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="88.127502"
+           y="121"
+           id="text316">1.00</text>
+      </g>
+      <g
+         id="link-2889b134-2fa1-4c5b-9819-3e2583cab0a6"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 98.9425,99 -0.015,44"
+           style="fill:none;stroke:#030303;stroke-width:0.5px"
+           id="path319" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="98.934998"
+           y="121"
+           id="text321">0.99</text>
+      </g>
+      <g
+         id="link-eda0605b-a57e-4e02-b7c4-1a6354698240"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 109.405,99 0.03,44"
+           style="fill:none;stroke:#060606;stroke-width:0.5px"
+           id="path324" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="109.42"
+           y="121"
+           id="text326">0.98</text>
+      </g>
+      <g
+         id="link-fead2aa6-2406-4fff-8de6-828395b7605f"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 125.02,99 v 44"
+           style="fill:none;stroke:#101010;stroke-width:0.5px"
+           id="path329" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="125.02"
+           y="121"
+           id="text331">0.95</text>
+      </g>
+      <g
+         id="link-3fdfe591-b151-44af-a4ad-86bb2dac6099"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 140.905,99 v 44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path334" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="140.905"
+           y="121"
+           id="text336">1.00</text>
+      </g>
+      <g
+         id="link-cebe0bb6-f7d4-4389-ac4e-f02150b9fbdf"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 152.6125,99 v 44"
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path339" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="152.6125"
+           y="121"
+           id="text341">0.99</text>
+      </g>
+      <g
+         id="link-13795dfb-1b6e-405f-a27d-a9ae5c682758"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 165.4075,99 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path344" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="165.4075"
+           y="121"
+           id="text346">1.00</text>
+      </g>
+      <g
+         id="link-da5fd1c2-08a1-4b87-829a-0e95f3e198f8"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 182.035,99 v 44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path349" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="182.035"
+           y="121"
+           id="text351">1.00</text>
+      </g>
+      <g
+         id="link-009b63f2-a605-4561-a9a4-dcca30398a5e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 203.065,99 v 44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path354" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="203.065"
+           y="121"
+           id="text356">1.00</text>
+      </g>
+      <g
+         id="link-ad08f59f-f765-4098-b2d0-8184e544c52f"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 222.8425,99 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path359" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="222.8425"
+           y="121"
+           id="text361">1.00</text>
+      </g>
+      <g
+         id="link-1de8d14d-e70f-4981-9a78-1e39c302fb35"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 238.105,99 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path364" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="238.105"
+           y="121"
+           id="text366">1.00</text>
+      </g>
+      <g
+         id="link-8e880d62-d387-4d34-8206-cf457d183a3c"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 249.1075,99 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path369" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="249.1075"
+           y="121"
+           id="text371">1.00</text>
+      </g>
+      <g
+         id="link-6cafe1f4-38e3-4b3d-b254-915a479111d6"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 261.595,99 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path374" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="261.595"
+           y="121"
+           id="text376">1.00</text>
+      </g>
+      <g
+         id="link-8fef7311-ce02-4e3c-acf8-6e7651405527"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 276.835,99 v 44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path379" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="276.83499"
+           y="121"
+           id="text381">1.00</text>
+      </g>
+      <g
+         id="link-081113eb-1a66-45bf-9c3b-cefdadc0ae2d"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#0d0d0d;stroke-width:0.5px"
+           id="path384" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text386">0.96</text>
+      </g>
+      <g
+         id="link-b8e13fd5-b5af-492c-9afc-c171ae3188f2"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path389" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text391">1.00</text>
+      </g>
+      <g
+         id="link-fd4f8fd5-80bc-4080-814f-4976d279177a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path394" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text396">1.00</text>
+      </g>
+      <g
+         id="link-d19ad668-8ac9-4e9c-991c-25cc304fe092"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path399" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text401">1.00</text>
+      </g>
+      <g
+         id="link-34f165ee-6840-4e16-bdd9-54c24626cf4e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path404" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text406">1.00</text>
+      </g>
+      <g
+         id="link-2979a617-af7f-45c5-a4d9-54947debca5d"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path409" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text411">1.00</text>
+      </g>
+      <g
+         id="link-6d240e41-edac-44f0-a697-adb7c6d25f01"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path414" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text416">1.00</text>
+      </g>
+      <g
+         id="link-86eca82d-fe88-49aa-b28b-3f1f69fc56b2"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path419" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text421">1.00</text>
+      </g>
+      <g
+         id="link-5a74e419-ab93-4b09-afd6-4d89ffd8dbbd"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path424" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text426">1.00</text>
+      </g>
+      <g
+         id="link-539fb08d-1261-45fa-9fc5-e74b7d771141"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path429" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text431">1.00</text>
+      </g>
+      <g
+         id="link-5d27c657-43ed-4217-8829-9ddda7cbbe9d"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path434" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text436">1.00</text>
+      </g>
+      <g
+         id="link-992b49ad-3292-4c5e-b25f-d82a713b1cd3"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path439" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text441">1.00</text>
+      </g>
+      <g
+         id="link-2116e46e-3258-4744-bd06-2086f721aa2a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path444" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text446">1.00</text>
+      </g>
+      <g
+         id="link-113248de-ae87-4552-8bfc-7730ae9dbf3b"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path449" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text451">1.00</text>
+      </g>
+      <g
+         id="link-ce8d3ac0-fcb0-4884-8577-c5974b21f4b1"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#050505;stroke-width:0.5px"
+           id="path454" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text456">0.98</text>
+      </g>
+      <g
+         id="link-9d5ced0f-69b0-4b32-a647-6cb1714699d8"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#030303;stroke-width:0.5px"
+           id="path459" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text461">0.99</text>
+      </g>
+      <g
+         id="link-3ce46cf8-c771-4ede-934f-3ba992aee968"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path464" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text466">1.00</text>
+      </g>
+      <g
+         id="link-66e97d25-c680-4fcb-9fb3-1b23ec2046b7"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#040404;stroke-width:0.5px"
+           id="path469" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text471">0.99</text>
+      </g>
+      <g
+         id="link-0e319d01-4db7-421a-98b3-08503fc7ced5"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#060606;stroke-width:0.5px"
+           id="path474" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text476">0.98</text>
+      </g>
+      <g
+         id="link-0c8796fd-1849-4c9f-a908-fe16b25322a4"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#101010;stroke-width:0.5px"
+           id="path479" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text481">0.95</text>
+      </g>
+      <g
+         id="link-1e0a6a9a-6cc1-4319-806c-1f78cb608b1e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path484" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text486">1.00</text>
+      </g>
+      <g
+         id="link-c7307756-c68f-442d-b5a5-643ea39968b6"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path489" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text491">1.00</text>
+      </g>
+      <g
+         id="link-e8eab454-c597-41ca-a459-483633257266"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path494" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text496">1.00</text>
+      </g>
+      <g
+         id="link-d1c07d45-13ab-4d45-86ee-b2974533487c"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path499" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text501">1.00</text>
+      </g>
+      <g
+         id="link-f32fa113-f032-4d0e-a74b-252549525a9a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path504" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text506">1.00</text>
+      </g>
+      <g
+         id="link-d254103a-9414-4700-b725-5d33f6515a84"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path509" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text511">1.00</text>
+      </g>
+      <g
+         id="link-0b440d5a-237c-4a59-bc73-51d99f1b9fb4"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path514" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text516">1.00</text>
+      </g>
+      <g
+         id="link-a0386b6e-c649-4b05-a57d-541d5761dde6"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path519" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text521">1.00</text>
+      </g>
+      <g
+         id="link-db47fbea-797f-4714-a17e-a6320da1de5a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path524" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text526">1.00</text>
+      </g>
+      <g
+         id="link-20215728-5b50-4970-a596-73704e512e8e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path529" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text531">1.00</text>
+      </g>
+      <g
+         id="link-31da13d7-6cc5-4eed-b52b-4d8e90c022fa"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 71.77,143 0.015,44"
+           style="fill:none;stroke:#0c0c0c;stroke-width:0.5px"
+           id="path534" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="71.777496"
+           y="165"
+           id="text536">0.96</text>
+      </g>
+      <g
+         id="link-d3fc6977-0e5a-4cc4-879c-9ea52569ba2b"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 88.12,143 0.015,44"
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path539" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="88.127502"
+           y="165"
+           id="text541">0.99</text>
+      </g>
+      <g
+         id="link-2df569db-f8d9-475c-bfe8-28bfd02f8bcd"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 98.9275,143 0.015,44"
+           style="fill:none;stroke:#030303;stroke-width:0.5px"
+           id="path544" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="98.934998"
+           y="165"
+           id="text546">0.99</text>
+      </g>
+      <g
+         id="link-fe103c9c-ddb4-4bf4-85c9-62a2359814c7"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 109.435,143 -0.03,44"
+           style="fill:none;stroke:#080808;stroke-width:0.5px"
+           id="path549" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="109.42"
+           y="165"
+           id="text551">0.97</text>
+      </g>
+      <g
+         id="link-79b47692-fe3b-4972-89e7-776df1105a04"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 125.02,143 v 44"
+           style="fill:none;stroke:#101010;stroke-width:0.5px"
+           id="path554" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="125.02"
+           y="165"
+           id="text556">0.95</text>
+      </g>
+      <g
+         id="link-3e449dfd-3dce-461d-bf8e-1345f637e36e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 140.905,143 v 44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path559" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="140.905"
+           y="165"
+           id="text561">1.00</text>
+      </g>
+      <g
+         id="link-241677da-2c22-44ac-bd24-ec93eeaf7801"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 152.6125,143 v 44"
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path564" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="152.6125"
+           y="165"
+           id="text566">0.99</text>
+      </g>
+      <g
+         id="link-3537f67c-a6a8-4d8a-961d-f15b2b95264a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 165.4075,143 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path569" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="165.4075"
+           y="165"
+           id="text571">1.00</text>
+      </g>
+      <g
+         id="link-87c2b3cc-d68e-4c73-bf52-0c989c915574"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 182.035,143 v 44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path574" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="182.035"
+           y="165"
+           id="text576">1.00</text>
+      </g>
+      <g
+         id="link-6ae52d43-c13a-4c03-b885-e90802ab92ab"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 203.065,143 v 44"
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path579" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="203.065"
+           y="165"
+           id="text581">1.00</text>
+      </g>
+      <g
+         id="link-0179c385-cfb5-4189-a003-36867eaac829"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 222.8425,143 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path584" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="222.8425"
+           y="165"
+           id="text586">1.00</text>
+      </g>
+      <g
+         id="link-2e1c43bb-c88a-4dee-a8fa-e6fefd863f4d"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 238.105,143 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path589" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="238.105"
+           y="165"
+           id="text591">1.00</text>
+      </g>
+      <g
+         id="link-61f1c9bd-e829-4def-93a8-1b4736db6f18"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 249.1075,143 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path594" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="249.1075"
+           y="165"
+           id="text596">1.00</text>
+      </g>
+      <g
+         id="link-dec32c38-4db2-4bda-8557-501308443f2e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 261.595,143 v 44"
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path599" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="261.595"
+           y="165"
+           id="text601">1.00</text>
+      </g>
+      <g
+         id="link-2c491331-ecdf-46a5-bdbd-e643349acd2b"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d="m 276.835,143 v 44"
+           style="fill:none;stroke:#040404;stroke-width:0.5px"
+           id="path604" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           x="276.83499"
+           y="165"
+           id="text606">0.99</text>
+      </g>
+      <g
+         id="link-177368e5-f62a-453f-9966-911a04cd3002"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path609" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text611">0.99</text>
+      </g>
+      <g
+         id="link-1b5e3145-7129-4d26-b78f-7877b60e388a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path614" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text616">1.00</text>
+      </g>
+      <g
+         id="link-82e646ea-3e66-41f9-9199-46acae9bf6e2"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path619" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text621">1.00</text>
+      </g>
+      <g
+         id="link-5cc610f6-1f92-42ea-9469-6fa3821bd5c0"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path624" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text626">1.00</text>
+      </g>
+      <g
+         id="link-ddd6b7ff-c580-42fd-bc77-767c17bc3162"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path629" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text631">1.00</text>
+      </g>
+      <g
+         id="link-c6a61b7f-aaee-44de-9ab1-8718e586fe13"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path634" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text636">1.00</text>
+      </g>
+      <g
+         id="link-d6d23b44-0c1b-4e0b-9294-bb7fe75edb24"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path639" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text641">1.00</text>
+      </g>
+      <g
+         id="link-643aabb7-fc85-42b7-8108-8ee7bf488abf"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path644" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text646">1.00</text>
+      </g>
+      <g
+         id="link-809b4475-b94d-4891-b6b7-49dd9757cb18"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path649" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text651">1.00</text>
+      </g>
+      <g
+         id="link-07a1a0a1-1de4-4c96-8e6a-7a21fd6e812e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path654" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text656">1.00</text>
+      </g>
+      <g
+         id="link-f25bf1bc-bd6e-40f0-87f1-9bab2c4b73ec"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path659" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text661">1.00</text>
+      </g>
+      <g
+         id="link-19cd0a43-e170-4aa1-805f-1a30841d79e5"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path664" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text666">1.00</text>
+      </g>
+      <g
+         id="link-9da76d53-5890-495b-980d-7ba976221ebb"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path669" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text671">1.00</text>
+      </g>
+      <g
+         id="link-1bbe9163-42ac-4aba-a2e3-d4e5a1de1932"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path674" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text676">1.00</text>
+      </g>
+      <g
+         id="link-92966790-c85d-4af1-81ec-f96f88df1fae"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path679" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text681">1.00</text>
+      </g>
+      <g
+         id="link-b4c669e4-0215-48b2-953e-de2c7f00440f"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#0b0b0b;stroke-width:0.5px"
+           id="path684" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text686">0.96</text>
+      </g>
+      <g
+         id="link-5200cc0f-b684-457c-94b5-bc9881be6314"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#020202;stroke-width:0.5px"
+           id="path689" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text691">0.99</text>
+      </g>
+      <g
+         id="link-96f179af-1794-4d4d-9c3f-0fd5978f2a39"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#040404;stroke-width:0.5px"
+           id="path694" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text696">0.99</text>
+      </g>
+      <g
+         id="link-f27dbc13-cd06-4548-841b-21b27e644cb1"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#080808;stroke-width:0.5px"
+           id="path699" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text701">0.97</text>
+      </g>
+      <g
+         id="link-ecf046f3-5ebe-4c2d-b049-4f87aa32ef0a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#101010;stroke-width:0.5px"
+           id="path704" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text706">0.95</text>
+      </g>
+      <g
+         id="link-4a9ab9ec-5d5a-46dc-8b9a-51a26b4d4b37"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path709" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text711">1.00</text>
+      </g>
+      <g
+         id="link-ca29ceb5-2a2e-4b8d-b5df-b775e6e3fd12"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path714" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text716">1.00</text>
+      </g>
+      <g
+         id="link-b87d2db0-5d0e-4d3e-a907-a5a8efb56e00"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path719" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text721">1.00</text>
+      </g>
+      <g
+         id="link-74a000a2-e791-4828-87d9-9f69293db577"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path724" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text726">1.00</text>
+      </g>
+      <g
+         id="link-609328f8-abde-43d6-90c0-1d1d9cb8524e"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#010101;stroke-width:0.5px"
+           id="path729" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text731">1.00</text>
+      </g>
+      <g
+         id="link-6c382342-1cf0-48b0-bc31-7a7b47d1a283"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path734" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text736">1.00</text>
+      </g>
+      <g
+         id="link-5d2c4d96-7ea2-4359-8d84-c64159700532"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path739" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text741">1.00</text>
+      </g>
+      <g
+         id="link-793350f1-c79f-4239-b3f7-45e1a34d014a"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path744" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text746">1.00</text>
+      </g>
+      <g
+         id="link-a22394fd-8634-4b33-8dc7-107672e84552"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#000000;stroke-width:0.5px"
+           id="path749" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text751">1.00</text>
+      </g>
+      <g
+         id="link-d58114d6-2901-44c4-b978-5909e14e9f10"
+         class="geneLinkG"
+         opacity="1">
+        <path
+           class="geneLink"
+           d=""
+           style="fill:none;stroke:#040404;stroke-width:0.5px"
+           id="path754" />
+        <text
+           class="geneLinkLabel"
+           style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;text-anchor:middle;fill:#ffffff"
+           opacity="0"
+           filter="url(#filter_solid)"
+           id="text756">0.99</text>
+      </g>
+    </g>
+    <g
+       class="clusters"
+       id="g1231">
+      <g
+         id="cluster_2dec4d70-9e1e-4249-8612-deceda1ecd5f"
+         class="cluster"
+         transform="translate(61.5,44)">
+        <g
+           id="cinfo_2dec4d70-9e1e-4249-8612-deceda1ecd5f"
+           class="clusterInfo"
+           transform="translate(-72.059998)">
+          <text
+             class="clusterText"
+             y="8"
+             cursor="pointer"
+             style="font-weight:bold;font-size:12px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+             text-anchor="end"
+             id="text761">19F-I</text>
+          <text
+             class="locusText"
+             y="12"
+             style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:hanging"
+             text-anchor="end"
+             id="text763">JF911525:1-14819</text>
+        </g>
+        <g
+           class="loci"
+           id="g846">
+          <g
+             id="locus_efd5f3d2-fccc-4fe8-826b-231e58c37315"
+             class="locus"
+             transform="translate(-0.54500002)">
+            <line
+               class="trackBar"
+               style="fill:#111111;stroke:#111111;stroke-width:1px"
+               x1="-0.015"
+               x2="222.27"
+               y1="11"
+               y2="11"
+               id="line766" />
+            <g
+               class="genes"
+               id="g843">
+              <g
+                 id="gene_a814e176-840f-43c7-829d-e4d0c614f8d7"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="9.675,17 -0.015,17 -0.015,5 9.675,5 9.675,0 21.675,11 9.675,22 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon768" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,2.9970369,-14.063913)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text770" />
+              </g>
+              <g
+                 id="gene_d30a38b0-a517-450a-b98f-143f565aa668"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="21.69,5 21.69,0 32.67,11 21.69,22 21.69,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon773" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,11.172038,-33.80011)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text775" />
+              </g>
+              <g
+                 id="gene_f175cd0c-f250-495d-935b-7657e4d77d7c"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="32.79,5 32.79,0 43.185,11 32.79,22 32.79,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon778" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,16.575787,-46.845915)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text780" />
+              </g>
+              <g
+                 id="gene_23e9b02f-207b-4086-b92a-6e916d7305a0"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="43.32,5 43.32,0 53.58,11 43.32,22 43.32,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon783" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,21.807038,-59.475272)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text785" />
+              </g>
+              <g
+                 id="gene_1628d885-09b6-4443-8b7d-34611ce73554"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-1ec357ab-4a59-49e1-84ff-9569821c4174"
+                   points="62.325,17 53.805,17 53.805,5 62.325,5 62.325,0 74.325,11 62.325,22 "
+                   fill="#800080"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon788" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,29.61454,-78.324246)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text790" />
+              </g>
+              <g
+                 id="gene_ca4b1355-a173-4c3c-b5d0-f40c7ed120f1"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="74.37,5 74.37,0 85.53,11 74.37,22 74.37,17 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon793" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,37.557037,-97.499131)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text795" />
+              </g>
+              <g
+                 id="gene_72189bba-3ebf-4c8f-95a5-1e2a8b38c7c6"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e08f2744-5b9a-49b6-9cc5-d6dba96be4c9"
+                   points="85.845,17 85.47,17 85.47,5 85.845,5 85.845,0 97.845,11 85.845,22 "
+                   fill="#ffa500"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon798" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,43.41079,-111.63134)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text800" />
+              </g>
+              <g
+                 id="gene_d15d57e6-690c-4403-8839-097f439129f6"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="99.045,17 97.86,17 97.86,5 99.045,5 99.045,0 111.045,11 99.045,22 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon803" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,49.808289,-127.07627)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text805" />
+              </g>
+              <g
+                 id="gene_401501e2-aaa1-45d5-acaf-a170a54b348a"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-ce80b968-6982-4626-ac4c-a33f02ff4f80"
+                   points="119.115,17 111.045,17 111.045,5 119.115,5 119.115,0 131.115,11 119.115,22 "
+                   fill="#ff00ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon808" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,58.122041,-147.14744)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text810" />
+              </g>
+              <g
+                 id="gene_8c3ad80d-6895-46e3-9cf4-7c15a7893a15"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-0809acd1-d45e-4b53-8d3a-5d6ebc44980e"
+                   points="140.775,17 131.445,17 131.445,5 140.775,5 140.775,0 152.775,11 140.775,22 "
+                   fill="#ffff00"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon813" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,68.637037,-172.53288)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text815" />
+              </g>
+              <g
+                 id="gene_95142c1a-05ea-4ccc-905c-cc3a6254de33"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-7badf828-a92f-4f01-aec3-36e0346f3b42"
+                   points="158.055,17 153.72,17 153.72,5 158.055,5 158.055,0 170.055,11 158.055,22 "
+                   fill="#bf4712"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon818" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,78.525794,-196.40645)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text820" />
+              </g>
+              <g
+                 id="gene_229ff938-5140-4447-a94c-8c3855d0fedc"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="171.675,17 170.625,17 170.625,5 171.675,5 171.675,0 183.675,11 171.675,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon823" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,86.157043,-214.82992)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text825" />
+              </g>
+              <g
+                 id="gene_4ba2bb08-e389-4954-8d7f-fcad964bf09c"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="183.675,5 183.675,0 192.63,11 183.675,22 183.675,17 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon828" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,91.658294,-228.11111)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text830" />
+              </g>
+              <g
+                 id="gene_038af861-16cd-481e-8fa6-cb98df05f974"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="196.515,17 192.765,17 192.765,5 196.515,5 196.515,0 208.515,11 196.515,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon833" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,97.902046,-243.18486)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text835" />
+              </g>
+              <g
+                 id="gene_cdab0b6d-6aa1-4385-b941-1521e9131859"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="210.27,17 209.49,17 209.49,5 210.27,5 210.27,0 222.27,11 210.27,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon838" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,105.52204,-261.58116)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text840" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="cluster_0332c45b-2ea1-4677-9e7a-8068d5cd1c4f"
+         class="cluster"
+         transform="translate(61.5,88)">
+        <g
+           id="cinfo_0332c45b-2ea1-4677-9e7a-8068d5cd1c4f"
+           class="clusterInfo"
+           transform="translate(-72.059998)">
+          <text
+             class="clusterText"
+             y="8"
+             cursor="pointer"
+             style="font-weight:bold;font-size:12px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+             text-anchor="end"
+             id="text849">19F-II</text>
+          <text
+             class="locusText"
+             y="12"
+             style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:hanging"
+             text-anchor="end"
+             id="text851">JF911524:1-14819</text>
+        </g>
+        <g
+           class="loci"
+           id="g934">
+          <g
+             id="locus_6f034491-f8a2-4022-82d2-2653a4f6f2f5"
+             class="locus"
+             transform="translate(-0.54500002)">
+            <line
+               class="trackBar"
+               style="fill:#111111;stroke:#111111;stroke-width:1px"
+               x1="-0.015"
+               x2="222.27"
+               y1="11"
+               y2="11"
+               id="line854" />
+            <g
+               class="genes"
+               id="g931">
+              <g
+                 id="gene_0c0e9600-eef0-483f-a437-089ed9f511cf"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="9.675,17 -0.015,17 -0.015,5 9.675,5 9.675,0 21.675,11 9.675,22 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon856" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,2.9970369,-14.063913)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text858" />
+              </g>
+              <g
+                 id="gene_6030263d-dced-4cfd-90a3-268fcf741851"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="21.69,5 21.69,0 32.67,11 21.69,22 21.69,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon861" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,11.172038,-33.80011)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text863" />
+              </g>
+              <g
+                 id="gene_ee7ddb6a-4455-4313-8734-329244b0faa6"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="32.79,5 32.79,0 43.185,11 32.79,22 32.79,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon866" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,16.575787,-46.845915)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text868" />
+              </g>
+              <g
+                 id="gene_fa188a83-6be6-4be8-8cb0-bd3b5d88139f"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="43.32,5 43.32,0 53.58,11 43.32,22 43.32,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon871" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,21.807038,-59.475272)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text873" />
+              </g>
+              <g
+                 id="gene_1e1f3b1a-072d-4b4c-8c9b-e61bc27b9481"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-1ec357ab-4a59-49e1-84ff-9569821c4174"
+                   points="62.325,17 53.805,17 53.805,5 62.325,5 62.325,0 74.325,11 62.325,22 "
+                   fill="#800080"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon876" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,29.61454,-78.324246)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text878" />
+              </g>
+              <g
+                 id="gene_24126384-23dc-428a-aafd-39566b7724f5"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="74.37,5 74.37,0 85.53,11 74.37,22 74.37,17 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon881" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,37.557037,-97.499131)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text883" />
+              </g>
+              <g
+                 id="gene_8c26d7ce-7780-4dfd-ba57-8568082d371b"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e08f2744-5b9a-49b6-9cc5-d6dba96be4c9"
+                   points="85.845,17 85.47,17 85.47,5 85.845,5 85.845,0 97.845,11 85.845,22 "
+                   fill="#ffa500"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon886" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,43.41079,-111.63134)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text888" />
+              </g>
+              <g
+                 id="gene_2d960742-66fb-407d-9cc6-ebaf88d221eb"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="99.045,17 97.86,17 97.86,5 99.045,5 99.045,0 111.045,11 99.045,22 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon891" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,49.808289,-127.07627)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text893" />
+              </g>
+              <g
+                 id="gene_fd04865a-59e3-4abf-aef4-86bcc7e14d7d"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-ce80b968-6982-4626-ac4c-a33f02ff4f80"
+                   points="119.115,17 111.045,17 111.045,5 119.115,5 119.115,0 131.115,11 119.115,22 "
+                   fill="#ff00ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon896" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,58.122041,-147.14744)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text898" />
+              </g>
+              <g
+                 id="gene_792f21c6-11ea-40b2-a5d0-c0d091d61214"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-0809acd1-d45e-4b53-8d3a-5d6ebc44980e"
+                   points="140.775,17 131.445,17 131.445,5 140.775,5 140.775,0 152.775,11 140.775,22 "
+                   fill="#ffff00"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon901" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,68.637037,-172.53288)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text903" />
+              </g>
+              <g
+                 id="gene_167479c0-ccd0-43bf-bef1-f89c1b68afd3"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-7badf828-a92f-4f01-aec3-36e0346f3b42"
+                   points="158.055,17 153.72,17 153.72,5 158.055,5 158.055,0 170.055,11 158.055,22 "
+                   fill="#bf4712"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon906" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,78.525794,-196.40645)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text908" />
+              </g>
+              <g
+                 id="gene_2f0a82df-ce28-4f63-851d-445ea60ea4e3"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="171.675,17 170.625,17 170.625,5 171.675,5 171.675,0 183.675,11 171.675,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon911" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,86.157043,-214.82992)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text913" />
+              </g>
+              <g
+                 id="gene_21814c6f-9f8b-49a0-a12f-1013dfcecd45"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="183.675,5 183.675,0 192.63,11 183.675,22 183.675,17 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon916" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,91.658294,-228.11111)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text918" />
+              </g>
+              <g
+                 id="gene_beefa257-4b81-4e9c-858b-e277cde13445"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="196.515,17 192.765,17 192.765,5 196.515,5 196.515,0 208.515,11 196.515,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon921" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,97.902046,-243.18486)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text923" />
+              </g>
+              <g
+                 id="gene_5944a454-de4d-4ff4-ae57-d0f9ae0d12a5"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="210.27,17 209.49,17 209.49,5 210.27,5 210.27,0 222.27,11 210.27,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon926" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,105.52204,-261.58116)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text928" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="cluster_19266cb6-db22-4055-95bd-98085653cdaa"
+         class="cluster"
+         transform="translate(61.485001,132)">
+        <g
+           id="cinfo_19266cb6-db22-4055-95bd-98085653cdaa"
+           class="clusterInfo"
+           transform="translate(-72.044998)">
+          <text
+             class="clusterText"
+             y="8"
+             cursor="pointer"
+             style="font-weight:bold;font-size:12px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+             text-anchor="end"
+             id="text937">19F-III</text>
+          <text
+             class="locusText"
+             y="12"
+             style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:hanging"
+             text-anchor="end"
+             id="text939">JF911522:1-14820</text>
+        </g>
+        <g
+           class="loci"
+           id="g1022">
+          <g
+             id="locus_11750ad1-8726-4d05-a67d-570da47b3182"
+             class="locus"
+             transform="translate(-0.54500002)">
+            <line
+               class="trackBar"
+               style="fill:#111111;stroke:#111111;stroke-width:1px"
+               x1="-0.015"
+               x2="222.285"
+               y1="11"
+               y2="11"
+               id="line942" />
+            <g
+               class="genes"
+               id="g1019">
+              <g
+                 id="gene_c9790da6-1c47-41d1-b291-5d5848d03cdd"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="9.675,17 -0.015,17 -0.015,5 9.675,5 9.675,0 21.675,11 9.675,22 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon944" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,2.9970369,-14.063913)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text946" />
+              </g>
+              <g
+                 id="gene_027adae1-1f8c-417a-b409-0bf7de68ad35"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="21.69,5 21.69,0 32.67,11 21.69,22 21.69,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon949" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,11.172038,-33.80011)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text951" />
+              </g>
+              <g
+                 id="gene_0be2b51b-7496-45a0-91b2-c42d3cc87113"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="32.79,5 32.79,0 43.185,11 32.79,22 32.79,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon954" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,16.575787,-46.845915)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text956" />
+              </g>
+              <g
+                 id="gene_a0df9dea-f72c-4ef9-a5a8-92a229733972"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="43.32,5 43.32,0 53.67,11 43.32,22 43.32,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon959" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,21.829537,-59.529589)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text961" />
+              </g>
+              <g
+                 id="gene_21966e9e-df7e-42de-aac2-0885b5b1470a"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-1ec357ab-4a59-49e1-84ff-9569821c4174"
+                   points="62.34,17 53.82,17 53.82,5 62.34,5 62.34,0 74.34,11 62.34,22 "
+                   fill="#800080"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon964" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,29.622039,-78.342352)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text966" />
+              </g>
+              <g
+                 id="gene_70843365-5a2c-4b45-b9d6-cb9bf79ca4d8"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="74.385,5 74.385,0 85.545,11 74.385,22 74.385,17 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon969" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,37.564537,-97.517236)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text971" />
+              </g>
+              <g
+                 id="gene_89bb5fa7-6f6c-4ef5-878e-a22ab2be740c"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e08f2744-5b9a-49b6-9cc5-d6dba96be4c9"
+                   points="85.86,17 85.485,17 85.485,5 85.86,5 85.86,0 97.86,11 85.86,22 "
+                   fill="#ffa500"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon974" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,43.41829,-111.64944)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text976" />
+              </g>
+              <g
+                 id="gene_e680bab6-fa19-42ad-b90f-ac63740fbc6a"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="99.06,17 97.875,17 97.875,5 99.06,5 99.06,0 111.06,11 99.06,22 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon979" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,49.815789,-127.09437)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text981" />
+              </g>
+              <g
+                 id="gene_b6fd2da9-68eb-461d-8601-1998eac1d46f"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-ce80b968-6982-4626-ac4c-a33f02ff4f80"
+                   points="119.13,17 111.06,17 111.06,5 119.13,5 119.13,0 131.13,11 119.13,22 "
+                   fill="#ff00ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon984" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,58.129541,-147.16554)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text986" />
+              </g>
+              <g
+                 id="gene_58e4b433-734f-487d-8adc-1ee437a85ee2"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-0809acd1-d45e-4b53-8d3a-5d6ebc44980e"
+                   points="140.79,17 131.46,17 131.46,5 140.79,5 140.79,0 152.79,11 140.79,22 "
+                   fill="#ffff00"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon989" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,68.644537,-172.55099)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text991" />
+              </g>
+              <g
+                 id="gene_1dc34aac-b93b-4ba2-a321-81fc4bb3eb09"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-7badf828-a92f-4f01-aec3-36e0346f3b42"
+                   points="158.07,17 153.735,17 153.735,5 158.07,5 158.07,0 170.07,11 158.07,22 "
+                   fill="#bf4712"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon994" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,78.533293,-196.42456)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text996" />
+              </g>
+              <g
+                 id="gene_df9d5f7f-c04a-44e7-ab6f-6b4b009feae5"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="171.69,17 170.64,17 170.64,5 171.69,5 171.69,0 183.69,11 171.69,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon999" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,86.164542,-214.84802)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1001" />
+              </g>
+              <g
+                 id="gene_6ffff55f-733e-4bc7-9666-c8a9e8318573"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="183.69,5 183.69,0 192.645,11 183.69,22 183.69,17 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1004" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,91.665794,-228.12922)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1006" />
+              </g>
+              <g
+                 id="gene_51a671e2-a1ec-47fc-a6bf-3269c460fed3"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="196.53,17 192.78,17 192.78,5 196.53,5 196.53,0 208.53,11 196.53,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1009" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,97.909546,-243.20297)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1011" />
+              </g>
+              <g
+                 id="gene_65a9b133-1a6b-4a6c-a13d-f191104c9e0d"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="210.285,17 209.505,17 209.505,5 210.285,5 210.285,0 222.285,11 210.285,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1014" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,105.52954,-261.59926)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1016" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="cluster_2399ad1e-a841-468e-b8d9-5f0168f49edf"
+         class="cluster"
+         transform="translate(61.5,176)">
+        <g
+           id="cinfo_2399ad1e-a841-468e-b8d9-5f0168f49edf"
+           class="clusterInfo"
+           transform="translate(-72.059998)">
+          <text
+             class="clusterText"
+             y="8"
+             cursor="pointer"
+             style="font-weight:bold;font-size:12px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+             text-anchor="end"
+             id="text1025">19F-IV</text>
+          <text
+             class="locusText"
+             y="12"
+             style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:hanging"
+             text-anchor="end"
+             id="text1027">JF911528:1-14819</text>
+        </g>
+        <g
+           class="loci"
+           id="g1110">
+          <g
+             id="locus_42e82c70-b2f9-4842-8897-24c536e7c3fd"
+             class="locus"
+             transform="translate(-0.54500002)">
+            <line
+               class="trackBar"
+               style="fill:#111111;stroke:#111111;stroke-width:1px"
+               x1="-0.015"
+               x2="222.27"
+               y1="11"
+               y2="11"
+               id="line1030" />
+            <g
+               class="genes"
+               id="g1107">
+              <g
+                 id="gene_b9af3650-0883-4374-bf4d-cb4b3f98f22c"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="9.675,17 -0.015,17 -0.015,5 9.675,5 9.675,0 21.675,11 9.675,22 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1032" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,2.9970369,-14.063913)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1034" />
+              </g>
+              <g
+                 id="gene_a76b6a6e-b87f-47c1-8f56-4ea546085567"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="21.69,5 21.69,0 32.67,11 21.69,22 21.69,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1037" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,11.172038,-33.80011)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1039" />
+              </g>
+              <g
+                 id="gene_1272fe5f-167a-4eae-808b-876f8cff7be9"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="32.79,5 32.79,0 43.185,11 32.79,22 32.79,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1042" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,16.575787,-46.845915)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1044" />
+              </g>
+              <g
+                 id="gene_56452d95-eacb-4724-8d6a-68e90e788af9"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="43.32,5 43.32,0 53.58,11 43.32,22 43.32,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1047" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,21.807038,-59.475272)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1049" />
+              </g>
+              <g
+                 id="gene_ae2a892c-315a-4b6c-9a1c-4dd55b989d4e"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-1ec357ab-4a59-49e1-84ff-9569821c4174"
+                   points="62.325,17 53.805,17 53.805,5 62.325,5 62.325,0 74.325,11 62.325,22 "
+                   fill="#800080"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1052" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,29.61454,-78.324246)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1054" />
+              </g>
+              <g
+                 id="gene_bb22cd1f-8eba-45d1-8397-19ff4d6bdce8"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="74.37,5 74.37,0 85.53,11 74.37,22 74.37,17 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1057" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,37.557037,-97.499131)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1059" />
+              </g>
+              <g
+                 id="gene_a262df34-b926-48ba-9b52-6ff0bfc64d99"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e08f2744-5b9a-49b6-9cc5-d6dba96be4c9"
+                   points="85.845,17 85.47,17 85.47,5 85.845,5 85.845,0 97.845,11 85.845,22 "
+                   fill="#ffa500"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1062" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,43.41079,-111.63134)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1064" />
+              </g>
+              <g
+                 id="gene_bb82946c-513c-4a0b-83c4-6278e4b925b3"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="99.045,17 97.86,17 97.86,5 99.045,5 99.045,0 111.045,11 99.045,22 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1067" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,49.808289,-127.07627)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1069" />
+              </g>
+              <g
+                 id="gene_218408cf-bce1-45c6-905f-befa00196eea"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-ce80b968-6982-4626-ac4c-a33f02ff4f80"
+                   points="119.115,17 111.045,17 111.045,5 119.115,5 119.115,0 131.115,11 119.115,22 "
+                   fill="#ff00ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1072" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,58.122041,-147.14744)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1074" />
+              </g>
+              <g
+                 id="gene_1ccb809b-c9bc-42fa-944e-b61e7e0170e0"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-0809acd1-d45e-4b53-8d3a-5d6ebc44980e"
+                   points="140.775,17 131.445,17 131.445,5 140.775,5 140.775,0 152.775,11 140.775,22 "
+                   fill="#ffff00"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1077" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,68.637037,-172.53288)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1079" />
+              </g>
+              <g
+                 id="gene_83017a1e-bf61-4ff4-9644-0bf8f6ab9595"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-7badf828-a92f-4f01-aec3-36e0346f3b42"
+                   points="158.055,17 153.72,17 153.72,5 158.055,5 158.055,0 170.055,11 158.055,22 "
+                   fill="#bf4712"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1082" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,78.525794,-196.40645)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1084" />
+              </g>
+              <g
+                 id="gene_ae651412-f5f3-45b7-80b8-437061764e1e"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="171.675,17 170.625,17 170.625,5 171.675,5 171.675,0 183.675,11 171.675,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1087" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,86.157043,-214.82992)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1089" />
+              </g>
+              <g
+                 id="gene_babae1fb-f9a6-4a6b-b4dc-59b8c1d8ec97"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="183.675,5 183.675,0 192.63,11 183.675,22 183.675,17 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1092" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,91.658294,-228.11111)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1094" />
+              </g>
+              <g
+                 id="gene_8b6b9963-151c-453a-a9a1-6011a0b4b5d2"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="196.515,17 192.765,17 192.765,5 196.515,5 196.515,0 208.515,11 196.515,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1097" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,97.902046,-243.18486)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1099" />
+              </g>
+              <g
+                 id="gene_b73f2a34-4bb4-4efc-9c78-c4492e60c916"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="210.27,17 209.49,17 209.49,5 210.27,5 210.27,0 222.27,11 210.27,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1102" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,105.52204,-261.58116)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1104" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         id="cluster_00dcdaa5-81b4-4198-94b4-c9e90341ba49"
+         class="cluster active"
+         cursor="grabbing">
+        <g
+           id="cinfo_00dcdaa5-81b4-4198-94b4-c9e90341ba49"
+           class="clusterInfo"
+           transform="translate(-10.56)">
+          <text
+             class="clusterText"
+             y="8"
+             cursor="pointer"
+             style="font-weight:bold;font-size:12px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+             text-anchor="end"
+             id="text1113">19F</text>
+          <text
+             class="locusText"
+             y="12"
+             style="font-size:10px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:hanging"
+             text-anchor="end"
+             id="text1115">contig_1:1-19798</text>
+        </g>
+        <g
+           class="loci"
+           id="g1228">
+          <g
+             id="locus_288e3e28-5ca4-4ac8-aa62-41ca548ebacd"
+             class="locus"
+             transform="translate(-0.54500002)">
+            <line
+               class="trackBar"
+               style="fill:#111111;stroke:#111111;stroke-width:1px"
+               x1="-0.015"
+               x2="296.95499"
+               y1="11"
+               y2="11"
+               id="line1118" />
+            <g
+               class="genes"
+               id="g1225">
+              <g
+                 id="gene_2e113994-a0a6-4cfd-880b-33ae2fbfb9cf"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-ca76f13b-b1c5-43a5-92a3-b45eacaf20a8"
+                   points="4.365,5 4.365,0 6.975,11 4.365,22 4.365,17 "
+                   fill="#808080"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1120" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,0.41703656,-7.8352421)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1122" />
+              </g>
+              <g
+                 id="gene_425ac64e-9182-4559-891b-524201970aea"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-5305b0d2-1f72-43ba-8932-28e3d8807887"
+                   points="23.745,17 16.575,17 16.575,5 23.745,5 23.745,0 35.745,11 23.745,22 "
+                   fill="#f3cfc6"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1125" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,10.662037,-32.56886)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1127">ltrA</text>
+              </g>
+              <g
+                 id="gene_37dc02d9-ccf6-4802-add0-daefe7734ede"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-5305b0d2-1f72-43ba-8932-28e3d8807887"
+                   points="40.77,5 40.77,0 36.585,11 40.77,22 40.77,17 "
+                   fill="#f3cfc6"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1130" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,16.920787,-47.678817)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1132" />
+              </g>
+              <g
+                 id="gene_827c58aa-a981-4da6-b3c7-cc38a119cc1a"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-5305b0d2-1f72-43ba-8932-28e3d8807887"
+                   points="48.375,5 48.375,0 43.425,11 48.375,22 48.375,17 "
+                   fill="#f3cfc6"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1135" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,20.532039,-56.39715)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1137">tnp</text>
+              </g>
+              <g
+                 id="gene_ac932ab8-31fd-43f1-a7ff-f75dbed20fc1"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="61.785,17 52.095,17 52.095,5 61.785,5 61.785,0 73.785,11 61.785,22 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1140" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,29.052038,-76.966246)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1142">wzg</text>
+              </g>
+              <g
+                 id="gene_d89665b1-fc78-4350-9d0f-7a766a37d653"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="73.8,5 73.8,0 84.78,11 73.8,22 73.8,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1145" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,37.227039,-96.702445)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1147">wzh</text>
+              </g>
+              <g
+                 id="gene_500349ee-d7f6-4dba-b180-2ef99c26cb2f"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="84.9,5 84.9,0 95.295,11 84.9,22 84.9,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1150" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,42.630787,-109.74825)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1152">wzd</text>
+              </g>
+              <g
+                 id="gene_102de784-09b0-47b4-a7db-ed4b8880f3ae"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+                   points="95.43,5 95.43,0 105.78,11 95.43,22 95.43,17 "
+                   fill="#0000ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1155" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,47.884541,-122.43193)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1157">wze</text>
+              </g>
+              <g
+                 id="gene_ef49ef70-7e48-4bb3-9b83-3207d3c99b47"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-1ec357ab-4a59-49e1-84ff-9569821c4174"
+                   points="114.45,17 105.93,17 105.93,5 114.45,5 114.45,0 126.45,11 114.45,22 "
+                   fill="#800080"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1160" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,55.677041,-141.24469)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1162">wchA</text>
+              </g>
+              <g
+                 id="gene_9777ddcc-b0f9-4852-a87b-b79678018bd8"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="126.495,5 126.495,0 137.655,11 126.495,22 126.495,17 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1165" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,63.619543,-160.41958)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1167">wchO</text>
+              </g>
+              <g
+                 id="gene_212cfe62-c226-416a-818b-1307ee9bb519"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-e08f2744-5b9a-49b6-9cc5-d6dba96be4c9"
+                   points="137.97,17 137.595,17 137.595,5 137.97,5 137.97,0 149.97,11 137.97,22 "
+                   fill="#ffa500"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1170" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,69.473288,-174.55177)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1172">wchP</text>
+              </g>
+              <g
+                 id="gene_74a054af-4b4a-4d6c-9bb9-45fc8d7c4036"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-8d91714f-50a0-4ab0-b89e-baa160762890"
+                   points="151.17,17 149.985,17 149.985,5 151.17,5 151.17,0 163.17,11 151.17,22 "
+                   fill="#00ffff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1175" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,75.870795,-189.99672)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1177">wchQ</text>
+              </g>
+              <g
+                 id="gene_e0ed4d2e-a534-4daa-a909-6a1c078abbcd"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-ce80b968-6982-4626-ac4c-a33f02ff4f80"
+                   points="171.24,17 163.17,17 163.17,5 171.24,5 171.24,0 183.24,11 171.24,22 "
+                   fill="#ff00ff"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1180" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,84.184539,-210.06787)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1182">wzy</text>
+              </g>
+              <g
+                 id="gene_7c00ebda-f2d0-4850-a62e-49bd0eb27747"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-0809acd1-d45e-4b53-8d3a-5d6ebc44980e"
+                   points="192.9,17 183.57,17 183.57,5 192.9,5 192.9,0 204.9,11 192.9,22 "
+                   fill="#ffff00"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1185" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,94.699539,-235.45332)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1187">wzx</text>
+              </g>
+              <g
+                 id="gene_a3299fff-19ee-4dc9-bb33-aca6f0355c13"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-7badf828-a92f-4f01-aec3-36e0346f3b42"
+                   points="210.18,17 205.845,17 205.845,5 210.18,5 210.18,0 222.18,11 210.18,22 "
+                   fill="#bf4712"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1190" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,104.5883,-259.32689)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1192">mnaA</text>
+              </g>
+              <g
+                 id="gene_f207b1a2-ff91-4779-8d30-f7cb642d675d"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="223.8,17 222.75,17 222.75,5 223.8,5 223.8,0 235.8,11 223.8,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1195" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,112.21954,-277.75036)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1197">rmlA</text>
+              </g>
+              <g
+                 id="gene_77d52e3e-f8ca-4045-a4ce-215c95269399"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="235.8,5 235.8,0 244.755,11 235.8,22 235.8,17 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1200" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,117.7208,-291.03155)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1202">rmlC</text>
+              </g>
+              <g
+                 id="gene_aae415e7-10c5-4218-860e-717f34952112"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="248.64,17 244.89,17 244.89,5 248.64,5 248.64,0 260.64,11 248.64,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1205" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,123.96455,-306.1053)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1207">rmlB</text>
+              </g>
+              <g
+                 id="gene_4a5ccdee-c899-47a3-881f-42ce03a824d9"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+                   points="262.395,17 261.615,17 261.615,5 262.395,5 262.395,0 274.395,11 262.395,22 "
+                   fill="#9fe2bf"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1210" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,131.58454,-324.5016)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1212">rmlD</text>
+              </g>
+              <g
+                 id="gene_e8ab5da9-375b-4700-b06a-4ebb0894f03c"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-5305b0d2-1f72-43ba-8932-28e3d8807887"
+                   points="275.655,5 275.655,0 282.045,11 275.655,22 275.655,17 "
+                   fill="#f3cfc6"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1215" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,137.00704,-337.59267)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1217">tnp</text>
+              </g>
+              <g
+                 id="gene_1effbbb9-58fa-4eca-8dd4-81a2f191fc43"
+                 class="gene"
+                 display="inline">
+                <polygon
+                   class="genePolygon group-5305b0d2-1f72-43ba-8932-28e3d8807887"
+                   points="290.925,5 290.925,0 293.31,11 290.925,22 290.925,17 "
+                   fill="#f3cfc6"
+                   style="stroke:#000000;stroke-width:1px"
+                   id="polygon1220" />
+                <text
+                   class="geneLabel"
+                   dy="-0.40000001em"
+                   style="font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif"
+                   display="inherit"
+                   transform="rotate(-45,143.64079,-353.60794)"
+                   font-size="10px"
+                   text-anchor="start"
+                   id="text1222" />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       class="legend"
+       transform="translate(316.41)"
+       id="g1293">
+      <g
+         class="element"
+         id="g1237">
+        <circle
+           class="group-5305b0d2-1f72-43ba-8932-28e3d8807887"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#f3cfc6"
+           cursor="pointer"
+           id="circle1233"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1235">Transposase</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,18.947368)"
+         id="g1243">
+        <circle
+           class="group-7badf828-a92f-4f01-aec3-36e0346f3b42"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#bf4712"
+           cursor="pointer"
+           id="circle1239"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1241">UDP-ManNac_pathway_gene</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,37.894737)"
+         id="g1249">
+        <circle
+           class="group-800582e1-f01a-4d90-be3d-a8d4b0a02371"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#9fe2bf"
+           cursor="pointer"
+           id="circle1245"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1247">dTDP-L-rhamnose_pathway_gene</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,56.842105)"
+         id="g1255">
+        <circle
+           class="group-1ec357ab-4a59-49e1-84ff-9569821c4174"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#800080"
+           cursor="pointer"
+           id="circle1251"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1253">Initial_transferase</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,75.789474)"
+         id="g1261">
+        <circle
+           class="group-8d91714f-50a0-4ab0-b89e-baa160762890"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#00ffff"
+           cursor="pointer"
+           id="circle1257"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1259">Glycosyl_transferase</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,94.736842)"
+         id="g1267">
+        <circle
+           class="group-e08f2744-5b9a-49b6-9cc5-d6dba96be4c9"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#ffa500"
+           cursor="pointer"
+           id="circle1263"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1265">Phosphotransferase</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,113.68421)"
+         id="g1273">
+        <circle
+           class="group-e2c4a61c-e5d1-477a-b8f6-9306f4086028"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#0000ff"
+           cursor="pointer"
+           id="circle1269"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1271">Regulatory_gene</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,132.63158)"
+         id="g1279">
+        <circle
+           class="group-0809acd1-d45e-4b53-8d3a-5d6ebc44980e"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#ffff00"
+           cursor="pointer"
+           id="circle1275"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1277">Flippase</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,151.57895)"
+         id="g1285">
+        <circle
+           class="group-ce80b968-6982-4626-ac4c-a33f02ff4f80"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#ff00ff"
+           cursor="pointer"
+           id="circle1281"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1283">Polymerase</text>
+      </g>
+      <g
+         class="element"
+         transform="translate(0,170.52632)"
+         id="g1291">
+        <circle
+           class="group-ca76f13b-b1c5-43a5-92a3-b45eacaf20a8"
+           cy="4.7368422"
+           r="4.7368422"
+           fill="#808080"
+           cursor="pointer"
+           id="circle1287"
+           cx="0" />
+        <text
+           x="10.736842"
+           text-anchor="start"
+           style="font-size:14px;font-family:system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, sans-serif;dominant-baseline:middle"
+           y="5.7368422"
+           cursor="pointer"
+           id="text1289">Lipoprotein</text>
+      </g>
+    </g>
+  </g>
+</svg>
