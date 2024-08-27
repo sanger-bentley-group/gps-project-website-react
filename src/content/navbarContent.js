@@ -53,6 +53,10 @@ const content = [
         title: 'Isolate Bank Request',
         url: '/resources#isolate-bank-request',
       },
+      {
+        title: 'GPSC Top Trumps',
+        url: '/resources#gpsc-top-trumps',
+      },
     ]
   },
   {

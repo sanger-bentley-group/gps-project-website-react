@@ -5,6 +5,7 @@ import GPSCSTLookupTable from "./GPSCSTLookupTable"
 import Serortypes from "./Serotypes"
 import PMENClones from "./PMENClones"
 import IsolateBankRequest from "./IsolateBankRequest"
+import GPSCTopTrumps from "./GPSCTopTrumps"
 
 const About = () => (
   <div className="h-full">
@@ -15,6 +16,7 @@ const About = () => (
     <section id="serotypes"><Serortypes /></section>
     <section id="pmen-clones"><PMENClones /></section>
     <section id="isolate-bank-request"><IsolateBankRequest /></section>
+    <section id="gpsc-top-trumps"><GPSCTopTrumps /></section>
   </div>
 )
 
