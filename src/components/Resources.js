@@ -6,7 +6,7 @@ import Serortypes from "./Serotypes"
 import PMENClones from "./PMENClones"
 import IsolateBankRequest from "./IsolateBankRequest"
 
-const About = () => (
+const Resources = () => (
   <div className="h-full">
     <section id="overview"><Overview /></section>
     <section id="countries"><Countries /></section>
@@ -18,4 +18,4 @@ const About = () => (
   </div>
 )
 
-export default About
+export default Resources
