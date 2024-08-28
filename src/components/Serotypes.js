@@ -79,26 +79,42 @@ const Serortype = () => {
       }
     },
     {
-      header: <span><i>cps</i> Gene Cluster</span>,
-      accessorKey: "serotype",
-      id: "serotype_cps",
+      header: 
+        <div 
+          className="tooltip" 
+          data-tooltip-id="react-tooltip"
+          data-tooltip-html='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" />'
+          data-tooltip-place="top"
+        >
+          <span className="link"><i>cps</i> Gene Cluster</span>
+        </div>,
+      accessorKey: "cpsImage",
       cell: props => {
-        const cellValue = props.cell.getValue().replaceAll(' ', '_')
-        const imgUrl = `img/serotype_cps/serotype_${cellValue}_cps.svg`
+        const cellValue = props.getValue()
+        const serotypeValue = props.row.original.serotype 
+        const remarkValue = props.row.original.cpsRemark
 
-        return (
-          <img
-            className="min-w-96"
-            src={imgUrl}
-            alt={`Chart of Serotype ${cellValue} cps region`}
-            key={cellValue}
-            onError={(event) => {
-              event.target.src = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0"></svg>'
-              event.target.className = 'h-0 w-0'
-              event.target.alt= ''
-            }} 
-          />
-        );
+        if (cellValue === '-'){
+          return '-'
+        } else if (remarkValue === '-') {
+          return (
+            <img
+              className="min-w-96"
+              src={cellValue}
+              alt={`Chart of Serotype ${serotypeValue} cps region`}
+            />
+          )
+        } else {
+          return (
+            <div className="flex flex-col gap-y-2 min-w-96">
+              <img
+                src={cellValue}
+                alt={`Chart of Serotype ${serotypeValue} cps region`}
+              />
+              <span>{remarkValue}</span>
+            </div>
+          )
+        }
       }
     },
     
