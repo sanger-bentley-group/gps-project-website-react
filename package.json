@@ -1,7 +1,7 @@
 {
   "name": "gps-project-website-react",
   "version": "0.1.0",
-  "homepage": "gps",
+  "homepage": "https://sanger-bentley-group.github.io/gps-project-website-react",
   "private": true,
   "dependencies": {
     "@tanstack/react-table": "^8.19.3",
@@ -27,9 +27,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./gps' react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +54,7 @@
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "daisyui": "^4.12.10",
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.7"
   }
 }
