@@ -44,16 +44,29 @@ const Serortype = () => {
       enableColumnFilter: true,
       cell: props => {
         const cellValue = props.getValue()
+
+        const getLink= (value) => {
+          let accessionURL
+
+          if (value.startsWith('SAM')) {
+            accessionURL = 'biosample'
+          } else if (value.startsWith('ER')) {
+            accessionURL = 'sra'
+          } else {
+            accessionURL = 'nuccore'
+          }
+
+          return <a className="link" href={`https://www.ncbi.nlm.nih.gov/${accessionURL}/${value}`} target='_blank' rel="noreferrer" key={value}>{value}</a>
+        }
+
         if (cellValue === '-'){
           return '-'
         } else if (cellValue.indexOf(",") === -1) {
-          return <a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${cellValue}`} target='_blank' rel="noreferrer">{cellValue}</a>
+          return getLink(cellValue)
         } else {
           return (
             <div className='flex flex-col items-start'>
-              {cellValue.split(',').map(element => 
-                <a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${element}`} target='_blank' rel="noreferrer" key={element}>{element}</a>
-              )}
+              {cellValue.split(',').map(element => getLink(element))}
             </div>
           )
         }
@@ -95,23 +108,26 @@ const Serortype = () => {
         const remarkValue = props.row.original.cpsRemark
 
         if (cellValue === '-'){
-          return '-'
+          return <div className="text-center">-</div>
         } else if (remarkValue === '-') {
           return (
-            <img
-              className="min-w-96"
-              src={cellValue}
-              alt={`Chart of Serotype ${serotypeValue} cps region`}
-            />
-          )
-        } else {
-          return (
-            <div className="flex flex-col gap-y-2 min-w-96">
+            <div className="flex flex-col w-full">
               <img
+                className="h-16 min-w-96"
                 src={cellValue}
                 alt={`Chart of Serotype ${serotypeValue} cps region`}
               />
-              <span>{remarkValue}</span>
+            </div>
+          )
+        } else {
+          return (
+            <div className="flex flex-col gap-y-2 w-full">
+              <img
+                src={cellValue}
+                alt={`Chart of Serotype ${serotypeValue} cps region`}
+                className="h-16 min-w-96"
+              />
+              <div className="text-nowrap text-center">{remarkValue}</div>
             </div>
           )
         }
