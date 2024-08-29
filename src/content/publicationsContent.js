@@ -15,17 +15,6 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
-              title: 'Strain features of pneumococcal isolates in the pre- and post-PCV10 era in Pakistan',
-              platform: 'Microbial Genomics',
-              buttons: [
-                {
-                  text: 'Journal',
-                  url: 'https://doi.org/10.1099/mgen.0.001163'
-                }
-
-              ]
-            },
-            {
               title: 'Molecular characterization of *Streptococcus pneumoniae* causing disease among children in Nigeria during the introduction of PCV10 (GSK)',
               platform: 'Microbial Genomics',
               buttons: [
@@ -115,6 +104,51 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1099/mgen.0.000645'
                 },
+              ]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      subtitle: {
+        content: '2024 Journal Articles'
+      },
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Pneumococcal carriage and changes in serotype distribution post- PCV13 introduction in children in Matiari, Pakistan',
+              platform: 'Vaccine',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1016/j.vaccine.2024.126238'
+                }
+
+              ]
+            },
+            {
+              title: 'Comparison of gene-by-gene and genome-wide short nucleotide sequence-based approaches to define the global population structure of *Streptococcus pneumoniae*',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001278'
+                }
+
+              ]
+            },
+            {
+              title: 'Strain features of pneumococcal isolates in the pre- and post-PCV10 era in Pakistan',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001163'
+                }
+
               ]
             },
           ]
