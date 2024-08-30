@@ -373,14 +373,15 @@ const Table = ({columns, data}) => {
   )
 }
 
-const ToolTipIcon = ({tooltipHTML}) => {
-  return (
-    <div className="btn btn-circle btn-ghost btn-xs tooltip flex" data-tooltip-id="react-tooltip" data-tooltip-html={tooltipHTML}>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="h-4 w-4 stroke-current">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-      </svg>
-    </div>
-  )
-}
+const TextWithToolTip = ({text, tooltipHTML}) => (
+  <div className="flex items-center relative w-fit">
+      <div className="whitespace-nowrap pr-6" dangerouslySetInnerHTML={{__html: text}} />
+        <div className="btn btn-circle btn-ghost btn-xs absolute right-0 tooltip flex" data-tooltip-id="react-tooltip" data-tooltip-html={tooltipHTML}>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="h-4 w-4 stroke-current">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+      </div>
+  </div>
+)
 
-export { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section, Table, ParseTable, ToolTipIcon }
+export { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section, Table, ParseTable, TextWithToolTip }
