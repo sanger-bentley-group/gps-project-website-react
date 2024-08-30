@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 
-import { TitleText, Section, Table, ParseTable } from "./Common"
+import { TitleText, Section, Table, ParseTable, ToolTipIcon } from "./Common"
 
 import content from '../content/serotypeContent'
 import tableContent from '../content/serotypeTableContent.tsv'
@@ -18,7 +18,24 @@ const Serortype = () => {
     {
       header: "Serotype",
       accessorKey: "serotype",
-      enableColumnFilter: true
+      enableColumnFilter: true,
+      cell: props => {
+        const cellValue = props.getValue()
+        const commentvalue = props.row.original.comments
+
+        return (
+          <div className="flex items-center">
+            <div className="text-nowrap">{cellValue}</div>
+            { 
+              commentvalue !== '-' 
+                ? 
+                  <ToolTipIcon tooltipHTML={commentvalue}/>
+                : 
+                  null 
+            }
+          </div>
+        )
+      }
     },
     {
       header: "Accession Number",
@@ -26,24 +43,33 @@ const Serortype = () => {
       enableColumnFilter: true,
       cell: props => {
         const cellValue = props.getValue()
+
+        const getLink= (value) => {
+          let accessionURL
+
+          if (value.startsWith('SAM')) {
+            accessionURL = 'biosample'
+          } else if (value.startsWith('ER')) {
+            accessionURL = 'sra'
+          } else {
+            accessionURL = 'nuccore'
+          }
+
+          return <a className="link" href={`https://www.ncbi.nlm.nih.gov/${accessionURL}/${value}`} target='_blank' rel="noreferrer" key={value}>{value}</a>
+        }
+
         if (cellValue === '-'){
           return '-'
         } else if (cellValue.indexOf(",") === -1) {
-          return <a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${cellValue}`} target='_blank' rel="noreferrer">{cellValue}</a>
+          return getLink(cellValue)
         } else {
           return (
             <div className='flex flex-col items-start'>
-              {cellValue.split(',').map(element => 
-                <a className="link" href={`https://www.ncbi.nlm.nih.gov/nuccore/${element}`} target='_blank' rel="noreferrer" key={element}>{element}</a>
-              )}
+              {cellValue.split(',').map(element => getLink(element))}
             </div>
           )
         }
       }
-    },
-    {
-      header: "Comments",
-      accessorKey: "comments",
     },
     {
       header: "Reference",
@@ -64,6 +90,46 @@ const Serortype = () => {
         }
       }
     },
+    {
+      header: 
+        <div className="flex items-center">
+          <div className="text-nowrap"><i>cps</i> Gene Cluster</div>
+          <ToolTipIcon tooltipHTML='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>' />
+        </div>
+        ,
+      accessorKey: "cpsImage",
+      cell: props => {
+        const cellValue = props.getValue()
+        const serotypeValue = props.row.original.serotype 
+        const remarkValue = props.row.original.cpsRemark
+
+        if (cellValue === '-'){
+          return <div className="text-center">-</div>
+        } else if (remarkValue === '-') {
+          return (
+            <div className="flex flex-col w-full">
+              <img
+                className="h-16 min-w-96"
+                src={cellValue}
+                alt={`Chart of Serotype ${serotypeValue} cps region`}
+              />
+            </div>
+          )
+        } else {
+          return (
+            <div className="flex flex-col gap-y-2 w-full">
+              <img
+                src={cellValue}
+                alt={`Chart of Serotype ${serotypeValue} cps region`}
+                className="h-16 min-w-96"
+              />
+              <div className="text-nowrap text-center">{remarkValue}</div>
+            </div>
+          )
+        }
+      }
+    },
+    
   ], [])
 
   return (
