@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 
-import { TitleText, Section, Table, ParseTable } from "./Common"
+import { TitleText, Section, Table, ParseTable, ToolTipIcon } from "./Common"
 
 import content from '../content/serotypeContent'
 import tableContent from '../content/serotypeTableContent.tsv'
@@ -23,19 +23,18 @@ const Serortype = () => {
         const cellValue = props.getValue()
         const commentvalue = props.row.original.comments
 
-        if (commentvalue === '-') {
-          return cellValue
-        } else {
-          return (
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html={commentvalue}
-            >
-              <span className="link whitespace-nowrap">{cellValue}</span>
-            </div>
-          )
-        }
+        return (
+          <div className="flex items-center">
+            <div className="text-nowrap">{cellValue}</div>
+            { 
+              commentvalue !== '-' 
+                ? 
+                  <ToolTipIcon tooltipHTML={commentvalue}/>
+                : 
+                  null 
+            }
+          </div>
+        )
       }
     },
     {
