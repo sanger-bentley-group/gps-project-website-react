@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 
-import { TitleText, Section, Table, ParseTable, ToolTipIcon } from "./Common"
+import { TitleText, Section, Table, ParseTable, TextWithToolTip } from "./Common"
 
 import content from '../content/serotypeContent'
 import tableContent from '../content/serotypeTableContent.tsv'
@@ -25,13 +25,12 @@ const Serortype = () => {
 
         return (
           <div className="flex items-center">
-            <div className="text-nowrap">{cellValue}</div>
-            { 
-              commentvalue !== '-' 
-                ? 
-                  <ToolTipIcon tooltipHTML={commentvalue}/>
-                : 
-                  null 
+            {
+            commentvalue === '-'
+              ? 
+                <div className="whitespace-nowrap">{cellValue}</div>
+              :
+                <TextWithToolTip text={cellValue} tooltipHTML={commentvalue}/>
             }
           </div>
         )
@@ -91,12 +90,7 @@ const Serortype = () => {
       }
     },
     {
-      header: 
-        <div className="flex items-center">
-          <div className="text-nowrap"><i>cps</i> Gene Cluster</div>
-          <ToolTipIcon tooltipHTML='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>' />
-        </div>
-        ,
+      header: <TextWithToolTip text="<i>cps</i> Gene Cluster" tooltipHTML='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>' />,
       accessorKey: "cpsImage",
       cell: props => {
         const cellValue = props.getValue()
@@ -123,7 +117,7 @@ const Serortype = () => {
                 alt={`Chart of Serotype ${serotypeValue} cps region`}
                 className="h-16 min-w-96"
               />
-              <div className="text-nowrap text-center">{remarkValue}</div>
+              <div className="whitespace-nowrap text-center">{remarkValue}</div>
             </div>
           )
         }

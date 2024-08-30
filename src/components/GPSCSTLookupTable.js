@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 
-import { TitleText, Section, Table, ParseTable } from "./Common"
+import { TitleText, Section, Table, ParseTable, TextWithToolTip } from "./Common"
 
 import content from '../content/gpscSTContent'
 import tableContent from '../content/gpscSTTableContent.tsv'
@@ -21,15 +21,7 @@ const GPSCSTLookupTable = () => {
         accessorKey: "stCount",
       },
       {
-        header:
-          <div 
-            className="tooltip" 
-            data-tooltip-id="react-tooltip"
-            data-tooltip-html="Unknown sequence types are excluded"
-            data-tooltip-place="top"
-          >
-            <span className="link">Known Sequence Type(s)</span>
-          </div>,
+        header: <TextWithToolTip text="Known Sequence Type(s)" tooltipHTML="Unknown sequence types are excluded" />,
         accessorKey: "st",
         enableColumnFilter: true,
         filterFn: (row, id, filterValue) => row.getValue(id).split(", ").includes(filterValue),

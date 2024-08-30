@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 
-import { TitleText, Section, Table, ParseTable } from "./Common"
+import { TitleText, Section, Table, ParseTable, TextWithToolTip } from "./Common"
 
 import content from '../content/pmenContent'
 import tableContent from '../content/pmenTableContent.tsv'
@@ -19,19 +19,18 @@ const PMENClones = () => {
           accessorKey: "no",
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="
-                  CSR: Czech Republic
-                "
-            >
-              <span className="link">Clone</span>
-            </div>,
+          header: "Clone",
           accessorKey: "clone",
           enableColumnFilter: true,
-          cell: props => <div className="whitespace-nowrap" dangerouslySetInnerHTML={{__html: props.getValue()}} />,
+          cell: props => {
+            const value = props.getValue()
+
+            if (value.startsWith("CSR")) {
+              return <TextWithToolTip text={value} tooltipHTML="CSR: Czech Republic" />
+            } else {
+              return <div className="whitespace-nowrap" dangerouslySetInnerHTML={{__html: value}} />
+            } 
+          },
           filterFn: (row, id, filterValue) => row.getValue(id).replace(/<sup>|<\/sup>/g, "").toLowerCase().includes(filterValue.toLowerCase())
         },
         {
@@ -64,80 +63,31 @@ const PMENClones = () => {
       header: "Antibiotic susceptibilities (Etests) (µg/ml)",
       columns: [
         {
-          header: 
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="Penicillin"
-            >
-              <span className="link">PEN</span>
-            </div>,
+          header: <TextWithToolTip text="PEN" tooltipHTML="Penicillin" />,
           accessorKey: "pen",
         },
         {
-          header: 
-            <div 
-                className="tooltip" 
-                data-tooltip-id="react-tooltip"
-                data-tooltip-html="Cefotaxime"
-              >
-                <span className="link">TAX</span>
-            </div>,
+          header: <TextWithToolTip text="TAX" tooltipHTML="Cefotaxime" />,
             accessorKey: "tax",
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="Erythromycin"
-            >
-              <span className="link">ERY</span>
-            </div>,
+          header: <TextWithToolTip text="ERY" tooltipHTML="Erythromycin" />,
           accessorKey: "ery",
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="Clindamycin"
-            >
-              <span className="link">CLI</span>
-            </div>,
+          header: <TextWithToolTip text="CLI" tooltipHTML="Clindamycin" />,
           accessorKey: "cli",
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="Chloramphenicol"
-            >
-              <span className="link">CHL</span>
-            </div>,
+          header: <TextWithToolTip text="CHL" tooltipHTML="Chloramphenicol" />,
           accessorKey: "chl",
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="Tetracycline"
-            >
-              <span className="link">TET</span>
-            </div>,
+          header: <TextWithToolTip text="TET" tooltipHTML="Tetracycline" />,
           accessorKey: "tet",
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="Sulfamethoxazole"
-            >
-              <span className="link">SXT</span>
-            </div>,
+          header: <TextWithToolTip text="SXT" tooltipHTML="Sulfamethoxazole" />,
           accessorKey: "sxt",
         },
       ]
@@ -151,62 +101,34 @@ const PMENClones = () => {
           enableColumnFilter: true
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="Global Pneumococcal Sequence Cluster"
-            >
-              <span className="link">GPSC</span>
-            </div>,
+          header: <TextWithToolTip text="GPSC" tooltipHTML="Global Pneumococcal Sequence Cluster" />,
           accessorKey: "gpsc",
           enableColumnFilter: true
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="
+          header: <TextWithToolTip text="MLST Profile" tooltipHTML="
                   Multilocus Sequence Typing Profile:<br>
                   aroE (shikimate dehydrogenae)<br>
                   gdh (glucose-6-phosphate dehydrogenase)<br>
                   gki (glucose kinase)<br>recP (transketolase)<br>
                   spi (signal peptidase)<br>xpt (xanthine phosphoribosyltransferase)<br>
                   ddl (D-alanine-D-alanine ligase)
-                "
-            >
-              <span className="link">MLST Profile</span>
-            </div>,
+                " />,
           accessorKey: "mlstProfile",
           cell: props => <div className="whitespace-nowrap">{props.getValue()}</div>
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="
+          header: <TextWithToolTip text="PBP Profile" tooltipHTML="
                   PBP (Penicillin-binding Protein) Profile:<br>
                   pbp1a - pbp2b - pbp2x
-                "
-            >
-              <span className="link">PBP Profile</span>
-            </div>,
+                " />,
           accessorKey: "pbpProfile",
         },
         {
-          header:
-            <div 
-              className="tooltip" 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html="
+          header: <TextWithToolTip text="<i>erm/mef</i>" tooltipHTML="
                   erm(B) gene<br>
                   mef(A) gene
-                "
-            >
-              <span className="link"><i>erm/mef</i></span>
-            </div>,
+                " />,
           accessorKey: "ermMef",
           enableColumnFilter: true
         },
