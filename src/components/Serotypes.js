@@ -92,14 +92,11 @@ const Serortype = () => {
     },
     {
       header: 
-        <div 
-          className="tooltip" 
-          data-tooltip-id="react-tooltip"
-          data-tooltip-html='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" />'
-          data-tooltip-place="top"
-        >
-          <span className="link"><i>cps</i> Gene Cluster</span>
-        </div>,
+        <div className="flex items-center">
+          <div className="text-nowrap"><i>cps</i> Gene Cluster</div>
+          <ToolTipIcon tooltipHTML='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>' />
+        </div>
+        ,
       accessorKey: "cpsImage",
       cell: props => {
         const cellValue = props.getValue()
