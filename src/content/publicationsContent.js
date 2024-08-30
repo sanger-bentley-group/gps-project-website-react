@@ -22,7 +22,6 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1099/mgen.0.001094'
                 }
-
               ]
             },
             {
@@ -33,7 +32,6 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1099/mgen.0.000851'
                 }
-
               ]
             },
             {
@@ -126,7 +124,6 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1016/j.vaccine.2024.126238'
                 }
-
               ]
             },
             {
@@ -137,7 +134,16 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1099/mgen.0.001278'
                 }
-
+              ]
+            },
+            {
+              title: 'Estimating geographical spread of *Streptococcus pneumoniae* within Israel using genomic data',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001262'
+                }
               ]
             },
             {
@@ -148,7 +154,6 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1099/mgen.0.001163'
                 }
-
               ]
             },
           ]
@@ -895,7 +900,6 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1371/journal.ppat.1007438'
                 },
-
               ]
             },
           ]
