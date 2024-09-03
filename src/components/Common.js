@@ -226,7 +226,7 @@ const ParseTable = ({content}) => {
   return tableData
 }
 
-const Table = ({columns, data}) => {
+const Table = ({columns, data, pageSizeOverride}) => {
   const [columnFilters, setColumnFilters] = useState([])
 
   const defaultColumn = useMemo(() => ({enableColumnFilter: false}), [])
@@ -241,7 +241,12 @@ const Table = ({columns, data}) => {
       columnFilters
     },
     onColumnFiltersChange: setColumnFilters,
-    defaultColumn: defaultColumn
+    defaultColumn: defaultColumn,
+    initialState: pageSizeOverride ? {
+      pagination: {
+        pageSize: pageSizeOverride
+      }
+    } : {}
   })
 
   const pageIndex = table.getState().pagination.pageIndex
