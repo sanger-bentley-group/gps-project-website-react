@@ -42,7 +42,7 @@ const content = {
         },
         {
           type: 'md',
-          content: "Below is some feedback from two of our partners who attended the writers workshop. You can also find out more about [Samanta Almeida's](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000635) and [Paula Gagetti's](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000636) in-depth country level *S. pneumoniae* genomic analysis work through their publications in Microbial Genomics."
+          content: "Below is some feedback from two of our partners who attended the writers workshop. You can also find out more about [Samanta Almeida's](https://doi.org/10.1099/mgen.0.000635) and [Paula Gagetti's](https://doi.org/10.1099/mgen.0.000636) in-depth country level *S. pneumoniae* genomic analysis work through their publications in Microbial Genomics."
         },
         {
           type: 'quoteCard',

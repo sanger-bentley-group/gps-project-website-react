@@ -75,7 +75,7 @@ const content = {
               title: 'Diversity of ribosomal mutations associated with MLS resistance',
               authors: 'Paulina Hawkins',
               affiliations: 'Centers for Disease Control and Prevention',
-              details: 'Macrolide has increasingly been used as empirical treatment for respiratory tract infection. After PCV13, rising macrolide resistance was observed in pneumococci with non-vaccine serotype ([Lo *et al* 2019](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext)). This study will improve our understanding of the genetic diversity of ribosomal mutations related to macrolide resistance in *S. pneumoniae.*'
+              details: 'Macrolide has increasingly been used as empirical treatment for respiratory tract infection. After PCV13, rising macrolide resistance was observed in pneumococci with non-vaccine serotype ([Lo *et al* 2019](https://doi.org/10.1016/s1473-3099(19)30297-x)). This study will improve our understanding of the genetic diversity of ribosomal mutations related to macrolide resistance in *S. pneumoniae.*'
             },
             {
               title: 'Genetic diversity and distribution of the pneumococcal ABC transporter proteins and implications on potential protein-based vaccines',
@@ -93,13 +93,13 @@ const content = {
               title: 'Global distribution and evolution of major penicillin binding proteins that determine β-lactam resistance in *Streptococcus pneumoniae*',
               authors: 'Yuan Li, Benjamin Metcalf, Lesley McGee, Bernard Beall, Stephen Bentley, Rebecca Gladstone',
               affiliations: 'Centers for Disease Control and Prevention',
-              details: '[CDC Strep Lab](https://www.cdc.gov/streplab/index.html) has a strong expertise in using genomic data to predict antibiotic resistance in *S. pneumoniae*. This project will appreciate the genetic diversity and evolution of the penicillin binding protein, that confer resistance to the first-line antibiotic, β-lactam, in treating pneumococcal disease.'
+              details: '[CDC Strep Lab](https://www.cdc.gov/strep-lab/) has a strong expertise in using genomic data to predict antibiotic resistance in *S. pneumoniae*. This project will appreciate the genetic diversity and evolution of the penicillin binding protein, that confer resistance to the first-line antibiotic, β-lactam, in treating pneumococcal disease.'
             },
             {
               title: 'Global distribution and evolution of Streptococcus pneumoniae GPSC3 (PMEN33)',
               authors: 'Stephanie Lo',
               affiliations: 'Wellcome Sanger Institute',
-              details: 'GPS headline paper on [Lancet Infectious Diseases](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(19)30297-X/fulltext) has pointed out that GPSC3 is a major pneumococcal strain expressing non-vaccine serotype after PCV13. Using a global collection, we will investigate the evolutionary history of this important lineage and shed light on its secret of success.'
+              details: 'GPS headline paper on [Lancet Infectious Diseases](https://doi.org/10.1016/s1473-3099(19)30297-x) has pointed out that GPSC3 is a major pneumococcal strain expressing non-vaccine serotype after PCV13. Using a global collection, we will investigate the evolutionary history of this important lineage and shed light on its secret of success.'
             },
             {
               title: 'Global distribution and genomic diversity of serotype 5 in context of PCVs',
@@ -111,7 +111,7 @@ const content = {
               title: 'Global diversity of *Streptococcus pneumoniae* serotype 3 isolates; changes in the pre and post PCV eras in comparison with the changes observed in a local collection set in Hong Kong',
               authors: 'Pak-Leung Ho, Pierra Law',
               affiliations: 'University of Hong Kong',
-              details: "[Ho *et al*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6422485/pdf/khvi-15-02-1526555.pdf) has importantly reported that serotype 3 emerged after PCV13 in Hong Kong and its increase was due to a regional-specific lineage that replaced the common serotype 3 clone CC180. This study will elucidate the circulating serotype 3 strains in Hong Kong and understand this emerging strain's pathogenicity."
+              details: "[Ho *et al*](https://doi.org/10.1080/21645515.2018.1526555) has importantly reported that serotype 3 emerged after PCV13 in Hong Kong and its increase was due to a regional-specific lineage that replaced the common serotype 3 clone CC180. This study will elucidate the circulating serotype 3 strains in Hong Kong and understand this emerging strain's pathogenicity."
             },
             {
               title: 'Global emergence and population dynamics of *Streptococcus pneumoniae* serotype 19A/F CC320 (GPSC1)',
@@ -153,7 +153,7 @@ const content = {
               title: 'PneumoCaT2: an investigation into 19A-like cps from serotype 19F pneumococcal isolates',
               authors: 'Carmen Sheppard, Stephanie Lo',
               affiliations: 'Public Health of England and Wellcome Sanger Institute',
-              details: 'PHE developed a WGS-based tool [PneumoCaT](https://pubmed.ncbi.nlm.nih.gov/27672516/) to infer serotype from genome data. This study will harness the global collection in the GPS project to understand a 19F divergent. The knowledge learned will ultimately be integrated into a new version of PneumoCaT.'
+              details: 'PHE developed a WGS-based tool [PneumoCaT](https://doi.org/10.7717/peerj.2477) to infer serotype from genome data. This study will harness the global collection in the GPS project to understand a 19F divergent. The knowledge learned will ultimately be integrated into a new version of PneumoCaT.'
             },
             {
               title: 'Population genomics of mobile genetic elements',
@@ -183,7 +183,7 @@ const content = {
               title: 'Validation and improvement of predicting β-Lactam minimum inhibitory concentration of *Streptococcus pneumoniae* using whole-genome sequencing and PBP typing',
               authors: 'Yuan Li, Benjamin Metcalf, Lesley McGee, Bernard Beall, Mignon du Plessis, Anne von Gottberg',
               affiliations: 'Centers for Disease Control and Prevention',
-              details: 'The current machine learning model for prediction of β-Lactam MIC was built and validated using a pneumococcal dataset from the USA (Li *et al* [2016](https://mbio.asm.org/content/7/3/e00756-16) and [2017](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5558719/)). This study will validate and improve the prediction model using genome data from South Africa.'
+              details: 'The current machine learning model for prediction of β-Lactam MIC was built and validated using a pneumococcal dataset from the USA (Li *et al* [2016](https://doi.org/10.1128/mbio.00756-16) and [2017](https://doi.org/10.1186%2Fs12864-017-4017-7)). This study will validate and improve the prediction model using genome data from South Africa.'
             },
           ]
         }
