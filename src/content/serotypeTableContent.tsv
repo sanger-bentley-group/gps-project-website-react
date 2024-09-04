@@ -35,6 +35,7 @@ count	serotype	accessionNumber	comments	reference	referenceUrl	cpsImage	cpsRemar
 32	11E	-	-	Calix et al 2010 J Infect Dis	https://doi.org/10.1086/653123	img/serotype_cps/serotype_11E_cps.svg	-
 -	11Av	-	A serovariant which is an intermediate variant of 11A and 11E	Camilli et al 2014 PloS ONE	https://doi.org/10.1371/journal.pone.0100722	-	-
 33	11F	CR931657	-	Calix et al 2011 J Bacteriology	https://doi.org/10.1128/JB.05034-11	img/serotype_cps/serotype_11F_cps.svg	-
+_	11F-like	MF140334	Genetic variant of 11F	Manna et al 2018 Clin Microbiol Infect	https://doi.org/10.1016%2Fj.cmi.2017.06.031	img/serotype_cps/serotype_11F-like_cps.svg	-
 34	12A	CR931658	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12A_cps.svg	-
 35	12B	CR931659	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12B_cps.svg	-
 36	12F	CR931660	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12F_cps.svg	-
