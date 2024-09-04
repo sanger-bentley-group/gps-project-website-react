@@ -184,7 +184,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- GPSC235;9 is an exception. This lineage is a mixture of GPSC9 and GPSC235, but do not indicate the merging of GPSC9 and GPSC235 lineages.',
+          content: '- GPSC235;9 is an exception. This lineage is a mixture of GPSC9 and GPSC235, but do not indicate the merging of GPSC9 and GPSC235 lineages based on current evidence.',
         },
       ]
     }
