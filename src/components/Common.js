@@ -137,7 +137,7 @@ const PublicationCard = ({cards}) => (
           {card.youtube_id ? <ContentYoutubeEmbed id={card.youtube_id} title={card.title} /> : null}
           <div className="flex flex-wrap gap-4 place-self-end place-content-end">
             {card.buttons.map((button, index) => (
-              <a className="btn btn-primary text-lg font-bold" href={button.url} target='_blank' rel="noreferrer" key={index}>↓ {button.text}</a>
+              <a className="btn btn-primary text-lg font-bold" href={button.url} target='_blank' rel="noreferrer" key={index}>{button.text}</a>
             ))}
           </div>
         </div>
@@ -366,9 +366,9 @@ const Table = ({columns, data, pageSizeOverride}) => {
           </thead>
           <tbody>
             {table.getRowModel().rows.map(row => (
-                <tr key={row.id} className='border-x'>
+                <tr key={row.id} className='h-full border-x'>
                   {row.getVisibleCells().map(cell => (
-                    <td className='align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={cell.id}>
+                    <td className='h-full align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={cell.id}>
                       {flexRender(
                         cell.column.columnDef.cell,
                         cell.getContext()
