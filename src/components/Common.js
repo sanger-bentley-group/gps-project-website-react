@@ -244,7 +244,7 @@ const Table = ({columns, data, pageSizeOverride}) => {
     defaultColumn: defaultColumn,
     initialState: pageSizeOverride ? {
       pagination: {
-        pageSize: pageSizeOverride
+        pageSize: parseInt(pageSizeOverride)
       }
     } : {}
   })
