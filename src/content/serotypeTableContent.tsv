@@ -7,7 +7,7 @@ count	serotype	accessionNumber	comments	reference	referenceUrl	cpsImage	cpsRemar
 6	6A	CR931638	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_6A_cps.svg	-
 -	6E(6A)	-	Genetic variant of 6A	Park et al 2017 Genome Announc	https://doi.org/10.1128/genomeA.01728-16	-	-
 7	6B	CR931639	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_6B_cps.svg	-
--	6E(6B)	KU168827	Genetic variant of 6B	Burton et al 2016 J Clin Microbiol	https://doi.org/10.1128/JCM.03194-15	-	-
+-	6E(6B)	LT594599	Genetic variant of 6B	Kapatai et al 2016 PeerJ	https://doi.org/10.7717%2Fpeerj.2477	-	-
 8	6C	"EF538714,EF538715,EF538716,EF538717,EF538718"	-	"Park et al 2007 J Clin Microbiol,Park et al 2007 Infect Immun"	"https://doi.org/10.1128/JCM.02199-06,https://doi.org/10.1128/iai.00510-07"	img/serotype_cps/serotype_6C_cps.svg	-
 9	6D	HM448897	-	Nahm et al 2011 J Med Microbiol	https://doi.org/10.1099%2Fjmm.0.023853-0	img/serotype_cps/serotype_6D_cps.svg	-
 10	6F	KC832410	-	Oliver et al 2013 J Biol Chem	https://doi.org/10.1074%2Fjbc.M113.480152	img/serotype_cps/serotype_6F_cps.svg	-
