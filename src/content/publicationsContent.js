@@ -137,6 +137,16 @@ const content = {
               ]
             },
             {
+              title: 'Geographical migration and fitness dynamics of *Streptococcus pneumoniae*',
+              platform: 'Nature',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1038%2Fs41586-024-07626-3'
+                }
+              ]
+            },
+            {
               title: 'Estimating geographical spread of *Streptococcus pneumoniae* within Israel using genomic data',
               platform: 'Microbial Genomics',
               buttons: [

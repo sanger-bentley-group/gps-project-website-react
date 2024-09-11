@@ -8,76 +8,105 @@ const content = {
       content: [
         {
           type: 'md',
-          content: '### Installation',
+          content: '### Background',
         },
         {
           type: 'md',
-          content: '1. Install SeroBA ([Epping et al 2018](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000186)) as per [SeroBA Documentation](https://github.com/sanger-pathogens/seroba#installation)',
+          content: 'The original SeroBA ([Epping et al 2018](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000186)), available [here](https://github.com/sanger-pathogens/seroba), is no longer maintained. Therefore, we recommend using the [containerised fork](https://github.com/sanger-bentley-group/seroba) maintained by our group, which includes the latest database updates and bug fixes.',
         },
         {
           type: 'md',
-          content: '2. Clone the database from [https://github.com/sanger-pathogens/seroba.git](https://github.com/sanger-pathogens/seroba.git), then create KMC and ARIBA databases'
+          content: 'The following instructions are based on our containerised fork and the usage of Docker or Singularity.',
+        },
+        {
+          type: 'md',
+          content: '### Run *in silico* Serotyping on a Single Sample',
+        },
+        {
+          type: 'md',
+          content: '**Running with Docker**',
+        },
+        {
+          type: 'md',
+          content: '- Replace placeholder values (`/path/to/reads`, `read1_file_name`, `read2_file_name`, `output_folder_prefix`) in the command'
         },
         {
           type: 'code',
-          content: ['git clone https://github.com/sanger-pathogens/seroba.git', '', '# Recommend <kmer size> = 71', 'seroba createDBs seroba/database <kmer size>']
+          content: ['docker run --rm -it -u $(id -u):$(id -g) -v /path/to/reads:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix']
         },
         {
           type: 'md',
-          content: '### Files Required',
+          content: '**Running with Singularity**',
         },
         {
           type: 'md',
-          content: '- Paired-end FASTQ files',
-        },
-        {
-          type: 'md',
-          content: '- SeroBA database containing KMC and ARIBA databases (created in Installation step 2)',
-        },
-        {
-          type: 'md',
-          content: '- Sample list (only for running on multiple samples)'
-        },
-        {
-          type: 'md',
-          content: '### Run *in silico* Serotyping',
-        },
-        {
-          type: 'md',
-          content: '**Single Sample**',
-        },
-        {
-          type: 'md',
-          content: '1. Run SeroBA on the sample',
+          content: '- Replace placeholder values (`/path/to/reads`, `read1_file_name`, `read2_file_name`, `output_folder_prefix`) in the command'
         },
         {
           type: 'code',
-          content: ['# <read1> and <read2> are the paired-end FASTQ files', 'seroba runSerotyping seroba/database <read1> <read2> <output folder prefix>']
+          content: ['singularity exec --bind /path/to/reads:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix']
         },
         {
           type: 'md',
-          content: '**Multiple Samples**',
+          content: '### Run *in silico* Serotyping on Multiple Samples',
         },
         {
           type: 'md',
-          content: '1. Save list of sample names as `samplelist.txt` with each name on a new line'
+          content: '**Running with Docker**',
         },
         {
           type: 'md',
-          content: '2. Run SeroBA on all samples listed in `samplelist.txt`',
+          content: '1. Place all the read files into a single directory and then `cd` (change directory) into that directory'
+        },
+        {
+          type: 'md',
+          content: '2. Run SeroBA on all the samples using a for-loop'
         },
         {
           type: 'code',
-          /* eslint-disable no-template-curly-in-string */
-          content: ['while read -r SAMPLE; do seroba runSerotyping seroba/database "${SAMPLE}_1.fastq.gz" "${SAMPLE}_2.fastq.gz" "${SAMPLE}"; done < samplelist.txt'],
+          // eslint-disable-next-line
+          content: ['for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done']
         },
         {
           type: 'md',
-          content: '3. Summaries the output in one .tsv file (`summary.tsv`)'
+          content: '3. Run SeroBA summary function on the results'
         },
         {
           type: 'code',
-          content: ['seroba summary ./'],
+          content: ['docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba summary /data/']
+        },
+        {
+          type: 'md',
+          content: '4. The summarised result is available as `summary.csv` in the directory'
+        },
+        {
+          type: 'md',
+          content: '**Running with Singularity**',
+        },
+        {
+          type: 'md',
+          content: '1. Place all the read files into a single directory and then `cd` (change directory) into that directory'
+        },
+        {
+          type: 'md',
+          content: '2. Run SeroBA on all the samples using a for-loop'
+        },
+        {
+          type: 'code',
+          // eslint-disable-next-line
+          content: ['for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done']
+        },
+        {
+          type: 'md',
+          content: '3. Run SeroBA summary function on the results'
+        },
+        {
+          type: 'code',
+          content: ['singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba summary /data/']
+        },
+        {
+          type: 'md',
+          content: '4. The summarised result is available as `summary.csv` in the directory'
         },
       ]
     },
