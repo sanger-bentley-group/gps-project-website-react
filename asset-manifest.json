@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gps-project-website-react/static/css/main.e7f8a0b6.css",
-    "main.js": "/gps-project-website-react/static/js/main.b48212dc.js",
+    "main.css": "/gps-project-website-react/static/css/main.511a4f23.css",
+    "main.js": "/gps-project-website-react/static/js/main.b0722f81.js",
     "static/media/gps_logo.png": "/gps-project-website-react/static/media/gps_logo.86a455535772c2f13489.png",
     "static/media/gpscSTTableContent.tsv": "/gps-project-website-react/static/media/gpscSTTableContent.90f01834db97d112222b.tsv",
     "static/media/serotypeTableContent.tsv": "/gps-project-website-react/static/media/serotypeTableContent.b26b5109e46807d99bd7.tsv",
     "static/media/pmenTableContent.tsv": "/gps-project-website-react/static/media/pmenTableContent.47cbc35b6867e8ae9917.tsv",
     "static/media/new_window_icon.svg": "/gps-project-website-react/static/media/new_window_icon.980b12a3594fd8263cef05cfad3814b8.svg",
     "index.html": "/gps-project-website-react/index.html",
-    "main.e7f8a0b6.css.map": "/gps-project-website-react/static/css/main.e7f8a0b6.css.map",
-    "main.b48212dc.js.map": "/gps-project-website-react/static/js/main.b48212dc.js.map"
+    "main.511a4f23.css.map": "/gps-project-website-react/static/css/main.511a4f23.css.map",
+    "main.b0722f81.js.map": "/gps-project-website-react/static/js/main.b0722f81.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7f8a0b6.css",
-    "static/js/main.b48212dc.js"
+    "static/css/main.511a4f23.css",
+    "static/js/main.b0722f81.js"
   ]
 }
