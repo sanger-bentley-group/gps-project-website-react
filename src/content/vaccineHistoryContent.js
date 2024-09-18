@@ -76,6 +76,21 @@ const content = {
               content: "The 100th serotype, 10D, is identified",
               reference: "https://doi.org/10.1128/mBio.00937-20"
             },
+            {
+              time: '2022',
+              content: "PCV15 is licensed for use in children in the US",
+              reference: "https://www.cdc.gov/acip/evidence-to-recommendations/pneumo-pcv15-child-etr.html"
+            },
+            {
+              time: '2023',
+              content: "PCV20 is licensed for us in children in the US",
+              reference: "https://www.cdc.gov/acip/evidence-to-recommendations/pcv20-child-etr.html"
+            },
+            {
+              time: '2024',
+              content: "PCV20 is licensed for use in children in Europe",
+              reference: "https://www.ema.europa.eu/en/medicines/human/EPAR/prevenar-20"
+            },
           ]
         },
         {
