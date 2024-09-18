@@ -55,6 +55,14 @@ const content = [
       {
         title: 'Serotypes',
         url: '/serobank#serotypes',
+      },
+      {
+        title: 'Vaccine Information',
+        url: '/serobank#vaccine-information',
+      },
+      {
+        title: 'Vaccine History',
+        url: '/serobank#vaccine-history',
       }
     ]
   },
