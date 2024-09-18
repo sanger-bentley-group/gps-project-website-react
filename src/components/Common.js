@@ -156,6 +156,27 @@ const Carousel = ({photos}) => (
   </div>
 )
 
+const Timeline = ({items}) => (
+  <ul className="timeline max-xl:timeline-compact timeline-snap-icon timeline-vertical">
+    {items.map(({time, content, reference}, index, array) => (
+      <li key={index}>
+        {index === 0 ? null : <hr />}
+        <div className="timeline-middle">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
+            <circle cx="10" cy="10" r="10" />
+          </svg>
+        </div>
+        <div className={`${index & 1 ? 'timeline-end' : 'timeline-start xl:text-end'} mb-10`}>
+          <time className="font-mono font-black text-lg">{time}</time>
+          <ContentMD md={content} />
+          <a href={reference} className="link text-sm" target="_blank" rel="noreferrer">Reference</a>
+        </div>
+        {index === array.length - 1 ? null : <hr />}
+      </li>
+    ))}
+  </ul>
+)
+
 const SectionContent = ({type, content}) => {
   switch (type) {
     case 'md':
@@ -184,6 +205,8 @@ const SectionContent = ({type, content}) => {
       return <div className='w-full hero'><img src={content.url} alt={content.alt} className='rounded-box w-full xl:w-1/2'/></div> 
     case 'html':
         return <div className='w-full' dangerouslySetInnerHTML={{__html: content}} />
+    case 'timeline':
+      return <Timeline items={content} />
     default:
       return
   }
