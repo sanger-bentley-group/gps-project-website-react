@@ -166,7 +166,7 @@ const Timeline = ({items}) => (
             <circle cx="10" cy="10" r="10" />
           </svg>
         </div>
-        <div className={`${index & 1 ? 'timeline-end' : 'timeline-start xl:text-end'} mb-10`}>
+        <div className={`${index & 1 ? 'timeline-end !mb-10' : 'timeline-start !mb-10 xl:text-end'} `}>
           <time className="font-mono font-black text-lg">{time}</time>
           <ContentMD md={content} />
           <a href={reference} className="link text-sm" target="_blank" rel="noreferrer">Reference</a>
