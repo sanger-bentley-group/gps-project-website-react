@@ -9,7 +9,7 @@ const content = {
             {
               time: '1881',
               content: "First independently discovered by Louis Pasteur (who called it *microbe septicemique de la salive*) in France from the saliva of a rabies patient, and by George M. Sternberg in the U.S. (who named it *Micrococcus pasteuri*)",
-              reference: "https://maidenlab.zoo.ox.ac.uk/history-and-biology-istreptococcus-pneumoniaei"
+              reference: "https://doi.org/10.1093/clinids/17.5.913"
             },
             {
               time: '1886',
@@ -19,17 +19,17 @@ const content = {
             {
               time: '1911',
               content: "Start of efforts to develop an effective pneumococcal vaccine",
-              reference: "https://www.cdc.gov/pinkbook/hcp/table-of-contents/index.html"
+              reference: "https://doi.org/10.1016/S0140-6736(01)56449-1"
             },
             {
               time: '1920',
               content: "Renamed as *Diplococcus pneumoniae* since it was typically observed in pairs",
-              reference: "https://maidenlab.zoo.ox.ac.uk/history-and-biology-istreptococcus-pneumoniaei"
+              reference: "https://doi.org/10.1128%2Fjb.5.3.191-229.1920"
             },
             {
               time: '1928',
               content: "The transformation of life was demonstrated by Frederick Griffith, where harmless pneumococci were turned into a lethal form through the co-inoculation of live harmless pneumococci with heat-killed virulent pneumococci in a mouse; This experiment played a vital role in identifying DNA as the genetic material",
-              reference: "https://maidenlab.zoo.ox.ac.uk/history-and-biology-istreptococcus-pneumoniaei"
+              reference: "https://doi.org/10.1017%2Fs0022172400031879"
             },
             {
               time: '1929',
@@ -39,7 +39,7 @@ const content = {
             {
               time: '1939',
               content: "Danish Prince Valdemar died of pneumonia and his failed treatment with serogroup 9 antisera revealed additional diversity in serogroup 9, allowing for the identification of serotype 9V",
-              reference: "https://www.cdc.gov/pinkbook/hcp/table-of-contents/index.html"
+              reference: "https://doi.org/10.4049/jimmunol.37.4.359"
             },
             {
               time: '1960s',
