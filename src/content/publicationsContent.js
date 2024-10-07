@@ -127,12 +127,32 @@ const content = {
               ]
             },
             {
+              title: 'Impact of pneumococcal conjugate vaccines on invasive pneumococcal disease-causing lineages among South African children',
+              platform: 'Nature Communications',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1038/s41467-024-52459-3'
+                }
+              ]
+            },
+            {
               title: 'Comparison of gene-by-gene and genome-wide short nucleotide sequence-based approaches to define the global population structure of *Streptococcus pneumoniae*',
               platform: 'Microbial Genomics',
               buttons: [
                 {
                   text: 'Journal',
                   url: 'https://doi.org/10.1099/mgen.0.001278'
+                }
+              ]
+            },
+            {
+              title: 'Geographical migration and fitness dynamics of *Streptococcus pneumoniae*',
+              platform: 'Nature',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1038%2Fs41586-024-07626-3'
                 }
               ]
             },

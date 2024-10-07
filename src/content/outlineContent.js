@@ -23,7 +23,7 @@ const content = {
         },
         {
           type: 'md',
-          content: 'Pneumococcal conjugate vaccines (PCVs) target the protective capsule surrounding pneumococcal cells and have proven to be very effective in reducing pneumococcal disease since their first introduction in 2000. However, there are at least [100 different forms of capsule](../resources#serotypes), each giving rise to a distinct "serotype" determined based on interactions between antibodies and antigens on the capsule. Current PCVs only target some serotypes, and the overall pneumococcus population can evolve through a process known as "serotype switching" to evade the vaccines. This creates an arms race between the vaccines and the pneumococcus.'
+          content: 'Pneumococcal conjugate vaccines (PCVs) target the protective capsule surrounding pneumococcal cells and have proven to be very effective in reducing pneumococcal disease since their first introduction in 2000. However, there are at least [100 different forms of capsule](../serobank), each giving rise to a distinct "serotype" determined based on interactions between antibodies and antigens on the capsule. Current PCVs only target some serotypes, and the overall pneumococcus population can evolve through a process known as "serotype switching" to evade the vaccines. This creates an arms race between the vaccines and the pneumococcus.'
         },
         {
           type: 'md',
@@ -31,7 +31,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '###### The table above shows the serotypes covered by different pneumococcal vaccines. A blue block in the table indicates the serotype of its column is covered by that vaccine of its row. The shade of the colour represents how frequently that serotype is being covered across all vaccines. The darker the color, the more frequently the serotype is being covered.'
+          content: '###### The table above shows the serotypes covered by different pneumococcal vaccines. A blue block in the table indicates the serotype of its column is covered by that vaccine of its row. The shade of the colour represents how frequently that serotype is being covered across all vaccines. The darker the colour, the more frequently the serotype is being covered.'
         },
       ]
     },
@@ -62,7 +62,7 @@ const content = {
         },
         {
           type: 'md',
-          content: 'GPS sequence data confirmed that after the introduction of vaccines, pneumococci with vaccine serotypes were replaced by those with non-vaccine serotypes. Importantly, with such large-scale genome data, we were able to classify all the strains circulating globally, for the first time. Pneumococcal strains could be defined at high-resolution by taking genome-wide DNA variations into account ([Gladstone and Lo *et al* 2019](https://doi.org/10.1016/j.ebiom.2019.04.021)). This robust typing method is coupled with a coherent and dynamic naming system known as [global pneumococcal sequence clusters (GPSCs)](../resources#lineages), which enable collaborations in the tracking of pneumococcal lineages across geographical regions and over time, especially before and after the roll-out of PCVs.'
+          content: 'GPS sequence data confirmed that after the introduction of vaccines, pneumococci with vaccine serotypes were replaced by those with non-vaccine serotypes. Importantly, with such large-scale genome data, we were able to classify all the strains circulating globally, for the first time. Pneumococcal strains could be defined at high-resolution by taking genome-wide DNA variations into account ([Gladstone and Lo *et al* 2019](https://doi.org/10.1016/j.ebiom.2019.04.021)). This robust typing method is coupled with a coherent and dynamic naming system known as [global pneumococcal sequence clusters (GPSCs)](../gpsc#lineages), which enable collaborations in the tracking of pneumococcal lineages across geographical regions and over time, especially before and after the roll-out of PCVs.'
         },
         {
           type: 'md',
@@ -81,7 +81,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'The GPS project generates a rich source of genome and epidemiological data for tracking pneumococcal transmission and evolution on both national and international levels. The genome data are deposited in [ENA](https://www.ebi.ac.uk/ena/data/view/PRJEB3084). High-level analyses are interactively presented by [countries](../resources#countries) and by [strains](../resources#lineages) using [Microreact](https://microreact.org/) and [Phandango](https://jameshadfield.github.io/phandango/#/GPS). Illustrations of how to use these resources are summarised in a publication ([Gladstone *et al* 2020](https://doi.org/10.1099/mgen.0.000357)) and videos on the [Resources pages](../resources#overview). '
+          content: 'The GPS project generates a rich source of genome and epidemiological data for tracking pneumococcal transmission and evolution on both national and international levels. The genome data are deposited in [ENA](https://www.ebi.ac.uk/ena/data/view/PRJEB3084). High-level analyses are interactively presented by [countries](../resources#countries) and by [strains](../gpsc#lineages) using [Microreact](https://microreact.org/) and [Phandango](https://jameshadfield.github.io/phandango/#/GPS). Illustrations of how to use these resources are summarised in a publication ([Gladstone *et al* 2020](https://doi.org/10.1099/mgen.0.000357)) and videos on the [Resources pages](../resources#overview). '
         },
       ]
     },
