@@ -255,10 +255,8 @@ const Table = ({columns, data, pageSizeOverride}) => {
   const currentRows = table.getRowModel().rows
   const totalRowLength = table.getPrePaginationRowModel().rows.length
 
-  return (
-    <div className='hero-content flex-col w-full items-start'>
-      <div className='w-full flex justify-around'>
-        <div className="join">
+  const pageSelector = (
+    <div className="join">
           <button className="join-item btn btn-outline btn-xs" onClick={() => table.setPageIndex(0)} disabled={!table.getCanPreviousPage()}>«</button>
           <button className="join-item btn btn-outline btn-xs" onClick={() => table.previousPage()} disabled={!table.getCanPreviousPage()}>‹</button>
           {
@@ -284,44 +282,54 @@ const Table = ({columns, data, pageSizeOverride}) => {
           <button className="join-item btn btn-outline btn-xs" onClick={() => table.nextPage()} disabled={!table.getCanNextPage()}>›</button>
           <button className="join-item btn btn-outline btn-xs" onClick={() => table.setPageIndex(table.getPageCount() - 1)} disabled={!table.getCanNextPage()}>»</button>
         </div>
-        <div className='join'>
-          <div className='join-item btn btn-outline btn-xs pointer-events-none'>
-            {
-              table.getPageCount()
-              ?
-                `Records ${startingRow} - ${startingRow + currentRows.length - 1} of ${ totalRowLength }`
-              :
-                "No Record"
-            }
-          </div>
-          <select
-            className={`join-item btn btn-outline btn-xs ${table.getPageCount() ? null : 'btn-disabled'}`}
-            value={pageSize}
-            onChange={ e => table.setPageSize(Number(e.target.value)) }
-          >
-            {
-              [
-                totalRowLength > 10 ? 10 : null, 
-                totalRowLength > 20 ? 20 : null, 
-                totalRowLength > 50 ? 50 : null, 
-                totalRowLength > 100 ? 100 : null, 
-                totalRowLength
-              ]
-              .filter(x => x)
-              .map((pageSize, i, arr) => (
-                  <option key={pageSize} value={pageSize}>
-                    {
-                      i + 1 === arr.length 
-                      ?
-                        'Show All'
-                      :
-                        `Show ${pageSize}`
-                    }
-                  </option>
-              ))
-            }
-          </select>
-        </div>
+  )
+
+  const recordCountSelector = (
+    <div className='join'>
+      <div className='join-item btn btn-outline btn-xs pointer-events-none'>
+        {
+          table.getPageCount()
+          ?
+            `Records ${startingRow} - ${startingRow + currentRows.length - 1} of ${ totalRowLength }`
+          :
+            "No Record"
+        }
+      </div>
+      <select
+        className={`join-item btn btn-outline btn-xs ${table.getPageCount() ? null : 'btn-disabled'}`}
+        value={pageSize}
+        onChange={ e => table.setPageSize(Number(e.target.value)) }
+      >
+        {
+          [
+            totalRowLength > 10 ? 10 : null, 
+            totalRowLength > 20 ? 20 : null, 
+            totalRowLength > 50 ? 50 : null, 
+            totalRowLength > 100 ? 100 : null, 
+            totalRowLength
+          ]
+          .filter(x => x)
+          .map((pageSize, i, arr) => (
+              <option key={pageSize} value={pageSize}>
+                {
+                  i + 1 === arr.length 
+                  ?
+                    'Show All'
+                  :
+                    `Show ${pageSize}`
+                }
+              </option>
+          ))
+        }
+      </select>
+    </div>
+  )
+
+  return (
+    <div className='hero-content flex-col w-full items-start'>
+      <div className='w-full flex justify-around'>
+        {pageSelector}
+        {recordCountSelector}
       </div>
       <div className='w-full overflow-visible overflow-x-auto'>
         <table className='table table-zebra bg-base-300 table-sm table-auto'>
@@ -373,6 +381,9 @@ const Table = ({columns, data, pageSizeOverride}) => {
             }
           </tbody>
         </table>
+      </div>
+      <div className='w-full flex justify-around'>
+        {pageSelector}
       </div>
     </div>
   )
