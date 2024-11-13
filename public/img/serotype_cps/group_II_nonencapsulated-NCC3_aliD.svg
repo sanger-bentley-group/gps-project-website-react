@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1536 916" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-3464.91,-44.5393)">
+        <g transform="matrix(18.0712,0,0,18.0712,3591.01,525.62)">
+            <g transform="matrix(1,0,0,1,0.925,0)">
+                <path d="M-0.015,11L75,11" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(18.0712,0,0,18.0712,3591.01,525.62)">
+            <g transform="matrix(1,0,0,1,0.925,0)">
+                <path d="M-0.015,22L-0.015,0L0.6,11L-0.015,22Z" style="fill:rgb(187,187,187);fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(18.0712,0,0,18.0712,3591.01,525.62)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,-2.18411,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">dexB</text>
+            </g>
+        </g>
+        <g transform="matrix(18.0712,0,0,18.0712,3591.01,525.62)">
+            <g transform="matrix(1,0,0,1,0.925,0)">
+                <path d="M3.525,5L20.91,5L20.91,0L32.91,11L20.91,22L20.91,17L3.525,17L3.525,5Z" style="fill:rgb(187,187,187);fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(18.0712,0,0,18.0712,3591.01,525.62)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,15.7409,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">aliD</text>
+            </g>
+        </g>
+        <g transform="matrix(18.0712,0,0,18.0712,3591.01,525.62)">
+            <g transform="matrix(1,0,0,1,0.925,0)">
+                <path d="M55.65,5L63,5L63,0L75,11L63,22L63,17L55.65,17L55.65,5Z" style="fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(18.0712,0,0,18.0712,3591.01,525.62)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,62.8484,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">aliA</text>
+            </g>
+        </g>
+    </g>
+</svg>

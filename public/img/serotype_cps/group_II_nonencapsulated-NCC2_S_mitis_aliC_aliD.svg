@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1523 638" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-3467.51,-30.9889)">
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(1,0,0,1,0.775,0)">
+                <path d="M-0.015,11L115.065,11" style="fill:none;fill-rule:nonzero;stroke:rgb(17,17,17);stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(1,0,0,1,0.775,0)">
+                <path d="M-0.015,22L-0.015,0L8.445,11L-0.015,22Z" style="fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,1.58839,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">dexB</text>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(1,0,0,1,0.775,0)">
+                <path d="M12.57,5L30.09,5L30.09,0L42.09,11L30.09,22L30.09,17L12.57,17L12.57,5Z" style="fill:rgb(187,187,187);fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,24.7034,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">aliC</text>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(1,0,0,1,0.775,0)">
+                <path d="M45.57,5L62.955,5L62.955,0L74.955,11L62.955,22L62.955,17L45.57,17L45.57,5Z" style="fill:rgb(187,187,187);fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,57.6359,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">aliD</text>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(1,0,0,1,0.775,0)">
+                <path d="M77.7,5L82.215,5L82.215,0L94.215,11L82.215,22L82.215,17L77.7,17L77.7,5Z" style="fill:rgb(187,187,187);fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,83.3309,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">glf</text>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(1,0,0,1,0.775,0)">
+                <path d="M97.32,5L103.05,5L103.05,0L115.05,11L103.05,22L103.05,17L97.32,17L97.32,5Z" style="fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(12.5733,0,0,12.5733,3507.82,365.708)">
+            <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,103.558,-5.39411)">
+                <text x="0px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:10px;">aliA</text>
+            </g>
+        </g>
+    </g>
+</svg>
