@@ -31,7 +31,7 @@ const content = {
             },
             {
               name: 'Dr. Alannah King',
-              position: 'Bioinformatician',
+              position: 'Staff Scientist',
               photo: 'img/alannah_king.jpg'
             },
             {
