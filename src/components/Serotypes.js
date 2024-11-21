@@ -90,7 +90,7 @@ const Serortype = () => {
       }
     },
     {
-      header: <TextWithToolTip text="Positive in SSI Antisera" tooltipHTML='
+      header: <TextWithToolTip text="Positive in <a class='link' href='https://ssidiagnostica.com/international/solutions/antisera/pneumococcus-antisera/' target='_blank' rel='noreferrer'>SSI Antisera</a>" tooltipHTML='
         <div class="flex flex-col gap-2 items-center">
           <div class="badge badge-primary">Pool Serum</div>
           <div class="badge badge-secondary">Type Serum</div>
