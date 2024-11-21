@@ -90,6 +90,49 @@ const Serortype = () => {
       }
     },
     {
+      header: <TextWithToolTip text="Positive in SSI Antisera" tooltipHTML='
+        <div class="flex flex-col gap-2 items-center">
+          <div class="badge badge-primary">Pool Serum</div>
+          <div class="badge badge-secondary">Type Serum</div>
+          <div class="badge badge-accent">Group Serum</div>
+          <div class="badge badge-neutral">Factor Serum</div>
+        </div>
+      ' />,
+      accessorKey: "antiseraRemark",
+      cell: props => {
+        const remarkValue = props.getValue()
+        const poolSerumValue = props.row.original.poolSerum 
+        const typeSerumValue = props.row.original.typeSerum
+        const groupSerumValue = props.row.original.groupSerum
+        const factorSerumValue = props.row.original.factorSerum
+
+        if (remarkValue === '-' && poolSerumValue === '-'  && typeSerumValue === '-'  && groupSerumValue === '-' && factorSerumValue === '-' ){
+          return <div className="text-center">-</div>
+        }
+
+        return (
+            <div className="flex w-full gap-1 justify-center">
+              {
+                poolSerumValue === '-' ? null : poolSerumValue.split(",").map((val) => <div className="badge badge-primary" data-tooltip-id="react-tooltip" data-tooltip-html="Pool Serum">{val}</div>)
+              }
+              {
+                typeSerumValue === '-' ? null : typeSerumValue.split(",").map((val) => <div className="badge badge-secondary" data-tooltip-id="react-tooltip" data-tooltip-html="Type Serum">{val}</div>)
+              }
+              {
+                groupSerumValue === '-' ? null : groupSerumValue.split(",").map((val) => <div className="badge badge-accent" data-tooltip-id="react-tooltip" data-tooltip-html="Group Serum">{val}</div>)
+              }
+              {
+                factorSerumValue === '-' ? null : factorSerumValue.split(",").map((val) => <div className="badge badge-neutral" data-tooltip-id="react-tooltip" data-tooltip-html="Factor Serum">{val}</div>)
+              }
+              {
+                remarkValue === '-' ? null :  <TextWithToolTip text="Note" tooltipHTML={remarkValue} />
+              }
+            </div>
+        )
+
+      }
+    },
+    {
       header: <TextWithToolTip text="<i>cps</i> Gene Cluster" tooltipHTML='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>' />,
       accessorKey: "cpsImage",
       cell: props => {
