@@ -96,40 +96,51 @@ const Serortype = () => {
           <div class="badge badge-secondary">Type Serum</div>
           <div class="badge badge-accent">Group Serum</div>
           <div class="badge badge-neutral">Factor Serum</div>
+          <div class="badge badge-outline">Non-SSI</div>
         </div>
       ' />,
-      accessorKey: "antiseraRemark",
+      accessorKey: "otherSerum",
       cell: props => {
-        const remarkValue = props.getValue()
+        const otherSerumValue = props.getValue()
+        const otherSerumValueRemark = props.row.original.otherSerumRemark
         const poolSerumValue = props.row.original.poolSerum 
         const typeSerumValue = props.row.original.typeSerum
         const groupSerumValue = props.row.original.groupSerum
         const factorSerumValue = props.row.original.factorSerum
 
-        if (remarkValue === '-' && poolSerumValue === '-'  && typeSerumValue === '-'  && groupSerumValue === '-' && factorSerumValue === '-' ){
+        if (otherSerumValue === '-' && poolSerumValue === '-'  && typeSerumValue === '-'  && groupSerumValue === '-' && factorSerumValue === '-' ){
           return <div className="text-center">-</div>
         }
 
         return (
-            <div className="flex w-full gap-1 justify-center">
-              {
-                poolSerumValue === '-' ? null : poolSerumValue.split(",").map((val) => <div className="badge badge-primary" data-tooltip-id="react-tooltip" data-tooltip-html="Pool Serum">{val}</div>)
+          <div className="flex w-full gap-x-1 gap-y-2 justify-center flex-wrap">
+            {
+              poolSerumValue === '-' ? null : poolSerumValue.split(",").map((val) => <div className="badge badge-primary" data-tooltip-id="react-tooltip" data-tooltip-html="Pool Serum" key={val}>{val}</div>)
+            }
+            {
+              typeSerumValue === '-' ? null : typeSerumValue.split(",").map((val) => <div className="badge badge-secondary" data-tooltip-id="react-tooltip" data-tooltip-html="Type Serum" key={val}>{val}</div>)
+            }
+            {
+              groupSerumValue === '-' ? null : groupSerumValue.split(",").map((val) => <div className="badge badge-accent" data-tooltip-id="react-tooltip" data-tooltip-html="Group Serum" key={val}>{val}</div>)
+            }
+            {
+              factorSerumValue === '-' ? null : factorSerumValue.split(",").map((val) => <div className="badge badge-neutral" data-tooltip-id="react-tooltip" data-tooltip-html="Factor Serum" key={val}>{val}</div>)
+            }
+            {
+              otherSerumValue === '-' 
+              ? 
+                null 
+              : 
+              otherSerumValue.indexOf(",") === -1
+                ?
+                  <span className="badge badge-outline"><TextWithToolTip text={otherSerumValue} tooltipHTML={otherSerumValueRemark} /></span>
+                : 
+                  otherSerumValue.split(',').map((element, index) => 
+                    <span className="badge badge-outline" key={element}><TextWithToolTip text={element} tooltipHTML={otherSerumValueRemark.split(',')[index]} /></span>
+                  )
               }
-              {
-                typeSerumValue === '-' ? null : typeSerumValue.split(",").map((val) => <div className="badge badge-secondary" data-tooltip-id="react-tooltip" data-tooltip-html="Type Serum">{val}</div>)
-              }
-              {
-                groupSerumValue === '-' ? null : groupSerumValue.split(",").map((val) => <div className="badge badge-accent" data-tooltip-id="react-tooltip" data-tooltip-html="Group Serum">{val}</div>)
-              }
-              {
-                factorSerumValue === '-' ? null : factorSerumValue.split(",").map((val) => <div className="badge badge-neutral" data-tooltip-id="react-tooltip" data-tooltip-html="Factor Serum">{val}</div>)
-              }
-              {
-                remarkValue === '-' ? null :  <TextWithToolTip text="Note" tooltipHTML={remarkValue} />
-              }
-            </div>
+          </div>
         )
-
       }
     },
     {
