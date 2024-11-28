@@ -29,5 +29,11 @@ jobs:
         - name: Install dependencies
           run: pnpm install
 
-        - name: Deploy to Staging
-          run: pnpm run deploy
+        - name: Build website
+          run: pnpm build
+
+        - name: Deploy website to staging
+          uses: peaceiris/actions-gh-pages@v4
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./build
