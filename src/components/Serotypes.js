@@ -107,6 +107,7 @@ const Serortype = () => {
         const typeSerumValue = props.row.original.typeSerum
         const groupSerumValue = props.row.original.groupSerum
         const factorSerumValue = props.row.original.factorSerum
+        const antiserumNote = props.row.original.antiserumNote
 
         if (otherSerumValue === '-' && poolSerumValue === '-'  && typeSerumValue === '-'  && groupSerumValue === '-' && factorSerumValue === '-' ){
           return <div className="text-center">-</div>
@@ -114,6 +115,9 @@ const Serortype = () => {
 
         return (
           <div className="flex w-full gap-x-1 gap-y-2 justify-center flex-wrap">
+            {
+              antiserumNote === '-' ? null : <span className="badge badge-error basis-full"><TextWithToolTip text="Note" tooltipHTML={antiserumNote} /></span>
+            }
             {
               poolSerumValue === '-' ? null : poolSerumValue.split(",").map((val) => <div className="badge badge-primary" data-tooltip-id="react-tooltip" data-tooltip-html="Pool Serum" key={val}>{val}</div>)
             }
