@@ -35,31 +35,32 @@ count	serotype	accessionNumber	comments	reference	referenceUrl	cpsImage	cpsRemar
 32	11E	-	-	Calix et al 2010 J Infect Dis	https://doi.org/10.1086/653123	img/serotype_cps/serotype_11E_cps.svg	-
 -	11Av	-	A serovariant which is an intermediate variant of 11A and 11E	Camilli et al 2014 PloS ONE	https://doi.org/10.1371/journal.pone.0100722	-	-
 33	11F	CR931657	-	Calix et al 2011 J Bacteriology	https://doi.org/10.1128/JB.05034-11	img/serotype_cps/serotype_11F_cps.svg	-
-34	11F_like	MF140334	-	Manna et al 2018 Clin Microbiol Infect	https://doi.org/10.1016%2Fj.cmi.2017.06.031	img/serotype_cps/serotype_11F_like_cps.svg	-
-35	12A	CR931658	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12A_cps.svg	-
-36	12B	CR931659	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12B_cps.svg	-
-37	12F	CR931660	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12F_cps.svg	-
-38	13	CR931661	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_13_cps.svg	-
-39	14	CR931662	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_14_cps.svg	-
-40	15A	CR931663	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15A_cps.svg	-
-41	15B	CR931664	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15B_cps.svg	-
-42	15C	CR931665	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15C_cps.svg	-
-43	15D	SAMN14150919	-	Pimenta et al 2021  J Clin Microbiol	https://doi.org/10.1128/jcm.00329-21	img/serotype_cps/serotype_15D_cps.svg	-
-44	15F	CR931666	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15F_cps.svg	-
-45	16A	CR931667	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_16A_cps.svg	-
-46	16F	CR931668	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_16F_cps.svg	-
-47	17A	CR931669	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_17A_cps.svg	-
-48	17F	CR931670	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_17F_cps.svg	-
-49	18A	CR931671	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18A_cps.svg	-
-50	18B	CR931672	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18B_cps.svg	-
-51	18C	CR931673	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18C_cps.svg	-
-52	18F	CR931674	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18F_cps.svg	-
-53	19A	CR931675	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19A_cps.svg	-
-54	19B	CR931676	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19B_cps.svg	-
-55	19C	CR931677	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19C_cps.svg	-
-56	19F	CR931678	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19F_cps.svg	-
-57	20A	JQ653094	-	Calix et al 2012 J Biol Chem	https://doi.org/10.1074/jbc.M112.380451	img/serotype_cps/serotype_20A_cps.svg	-
-58	20B	JQ653093	-	Calix et al 2012 J Biol Chem	https://doi.org/10.1074/jbc.M112.380451	img/serotype_cps/serotype_20B_cps.svg	-
+-	11F_like	MF140334	Genetic variant of 11A	Manna et al 2018 Clin Microbiol Infect	https://doi.org/10.1016%2Fj.cmi.2017.06.031	img/serotype_cps/serotype_11F_like_cps.svg	-
+34	12A	CR931658	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12A_cps.svg	-
+35	12B	CR931659	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12B_cps.svg	-
+36	12F	CR931660	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_12F_cps.svg	-
+37	13	CR931661	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_13_cps.svg	-
+38	14	CR931662	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_14_cps.svg	-
+39	15A	CR931663	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15A_cps.svg	-
+40	15B	CR931664	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15B_cps.svg	-
+41	15C	CR931665	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15C_cps.svg	-
+42	15D	SAMN14150919	-	Pimenta et al 2021  J Clin Microbiol	https://doi.org/10.1128/jcm.00329-21	img/serotype_cps/serotype_15D_cps.svg	-
+43	15F	CR931666	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_15F_cps.svg	-
+44	16A	CR931667	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_16A_cps.svg	-
+45	16F	CR931668	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_16F_cps.svg	-
+46	17A	CR931669	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_17A_cps.svg	-
+47	17F	CR931670	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_17F_cps.svg	-
+48	18A	CR931671	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18A_cps.svg	-
+49	18B	CR931672	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18B_cps.svg	-
+50	18C	CR931673	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18C_cps.svg	-
+51	18F	CR931674	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_18F_cps.svg	-
+52	19A	CR931675	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19A_cps.svg	-
+53	19B	CR931676	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19B_cps.svg	-
+54	19C	CR931677	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19C_cps.svg	-
+55	19F	CR931678	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_19F_cps.svg	-
+56	20A	JQ653094	-	Calix et al 2012 J Biol Chem	https://doi.org/10.1074/jbc.M112.380451	img/serotype_cps/serotype_20A_cps.svg	-
+57	20B	JQ653093	-	Calix et al 2012 J Biol Chem	https://doi.org/10.1074/jbc.M112.380451	img/serotype_cps/serotype_20B_cps.svg	-
+58	20C	ERR980181	-	Nahm et al 2024 Microbiol Spectr	https://doi.org/10.1128/spectrum.02443-24	img/serotype_cps/serotype_20C_cps.svg	-
 59	21	CR931680	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_21_cps.svg	-
 60	22A	CR931681	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_22A_cps.svg	-
 61	22F	CR931682	-	Bentley et al 2006 PloS Genet	https://doi.org/10.1371/journal.pgen.0020031	img/serotype_cps/serotype_22F_cps.svg	-
