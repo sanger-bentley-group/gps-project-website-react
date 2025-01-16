@@ -156,26 +156,16 @@ const Serortype = () => {
         const remarkValue = props.row.original.cpsRemark
 
         if (cellValue === '-'){
-          return <div className="text-center">-</div>
-        } else if (remarkValue === '-') {
-          return (
-            <div className="flex flex-col w-full">
-              <img
-                className="h-16 min-w-96"
-                src={cellValue}
-                alt={`Chart of Serotype ${serotypeValue} cps region`}
-              />
-            </div>
-          )
+          return <div className="flex flex-col justify-center h-full"><div className="text-center">{remarkValue}</div></div>
         } else {
           return (
-            <div className="flex flex-col gap-y-2 w-full">
+            <div className="flex flex-col gap-y-2 w-full h-full justify-center">
               <img
+                className="h-16 min-w-96"
                 src={cellValue}
                 alt={`Chart of Serotype ${serotypeValue} cps region`}
-                className="h-16 min-w-96"
               />
-              <div className="whitespace-nowrap text-center">{remarkValue}</div>
+              {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center h-full">{remarkValue}</div>}
             </div>
           )
         }
