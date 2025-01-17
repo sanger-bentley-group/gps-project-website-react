@@ -376,7 +376,7 @@ const Table = ({columns, data, pageSizeOverride}) => {
                               type="text"
                               value={(header.column.getFilterValue() ?? '')}
                               onChange={event => header.column.setFilterValue(event.target.value)}
-                              placeholder={header.column.columnDef.meta && header.column.columnDef.meta.searchPlaceHolder ? header.column.columnDef.meta.searchPlaceHolder : 'Search...' }
+                              placeholder={header.column.columnDef.meta?.searchPlaceHolder ? header.column.columnDef.meta.searchPlaceHolder : 'Search...' }
                             />
                         </div>
                       :
