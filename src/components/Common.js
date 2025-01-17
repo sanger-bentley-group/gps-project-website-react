@@ -360,7 +360,7 @@ const Table = ({columns, data, pageSizeOverride}) => {
             {table.getHeaderGroups().map(headerGroup => (
               <tr key={headerGroup.id}>
                 {headerGroup.headers.map(header => (
-                  <th className='align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={header.id} colSpan={header.colSpan}>
+                  <th className={`align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent ${header.column.columnDef.meta?.className ? header.column.columnDef.meta?.className : ''}`} key={header.id} colSpan={header.colSpan}>
                     <div>
                       {flexRender(
                           header.column.columnDef.header,
@@ -391,7 +391,7 @@ const Table = ({columns, data, pageSizeOverride}) => {
             {table.getRowModel().rows.map(row => (
                 <tr key={row.id} className='h-full border-x'>
                   {row.getVisibleCells().map(cell => (
-                    <td className='h-full align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={cell.id}>
+                    <td className={`h-full align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent ${cell.column.columnDef.meta?.className ? cell.column.columnDef.meta?.className : ''}`} key={cell.id}>
                       {flexRender(
                         cell.column.columnDef.cell,
                         cell.getContext()
