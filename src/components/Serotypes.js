@@ -19,6 +19,9 @@ const Serortype = () => {
       header: "Serotype",
       accessorKey: "serotype",
       enableColumnFilter: true,
+      meta: {
+        className: "sticky left-0 glass z-10"
+      },
       cell: props => {
         const cellValue = props.getValue()
         const commentvalue = props.row.original.comments
