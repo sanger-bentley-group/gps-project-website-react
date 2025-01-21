@@ -103,6 +103,9 @@ const Serortype = () => {
         </div>
       ' />,
       accessorKey: "otherSerum",
+      meta: {
+        className: "!align-middle"
+      },
       cell: props => {
         const otherSerumValue = props.getValue()
         const otherSerumValueRemark = props.row.original.otherSerumRemark
@@ -207,6 +210,9 @@ const Serortype = () => {
     {
       header: "Annotation (.gb)",
       accessorKey: "genBankFile",
+      meta: {
+        className: "!align-middle"
+      },
       cell: props => {
         const cellValue = props.getValue()
         if (cellValue === '-'){
