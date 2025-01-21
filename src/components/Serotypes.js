@@ -153,13 +153,16 @@ const Serortype = () => {
     {
       header: <TextWithToolTip text="<i>cps</i> Gene Cluster" tooltipHTML='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>' />,
       accessorKey: "cpsImage",
+      meta: {
+        className: "!align-middle"
+      },
       cell: props => {
         const cellValue = props.getValue()
         const serotypeValue = props.row.original.serotype 
         const remarkValue = props.row.original.cpsRemark
 
         if (cellValue === '-'){
-          return <div className="flex flex-col justify-center h-full"><div className="text-center">{remarkValue}</div></div>
+          return <div className="text-center">{remarkValue}</div>
         } else {
           return (
             <div className="flex flex-col gap-y-2 w-full h-full justify-center">
@@ -168,7 +171,7 @@ const Serortype = () => {
                 src={cellValue}
                 alt={`Chart of Serotype ${serotypeValue} cps region`}
               />
-              {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center h-full">{remarkValue}</div>}
+              {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center">{remarkValue}</div>}
             </div>
           )
         }
@@ -177,13 +180,16 @@ const Serortype = () => {
     {
       header: <TextWithToolTip text="Capsular Structure Compiled by Nahm's lab" tooltipHTML='<img class="min-w-[36rem]" src="img/serotype_capsular_structure/capsular_structure_legend.svg" alt="Legend of capsular structure"/>' />,
       accessorKey: "capsularStructureImage",
+      meta: {
+        className: "!align-middle"
+      },
       cell: props => {
         const cellValue = props.getValue()
         const serotypeValue = props.row.original.serotype 
         const remarkValue = props.row.original.capsularStructureRemark
         
         if (cellValue === '-'){
-          return <div className="flex flex-col justify-center h-full"><div className="text-center">{remarkValue}</div></div>
+          return <div className="text-center">{remarkValue}</div>
         } else {
           return (
             <div className="flex flex-col gap-y-2 w-full h-full justify-center">
@@ -192,7 +198,7 @@ const Serortype = () => {
                 src={cellValue}
                 alt={`Chart of Serotype ${serotypeValue} capsular structure`}
               />
-              {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center h-full">{remarkValue}</div>}
+              {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center">{remarkValue}</div>}
             </div>
           )
         }
