@@ -249,7 +249,7 @@ const ParseTable = ({content}) => {
   return tableData
 }
 
-const Table = ({columns, data, pageSizeOverride}) => {
+const Table = ({columns, data, pageSizeOverride, heroContent=false}) => {
   const [columnFilters, setColumnFilters] = useState([])
 
   const defaultColumn = useMemo(() => ({enableColumnFilter: false}), [])
@@ -349,12 +349,12 @@ const Table = ({columns, data, pageSizeOverride}) => {
   )
 
   return (
-    <div className='hero-content flex-col w-full items-start'>
+    <div className={`${heroContent ? "hero-content" : "p-10"} flex flex-col w-full items-center`}>
       <div className='w-full flex justify-around'>
         {pageSelector}
         {recordCountSelector}
       </div>
-      <div className='w-full overflow-visible overflow-x-auto'>
+        <div className='w-fit max-w-full overflow-visible overflow-x-auto'>
         <table className='table table-zebra bg-base-300 table-sm table-auto'>
           <thead className='bg-base-200'>
             {table.getHeaderGroups().map(headerGroup => (

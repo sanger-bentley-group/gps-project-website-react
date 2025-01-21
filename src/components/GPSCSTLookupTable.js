@@ -39,7 +39,7 @@ const GPSCSTLookupTable = () => {
       {content.sections.map( (props, index) => 
         <Section {...props} key={index} />
       )}
-      <Table columns={memoisedTableColumns} data={memoisedTableData}/>
+      <Table columns={memoisedTableColumns} data={memoisedTableData} heroContent={true}/>
     </div>
   )
 }

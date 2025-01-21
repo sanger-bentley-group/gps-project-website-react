@@ -103,6 +103,9 @@ const Serortype = () => {
         </div>
       ' />,
       accessorKey: "otherSerum",
+      meta: {
+        className: "!align-middle"
+      },
       cell: props => {
         const otherSerumValue = props.getValue()
         const otherSerumValueRemark = props.row.original.otherSerumRemark
@@ -113,7 +116,7 @@ const Serortype = () => {
         const antiserumNote = props.row.original.antiserumNote
 
         if (otherSerumValue === '-' && poolSerumValue === '-'  && typeSerumValue === '-'  && groupSerumValue === '-' && factorSerumValue === '-' ){
-          return <div className="text-center">-</div>
+          return <div className="text-center">No Serological Profile</div>
         }
 
         return (
@@ -145,7 +148,7 @@ const Serortype = () => {
                   otherSerumValue.split(',').map((element, index) => 
                     <span className="badge badge-outline" key={element}><TextWithToolTip text={element} tooltipHTML={otherSerumValueRemark.split(',')[index]} /></span>
                   )
-              }
+            }
           </div>
         )
       }
@@ -162,7 +165,7 @@ const Serortype = () => {
         const remarkValue = props.row.original.cpsRemark
 
         if (cellValue === '-'){
-          return <div className="text-center">{remarkValue}</div>
+          return <div className="text-center">{remarkValue === '-' ? "No Sequence Available" : remarkValue}</div>
         } else {
           return (
             <div className="flex flex-col gap-y-2 w-full h-full justify-center">
@@ -189,7 +192,7 @@ const Serortype = () => {
         const remarkValue = props.row.original.capsularStructureRemark
         
         if (cellValue === '-'){
-          return <div className="text-center">{remarkValue}</div>
+          return <div className="text-center">{remarkValue === '-' ? "No Structure Available" : remarkValue}</div>
         } else {
           return (
             <div className="flex flex-col gap-y-2 w-full h-full justify-center">
@@ -207,6 +210,9 @@ const Serortype = () => {
     {
       header: "Annotation (.gb)",
       accessorKey: "genBankFile",
+      meta: {
+        className: "!align-middle"
+      },
       cell: props => {
         const cellValue = props.getValue()
         if (cellValue === '-'){
