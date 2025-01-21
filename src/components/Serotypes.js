@@ -19,6 +19,9 @@ const Serortype = () => {
       header: "Serotype",
       accessorKey: "serotype",
       enableColumnFilter: true,
+      meta: {
+        className: "sticky left-0 glass z-10"
+      },
       cell: props => {
         const cellValue = props.getValue()
         const commentvalue = props.row.original.comments
@@ -156,26 +159,40 @@ const Serortype = () => {
         const remarkValue = props.row.original.cpsRemark
 
         if (cellValue === '-'){
-          return <div className="text-center">-</div>
-        } else if (remarkValue === '-') {
-          return (
-            <div className="flex flex-col w-full">
-              <img
-                className="h-16 min-w-96"
-                src={cellValue}
-                alt={`Chart of Serotype ${serotypeValue} cps region`}
-              />
-            </div>
-          )
+          return <div className="flex flex-col justify-center h-full"><div className="text-center">{remarkValue}</div></div>
         } else {
           return (
-            <div className="flex flex-col gap-y-2 w-full">
+            <div className="flex flex-col gap-y-2 w-full h-full justify-center">
               <img
+                className="h-16 min-w-96"
                 src={cellValue}
                 alt={`Chart of Serotype ${serotypeValue} cps region`}
-                className="h-16 min-w-96"
               />
-              <div className="whitespace-nowrap text-center">{remarkValue}</div>
+              {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center h-full">{remarkValue}</div>}
+            </div>
+          )
+        }
+      }
+    },
+    {
+      header: <TextWithToolTip text="Capsular Structure Compiled by Nahm's lab" tooltipHTML='<img class="min-w-[36rem]" src="img/serotype_capsular_structure/capsular_structure_legend.svg" alt="Legend of capsular structure"/>' />,
+      accessorKey: "capsularStructureImage",
+      cell: props => {
+        const cellValue = props.getValue()
+        const serotypeValue = props.row.original.serotype 
+        const remarkValue = props.row.original.capsularStructureRemark
+        
+        if (cellValue === '-'){
+          return <div className="flex flex-col justify-center h-full"><div className="text-center">{remarkValue}</div></div>
+        } else {
+          return (
+            <div className="flex flex-col gap-y-2 w-full h-full justify-center">
+              <img
+                className="min-w-[30rem]"
+                src={cellValue}
+                alt={`Chart of Serotype ${serotypeValue} capsular structure`}
+              />
+              {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center h-full">{remarkValue}</div>}
             </div>
           )
         }
