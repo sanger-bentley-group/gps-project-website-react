@@ -154,7 +154,7 @@ const Serortype = () => {
       }
     },
     {
-      header: <TextWithToolTip text="<i>cps</i> Gene Cluster" tooltipHTML='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>' />,
+      header: <TextWithToolTip text="<i>cps</i> Gene Cluster" tooltipHTML='Click on figures to show gene colour legend' />,
       accessorKey: "cpsImage",
       meta: {
         className: "!align-middle"
@@ -168,7 +168,7 @@ const Serortype = () => {
           return <div className="text-center">{remarkValue === '-' ? "No Sequence Available" : remarkValue}</div>
         } else {
           return (
-            <div className="flex flex-col gap-y-2 w-full h-full justify-center">
+            <div className="flex flex-col gap-y-2 w-full h-full justify-center" data-tooltip-id="react-tooltip-click" data-tooltip-html='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>'>
               <img
                 className="h-16 min-w-96"
                 src={cellValue}
@@ -181,7 +181,7 @@ const Serortype = () => {
       }
     },
     {
-      header: <TextWithToolTip text="Capsular Structure Compiled by Nahm's lab" tooltipHTML='<img class="min-w-[36rem]" src="img/serotype_capsular_structure/capsular_structure_legend.svg" alt="Legend of capsular structure"/>' />,
+      header: <TextWithToolTip text="Capsular Structure Compiled by Nahm's lab" tooltipHTML='Click on figures to show molecule legend' />,
       accessorKey: "capsularStructureImage",
       meta: {
         className: "!align-middle"
@@ -195,7 +195,7 @@ const Serortype = () => {
           return <div className="text-center">{remarkValue === '-' ? "No Structure Available" : remarkValue}</div>
         } else {
           return (
-            <div className="flex flex-col gap-y-2 w-full h-full justify-center">
+            <div className="flex flex-col gap-y-2 w-full h-full justify-center" data-tooltip-id="react-tooltip-click" data-tooltip-html='<img class="min-w-[36rem]" src="img/serotype_capsular_structure/capsular_structure_legend.svg" alt="Legend of capsular structure"/>'>
               <img
                 className="min-w-[30rem]"
                 src={cellValue}
