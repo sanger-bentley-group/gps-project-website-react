@@ -16,8 +16,8 @@ function App() {
         <Footer />
         <ScrollToAnchor />
         <ScrollToTopButton />
-        <Tooltip id="react-tooltip" clickable/>
-        <Tooltip id="react-tooltip-click" openOnClick/>
+        <Tooltip className='z-50' id="react-tooltip" clickable/>
+        <Tooltip className='z-50' id="react-tooltip-click" openOnClick/>
       </div>
     </Router>
   );
