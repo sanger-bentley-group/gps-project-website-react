@@ -120,6 +120,38 @@ const content = {
     },
     {
       subtitle: {
+        content: '2025 Journal Articles'
+      },
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Investigating two decades of *Streptococcus pneumoniae* bacteraemia in the Gelderland area, the Netherlands, using whole-genome sequencing',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001377'
+                }
+              ]
+            },
+            {
+              title: 'Genomic characterization of *Streptococcus pneumoniae* isolates obtained from carriage and disease among paediatric patients in Addis Ababa, Ethiopia',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001376'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      subtitle: {
         content: '2024 Journal Articles'
       },
       content: [
