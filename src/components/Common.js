@@ -137,7 +137,7 @@ const PublicationCard = ({cards}) => (
           {card.youtube_id ? <ContentYoutubeEmbed id={card.youtube_id} title={card.title} /> : null}
           <div className="flex flex-wrap gap-4 place-self-end place-content-end">
             {card.buttons.map((button, index) => (
-              <a className="btn btn-primary text-lg font-bold" href={button.url} target='_blank' rel="noreferrer" key={index}>↓ {button.text}</a>
+              <a className="btn btn-primary text-lg font-bold" href={button.url} target='_blank' rel="noreferrer" key={index}>{button.text}</a>
             ))}
           </div>
         </div>
@@ -154,6 +154,27 @@ const Carousel = ({photos}) => (
       </div> 
     ))}
   </div>
+)
+
+const Timeline = ({items}) => (
+  <ul className="timeline max-xl:timeline-compact timeline-snap-icon timeline-vertical">
+    {items.map(({time, content, reference}, index, array) => (
+      <li key={index}>
+        {index === 0 ? null : <hr />}
+        <div className="timeline-middle">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5">
+            <circle cx="10" cy="10" r="10" />
+          </svg>
+        </div>
+        <div className={`${index & 1 ? 'timeline-end' : 'timeline-start xl:text-end'} !mb-10`}>
+          <time className="font-mono font-black text-lg">{time}</time>
+          <ContentMD md={content} />
+          <a href={reference} className="link text-sm" target="_blank" rel="noreferrer">Reference</a>
+        </div>
+        {index === array.length - 1 ? null : <hr />}
+      </li>
+    ))}
+  </ul>
 )
 
 const SectionContent = ({type, content}) => {
@@ -184,6 +205,8 @@ const SectionContent = ({type, content}) => {
       return <div className='w-full hero'><img src={content.url} alt={content.alt} className='rounded-box w-full xl:w-1/2'/></div> 
     case 'html':
         return <div className='w-full' dangerouslySetInnerHTML={{__html: content}} />
+    case 'timeline':
+      return <Timeline items={content} />
     default:
       return
   }
@@ -226,7 +249,7 @@ const ParseTable = ({content}) => {
   return tableData
 }
 
-const Table = ({columns, data, pageSizeOverride}) => {
+const Table = ({columns, data, pageSizeOverride, heroContent=false}) => {
   const [columnFilters, setColumnFilters] = useState([])
 
   const defaultColumn = useMemo(() => ({enableColumnFilter: false}), [])
@@ -326,18 +349,18 @@ const Table = ({columns, data, pageSizeOverride}) => {
   )
 
   return (
-    <div className='hero-content flex-col w-full items-start'>
+    <div className={`${heroContent ? "hero-content" : "p-10"} flex flex-col w-full items-center`}>
       <div className='w-full flex justify-around'>
         {pageSelector}
         {recordCountSelector}
       </div>
-      <div className='w-full overflow-visible overflow-x-auto'>
+        <div className='w-fit max-w-full overflow-visible overflow-x-auto'>
         <table className='table table-zebra bg-base-300 table-sm table-auto'>
           <thead className='bg-base-200'>
             {table.getHeaderGroups().map(headerGroup => (
               <tr key={headerGroup.id}>
                 {headerGroup.headers.map(header => (
-                  <th className='align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={header.id} colSpan={header.colSpan}>
+                  <th className={`align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent ${header.column.columnDef.meta?.className ? header.column.columnDef.meta?.className : ''}`} key={header.id} colSpan={header.colSpan}>
                     <div>
                       {flexRender(
                           header.column.columnDef.header,
@@ -353,7 +376,7 @@ const Table = ({columns, data, pageSizeOverride}) => {
                               type="text"
                               value={(header.column.getFilterValue() ?? '')}
                               onChange={event => header.column.setFilterValue(event.target.value)}
-                              placeholder={header.column.columnDef.meta && header.column.columnDef.meta.searchPlaceHolder ? header.column.columnDef.meta.searchPlaceHolder : 'Search...' }
+                              placeholder={header.column.columnDef.meta?.searchPlaceHolder ? header.column.columnDef.meta.searchPlaceHolder : 'Search...' }
                             />
                         </div>
                       :
@@ -366,9 +389,9 @@ const Table = ({columns, data, pageSizeOverride}) => {
           </thead>
           <tbody>
             {table.getRowModel().rows.map(row => (
-                <tr key={row.id} className='border-x'>
+                <tr key={row.id} className='h-full border-x'>
                   {row.getVisibleCells().map(cell => (
-                    <td className='align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent' key={cell.id}>
+                    <td className={`h-full align-top border-x border-gray-500/30 first:border-l-transparent last:border-r-transparent ${cell.column.columnDef.meta?.className ? cell.column.columnDef.meta?.className : ''}`} key={cell.id}>
                       {flexRender(
                         cell.column.columnDef.cell,
                         cell.getContext()

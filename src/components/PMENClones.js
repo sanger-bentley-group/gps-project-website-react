@@ -22,6 +22,9 @@ const PMENClones = () => {
           header: "Clone",
           accessorKey: "clone",
           enableColumnFilter: true,
+          meta: {
+            className: "sticky left-0 glass z-10"
+          },
           cell: props => {
             const value = props.getValue()
 

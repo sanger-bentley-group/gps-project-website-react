@@ -34,28 +34,57 @@ const content = [
         url: '/resources#countries',
       },
       {
-        title: 'Lineages',
-        url: '/resources#lineages',
-      },
-      {
-        title: 'GPSC-ST Lookup Table',
-        url: '/resources#gpsc-st-lookup-table',
-      },
-      {
-        title: 'Serotypes',
-        url: '/resources#serotypes',
-      },
-      {
-        title: 'PMEN Clones',
-        url: '/resources#pmen-clones',
+        title: 'GPS Pipeline',
+        url: '/resources#gps-pipeline',
       },
       {
         title: 'Isolate Bank Request',
         url: '/resources#isolate-bank-request',
       },
       {
+        title: 'GPS Visualiser',
+        url: './gps-visualiser/',
+        external: true
+      },
+    ]
+  },
+  {
+    title: 'SeroBAnk',
+    url: '/serobank',
+    submenu: [
+      {
+        title: 'Serotypes',
+        url: '/serobank#serotypes',
+      },
+      {
+        title: 'Vaccine Information',
+        url: '/serobank#vaccine-information',
+      },
+      {
+        title: 'Vaccine History',
+        url: '/serobank#vaccine-history',
+      }
+    ]
+  },
+  {
+    title: 'GPSC',
+    url: '/gpsc',
+    submenu: [
+      {
+        title: 'Lineages',
+        url: '/gpsc#lineages',
+      },
+      {
+        title: 'GPSC-ST Lookup Table',
+        url: '/gpsc#gpsc-st-lookup-table',
+      },
+      {
+        title: 'PMEN Clones',
+        url: '/gpsc#pmen-clones',
+      },
+      {
         title: 'GPSC Top Trumps',
-        url: '/resources#gpsc-top-trumps',
+        url: '/gpsc#gpsc-top-trumps',
       },
     ]
   },
@@ -65,7 +94,21 @@ const content = [
   },
   {
     title: 'Capacity Building',
-    url: '/capacity-building'
+    url: '/capacity-building',
+    submenu: [
+      {
+        title: 'Local Sequencing',
+        url: '/capacity-building#local-sequencing',
+      },
+      {
+        title: 'Local Data Analysis',
+        url: '/capacity-building#local-data-analysis',
+      },
+      {
+        title: 'One-to-One Training',
+        url: '/capacity-building#one-to-one-training',
+      },
+    ]
   },
   {
     title: 'Training',
@@ -92,11 +135,6 @@ const content = [
   {
     title: 'GPS Database',
     url: './gps-database-overview/',
-    external: true
-  },
-  {
-    title: 'GPS Visualiser',
-    url: './gps-visualiser/',
     external: true
   },
 ]
