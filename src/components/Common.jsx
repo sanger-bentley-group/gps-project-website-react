@@ -1,7 +1,6 @@
 import { useMemo, useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Link } from "react-router-dom"
-import Papa from 'papaparse'
 import { useReactTable, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, flexRender } from '@tanstack/react-table'
 
 const mdComponents = {
@@ -222,33 +221,6 @@ const Section = ({subtitle, content}) => (
   </div>
 )
 
-const ParseTable = ({content}) => {
-  const [tableData, setTableData] = useState([])
-
-  let delimiter
-
-  if (content.toLowerCase().endsWith('tsv')) {
-    delimiter = '\t'
-  } else if (content.toLowerCase().endsWith('csv')) {
-    delimiter = ','
-  } else {
-    delimiter = ''
-  }
-
-  useEffect(() => {
-    Papa.parse(content, {
-      header: true,
-      delimiter: delimiter,
-      download: true,
-      skipEmptyLines: true,
-      complete: res => setTableData(res.data)
-      }
-    )
-  }, [content, delimiter])
-
-  return tableData
-}
-
 const Table = ({columns, data, pageSizeOverride, heroContent=false}) => {
   const [columnFilters, setColumnFilters] = useState([])
 
@@ -423,4 +395,4 @@ const TextWithToolTip = ({text, tooltipHTML}) => (
   </div>
 )
 
-export { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section, Table, ParseTable, TextWithToolTip }
+export { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed, Section, Table, TextWithToolTip }
