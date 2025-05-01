@@ -65,13 +65,13 @@ nav ul {
     padding: 0;
     list-style-type: none;
     display: flex;
-    grow: 1;
+    flex-grow: 1;
     justify-content: flex-start;
     align-items: center;
 }
 
 article {
-    grow: 1;
+    flex-grow: 1;
 }
 
 footer {
@@ -423,7 +423,7 @@ svg {
 }
 
 #by-country-view-details-content {
-    grow: 1;
+    flex-grow: 1;
     align-self: stretch;
     margin: 0 5vw;
 
@@ -469,7 +469,7 @@ svg {
 }
 
 #by-country-view-details-content-chart {
-    grow: 1;
+    flex-grow: 1;
 
     display: flex;
     justify-content: center;
