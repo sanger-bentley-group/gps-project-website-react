@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import content from '../content/navbarContent'
 import publicationsContent from '../content/publicationsContent'
 
-import { ReactComponent as NewWindowIcon} from './new_window_icon.svg'
+import NewWindowIcon from './new_window_icon.svg?react'
 import gpsLogo from './gps_logo.png'
 
 // Both variables should have the same breakpoint prefix
