@@ -53,7 +53,7 @@ const ContentNameCard = ({cards}) => (
     {cards.map((card, index) => (
       <div className="card card-side w-[32rem] bg-base-100 shadow-md" key={index}>
         <div className="avatar">
-          <div className="w-36 rounded">
+          <div className="w-36 rounded-sm">
             <img src={card.photo} alt={card.name} />
           </div>
         </div>
@@ -166,7 +166,7 @@ const Timeline = ({items}) => (
             <circle cx="10" cy="10" r="10" />
           </svg>
         </div>
-        <div className={`${index & 1 ? 'timeline-end' : 'timeline-start xl:text-end'} !mb-10`}>
+        <div className={`${index & 1 ? 'timeline-end' : 'timeline-start xl:text-end'} mb-10!`}>
           <time className="font-mono font-black text-lg">{time}</time>
           <ContentMD md={content} />
           <a href={reference} className="link text-sm" target="_blank" rel="noreferrer">Reference</a>

@@ -104,7 +104,7 @@ const Serortype = () => {
       ' />,
       accessorKey: "otherSerum",
       meta: {
-        className: "!align-middle"
+        className: "align-middle!"
       },
       cell: props => {
         const otherSerumValue = props.getValue()
@@ -157,7 +157,7 @@ const Serortype = () => {
       header: <TextWithToolTip text="<i>cps</i> Gene Cluster" tooltipHTML='Click on figures to show gene colour legend' />,
       accessorKey: "cpsImage",
       meta: {
-        className: "!align-middle"
+        className: "align-middle!"
       },
       cell: props => {
         const cellValue = props.getValue()
@@ -184,7 +184,7 @@ const Serortype = () => {
       header: <TextWithToolTip text="Capsular Structure Compiled by Nahm's lab" tooltipHTML='Click on figures to show molecule legend' />,
       accessorKey: "capsularStructureImage",
       meta: {
-        className: "!align-middle"
+        className: "align-middle!"
       },
       cell: props => {
         const cellValue = props.getValue()
@@ -211,7 +211,7 @@ const Serortype = () => {
       header: "Annotation (.gb)",
       accessorKey: "genBankFile",
       meta: {
-        className: "!align-middle"
+        className: "align-middle!"
       },
       cell: props => {
         const cellValue = props.getValue()
