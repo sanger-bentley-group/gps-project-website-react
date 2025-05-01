@@ -3,17 +3,16 @@
   "version": "0.1.0",
   "homepage": "https://sanger-bentley-group.github.io/gps-project-website-react",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@tanstack/react-table": "^8.19.3",
     "@testing-library/jest-dom": "^6.4.8",
     "@testing-library/react": "^14.3.1",
     "@testing-library/user-event": "^14.5.2",
-    "papaparse": "^5.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.25.1",
-    "react-scripts": "5.0.1",
     "react-simple-maps": "^3.0.0",
     "react-tooltip": "^5.27.1",
     "web-vitals": "^3.5.2"
@@ -26,12 +25,11 @@
     }
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d gps"
   },
   "eslintConfig": {
     "extends": [
@@ -53,8 +51,13 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
-    "daisyui": "^4.12.10",
-    "gh-pages": "^6.1.1",
-    "tailwindcss": "^3.4.7"
+    "@rollup/plugin-dsv": "^3.0.5",
+    "@tailwindcss/vite": "^4.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "daisyui": "^5.0.35",
+    "tailwindcss": "^4.1.5",
+    "vite": "^6.3.4",
+    "vite-plugin-svgr": "^4.3.0",
+    "gh-pages": "^6.1.1"
   }
 }

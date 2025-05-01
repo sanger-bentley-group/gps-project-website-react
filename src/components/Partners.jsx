@@ -1,37 +1,38 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { ComposableMap, Geographies, Geography, Sphere, Graticule, Marker } from "react-simple-maps"
 
-import { TitleText, Section } from "./Common"
+import { TitleText } from "./Common"
 
-import content from '../content/countriesContent'
+import content from '../content/partnersContent'
 import topoJSON from '../content/worldTopoJSON.json'
 
 const TooltipContent = ({ info }) => (
   <div className='text-center space-y-4'>
-    <div className='font-bold'>{info.country}</div>
-    <div>Sample Count: {info.sampleCount}</div>
+    <div className='italic'>{info.city}, {info.country}</div>
     {
-      info.microreactURL
-      ?
-        <a href={info.microreactURL} target='_blank' className='link' rel='noreferrer'>Explore in Microreact</a>
-      :
-      ''
+      info.affiliations.map((affiliation, index) => (
+        <div key={index}>
+          <div className='font-bold'>{affiliation.name}</div>
+          <div>{affiliation.partners.join(', ')}</div>
+        </div>
+      ))
     }
   </div>
 )
 
-const Markers = ({samplingByCountry}) => (
-  samplingByCountry.map((info, index) => (
+const Markers = ({partnerByCity}) => (
+  partnerByCity.map((info, index) => (
     <Marker coordinates={[info.longitude, info.latitude]} key={index} >
       <circle 
         className='opacity-80 hover:opacity-100'
         r={4} 
-        fill={info.microreactURL ? "oklch(var(--a))" : "oklch(var(--p))"}
+        fill="var(--color-primary)" 
         stroke="#FFFFFF"
         strokeWidth={1}
         data-tooltip-id="react-tooltip"
         data-tooltip-html={renderToStaticMarkup(<TooltipContent info={info} />)}
         data-tooltip-place="top"
+        data-tooltip-class-name="max-w-[80%]"
       />
     </Marker>
   ))
@@ -48,22 +49,19 @@ const Map = (props) => (
         ))
       }
     </Geographies>
-    <Markers {...props} />
+    <Markers {...props}/>
   </ComposableMap>
 )
 
-const Countries = () => (
+const Partners = () => (
   <div className="hero flex flex-col justify-center space-y-10 py-20">
     <div className="hero-content w-full flex-col text-center">
       <TitleText text={content.title}/>
     </div>
-    {content.sections.map( (props, index) => 
-        <Section {...props} key={index} />
-      )}
-    <div className="hero-content mt-0 w-full">
-      <Map samplingByCountry={content.samplingByCountry}/>
+    <div className="hero-content w-full">
+      <Map partnerByCity={content.partnerByCity}/>
     </div>
   </div>
 )
 
-export default Countries
+export default Partners

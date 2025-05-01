@@ -1,14 +1,12 @@
 import { useMemo } from "react"
 
-import { TitleText, Section, Table, ParseTable, TextWithToolTip } from "./Common"
+import { TitleText, Section, Table, TextWithToolTip } from "./Common"
 
 import content from '../content/pmenContent'
 import tableContent from '../content/pmenTableContent.tsv'
 
 const PMENClones = () => {
-  const tableData = ParseTable({content: tableContent})
-
-  const memoisedTableData = useMemo(() => tableData, [tableData])
+  const memoisedTableData = useMemo(() => tableContent, [tableContent])
 
   const memoisedTableColumns = useMemo(() => [
     {
