@@ -29,7 +29,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d gps"
+    "deploy": "gh-pages -d gps-project-website-react"
   },
   "eslintConfig": {
     "extends": [

@@ -6,9 +6,9 @@ import svgr from 'vite-plugin-svgr';
 
 export default defineConfig({
     plugins: [react(), tailwindcss(), dsv(), svgr()],
-    base: '/gps/',
+    base: '/gps-project-website-react/',
     build: {
-        outDir: 'gps',
+        outDir: 'gps-project-website-react',
     },
     server: {
         open: true,
