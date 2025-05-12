@@ -1,8 +1,8 @@
 import { TitleText, Section } from "./Common"
 
-import content from '../content/gpscTopTrumpsContent'
+import content from '../content/gpscTrumpsContent'
 
-const GPSCTopTrumps = () => (
+const GPSCTrumps = () => (
   <div className="hero flex flex-col justify-center space-y-10 py-20">
     <div className="hero-content w-full flex-col text-center">
       <TitleText text={content.title}/>
@@ -13,4 +13,4 @@ const GPSCTopTrumps = () => (
   </div>
 )
 
-export default GPSCTopTrumps
+export default GPSCTrumps
