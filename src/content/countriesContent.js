@@ -9,7 +9,7 @@ const content = {
         },
         {
           type: 'html',
-          content: '<div class="flex items-center"><svg height="30" width="30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" class="opacity-80 hover:opacity-100" r="5" fill="oklch(var(--a))" stroke="#FFFFFF" stroke-width="1" /></svg>Sampled Country with Microreact Visualisation</div><div class="flex items-center"><svg height="30" width="30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" class="opacity-80 hover:opacity-100" r="5" fill="oklch(var(--p))" stroke="#FFFFFF" stroke-width="1" /></svg>Sampled Country without Microreact Visualisation</div>'
+          content: '<div class="flex items-center"><svg height="30" width="30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" class="opacity-80 hover:opacity-100" r="5" fill="var(--color-accent)" stroke="#FFFFFF" stroke-width="1" /></svg>Sampled Country with Microreact Visualisation</div><div class="flex items-center"><svg height="30" width="30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" class="opacity-80 hover:opacity-100" r="5" fill="var(--color-primary)" stroke="#FFFFFF" stroke-width="1" /></svg>Sampled Country without Microreact Visualisation</div>'
         },
       ]
     },
