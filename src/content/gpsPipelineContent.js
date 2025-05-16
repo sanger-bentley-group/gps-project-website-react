@@ -12,7 +12,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '![GPS Pipeline Flowchart](img/gps_pipeline_flowchart.drawio.png)'
+          content: '![GPS Pipeline Flowchart](gps_pipeline_flowchart.drawio.png)'
         },
       ]
     },

@@ -10,7 +10,7 @@ const content = {
         {
           type: 'imageHalfWidth',
           content: {
-            url: 'img/steph_and_nida.jpg',
+            assetName: 'steph_and_nida.jpg',
             alt: 'Nida Javaid and Stephanie Lo at the Wellcome Genome Campus'
           }
         },

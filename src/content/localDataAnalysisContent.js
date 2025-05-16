@@ -11,19 +11,19 @@ const content = {
           type: 'carousel',
           content: [
             {
-              url: 'img/advanced_bioinformatics_workshop_colombia.jpg',
+              assetName: 'advanced_bioinformatics_workshop_colombia.jpg',
               alt: 'Advanced Bioinformatics Workshop in Colombia'
             },
             {
-              url: 'img/advanced_bioinformatics_workshop_gambia.jpg',
+              assetName: 'advanced_bioinformatics_workshop_gambia.jpg',
               alt: 'Advanced Bioinformatics Workshop in the Gambia'
             },
             {
-              url: 'img/advanced_bioinformatics_workshop_india.jpg',
+              assetName: 'advanced_bioinformatics_workshop_india.jpg',
               alt: 'Advanced Bioinformatics Workshop in India'
             },
             {
-              url: 'img/advanced_bioinformatics_workshop_turkey.jpg',
+              assetName: 'advanced_bioinformatics_workshop_turkey.jpg',
               alt: 'Advanced Bioinformatics Workshop in Turkey'
             },
           ]

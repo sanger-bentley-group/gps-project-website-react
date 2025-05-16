@@ -3,13 +3,20 @@ import ReactMarkdown from 'react-markdown'
 import { Link } from "react-router-dom"
 import { useReactTable, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, flexRender } from '@tanstack/react-table'
 
+const assets = import.meta.glob("../assets/*.{jpg,png}", { query: {as: 'meta:src;height;width' }, eager: true }, );
+
 const mdComponents = {
   a: ({ href, children })  =>  <Link to={href} className='link' { ...(/^(http|www)/.test(href) && {target: '_blank'}) }>{children}</Link>,
   ol: ({ start, children }) => <ol start={start} className='list-decimal list-outside ms-8'>{children}</ol>,
   ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
   h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
   h6: ({children}) => <h6 className='text-sm italic text-center'>{children}</h6>,
-  img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
+  img: ({src, alt, title}) => {
+    const asset = assets[`../assets/${src}`]
+    return (
+      <img className='w-full' src={asset.src} width={asset.width} height={asset.height} alt={alt} title={title}/>
+    )
+  }
 }
 
 const TitleText = ({text}) => (
@@ -147,11 +154,14 @@ const PublicationCard = ({cards}) => (
 
 const Carousel = ({photos}) => (
   <div className="carousel carousel-center rounded-box p-1 space-x-1 bg-neutral">
-    {photos.map(({url, alt}, index) => (
-      <div className="carousel-item w-8/12" key={index}>
-        <img src={url} alt={alt} className='rounded-box'/>
-      </div> 
-    ))}
+    {photos.map(({assetName, alt}, index) => {
+      const asset = assets[`../assets/${assetName}`]
+      return (
+        <div className="carousel-item w-8/12" key={index}>
+          <img src={asset.src} width={asset.width} height={asset.height} alt={alt} className='rounded-box'/>
+        </div> 
+      )
+    })}
   </div>
 )
 
@@ -201,7 +211,8 @@ const SectionContent = ({type, content}) => {
     case 'carousel':
       return <Carousel photos={content} />
     case 'imageHalfWidth':
-      return <div className='w-full hero'><img src={content.url} alt={content.alt} className='rounded-box w-full xl:w-1/2'/></div> 
+      const asset = assets[`../assets/${content.assetName}`]
+      return <div className='w-full hero'><img src={asset.src} height={asset.height} width={asset.width} alt={content.alt} className='rounded-box w-full xl:w-1/2'/></div> 
     case 'html':
         return <div className='w-full' dangerouslySetInnerHTML={{__html: content}} />
     case 'timeline':

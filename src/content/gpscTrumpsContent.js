@@ -24,7 +24,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '![GPS Investigators holding GPSC Trumps](img/gps_investigators_gpsc_trumps_owners.jpg)'
+          content: '![GPS Investigators holding GPSC Trumps](gps_investigators_gpsc_trumps_owners.jpg)'
         },
         {
           type: 'md',
