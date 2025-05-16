@@ -5,6 +5,9 @@ import { TitleText, Section, Table, TextWithToolTip } from "./Common"
 import content from '../content/serotypeContent'
 import tableContent from '../content/serotypeTableContent.tsv'
 
+const assetsCPS = import.meta.glob("../assets/serotype_cps/*.svg", { query: '?box', import: "default", eager: true });
+const assetsStructure = import.meta.glob("../assets/serotype_capsular_structure/*.svg", { query: '?box', import: "default", eager: true }); 
+
 const Serortype = () => {
   const memoisedTableData = useMemo(() => tableContent, [tableContent])
 
@@ -165,12 +168,19 @@ const Serortype = () => {
         if (cellValue === '-'){
           return <div className="text-center">{remarkValue === '-' ? "No Sequence Available" : remarkValue}</div>
         } else {
+          const assetViewBox = assetsCPS[`../assets/serotype_cps/${cellValue}`]["viewBox"].split(" ", 4)
           return (
-            <div className="flex flex-col gap-y-2 w-full h-full justify-center" data-tooltip-id="react-tooltip-click" data-tooltip-html='<img class="min-w-[48rem]" src="img/serotype_cps/cps_legend.svg" alt="Legend of cps gene cluster"/>'>
+            <div 
+              className="flex flex-col gap-y-2 w-full h-full justify-center" 
+              data-tooltip-id="react-tooltip-click" 
+              data-tooltip-html={`<img class="min-w-[48rem]" src=${new URL("../assets/serotype_cps/cps_legend.svg", import.meta.url).href} alt="Legend of cps gene cluster"/>`}
+            >
               <img
-                className="h-16 min-w-96"
-                src={cellValue}
+                className="h-16 min-w-96 self-center"
+                src={new URL(`../assets/serotype_cps/${cellValue}`, import.meta.url).href}
                 alt={`Chart of Serotype ${serotypeValue} cps region`}
+                width={assetViewBox[2]}
+                height={assetViewBox[3]}
               />
               {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center">{remarkValue}</div>}
             </div>
@@ -192,12 +202,19 @@ const Serortype = () => {
         if (cellValue === '-'){
           return <div className="text-center">{remarkValue === '-' ? "No Structure Available" : remarkValue}</div>
         } else {
+          const assetViewBox = assetsStructure[`../assets/serotype_capsular_structure/${cellValue}`]["viewBox"].split(" ", 4)
           return (
-            <div className="flex flex-col gap-y-2 w-full h-full justify-center" data-tooltip-id="react-tooltip-click" data-tooltip-html='<img class="min-w-[36rem]" src="img/serotype_capsular_structure/capsular_structure_legend.svg" alt="Legend of capsular structure"/>'>
+            <div 
+              className="flex flex-col gap-y-2 w-full h-full justify-center" 
+              data-tooltip-id="react-tooltip-click" 
+              data-tooltip-html={`<img class="min-w-[36rem]" src=${new URL("../assets/serotype_capsular_structure/capsular_structure_legend.svg", import.meta.url).href} alt="Legend of capsular structure"/>`}
+            >
               <img
-                className="min-w-[30rem]"
-                src={cellValue}
+                className="min-w-[30rem] self-center"
+                src={new URL(`../assets/serotype_capsular_structure/${cellValue}`, import.meta.url).href}
                 alt={`Chart of Serotype ${serotypeValue} capsular structure`}
+                width={assetViewBox[2]}
+                height={assetViewBox[3]}
               />
               {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center">{remarkValue}</div>}
             </div>
