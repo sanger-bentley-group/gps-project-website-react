@@ -9,12 +9,10 @@ function ScrollToAnchor() {
   // https://jasonwatmore.com/react-router-v6-listen-to-location-route-change-without-history-listen
   useEffect(() => {
     const scrollToHash = () => {
-      setTimeout(() => {
-        if (lastHash.current && document.getElementById(lastHash.current)) {
-          document.getElementById(lastHash.current)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-          lastHash.current = ''
-        }
-      }, 100)
+      if (lastHash.current && document.getElementById(lastHash.current)) {
+        document.getElementById(lastHash.current)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        lastHash.current = ''
+      }
     }
 
     if (location.hash) {
