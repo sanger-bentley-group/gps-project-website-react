@@ -8,9 +8,9 @@ import viteSVG from 'vite-svg';
 
 export default defineConfig({
     plugins: [react(), tailwindcss(), dsv(), svgr(), imagetools(), viteSVG()],
-    base: '/gps/',
+    base: '/gps-project-website-react/',
     build: {
-        outDir: 'gps',
+        outDir: 'gps-project-website-react',
     },
     server: {
         open: true,

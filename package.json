@@ -1,7 +1,7 @@
 {
   "name": "gps-project-website-react",
   "version": "0.1.0",
-  "homepage": "gps",
+  "homepage": "https://sanger-bentley-group.github.io/gps-project-website-react",
   "private": true,
   "type": "module",
   "dependencies": {
@@ -27,7 +27,9 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d gps-project-website-react"
   },
   "eslintConfig": {
     "extends": [
@@ -58,5 +60,6 @@
     "vite-imagetools": "^7.1.0",
     "vite-plugin-svgr": "^4.3.0",
     "vite-svg": "^1.6.0"
+    "gh-pages": "^6.1.1"
   }
 }
