@@ -48,7 +48,7 @@ const content = {
       content: 'Funded by'
     },
     content: {
-      logo: 'img/gates_foundation_logo.png',
+      logo: 'gates_foundation_logo.png',
       alt: 'Bill & Melinda Gates Foundation',
       url: 'https://www.gatesfoundation.org/'
     }
@@ -58,7 +58,7 @@ const content = {
       content: 'Co-funded by'
     },
     content: {
-      logo: 'img/wellcome_trust_logo.png',
+      logo: 'wellcome_trust_logo.png',
       alt: 'Wellcome Trust Logo',
       url: 'https://wellcome.org/'
     }
@@ -69,32 +69,32 @@ const content = {
     },
     content: [
       {
-        logo: 'img/cdc_logo.png',
+        logo: 'cdc_logo.png',
         alt: 'CDC Logo',
         url: 'https://www.cdc.gov/'
       },
       {
-        logo: 'img/emory_logo.png',
+        logo: 'emory_logo.png',
         alt: 'Emory University Logo',
         url: 'https://www.globalhealth.emory.edu/'
       },
       {
-        logo: 'img/mlw_logo.png',
+        logo: 'mlw_logo.png',
         alt: 'Malawi Liverpool Wellcome Programme Logo',
         url: 'https://www.mlw.mw/'
       },
       {
-        logo: 'img/mrc_gambia_logo.png',
+        logo: 'mrc_gambia_logo.png',
         alt: 'MRC Unit The Gambia at LSHTM Logo',
         url: 'https://www.mrc.gm'
       },
       {
-        logo: 'img/nicd_logo.png',
+        logo: 'nicd_logo.png',
         alt: 'The National Institute for Communicable Diseases Logo',
         url: 'https://www.nicd.ac.za/'
       },
       {
-        logo: 'img/sanger_logo.png',
+        logo: 'sanger_logo.png',
         alt: 'Wellcome Sanger Institute Logo',
         url: 'https://www.sanger.ac.uk/'
       }

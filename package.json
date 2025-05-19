@@ -55,6 +55,8 @@
     "daisyui": "^5.0.35",
     "tailwindcss": "^4.1.5",
     "vite": "^6.3.4",
-    "vite-plugin-svgr": "^4.3.0"
+    "vite-imagetools": "^7.1.0",
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-svg": "^1.6.0"
   }
 }

@@ -8,26 +8,19 @@ function ScrollToAnchor() {
   // listen to location change using useEffect with location as dependency
   // https://jasonwatmore.com/react-router-v6-listen-to-location-route-change-without-history-listen
   useEffect(() => {
-    const scrollToHash = () => {
-      setTimeout(() => {
-        if (lastHash.current && document.getElementById(lastHash.current)) {
-          document.getElementById(lastHash.current)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-          lastHash.current = ''
-        }
-      }, 100)
-    }
-
     if (location.hash) {
       lastHash.current = location.hash.slice(1) // save hash for further use after navigation
     } else {
       window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }) // else scroll to top
     }
 
-    if (document.readyState === 'complete') {
-      scrollToHash()
-    } else {
-      window.addEventListener('load', scrollToHash)
-      return () => window.removeEventListener('load', scrollToHash)
+    if (lastHash.current && document.getElementById(lastHash.current)) {
+      setTimeout(() => {
+        document
+          .getElementById(lastHash.current)
+          ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        lastHash.current = '';
+      }, 100);
     }
   }, [location])
 
