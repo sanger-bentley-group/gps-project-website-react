@@ -5,6 +5,8 @@ import { TitleText, Section } from "./Common"
 
 import content from '../content/lineagesContent'
 
+const assets = import.meta.glob("../assets/gpsc_clusters/*.png", { query: {as: 'meta:src;height;width' }, eager: true }, );
+
 const GPSCGridTooltipContent = ({ gpsc, sampleCount, url }) => (
   <div className='text-center space-y-4'>
     <div className='font-bold'>GPSC {gpsc}</div>
@@ -82,13 +84,25 @@ const GPSCGrid = ({clusters}) => {
               return true
             }
           })
-          .map(({ gpsc, sampleCount, url }) => (
-            <img srcSet={`img/gpsc_clusters/gpsc_${gpsc}.png 2x`} alt={`GPSC ${gpsc}`} key={gpsc} className='object-contain h-full' 
-              data-tooltip-id="react-tooltip"
-              data-tooltip-html={renderToStaticMarkup(<GPSCGridTooltipContent gpsc={gpsc} sampleCount={sampleCount} url={url}/>)}
-              data-tooltip-place='top'
-            />
-          )
+          .map(({ gpsc, sampleCount, url }) => {
+            const asset = assets[`../assets/gpsc_clusters/gpsc_${gpsc}.png`]
+            const assetHalfWidth = asset.width / 2
+            const assetHalfHeight = asset.height / 2
+            return (
+              <img 
+                src={asset.src} 
+                width={assetHalfWidth} 
+                height={assetHalfHeight} 
+                alt={`GPSC ${gpsc}`} 
+                key={gpsc} 
+                className='object-contain h-full skeleton'
+                onLoad={(event) => event.target.classList.remove("skeleton")}
+                data-tooltip-id="react-tooltip"
+                data-tooltip-html={renderToStaticMarkup(<GPSCGridTooltipContent gpsc={gpsc} sampleCount={sampleCount} url={url}/>)}
+                data-tooltip-place='top'
+              />
+            )
+          }
         )}
       </div>
     </div>

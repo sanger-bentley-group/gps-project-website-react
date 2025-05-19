@@ -1,7 +1,11 @@
-import { useMemo, useState, useEffect } from 'react'
+import { useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import { Link } from "react-router-dom"
 import { useReactTable, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, flexRender } from '@tanstack/react-table'
+
+const assets = import.meta.glob("../assets/*.{jpg,png}", { query: {as: 'meta:src;height;width' }, eager: true }, );
+const assetsSVG = import.meta.glob("../assets/*.svg", { query: '?box', import: "default", eager: true });
+const assetsHeadshot = import.meta.glob("../assets/headshots/*.jpg", { query: {as: 'meta:src;height;width' }, eager: true }, );
 
 const mdComponents = {
   a: ({ href, children })  =>  <Link to={href} className='link' { ...(/^(http|www)/.test(href) && {target: '_blank'}) }>{children}</Link>,
@@ -9,7 +13,12 @@ const mdComponents = {
   ul: ({ children }) => <ul className='list-disc list-outside ms-8'>{children}</ul>,
   h3: ({children}) => <h3 className='text-xl font-bold'>{children}</h3>,
   h6: ({children}) => <h6 className='text-sm italic text-center'>{children}</h6>,
-  img: ({src, alt, title}) => <img className='w-full' src={src} alt={alt} title={title}/>
+  img: ({src, alt, title}) => {
+    const asset = assets[`../assets/${src}`]
+    return (
+      <img className='skeleton w-full' src={asset.src} width={asset.width} height={asset.height} alt={alt} title={title} onLoad={(event) => event.target.classList.remove('skeleton')}/>
+    )
+  }
 }
 
 const TitleText = ({text}) => (
@@ -19,12 +28,29 @@ const TitleText = ({text}) => (
 )
 
 const SubtitleText = ({text, logo, url, className}) => {
+  let asset
+  if (logo) {
+    asset = assets[`../assets/${logo.url}`]
+  }
+
   const content = (
     <div className='flex gap-x-4'>
       <h2 className={`text-2xl font-bold ${className ? className : ''}`}>
         <ReactMarkdown components={mdComponents} children={text} />
       </h2>
-      {logo ? <img className='h-10 self-center' src={logo.url} alt={logo.alt}/> : null }
+      {logo 
+        ? 
+          <img 
+            className='h-10 w-fit self-center skeleton' 
+            src={asset.src} 
+            width={asset.width} 
+            height={asset.height} 
+            alt={logo.alt}
+            onLoad={(element) => element.target.classList.remove("skeleton")}
+          /> 
+        : 
+          null 
+        }
     </div>
   )
   
@@ -49,19 +75,22 @@ const ContentCode = ({code}) => (
 
 const ContentNameCard = ({cards}) => (
   <div className='hero-content w-full flex flex-wrap justify-around gap-y-20 xl:justify-between'>
-    {cards.map((card, index) => (
-      <div className="card card-side w-[32rem] bg-base-100 shadow-md" key={index}>
-        <div className="avatar">
-          <div className="w-36 rounded-sm">
-            <img src={card.photo} alt={card.name} />
+    {cards.map((card, index) => {
+      const asset = assetsHeadshot[`../assets/headshots/${card.photo}`]
+      return (
+        <div className="card card-side w-[32rem] bg-base-100 shadow-md" key={index}>
+          <div className="avatar">
+            <div className="w-36 rounded-sm">
+              <img src={asset.src} width={asset.width} height={asset.height} alt={card.name} className="skeleton" onLoad={(event) => event.target.classList.remove("skeleton")}/>
+            </div>
+          </div>
+          <div className="card-body">
+            <p className="card-title text-lg">{card.name}</p>
+            <p>{card.position}</p>
           </div>
         </div>
-        <div className="card-body">
-          <p className="card-title text-lg">{card.name}</p>
-          <p>{card.position}</p>
-        </div>
-      </div>
-    ))}
+      )
+    })}
   </div>
 )
 
@@ -98,33 +127,72 @@ const ContentButton = ({text, url}) => (
   </div>
 )
 
-const ContentLogo = ({logo, url, alt}) => (
-  <div className='place-self-center xl:place-self-auto'>
-    <a href={url} target='_blank' rel="noreferrer"><img src={logo} alt={alt} className='w-64'></img></a>
-  </div>
-)
+const ContentLogo = ({logo, url, alt}) => {
+  let src
+  let width
+  let height
 
-const ContentQuoteCard = ({photo, name, quotes}) => (
-  <div className="card xl:card-side w-full bg-base-100 shadow-md">
-    { photo
-      ?
-        <div className="avatar place-self-center pt-8 pl-0 xl:pl-8 xl:pt-0">
-          <div className="w-36 h-36 rounded-xl">
-            <img src={photo} alt={`${name}`} />
-          </div>
-        </div>
-      :
-        ''
-    }
-
-    <div className="card-body">
-      {quotes.map((quote, index) => (
-        <div key={index}><ContentMD md={quote} /></div>
-      ))}
-      <p className="text-md italic">{name}</p>
+  if (logo.endsWith(".png") || logo.endsWith(".jpg")) {
+    const asset = assets[`../assets/${logo}`]
+    src = asset.src
+    width = asset.width
+    height = asset.height
+  } else if (logo.endsWith(".svg")) {
+    const assetViewBox = assetsSVG[`../assets/${logo}`]["viewBox"].split(" ", 4)
+    src = new URL(`../assets/${logo}`, import.meta.url).href
+    width = assetViewBox[2]
+    height = assetViewBox[3]
+  }
+    
+  return (
+    <div className='place-self-center xl:place-self-auto'>
+      <a href={url} target='_blank' rel="noreferrer">
+        <img 
+          src={src} 
+          width={width} 
+          height={height} 
+          alt={alt} 
+          className='w-64 h-fit skeleton'
+          onLoad={(element) => element.target.classList.remove("skeleton")}
+        />
+      </a>
     </div>
-  </div>
-)
+  )
+}
+
+const ContentQuoteCard = ({photo, name, quotes}) => {
+  let asset
+  if (photo) {
+    asset = assets[`../assets/${photo}`]
+  }
+  return (
+    <div className="card xl:card-side w-full bg-base-100 shadow-md">
+      { photo
+        ?
+          <div className="avatar place-self-center pt-8 pl-0 xl:pl-8 xl:pt-0">
+            <div className="w-36 h-36 rounded-xl">
+              <img 
+                src={asset.src}
+                alt={`${name}`}
+                width={asset.width}
+                height={asset.height}
+                className='skeleton'
+                onLoad={(element) => element.target.classList.remove("skeleton")}
+              />
+            </div>
+          </div>
+        :
+          ''
+      }
+      <div className="card-body">
+        {quotes.map((quote, index) => (
+          <div key={index}><ContentMD md={quote} /></div>
+        ))}
+        <p className="text-md italic">{name}</p>
+      </div>
+    </div>
+  )
+}
 
 const PublicationCard = ({cards}) => (
   <div className='grid grid-cols-1 w-full gap-10 xl:grid-cols-2'>
@@ -147,11 +215,21 @@ const PublicationCard = ({cards}) => (
 
 const Carousel = ({photos}) => (
   <div className="carousel carousel-center rounded-box p-1 space-x-1 bg-neutral">
-    {photos.map(({url, alt}, index) => (
-      <div className="carousel-item w-8/12" key={index}>
-        <img src={url} alt={alt} className='rounded-box'/>
-      </div> 
-    ))}
+    {photos.map(({assetName, alt}, index) => {
+      const asset = assets[`../assets/${assetName}`]
+      return (
+        <div className="carousel-item w-8/12" key={index}>
+          <img 
+            src={asset.src} 
+            width={asset.width} 
+            height={asset.height} 
+            alt={alt} 
+            className='rounded-box skeleton'
+            onLoad={(element) => element.target.classList.remove("skeleton")}
+          />
+        </div> 
+      )
+    })}
   </div>
 )
 
@@ -201,7 +279,8 @@ const SectionContent = ({type, content}) => {
     case 'carousel':
       return <Carousel photos={content} />
     case 'imageHalfWidth':
-      return <div className='w-full hero'><img src={content.url} alt={content.alt} className='rounded-box w-full xl:w-1/2'/></div> 
+      const asset = assets[`../assets/${content.assetName}`]
+      return <div className='w-full hero'><img src={asset.src} height={asset.height} width={asset.width} alt={content.alt} className='skeleton rounded-box w-full xl:w-1/2' onLoad={(event) => event.target.classList.remove('skeleton')}/></div> 
     case 'html':
         return <div className='w-full' dangerouslySetInnerHTML={{__html: content}} />
     case 'timeline':

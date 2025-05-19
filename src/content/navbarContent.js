@@ -83,8 +83,8 @@ const content = [
         url: '/gpsc#pmen-clones',
       },
       {
-        title: 'GPSC Top Trumps',
-        url: '/gpsc#gpsc-top-trumps',
+        title: 'GPSC Trumps',
+        url: '/gpsc#gpsc-trumps',
       },
     ]
   },

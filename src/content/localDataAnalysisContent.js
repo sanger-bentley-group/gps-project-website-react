@@ -11,19 +11,19 @@ const content = {
           type: 'carousel',
           content: [
             {
-              url: 'img/advanced_bioinformatics_workshop_colombia.jpg',
+              assetName: 'advanced_bioinformatics_workshop_colombia.jpg',
               alt: 'Advanced Bioinformatics Workshop in Colombia'
             },
             {
-              url: 'img/advanced_bioinformatics_workshop_gambia.jpg',
+              assetName: 'advanced_bioinformatics_workshop_gambia.jpg',
               alt: 'Advanced Bioinformatics Workshop in the Gambia'
             },
             {
-              url: 'img/advanced_bioinformatics_workshop_india.jpg',
+              assetName: 'advanced_bioinformatics_workshop_india.jpg',
               alt: 'Advanced Bioinformatics Workshop in India'
             },
             {
-              url: 'img/advanced_bioinformatics_workshop_turkey.jpg',
+              assetName: 'advanced_bioinformatics_workshop_turkey.jpg',
               alt: 'Advanced Bioinformatics Workshop in Turkey'
             },
           ]
@@ -47,7 +47,7 @@ const content = {
         {
           type: 'quoteCard',
           content: {
-            photo: 'img/samanta_almeida.jpg',
+            photo: 'samanta_almeida.jpg',
             name: 'Samanta Almeida, Center of Bacteriology, Adolfo Lutz Institute, São Paulo, Brazil',
             quotes: ["The participation in the GPS project was an experience analysing WGS data and meeting the challenge of handling a large volume of data. The GPS team made a great effort to help me with the analysis and to address difficulties. In my opinion, it is a project that goes far beyond data generation, as there is a real effort to build capacity by sharing knowledge and providing bioinformatics training. During my participation, I received many incentives to develop studies and opportunities to present these results. I presented abstracts in the most important pneumococcus international events, the International Symposium on Pneumococcal and Pneumococcal Diseases (ISPPD), Australia (2018), and Toronto (2020) editions."]
           }
@@ -55,7 +55,7 @@ const content = {
         {
           type: 'quoteCard',
           content: {
-            photo: 'img/paula_gagetti.jpg',
+            photo: 'paula_gagetti.jpg',
             name: 'Paula Gagetti (National Reference Laboratory on AMR of the National Institute of Infectious Diseases, Buenos Aires, Argentina)',
             quotes: ["The most exciting thing was that prestigious professionals in the pneumococcal area dedicated a week of their time to sit down with us, discuss our results and draw conclusions about the impact of vaccines in different regions of the world. That was really amazing. Added to the human warmth of each of them that also allowed us to share beautiful moments drinking a beer in the pubs of Hinxton and Cambridge.", "From there, a very important link was generated. I worked a lot with Steph, whom I thank for the recognition and respect for our work and for answering all my questions immediately. Working with such a prestigious group of experts with the highest level of responsibility gives us the confidence to do other works in the future."]
           }

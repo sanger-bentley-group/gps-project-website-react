@@ -5,7 +5,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: '![Current PCV formulations](img/PCV_formulation.png)'
+          content: '![Current PCV formulations](PCV_formulation.png)'
         },
         {
           type: 'md',
