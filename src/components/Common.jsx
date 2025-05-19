@@ -132,27 +132,39 @@ const ContentLogo = ({logo, url, alt}) => (
   </div>
 )
 
-const ContentQuoteCard = ({photo, name, quotes}) => (
-  <div className="card xl:card-side w-full bg-base-100 shadow-md">
-    { photo
-      ?
-        <div className="avatar place-self-center pt-8 pl-0 xl:pl-8 xl:pt-0">
-          <div className="w-36 h-36 rounded-xl">
-            <img src={photo} alt={`${name}`} />
+const ContentQuoteCard = ({photo, name, quotes}) => {
+  let asset
+  if (photo) {
+    asset = assets[`../assets/${photo}`]
+  }
+  return (
+    <div className="card xl:card-side w-full bg-base-100 shadow-md">
+      { photo
+        ?
+          <div className="avatar place-self-center pt-8 pl-0 xl:pl-8 xl:pt-0">
+            <div className="w-36 h-36 rounded-xl">
+              <img 
+                src={asset.src}
+                alt={`${name}`}
+                width={asset.width}
+                height={asset.height}
+                className='skeleton'
+                onLoad={(element) => element.target.classList.remove("skeleton")}
+              />
+            </div>
           </div>
-        </div>
-      :
-        ''
-    }
-
-    <div className="card-body">
-      {quotes.map((quote, index) => (
-        <div key={index}><ContentMD md={quote} /></div>
-      ))}
-      <p className="text-md italic">{name}</p>
+        :
+          ''
+      }
+      <div className="card-body">
+        {quotes.map((quote, index) => (
+          <div key={index}><ContentMD md={quote} /></div>
+        ))}
+        <p className="text-md italic">{name}</p>
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 const PublicationCard = ({cards}) => (
   <div className='grid grid-cols-1 w-full gap-10 xl:grid-cols-2'>
