@@ -56,19 +56,22 @@ const ContentCode = ({code}) => (
 
 const ContentNameCard = ({cards}) => (
   <div className='hero-content w-full flex flex-wrap justify-around gap-y-20 xl:justify-between'>
-    {cards.map((card, index) => (
-      <div className="card card-side w-[32rem] bg-base-100 shadow-md" key={index}>
-        <div className="avatar">
-          <div className="w-36 rounded-sm">
-            <img src={card.photo} alt={card.name} />
+    {cards.map((card, index) => {
+      const asset = assets[`../assets/${card.photo}`]
+      return (
+        <div className="card card-side w-[32rem] bg-base-100 shadow-md" key={index}>
+          <div className="avatar">
+            <div className="w-36 rounded-sm">
+              <img src={asset.src} width={asset.width} height={asset.height} alt={card.name} />
+            </div>
+          </div>
+          <div className="card-body">
+            <p className="card-title text-lg">{card.name}</p>
+            <p>{card.position}</p>
           </div>
         </div>
-        <div className="card-body">
-          <p className="card-title text-lg">{card.name}</p>
-          <p>{card.position}</p>
-        </div>
-      </div>
-    ))}
+      )
+    })}
   </div>
 )
 
