@@ -27,12 +27,29 @@ const TitleText = ({text}) => (
 )
 
 const SubtitleText = ({text, logo, url, className}) => {
+  let asset
+  if (logo) {
+    asset = assets[`../assets/${logo.url}`]
+  }
+
   const content = (
     <div className='flex gap-x-4'>
       <h2 className={`text-2xl font-bold ${className ? className : ''}`}>
         <ReactMarkdown components={mdComponents} children={text} />
       </h2>
-      {logo ? <img className='h-10 self-center' src={logo.url} alt={logo.alt}/> : null }
+      {logo 
+        ? 
+          <img 
+            className='h-10 w-fit self-center skeleton' 
+            src={asset.src} 
+            width={asset.width} 
+            height={asset.height} 
+            alt={logo.alt}
+            onLoad={(element) => element.target.classList.remove("skeleton")}
+          /> 
+        : 
+          null 
+        }
     </div>
   )
   

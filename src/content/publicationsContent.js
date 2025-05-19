@@ -5,7 +5,7 @@ const content = {
       subtitle: {
         content: 'Global Pneumococcal Sequencing Collection',
         logo: {
-          url: 'img/microbiology-society-logo.png',
+          url: 'microbiology-society-logo.png',
           alt: 'Microbiology Society Logo'
         },
         url: 'https://www.microbiologyresearch.org/content/global-pneumococcal-sequencing-collection'
