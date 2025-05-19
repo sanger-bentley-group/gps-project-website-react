@@ -168,19 +168,29 @@ const Serortype = () => {
         if (cellValue === '-'){
           return <div className="text-center">{remarkValue === '-' ? "No Sequence Available" : remarkValue}</div>
         } else {
+          const tooltipViewBox = assetsCPS["../assets/serotype_cps/cps_legend.svg"]["viewBox"].split(" ", 4)
           const assetViewBox = assetsCPS[`../assets/serotype_cps/${cellValue}`]["viewBox"].split(" ", 4)
           return (
             <div 
               className="flex flex-col gap-y-2 w-full h-full justify-center" 
               data-tooltip-id="react-tooltip-click" 
-              data-tooltip-html={`<img class="min-w-[48rem]" src=${new URL("../assets/serotype_cps/cps_legend.svg", import.meta.url).href} alt="Legend of cps gene cluster"/>`}
+              data-tooltip-html={`
+                <img 
+                  class="w-[48rem] h-fit"
+                  src=${new URL("../assets/serotype_cps/cps_legend.svg", import.meta.url).href}
+                  width=${tooltipViewBox[2]}
+                  height=${tooltipViewBox[3]}
+                  alt="Legend of cps gene cluster"
+                />
+              `}
             >
               <img
-                className="h-16 min-w-96 self-center"
+                className="h-16 min-w-96 self-center skeleton"
                 src={new URL(`../assets/serotype_cps/${cellValue}`, import.meta.url).href}
                 alt={`Chart of Serotype ${serotypeValue} cps region`}
                 width={assetViewBox[2]}
                 height={assetViewBox[3]}
+                onLoad={(element) => element.target.classList.remove("skeleton")}
               />
               {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center">{remarkValue}</div>}
             </div>
@@ -202,19 +212,29 @@ const Serortype = () => {
         if (cellValue === '-'){
           return <div className="text-center">{remarkValue === '-' ? "No Structure Available" : remarkValue}</div>
         } else {
+          const tooltipViewBox = assetsStructure["../assets/serotype_capsular_structure/capsular_structure_legend.svg"]["viewBox"].split(" ", 4)
           const assetViewBox = assetsStructure[`../assets/serotype_capsular_structure/${cellValue}`]["viewBox"].split(" ", 4)
           return (
             <div 
               className="flex flex-col gap-y-2 w-full h-full justify-center" 
               data-tooltip-id="react-tooltip-click" 
-              data-tooltip-html={`<img class="min-w-[36rem]" src=${new URL("../assets/serotype_capsular_structure/capsular_structure_legend.svg", import.meta.url).href} alt="Legend of capsular structure"/>`}
+              data-tooltip-html={`
+                <img 
+                  class="w-[36rem] h-fit"
+                  src=${new URL("../assets/serotype_capsular_structure/capsular_structure_legend.svg", import.meta.url).href}
+                  width=${tooltipViewBox[2]}
+                  height=${tooltipViewBox[3]}
+                  alt="Legend of capsular structure"
+                />
+              `}
             >
               <img
-                className="min-w-[30rem] self-center"
+                className="min-w-[30rem] self-center skeleton"
                 src={new URL(`../assets/serotype_capsular_structure/${cellValue}`, import.meta.url).href}
                 alt={`Chart of Serotype ${serotypeValue} capsular structure`}
                 width={assetViewBox[2]}
                 height={assetViewBox[3]}
+                onLoad={(element) => element.target.classList.remove("skeleton")}
               />
               {remarkValue === "-" ? null : <div className="whitespace-nowrap text-center">{remarkValue}</div>}
             </div>
