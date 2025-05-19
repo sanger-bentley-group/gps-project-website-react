@@ -179,7 +179,14 @@ const Carousel = ({photos}) => (
       const asset = assets[`../assets/${assetName}`]
       return (
         <div className="carousel-item w-8/12" key={index}>
-          <img src={asset.src} width={asset.width} height={asset.height} alt={alt} className='rounded-box'/>
+          <img 
+            src={asset.src} 
+            width={asset.width} 
+            height={asset.height} 
+            alt={alt} 
+            className='rounded-box skeleton'
+            onLoad={(element) => element.target.classList.remove("skeleton")}
+          />
         </div> 
       )
     })}
