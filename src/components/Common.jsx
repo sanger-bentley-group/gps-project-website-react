@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import { useReactTable, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, flexRender } from '@tanstack/react-table'
 
 const assets = import.meta.glob("../assets/*.{jpg,png}", { query: {as: 'meta:src;height;width' }, eager: true }, );
+const assetsHeadshot = import.meta.glob("../assets/headshots/*.jpg", { query: {as: 'meta:src;height;width' }, eager: true }, );
 
 const mdComponents = {
   a: ({ href, children })  =>  <Link to={href} className='link' { ...(/^(http|www)/.test(href) && {target: '_blank'}) }>{children}</Link>,
@@ -57,12 +58,12 @@ const ContentCode = ({code}) => (
 const ContentNameCard = ({cards}) => (
   <div className='hero-content w-full flex flex-wrap justify-around gap-y-20 xl:justify-between'>
     {cards.map((card, index) => {
-      const asset = assets[`../assets/${card.photo}`]
+      const asset = assetsHeadshot[`../assets/headshots/${card.photo}`]
       return (
         <div className="card card-side w-[32rem] bg-base-100 shadow-md" key={index}>
           <div className="avatar">
             <div className="w-36 rounded-sm">
-              <img src={asset.src} width={asset.width} height={asset.height} alt={card.name} />
+              <img src={asset.src} width={asset.width} height={asset.height} alt={card.name} className="skeleton" onLoad={(event) => event.target.classList.remove("skeleton")}/>
             </div>
           </div>
           <div className="card-body">
