@@ -14,7 +14,7 @@ const content = {
         {
           type: 'logo',
           content: {
-            logo: 'img/pathogenwatch_logo.svg',
+            logo: 'pathogenwatch_logo.svg',
             url: 'https://pathogen.watch/genomes/all?genusId=1301&speciesId=1313',
             alt: 'Click to access Pathogenwatch website'
           }
@@ -44,7 +44,7 @@ const content = {
         {
           type: 'logo',
           content: {
-            logo: 'img/microreact_logo.svg',
+            logo: 'microreact_logo.svg',
             url: 'https://microreact.org/',
             alt: 'Click to access Microreact website'
           }
@@ -78,7 +78,7 @@ const content = {
         {
           type: 'logo',
           content: {
-            logo: 'img/phandango_logo.png',
+            logo: 'phandango_logo.png',
             url: 'https://jameshadfield.github.io/phandango/#/gps',
             alt: 'Click to access phandango website'
           }

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import { useReactTable, getCoreRowModel, getFilteredRowModel, getPaginationRowModel, flexRender } from '@tanstack/react-table'
 
 const assets = import.meta.glob("../assets/*.{jpg,png}", { query: {as: 'meta:src;height;width' }, eager: true }, );
+const assetsSVG = import.meta.glob("../assets/*.svg", { query: '?box', import: "default", eager: true });
 const assetsHeadshot = import.meta.glob("../assets/headshots/*.jpg", { query: {as: 'meta:src;height;width' }, eager: true }, );
 
 const mdComponents = {
@@ -126,11 +127,38 @@ const ContentButton = ({text, url}) => (
   </div>
 )
 
-const ContentLogo = ({logo, url, alt}) => (
-  <div className='place-self-center xl:place-self-auto'>
-    <a href={url} target='_blank' rel="noreferrer"><img src={logo} alt={alt} className='w-64'></img></a>
-  </div>
-)
+const ContentLogo = ({logo, url, alt}) => {
+  let src
+  let width
+  let height
+
+  if (logo.endsWith(".png") || logo.endsWith(".jpg")) {
+    const asset = assets[`../assets/${logo}`]
+    src = asset.src
+    width = asset.width
+    height = asset.height
+  } else if (logo.endsWith(".svg")) {
+    const assetViewBox = assetsSVG[`../assets/${logo}`]["viewBox"].split(" ", 4)
+    src = new URL(`../assets/${logo}`, import.meta.url).href
+    width = assetViewBox[2]
+    height = assetViewBox[3]
+  }
+    
+  return (
+    <div className='place-self-center xl:place-self-auto'>
+      <a href={url} target='_blank' rel="noreferrer">
+        <img 
+          src={src} 
+          width={width} 
+          height={height} 
+          alt={alt} 
+          className='w-64 h-fit skeleton'
+          onLoad={(element) => element.target.classList.remove("skeleton")}
+        />
+      </a>
+    </div>
+  )
+}
 
 const ContentQuoteCard = ({photo, name, quotes}) => {
   let asset
