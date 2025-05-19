@@ -14,7 +14,7 @@ const mdComponents = {
   img: ({src, alt, title}) => {
     const asset = assets[`../assets/${src}`]
     return (
-      <img className='w-full' src={asset.src} width={asset.width} height={asset.height} alt={alt} title={title}/>
+      <img className='skeleton w-full' src={asset.src} width={asset.width} height={asset.height} alt={alt} title={title} onLoad={(event) => event.target.classList.remove('skeleton')}/>
     )
   }
 }
@@ -215,7 +215,7 @@ const SectionContent = ({type, content}) => {
       return <Carousel photos={content} />
     case 'imageHalfWidth':
       const asset = assets[`../assets/${content.assetName}`]
-      return <div className='w-full hero'><img src={asset.src} height={asset.height} width={asset.width} alt={content.alt} className='rounded-box w-full xl:w-1/2'/></div> 
+      return <div className='w-full hero'><img src={asset.src} height={asset.height} width={asset.width} alt={content.alt} className='skeleton rounded-box w-full xl:w-1/2' onLoad={(event) => event.target.classList.remove('skeleton')}/></div> 
     case 'html':
         return <div className='w-full' dangerouslySetInnerHTML={{__html: content}} />
     case 'timeline':
