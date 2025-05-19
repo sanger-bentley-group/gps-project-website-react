@@ -4,6 +4,8 @@ import { TitleText, SubtitleText, ContentMD, ContentYoutubeEmbed } from "./Commo
 
 import content from '../content/homeContent'
 
+const assets = import.meta.glob("../assets/logos/*.png", { query: {as: 'meta:src;height;width' }, eager: true }, );
+
 const NameAndInstitute = ({name, url, institute, instituteUrl}) => (
   <div className="flex">
     {
@@ -20,11 +22,14 @@ const NameAndInstitute = ({name, url, institute, instituteUrl}) => (
   </div> 
 )
 
-const Logo = ({logo, alt, url}) => (
-  <Link to={url} target="_blank">
-    <img className='h-20 min-h-[5rem] my-4 object-contain' src={logo} alt={alt}></img>
-  </Link>
-)
+const Logo = ({logo, alt, url}) => {
+  const asset = assets[`../assets/logos/${logo}`]
+  return (
+    <Link to={url} target="_blank">
+      <img className='h-20 w-fit my-4 object-contain skeleton' src={asset.src} width={asset.width} height={asset.height} alt={alt} onLoad={(event) => event.target.classList.remove("skeleton")}></img>
+    </Link>
+  )
+}
 
 const HeroTwoColumns = ({colOne, colTwo}) => (
   <div className="hero-content w-full flex-col text-lg items-center xl:items-start xl:flex-row">
