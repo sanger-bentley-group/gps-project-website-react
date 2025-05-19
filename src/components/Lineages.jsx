@@ -89,7 +89,14 @@ const GPSCGrid = ({clusters}) => {
             const assetHalfWidth = asset.width / 2
             const assetHalfHeight = asset.height / 2
             return (
-              <img src={asset.src} width={assetHalfWidth} height={assetHalfHeight} alt={`GPSC ${gpsc}`} key={gpsc} className='object-contain h-full' 
+              <img 
+                src={asset.src} 
+                width={assetHalfWidth} 
+                height={assetHalfHeight} 
+                alt={`GPSC ${gpsc}`} 
+                key={gpsc} 
+                className='object-contain h-full skeleton'
+                onLoad={(event) => event.target.classList.remove("skeleton")}
                 data-tooltip-id="react-tooltip"
                 data-tooltip-html={renderToStaticMarkup(<GPSCGridTooltipContent gpsc={gpsc} sampleCount={sampleCount} url={url}/>)}
                 data-tooltip-place='top'
