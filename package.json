@@ -5,16 +5,16 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@tanstack/react-table": "^8.19.3",
-    "@testing-library/jest-dom": "^6.4.8",
+    "@tanstack/react-table": "^8.21.3",
+    "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^14.3.1",
-    "@testing-library/user-event": "^14.5.2",
+    "@testing-library/user-event": "^14.6.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-markdown": "^9.0.1",
-    "react-router-dom": "^6.25.1",
+    "react-markdown": "^9.1.0",
+    "react-router-dom": "^6.30.1",
     "react-simple-maps": "^3.0.0",
-    "react-tooltip": "^5.27.1",
+    "react-tooltip": "^5.28.1",
     "web-vitals": "^3.5.2"
   },
   "pnpm": {
@@ -48,13 +48,13 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "@babel/plugin-transform-private-property-in-object": "^7.27.1",
     "@rollup/plugin-dsv": "^3.0.5",
-    "@tailwindcss/vite": "^4.1.5",
+    "@tailwindcss/vite": "^4.1.7",
     "@vitejs/plugin-react": "^4.4.1",
     "daisyui": "^5.0.35",
-    "tailwindcss": "^4.1.5",
-    "vite": "^6.3.4",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5",
     "vite-imagetools": "^7.1.0",
     "vite-plugin-svgr": "^4.3.0",
     "vite-svg": "^1.6.0"
