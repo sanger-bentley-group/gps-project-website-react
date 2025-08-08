@@ -14,6 +14,16 @@ const content = {
         {
           type: 'publicationGrid',
           content: [
+              {
+              title: 'Genomic analysis of invasive and non-invasive disease-causing *Streptococcus pneumoniae* isolated from children between 2014 and 2023 in Suzhou, China',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001398'
+                }
+              ]
+            },
             {
               title: 'Investigating two decades of *Streptococcus pneumoniae* bacteraemia in the Gelderland area, the Netherlands, using whole-genome sequencing',
               platform: 'Microbial Genomics',
