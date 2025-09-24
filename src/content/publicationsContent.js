@@ -14,7 +14,17 @@ const content = {
         {
           type: 'publicationGrid',
           content: [
-              {
+            {
+              title: 'Genomic analysis of the *Streptococcus pneumoniae* in Taiwan: a nationwide study from 2006 to 2022',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001498'
+                }
+              ]
+            },
+            {
               title: 'Genomic analysis of invasive and non-invasive disease-causing *Streptococcus pneumoniae* isolated from children between 2014 and 2023 in Suzhou, China',
               platform: 'Microbial Genomics',
               buttons: [
@@ -142,6 +152,38 @@ const content = {
                   text: 'Journal',
                   url: 'https://doi.org/10.1099/mgen.0.000645'
                 },
+              ]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      subtitle: {
+        content: '2025 Journal Articles'
+      },
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'GPS Pipeline: portable, scalable genomic pipeline for *Streptococcus pneumoniae* surveillance from Global Pneumococcal Sequencing Project',
+              platform: 'Nature Communications',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1038/s41467-025-64018-5'
+                }
+              ]
+            },
+            {
+              title: 'Naturally acquired promoter variation influences *Streptococcus pneumoniae* infection outcomes',
+              platform: 'Cell Host & Microbe',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1016/j.chom.2025.08.005'
+                }
               ]
             },
           ]
