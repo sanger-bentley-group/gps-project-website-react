@@ -101,7 +101,7 @@ const content = {
     },
     {
       subtitle: {
-        content: 'Former Member'
+        content: 'Former Members'
       },
       content: [
         {
