@@ -45,11 +45,11 @@ const content = {
       affiliations: [
         { 
           name: 'Child Health Research Foundation', 
-          partners: ['Md Hasanuzzaman', 'Senjuti Saha', 'Samir K. Saha']
+          partners: ['Md Hasanuzzaman', 'Samir K. Saha', 'Senjuti Saha']
         },
         { 
           name: 'International Centre for Diarrheal Diseases Research', 
-          partners: ['Abdullah W Brooks']
+          partners: ['Abdullah W Brooks', 'Md. Tahsin Khan']
         },
       ]
     },
@@ -85,7 +85,7 @@ const content = {
       affiliations: [
         { 
           name: 'Instituto Adolfo Lutz de São Paulo', 
-          partners: ['Ana Paula Cassiolato', 'Maria Cristina de Cunto Brandileone', 'Samanta Cristine Grassi Almeida']
+          partners: ['Maria Cristina de Cunto Brandileone', 'Samanta Cristine Grassi Almeida']
         },
       ]
     },
@@ -416,12 +416,56 @@ const content = {
       longitude: '101.6942371',
       affiliations: [
         { 
+          name: "IMU University", 
+          partners: ['Lokman Hakim Bin Suleiman', 'Nur Alia Johari', 'Shamala Devi']
+        },
+        { 
           name: "UCSI University", 
           partners: ['Shamala Devi Sekaran']
         },
         { 
+          name: "Universiti Malaya", 
+          partners: ['Anna Marie Nathan', 'Cindy Shuan Ju Teh', 'Nuryana Idris']
+        },
+        { 
+          name: "Universiti Putra Malaysia", 
+          partners: ['Mohd Nasir Mohd Desa']
+        },
+        { 
+          name: "Universiti Tunku Abdul Rahman", 
+          partners: ['Eddy Cheah Seong Guan']
+        },
+        { 
+          name: "University of Nottingham Malaysia", 
+          partners: ['Cheng Foh Le']
+        },
+        { 
           name: "University of Southampton", 
           partners: ['Stuart C Clarke']
+        },
+      ]
+    },
+    {
+      country: 'Malaysia',
+      city:'Kuala Terengganu', 
+      latitude: '5.4838247',
+      longitude: '102.6983391',
+      affiliations: [
+        { 
+          name: "Universiti Sultan Zainal Abidin", 
+          partners: ['Chew Chieng Yeo', 'Salwani Ismail']
+        },
+      ]
+    },
+    {
+      country: 'Malaysia',
+      city:'Perak', 
+      latitude: '4.3348363',
+      longitude: '101.1325568',
+      affiliations: [
+        { 
+          name: "Universiti Tunku Abdul Rahman", 
+          partners: ['Eddy Cheah Seong Guan']
         },
       ]
     },
@@ -473,7 +517,7 @@ const content = {
       affiliations: [
         { 
           name: "University of Oxford", 
-          partners: ['Rama Kandasamy', 'Andrew J Pollard']
+          partners: ['Andrew J Pollard', 'Rama Kandasamy']
         },
       ]
     },
@@ -560,7 +604,7 @@ const content = {
       longitude: '74.3141775',
       affiliations: [
         { 
-          name: "LUMS", 
+          name: "Lahore University of Management Sciences", 
           partners: ['Shaper Misra']
         },
       ]
@@ -654,6 +698,18 @@ const content = {
       ]
     },
     {
+      country: 'Saudi Arabia',
+      city:'Al Khobar', 
+      latitude: '26.1992344',
+      longitude: '50.1650547',
+      affiliations: [
+        { 
+          name: "King Fahd University Hospital", 
+          partners: ['Amani Alnimr']
+        },
+      ]
+    },
+    {
       country: 'Slovenia',
       city:'Ljublijana', 
       latitude: '43.4208218',
@@ -687,10 +743,6 @@ const content = {
       latitude: '41.3828939',
       longitude: '2.1774322',
       affiliations: [
-        { 
-          name: "Barcelona Supercomputing Center", 
-          partners: ['Sophie Belman']
-        },
         { 
           name: "Hospital Sant Joan de Déu", 
           partners: ['Alba Redin Alonso', 'Carmen Muñoz Almagro']
@@ -801,7 +853,7 @@ const content = {
         },
         { 
           name: "Wellcome Sanger Institute", 
-          partners: ['Alannah King', 'Ana Ferreira', 'Chrispin Chaguza', 'Gerry Tonkin-Hill', 'Harry Hung', 'Jolynne Mokaya', 'Jyothish N Nair Thulasee Bhai', 'Kate Mellor', 'Leon Bentley', 'Narender Kumar', 'Oliver Lorenz', 'Raymond Cheng', 'Rebecca A Gladstone', 'Stephanie W Lo', 'Stephen D Bentley']
+          partners: ['Alannah King', 'Ana Ferreira', 'Chrispin Chaguza', 'Gerry Tonkin-Hill', 'Harry Hung', 'Jolynne Mokaya', 'Jyothish N Nair Thulasee Bhai', 'Kate Mellor', 'Leon Bentley', 'Narender Kumar', 'Oliver Lorenz', 'Raymond Cheng', 'Rebecca A Gladstone', 'Sophie Belman', 'Stephanie W Lo', 'Stephen D Bentley']
         },
       ]
     },
@@ -858,6 +910,18 @@ const content = {
         { 
           name: "The University of Alabama", 
           partners: ['Feroze Ganaie', 'Jamil Saad', 'Moon Nahm']
+        },
+      ]
+    },
+    {
+      country: 'United States',
+      city:'Salt Lake City', 
+      latitude: '40.7768018',
+      longitude: '-112.0860806',
+      affiliations: [
+        { 
+          name: "The University of Utah", 
+          partners: ['Anne Blaschke']
         },
       ]
     },
