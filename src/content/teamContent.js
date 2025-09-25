@@ -20,11 +20,6 @@ const content = {
               photo: 'stephanie_lo.jpg'
             },
             {
-              name: 'Dr. Ana Ferreira',
-              position: 'Postdoctoral Fellow',
-              photo: 'ana_ferreira.jpg'
-            },
-            {
               name: 'Dr. Harry Hung',
               position: 'Senior Bioinformatician',
               photo: 'harry_hung.jpg'
@@ -33,11 +28,6 @@ const content = {
               name: 'Dr. Alannah King',
               position: 'Staff Scientist',
               photo: 'alannah_king.jpg'
-            },
-            {
-              name: 'Mr. Oliver Lorenz',
-              position: 'Senior Bioinformatician',
-              photo: 'oliver_lorenz.jpg'
             },
             {
               name: 'Dr. Kate Mellor',
@@ -111,7 +101,7 @@ const content = {
     },
     {
       subtitle: {
-        content: 'Former Member'
+        content: 'Former Members'
       },
       content: [
         {
@@ -132,6 +122,10 @@ const content = {
         },
         {
           type: 'md',
+          content: '- Dr. Ana Ferreira',
+        },
+        {
+          type: 'md',
           content: '- Dr. Rebecca A Gladstone',
         },
         {
@@ -141,6 +135,10 @@ const content = {
         {
           type: 'md',
           content: '- Dr. Narender Kumar',
+        },
+        {
+          type: 'md',
+          content: '- Mr. Oliver Lorenz',
         },
         {
           type: 'md',
