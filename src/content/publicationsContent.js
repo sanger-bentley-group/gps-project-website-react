@@ -167,6 +167,16 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
+              title: 'SeroBA(v2.0) and SeroBAnk: a robust genome-based serotyping scheme and comprehensive atlas of capsular diversity in *Streptococcus pneumoniae*',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001483'
+                }
+              ]
+            },
+            {
               title: 'GPS Pipeline: portable, scalable genomic pipeline for *Streptococcus pneumoniae* surveillance from Global Pneumococcal Sequencing Project',
               platform: 'Nature Communications',
               buttons: [
