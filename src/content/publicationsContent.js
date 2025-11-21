@@ -15,6 +15,16 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
+              title: 'Population snapshot of *Streptococcus pneumoniae* causing invasive disease among adults aged ≥18 years in South Africa before and after implementation of pneumococcal conjugate vaccines in 2005-2020',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001559'
+                }
+              ]
+            },
+            {
               title: 'Genomic analysis of the *Streptococcus pneumoniae* in Taiwan: a nationwide study from 2006 to 2022',
               platform: 'Microbial Genomics',
               buttons: [
