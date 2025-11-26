@@ -1,9 +1,10 @@
 {
     "summary": {
         "country": {
+            "United Kingdom": 13717,
             "South Africa": 5780,
             "The Gambia": 2939,
-            "Norway": 2384,
+            "Norway": 2405,
             "United States": 1719,
             "Malawi": 1624,
             "Israel": 1169,
@@ -12,22 +13,23 @@
             "Cambodia": 898,
             "Peru": 858,
             "India": 662,
-            "Hong Kong": 543,
+            "Hong Kong": 544,
             "Brazil": 509,
             "France": 432,
             "China": 418,
             "Argentina": 414,
             "Mozambique": 365,
+            "Pakistan": 317,
             "Ireland": 302,
             "Poland": 263,
             "Thailand": 261,
             "Nigeria": 190,
-            "Pakistan": 190,
             "Ethiopia": 187,
             "Russian Federation": 179,
             "Papua New Guinea": 175,
             "Bangladesh": 140,
             "Spain": 138,
+            "Taiwan": 137,
             "Togo": 122,
             "Qatar": 114,
             "Trinidad And Tobago": 98,
@@ -36,7 +38,7 @@
             "Ghana": 88,
             "New Zealand": 87,
             "Turkey": 78,
-            "Malaysia": 67,
+            "Malaysia": 73,
             "West Africa": 65,
             "Senegal": 53,
             "Morocco": 48,
@@ -44,41 +46,42 @@
             "NaN": 41,
             "Egypt": 33,
             "Cameroon": 28,
+            "Finland": 25,
             "Niger": 24,
             "Canada": 18,
             "Hungary": 17,
             "Mongolia": 15,
             "Bulgaria": 15,
-            "Latvia": 10,
             "Lithuania": 10,
+            "Latvia": 10,
             "Botswana": 8,
-            "Kuwait": 5,
             "Benin": 5,
+            "Kuwait": 5,
             "Central African Republic": 4,
             "Indonesia": 3,
             "Ivory Coast": 2,
-            "DR Congo": 1,
             "Ecuador": 1,
             "Guatemala": 1,
+            "DR Congo": 1,
             "Oman": 1,
             "Sweden": 1
         },
         "vaccine_period": {
-            "Pre-PCV": 12248,
-            "Post-PCV13": 8044,
-            "Post-PCV7": 3208,
-            "Post-PCV10": 1830,
-            "NaN": 667
+            "Post-PCV13": 21809,
+            "Pre-PCV": 12363,
+            "Post-PCV7": 3222,
+            "Post-PCV10": 1967,
+            "NaN": 670
         },
         "manifestation": {
-            "Invasive Disease": 15554,
-            "Carriage (Healthy)": 7923,
-            "NaN": 1528,
+            "Invasive Disease": 29400,
+            "Carriage (Healthy)": 7924,
+            "NaN": 1715,
             "Carriage (Patient)": 586,
             "Non-invasive Disease": 406
         },
         "year_of_collection": {
-            "NaN": 667,
+            "NaN": 670,
             "1982": 29,
             "1983": 30,
             "1984": 25,
@@ -96,49 +99,49 @@
             "1997": 91,
             "1998": 400,
             "1999": 578,
-            "2000": 348,
+            "2000": 349,
             "2001": 203,
             "2002": 190,
             "2003": 213,
             "2004": 231,
-            "2005": 652,
-            "2006": 739,
-            "2007": 954,
-            "2008": 1234,
+            "2005": 653,
+            "2006": 766,
+            "2007": 955,
+            "2008": 1258,
             "2009": 3891,
-            "2010": 1689,
-            "2011": 1598,
-            "2012": 2135,
+            "2010": 1707,
+            "2011": 1599,
+            "2012": 2160,
             "2013": 2050,
-            "2014": 2153,
-            "2015": 1077,
-            "2016": 1133,
-            "2017": 1024,
-            "2018": 706,
-            "2019": 581,
-            "2020": 446,
+            "2014": 2169,
+            "2015": 1082,
+            "2016": 1142,
+            "2017": 3072,
+            "2018": 5989,
+            "2019": 5934,
+            "2020": 1531,
             "2021": 333,
-            "2022": 175,
+            "2022": 309,
             "2023": 21,
             "2024": 28,
             "2025": 7
         },
         "age": {
-            "0": 6427,
-            "1": 3901,
-            "2": 2051,
-            "3": 1550,
-            "4": 1374,
-            "5": 667,
-            "6-10": 1146,
-            "11-20": 834,
-            "21-30": 757,
-            "31-40": 929,
-            "41-50": 697,
-            "51-60": 860,
-            "61-70": 1117,
-            ">71": 1867,
-            "NaN": 1820
+            "0": 6504,
+            "1": 3958,
+            "2": 2055,
+            "3": 1559,
+            "4": 1383,
+            "5": 672,
+            "6-10": 1148,
+            "11-20": 836,
+            "21-30": 760,
+            "31-40": 933,
+            "41-50": 715,
+            "51-60": 874,
+            "61-70": 8627,
+            ">71": 1899,
+            "NaN": 8108
         }
     },
     "country": {
@@ -1035,8 +1038,7 @@
                 }
             },
             "vaccine_period": {
-                "2013,2014": "Pre-PCV",
-                "2015,2016": "Post-PCV10"
+                "2013,2016": "Pre-PCV"
             }
         },
         "BJ": {
@@ -2877,6 +2879,64 @@
                 "2012,2017": "Post-PCV10"
             }
         },
+        "FI": {
+            "total": 25,
+            "age": {
+                "2018": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 6
+                },
+                "2019": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 19
+                }
+            },
+            "manifestation": {
+                "2018": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 6
+                },
+                "2019": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 19
+                }
+            },
+            "vaccine_period": {
+                "2018,2019": "Post-PCV10"
+            }
+        },
         "FR": {
             "total": 432,
             "age": {
@@ -3316,8 +3376,8 @@
                 }
             },
             "vaccine_period": {
-                "2001,2006": "Pre-PCV",
-                "2007,2010": "Post-PCV7",
+                "2001,2003": "Pre-PCV",
+                "2004,2010": "Post-PCV7",
                 "2011,2018": "Post-PCV13"
             }
         },
@@ -3559,7 +3619,7 @@
             }
         },
         "HK": {
-            "total": 543,
+            "total": 544,
             "age": {
                 "1995": {
                     "0": 0,
@@ -3661,7 +3721,7 @@
                     "51-60": 0,
                     "61-70": 0,
                     ">71": 0,
-                    "NaN": 171
+                    "NaN": 172
                 },
                 "2001": {
                     "0": 0,
@@ -3991,7 +4051,7 @@
                 },
                 "2000": {
                     "Invasive Disease": 22,
-                    "Carriage (Healthy)": 149,
+                    "Carriage (Healthy)": 150,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
                     "NaN": 0
@@ -6375,7 +6435,7 @@
             }
         },
         "MY": {
-            "total": 67,
+            "total": 73,
             "age": {
                 "NaN": {
                     "0": 0,
@@ -6392,7 +6452,7 @@
                     "51-60": 0,
                     "61-70": 0,
                     ">71": 0,
-                    "NaN": 2
+                    "NaN": 5
                 },
                 "2000": {
                     "0": 0,
@@ -6507,11 +6567,11 @@
                     "11-20": 2,
                     "21-30": 1,
                     "31-40": 0,
-                    "41-50": 2,
+                    "41-50": 3,
                     "51-60": 1,
                     "61-70": 0,
                     ">71": 2,
-                    "NaN": 0
+                    "NaN": 2
                 },
                 "2007": {
                     "0": 0,
@@ -6669,7 +6729,7 @@
             },
             "manifestation": {
                 "NaN": {
-                    "Invasive Disease": 2,
+                    "Invasive Disease": 5,
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
@@ -6718,7 +6778,7 @@
                     "NaN": 0
                 },
                 "2006": {
-                    "Invasive Disease": 10,
+                    "Invasive Disease": 13,
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
@@ -8946,7 +9006,7 @@
             }
         },
         "NO": {
-            "total": 2384,
+            "total": 2405,
             "age": {
                 "1982": {
                     "0": 0,
@@ -9354,7 +9414,7 @@
                     "51-60": 4,
                     "61-70": 2,
                     ">71": 21,
-                    "NaN": 0
+                    "NaN": 1
                 },
                 "2006": {
                     "0": 0,
@@ -9388,7 +9448,7 @@
                     "51-60": 4,
                     "61-70": 5,
                     ">71": 16,
-                    "NaN": 0
+                    "NaN": 1
                 },
                 "2008": {
                     "0": 0,
@@ -9456,7 +9516,7 @@
                     "51-60": 0,
                     "61-70": 0,
                     ">71": 0,
-                    "NaN": 0
+                    "NaN": 1
                 },
                 "2012": {
                     "0": 0,
@@ -9575,7 +9635,7 @@
                     "51-60": 27,
                     "61-70": 39,
                     ">71": 80,
-                    "NaN": 0
+                    "NaN": 2
                 },
                 "2019": {
                     "0": 9,
@@ -9592,7 +9652,7 @@
                     "51-60": 47,
                     "61-70": 75,
                     ">71": 129,
-                    "NaN": 7
+                    "NaN": 23
                 },
                 "2020": {
                     "0": 3,
@@ -9813,7 +9873,7 @@
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
-                    "NaN": 42
+                    "NaN": 43
                 },
                 "2006": {
                     "Invasive Disease": 0,
@@ -9827,7 +9887,7 @@
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
-                    "NaN": 40
+                    "NaN": 41
                 },
                 "2008": {
                     "Invasive Disease": 0,
@@ -9855,7 +9915,7 @@
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
-                    "NaN": 0
+                    "NaN": 1
                 },
                 "2012": {
                     "Invasive Disease": 32,
@@ -9904,14 +9964,14 @@
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
-                    "NaN": 12
+                    "NaN": 14
                 },
                 "2019": {
                     "Invasive Disease": 306,
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
-                    "NaN": 40
+                    "NaN": 56
                 },
                 "2020": {
                     "Invasive Disease": 281,
@@ -9974,7 +10034,7 @@
             "vaccine_period": {}
         },
         "PK": {
-            "total": 190,
+            "total": 317,
             "age": {
                 "NaN": {
                     "0": 4,
@@ -10179,6 +10239,40 @@
                     "61-70": 0,
                     ">71": 1,
                     "NaN": 1
+                },
+                "2021": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2022": {
+                    "0": 74,
+                    "1": 53,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
                 }
             },
             "manifestation": {
@@ -10265,11 +10359,25 @@
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 2,
                     "NaN": 5
+                },
+                "2021": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2022": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 127
                 }
             },
             "vaccine_period": {
                 "2010,2012": "Pre-PCV",
-                "2013,2020": "Post-PCV10"
+                "2013,2022": "Post-PCV10"
             }
         },
         "PG": {
@@ -12145,25 +12253,25 @@
             },
             "manifestation": {
                 "2012": {
-                    "Invasive Disease": 23,
-                    "Carriage (Healthy)": 0,
-                    "Carriage (Patient)": 0,
-                    "Non-invasive Disease": 0,
-                    "NaN": 2
-                },
-                "2013": {
-                    "Invasive Disease": 34,
-                    "Carriage (Healthy)": 0,
-                    "Carriage (Patient)": 0,
-                    "Non-invasive Disease": 0,
-                    "NaN": 2
-                },
-                "2014": {
-                    "Invasive Disease": 33,
+                    "Invasive Disease": 24,
                     "Carriage (Healthy)": 0,
                     "Carriage (Patient)": 0,
                     "Non-invasive Disease": 0,
                     "NaN": 1
+                },
+                "2013": {
+                    "Invasive Disease": 36,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2014": {
+                    "Invasive Disease": 34,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
                 }
             },
             "vaccine_period": {
@@ -13353,6 +13461,425 @@
             },
             "vaccine_period": {
                 "1990,1990": "Pre-PCV"
+            }
+        },
+        "TW": {
+            "total": 137,
+            "age": {
+                "2006": {
+                    "0": 0,
+                    "1": 3,
+                    "2": 2,
+                    "3": 1,
+                    "4": 2,
+                    "5": 0,
+                    "6-10": 1,
+                    "11-20": 0,
+                    "21-30": 1,
+                    "31-40": 1,
+                    "41-50": 2,
+                    "51-60": 1,
+                    "61-70": 2,
+                    ">71": 8,
+                    "NaN": 0
+                },
+                "2007": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2008": {
+                    "0": 0,
+                    "1": 1,
+                    "2": 0,
+                    "3": 3,
+                    "4": 1,
+                    "5": 1,
+                    "6-10": 0,
+                    "11-20": 1,
+                    "21-30": 1,
+                    "31-40": 0,
+                    "41-50": 3,
+                    "51-60": 2,
+                    "61-70": 4,
+                    ">71": 5,
+                    "NaN": 2
+                },
+                "2009": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2010": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 1,
+                    "4": 3,
+                    "5": 2,
+                    "6-10": 0,
+                    "11-20": 1,
+                    "21-30": 0,
+                    "31-40": 1,
+                    "41-50": 3,
+                    "51-60": 3,
+                    "61-70": 0,
+                    ">71": 2,
+                    "NaN": 2
+                },
+                "2011": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2012": {
+                    "0": 1,
+                    "1": 0,
+                    "2": 1,
+                    "3": 3,
+                    "4": 3,
+                    "5": 1,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 4,
+                    "51-60": 6,
+                    "61-70": 3,
+                    ">71": 3,
+                    "NaN": 0
+                },
+                "2013": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2014": {
+                    "0": 2,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 1,
+                    "6-10": 1,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 1,
+                    "41-50": 2,
+                    "51-60": 2,
+                    "61-70": 4,
+                    ">71": 3,
+                    "NaN": 0
+                },
+                "2015": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2016": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 2,
+                    "51-60": 0,
+                    "61-70": 2,
+                    ">71": 4,
+                    "NaN": 1
+                },
+                "2017": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2018": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 1,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 1,
+                    "31-40": 1,
+                    "41-50": 1,
+                    "51-60": 0,
+                    "61-70": 4,
+                    ">71": 2,
+                    "NaN": 0
+                },
+                "2019": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2020": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 1,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 2,
+                    ">71": 1,
+                    "NaN": 0
+                },
+                "2021": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2022": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 3,
+                    ">71": 4,
+                    "NaN": 0
+                }
+            },
+            "manifestation": {
+                "2006": {
+                    "Invasive Disease": 24,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2007": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2008": {
+                    "Invasive Disease": 24,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2009": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2010": {
+                    "Invasive Disease": 18,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2011": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2012": {
+                    "Invasive Disease": 25,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2013": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2014": {
+                    "Invasive Disease": 16,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2015": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2016": {
+                    "Invasive Disease": 9,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2017": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2018": {
+                    "Invasive Disease": 10,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2019": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2020": {
+                    "Invasive Disease": 4,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2021": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2022": {
+                    "Invasive Disease": 7,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                }
+            },
+            "vaccine_period": {
+                "2006,2015": "Pre-PCV",
+                "2016,2022": "Post-PCV13"
             }
         },
         "TH": {
@@ -15159,6 +15686,160 @@
             "vaccine_period": {
                 "1998,2008": "Pre-PCV",
                 "2009,2011": "Post-PCV7"
+            }
+        },
+        "GB": {
+            "total": 13717,
+            "age": {
+                "2015": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 5
+                },
+                "2016": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 0,
+                    ">71": 0,
+                    "NaN": 0
+                },
+                "2017": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 1144,
+                    ">71": 0,
+                    "NaN": 904
+                },
+                "2018": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 2834,
+                    ">71": 0,
+                    "NaN": 2431
+                },
+                "2019": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 2890,
+                    ">71": 0,
+                    "NaN": 2428
+                },
+                "2020": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0,
+                    "4": 0,
+                    "5": 0,
+                    "6-10": 0,
+                    "11-20": 0,
+                    "21-30": 0,
+                    "31-40": 0,
+                    "41-50": 0,
+                    "51-60": 0,
+                    "61-70": 618,
+                    ">71": 0,
+                    "NaN": 463
+                }
+            },
+            "manifestation": {
+                "2015": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 5
+                },
+                "2016": {
+                    "Invasive Disease": 0,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                },
+                "2017": {
+                    "Invasive Disease": 2047,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 1
+                },
+                "2018": {
+                    "Invasive Disease": 5255,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 10
+                },
+                "2019": {
+                    "Invasive Disease": 5316,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 2
+                },
+                "2020": {
+                    "Invasive Disease": 1081,
+                    "Carriage (Healthy)": 0,
+                    "Carriage (Patient)": 0,
+                    "Non-invasive Disease": 0,
+                    "NaN": 0
+                }
+            },
+            "vaccine_period": {
+                "2015,2020": "Post-PCV13"
             }
         },
         "US": {
