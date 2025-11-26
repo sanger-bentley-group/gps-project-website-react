@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GPS Database Overview</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="gps.ico"/>
+  </head>
+  <body>
+    <div id="loading-overlay"> 
+      <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <header>
+      <h1>GPS Database Overview</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><button id="summary-view-button" class="nav-button nav-button-active">Summary</button></li>
+        <li><button id="by-country-view-button" class="nav-button">By Country / Region</button></li>
+        <li id="monocle-item">
+          <a id="monocle-link" href="https://data-viewer.monocle.sanger.ac.uk/project/gps" target="_blank">
+            <img id="monocle-new-window-icon" src="images/new_window_icon.svg" alt="New Window Icon">
+            Retrieve GPS Data via Monocle
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <article class="content">
+      <section class="content-container" id="summary-view">
+        <div id="summary-view-left">
+          <div class="summary-view-left-container">
+            <img class="summary-view-left-container-left-icon" src="images/dna_icon.svg" alt="DNA Icon">
+            <div class="summary-view-left-container-right">
+              <div class="summary-view-left-container-right-top">
+                Samples
+              </div>
+              <div class="summary-view-left-container-right-bottom">
+                <div id="total-sample-count" class="countup localeString">
+                  <!-- To be populated by main.js -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="summary-view-left-container">
+            <img class="summary-view-left-container-left-icon" src="images/globe_icon.svg" alt="Globe Icon">
+            <div class="summary-view-left-container-right">
+              <div class="summary-view-left-container-right-top">
+                Countries / Regions
+              </div>
+              <div class="summary-view-left-container-right-bottom">
+                <div id="total-country-count" class="countup localeString">
+                  <!-- To be populated by main.js -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="summary-view-left-container">
+            <img class="summary-view-left-container-left-icon" src="images/calendar_icon.svg" alt="Calendar Icon">
+            <div class="summary-view-left-container-right">
+              <div class="summary-view-left-container-right-top">
+                Year Range
+              </div>
+              <div class="summary-view-left-container-right-bottom">
+                  <span id="total-year-low-value" class="countup"></span> - <span id="total-year-high-value" class="countup"></span>
+                  <!-- To be populated by main.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="summary-view-right">
+          <div class="summary-view-right-container">
+            <div class="summary-view-right-container-container">
+              <div class="summary-view-right-container-container-top-chart" id="summary-view-country-chart">
+                <!-- To be populated by main.js -->
+              </div>
+              <div class="summary-view-right-container-container-title">Country / Region</div>
+            </div>
+            <div class="summary-view-right-container-container">
+              <div class="summary-view-right-container-container-top-chart" id="summary-view-vaccine_period-chart">
+                <!-- To be populated by main.js -->
+              </div>
+              <div class="summary-view-right-container-container-title">Vaccine Period</div>
+            </div>
+            <div class="summary-view-right-container-container">
+              <div class="summary-view-right-container-container-top-chart" id="summary-view-manifestation-chart">
+                <!-- To be populated by main.js -->
+              </div>
+              <div class="summary-view-right-container-container-title">Manifestation</div>
+            </div>
+          </div>
+          <div class="summary-view-right-container">
+            <div class="summary-view-right-container-container">
+              <div class="summary-view-right-container-container-bottom-chart" id="summary-view-year_of_collection-chart">
+                <!-- To be populated by main.js -->
+              </div>
+              <div class="summary-view-right-container-container-title">Year of Collection</div>
+            </div>
+            <div class="summary-view-right-container-container">
+              <div class="summary-view-right-container-container-bottom-chart" id="summary-view-age-chart">
+                <!-- To be populated by main.js -->
+              </div>
+              <div class="summary-view-right-container-container-title">Age</div>
+            </div>
+          </div>
+      </section>
+      <section class="content-container hidden" id="by-country-view">
+        <div id="by-country-view-map">
+          <object id="world-map" type="image/svg+xml" data="images/world_map.svg"></object>
+          <div id="by-country-view-infobox">
+            <div id="by-country-view-infobox-instruction">
+              Select from Map or List
+            </div>
+            <div id="by-country-view-infobox-display" class="hidden">
+              <div id="by-country-view-infobox-value">
+                <!-- To be populated by main.js -->
+              </div>
+              <div id="by-country-view-infobox-prompt">Click for details</div>
+            </div>
+          </div>
+        </div>
+        <div id="by-country-view-list">
+          <input type="text" id="country-list-search" placeholder="Search..." autocomplete="off">
+          <ul id="country-list">
+            <!-- To be populated by main.js -->
+          </ul>
+        </div>
+      </section>
+      <section class="content-container hidden" id="by-country-view-details">
+        <div id="back-to-map-item">
+          <a id="back-to-map-link">
+            <img id="back-to-map-icon" src="images/go_back_icon.svg" alt="Back to Map">
+            Back to Map
+          </a>
+        </div>
+        <div id="by-country-view-details-title">
+          <!-- To be populated by main.js -->
+        </div>
+        <div id="by-country-view-details-content">
+          <div id="by-country-view-details-content-button-group">
+            <button id="by-age-button" class="country-button country-button-active" disabled>By Age</button>
+            <button id="by-manifestation-button" class="country-button">By Manifestation</button>
+          </div>
+          <div id="by-country-view-details-content-chart">
+            <!-- To be populated by main.js -->
+          </div>
+        </div>
+      </section>
+    </article>
+    <footer>
+      <a class="footer-hyperlink" href="https://www.pneumogen.net/gps/" target="_blank">The Global Pneumococcal Sequencing Project</a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js" integrity="sha512-MefNfAGJ/pEy89xLOFs3V6pYPs6AmUhXJrRlydI/9wZuGrqxmrdQ80zKHUcyadAcpH67teDZcBeS6oMJLPtTqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/charts.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
