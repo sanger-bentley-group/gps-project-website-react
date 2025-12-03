@@ -177,6 +177,16 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
+              title: 'Evolution of pneumococcal serotype 19A in children in Bangladesh: insights from genomic analysis',
+              platform: 'BMC Microbiology',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1186/s12866-025-04484-5'
+                }
+              ]
+            },
+            {
               title: 'SeroBA(v2.0) and SeroBAnk: a robust genome-based serotyping scheme and comprehensive atlas of capsular diversity in *Streptococcus pneumoniae*',
               platform: 'Microbial Genomics',
               buttons: [
