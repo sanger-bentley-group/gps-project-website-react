@@ -1,6 +1,9 @@
 // Selection Animation Transition Time for All Charts
 const selectTransitTime = 100;
 
+// Lower Boundary for All Year Charts
+const yearLowerBound = 1970;
+
 
 // Build donut charts in Summary View
 function buildDonutChart(data, group) {
@@ -146,7 +149,7 @@ function buildBarChart(data, group) {
 
     // For year of collection, build bars for the whole range and fill in missing ones with 0
     if (group === "year_of_collection") {
-        const dataNums = Object.keys(data).filter((x) => !isNaN(x));
+        const dataNums = Object.keys(data).filter((x) => !isNaN(x) && Number(x) > yearLowerBound);
         const dataNumsMin = Math.min(...dataNums);
         const dataNumsMax = Math.max(...dataNums);
 
@@ -365,12 +368,17 @@ function buildStackedChart(data, type) {
     // Save max sum of values among all collection years
     let maxSum = 0;
 
+    // Flag for passing for leading empty years
+    let passedEmptyYears = false
+
     // Loop through all collection years
     for (const [group, keys] of Object.entries(data[type])) {
         // Comment out below "if block" to include samples with unknown collection year
         if (group === "NaN") { continue; }
 
-        groupSet.add(group);
+        // Comment out below "if block" to include samples below yearLowerBound
+        if (Number(group) < yearLowerBound) { continue; }
+
         let dataArrEle = {group: group};
         let curSum = 0;
         // Loop through all data keys and values in that year
@@ -382,7 +390,13 @@ function buildStackedChart(data, type) {
             dataArrEle[key] = val;
             curSum += val;
         }
-        dataArr.push(dataArrEle);
+        if (curSum > 0) { passedEmptyYears = true };
+        
+        if (passedEmptyYears == true) { 
+            groupSet.add(group)
+            dataArr.push(dataArrEle);
+        }
+        
         maxSum = Math.max(maxSum, curSum);
     }
 
@@ -637,6 +651,8 @@ function buildStackedChart(data, type) {
     // Add vaccine period labels, highlights and separators
     for (const [i, [range, period]] of Object.entries(data.vaccine_period).entries()) {
         const rangeArr = range.split(",");
+        const rangeLow = String(Math.max(Number(rangeArr[0]), Number(dataArr[0]["group"])))
+        const rangeHigh = rangeArr[1]
 
         // Interpolate from left to right of chart
         const lineInterpolate = d3.interpolate(0, width);
@@ -646,26 +662,26 @@ function buildStackedChart(data, type) {
             .text(period)
             .style("font-size", "12px")
             .style("text-anchor", "start")
-            .attr("transform", `translate(${xScale(rangeArr[0]) + 5},-15)rotate(-20)`)
+            .attr("transform", `translate(${xScale(rangeLow) + 5},-15)rotate(-20)`)
             // Fade in when vaccine period highlights approch the position
             .transition(`periodLabel-${type}`)
             .duration(1000)
                 .attrTween("opacity", function() {
                     return function(t) {
                         let current = lineInterpolate(t);
-                        if (current < xScale(rangeArr[0])) {
+                        if (current < xScale(rangeLow)) {
                             return 0;
                         } else {
-                            return Math.min((current - xScale(rangeArr[0])) / xScale.bandwidth(), 1);
+                            return Math.min((current - xScale(rangeLow)) / xScale.bandwidth(), 1);
                         }
                     };
                 });
 
         // Add vaccine period highlights with start-up animations
         chart.append("line")
-            .attr("x1", xScale(rangeArr[0]))
+            .attr("x1", xScale(rangeLow))
             .attr("y1", -10)
-            .attr("x2", xScale(rangeArr[1]) + xScale.bandwidth())
+            .attr("x2", xScale(rangeHigh) + xScale.bandwidth())
             .attr("y2", -10)
             .style("stroke-width", 3)
             .style("stroke", vaccineColor(period))
@@ -675,10 +691,10 @@ function buildStackedChart(data, type) {
                 .attrTween("x2", function() {
                     return function(t) {
                         let current = lineInterpolate(t);
-                        if (current < xScale(rangeArr[0])) {
-                            return xScale(rangeArr[0]);
+                        if (current < xScale(rangeLow)) {
+                            return xScale(rangeLow);
                         } else {
-                            return Math.min(current, xScale(rangeArr[1]) + xScale.bandwidth());
+                            return Math.min(current, xScale(rangeHigh) + xScale.bandwidth());
                         }
                     };
                 });
@@ -689,9 +705,9 @@ function buildStackedChart(data, type) {
         // Add separator at the end of each period with start-up animations
         const paddingSize = xScale.padding() * xScale.step();
         chart.append("line")
-            .attr("x1", xScale(rangeArr[1]) + xScale.bandwidth() + paddingSize / 2)
+            .attr("x1", xScale(rangeHigh) + xScale.bandwidth() + paddingSize / 2)
             .attr("y1", -margin.top/4)
-            .attr("x2", xScale(rangeArr[1]) + xScale.bandwidth() + paddingSize / 2)
+            .attr("x2", xScale(rangeHigh) + xScale.bandwidth() + paddingSize / 2)
             .attr("y2", height)
             .style("stroke-width", 1)
             .style("stroke-dasharray", ("3,3"))
@@ -702,10 +718,10 @@ function buildStackedChart(data, type) {
                 .attrTween("opacity", function() {
                     return function(t) {
                         let current = lineInterpolate(t);
-                        if (current < xScale(rangeArr[1])) {
+                        if (current < xScale(rangeHigh)) {
                             return 0;
                         } else {
-                            return Math.min((current - xScale(rangeArr[1])) / xScale.bandwidth(), 0.5);
+                            return Math.min((current - xScale(rangeHigh)) / xScale.bandwidth(), 0.5);
                         }
                     };
                 });
