@@ -121,7 +121,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '1. Install the latest PopPUNK (v2.6.3 or later) as per instructions at [PopPUNK documentation](https://poppunk.readthedocs.io/en/latest/installation.html)',
+          content: '1. Install the latest PopPUNK (v2.6.3 or later) as per instructions at [PopPUNK documentation](https://poppunk-docs.bacpop.org/installation.html)',
         },
         {
           type: 'md',
