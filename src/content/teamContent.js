@@ -21,7 +21,7 @@ const content = {
             },
             {
               name: 'Dr. Harry Hung',
-              position: 'Senior Bioinformatician',
+              position: 'Principal Bioinformatician',
               photo: 'harry_hung.jpg'
             },
             {
