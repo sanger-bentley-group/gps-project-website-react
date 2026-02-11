@@ -30,7 +30,7 @@ const content = [
         url: '/resources#overview',
       },
       {
-        title: 'Countries',
+        title: 'Sampled Countries',
         url: '/resources#countries',
       },
       {
