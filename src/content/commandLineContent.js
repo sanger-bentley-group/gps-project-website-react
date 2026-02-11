@@ -1,5 +1,5 @@
 const content = {
-  title: 'Command Line Training',
+  title: 'Command Line Tools',
   sections: [
     {
       subtitle: {
