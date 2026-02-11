@@ -12,11 +12,11 @@ const content = {
         },
         {
           type: 'md',
-          content: 'The original SeroBA ([Epping et al 2018](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000186)), available [here](https://github.com/sanger-pathogens/seroba), is no longer maintained. Therefore, we recommend using the [containerised fork](https://github.com/sanger-bentley-group/seroba) maintained by our group, which includes the latest database updates and bug fixes.',
+          content: 'The original SeroBA ([Epping et al 2018](https://doi.org/10.1099/mgen.0.000186)), available [here](https://github.com/sanger-pathogens/seroba), is no longer maintained. Therefore, we recommend using [SeroBA v2](https://github.com/sanger-bentley-group/seroba) maintained by our group, which includes the latest database updates and bug fixes.',
         },
         {
           type: 'md',
-          content: 'The following instructions are based on our containerised fork and the usage of Docker or Singularity.',
+          content: 'The following instructions are based on SeroBA v2 and the usage of Docker or Singularity.',
         },
         {
           type: 'md',
@@ -24,27 +24,17 @@ const content = {
         },
         {
           type: 'md',
-          content: '**Running with Docker**',
-        },
-        {
-          type: 'md',
           content: '- Replace placeholder values (`/path/to/reads`, `read1_file_name`, `read2_file_name`, `output_folder_prefix`) in the command'
         },
         {
           type: 'code',
-          content: ['docker run --rm -it -u $(id -u):$(id -g) -v /path/to/reads:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix']
-        },
-        {
-          type: 'md',
-          content: '**Running with Singularity**',
-        },
-        {
-          type: 'md',
-          content: '- Replace placeholder values (`/path/to/reads`, `read1_file_name`, `read2_file_name`, `output_folder_prefix`) in the command'
-        },
-        {
-          type: 'code',
-          content: ['singularity exec --bind /path/to/reads:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix']
+          content: [
+            '# Using Docker',
+            'docker run --rm -it -u $(id -u):$(id -g) -v /path/to/reads:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix',
+            '',
+            '# Using Singularity',
+            'singularity exec --bind /path/to/reads:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix'
+          ]
         },
         {
           type: 'md',
@@ -52,10 +42,6 @@ const content = {
         },
         {
           type: 'md',
-          content: '**Running with Docker**',
-        },
-        {
-          type: 'md',
           content: '1. Place all the read files into a single directory and then `cd` (change directory) into that directory'
         },
         {
@@ -65,7 +51,13 @@ const content = {
         {
           type: 'code',
           // eslint-disable-next-line
-          content: ['for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done']
+          content: [
+            '# Using Docker',
+            'for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done',
+            '',
+            '# Using Singularity',
+            'for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done'
+          ]
         },
         {
           type: 'md',
@@ -73,36 +65,13 @@ const content = {
         },
         {
           type: 'code',
-          content: ['docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba summary /data/']
-        },
-        {
-          type: 'md',
-          content: '4. The summarised result is available as `summary.csv` in the directory'
-        },
-        {
-          type: 'md',
-          content: '**Running with Singularity**',
-        },
-        {
-          type: 'md',
-          content: '1. Place all the read files into a single directory and then `cd` (change directory) into that directory'
-        },
-        {
-          type: 'md',
-          content: '2. Run SeroBA on all the samples using a for-loop'
-        },
-        {
-          type: 'code',
-          // eslint-disable-next-line
-          content: ['for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done']
-        },
-        {
-          type: 'md',
-          content: '3. Run SeroBA summary function on the results'
-        },
-        {
-          type: 'code',
-          content: ['singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba summary /data/']
+          content: [
+            '# Using Docker',
+            'docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba summary /data/',
+            '',
+            '# Using Singularity',
+            'singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba summary /data/'
+          ]
         },
         {
           type: 'md',
