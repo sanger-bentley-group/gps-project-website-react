@@ -1,5 +1,5 @@
 const content = {
-  title: "Bioinformatics Training",
+  title: "Bioinformatics Training Site",
   sections: [
     {
       content: [

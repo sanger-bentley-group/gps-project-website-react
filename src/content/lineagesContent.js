@@ -5,19 +5,19 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'Each Global Pneumococcal Sequence Cluster (GPSC) is **an international genomic definition of a pneumococcal lineage** ([Gladstone & Lo et al 2019 Ebiomedicine](https://doi.org/10.1016/j.ebiom.2019.04.021) defined using the clustering software [PopPUNK](https://doi.org/10.1101/gr.241455.118). Using GPSCs, we can capture all variations across the entire pneumococcal genome, allowing us to monitor and understand the processes involved in vaccine escape ([Lo & Gladstone et al 2019 Lancet Infectious Diseases](https://doi.org/10.1016/S1473-3099(19)30297-X)).'        
+          content: 'Each Global Pneumococcal Sequence Cluster (GPSC) is **an international genomic definition of a pneumococcal lineage** ([Gladstone & Lo et al 2019 Ebiomedicine](https://doi.org/10.1016/j.ebiom.2019.04.021)) defined using the clustering software [PopPUNK](https://doi.org/10.1101/gr.241455.118). Using GPSCs, we can capture all variations across the entire pneumococcal genome, allowing us to monitor and understand the processes involved in vaccine escape ([Lo & Gladstone et al 2019 Lancet Infectious Diseases](https://doi.org/10.1016/S1473-3099(19)30297-X)).'        
         },
         {
           type: 'md',
-          content: '- You can assign GPSCs using command line ([step-by-step instruction](../training#gpsc-assignment)) or Pathogenwatch ([tutorial video](https://www.youtube.com/watch?v=Q8bDuZZ3hXg)).',
+          content: '- You can assign GPSCs using the [GPS Pipeline](../resources#gps-pipeline), command line ([step-by-step instruction](../training#gpsc-assignment)), or Pathogenwatch ([tutorial video](https://www.youtube.com/watch?v=Q8bDuZZ3hXg)).',
         },
         {
           type: 'md',
-          content: '- The latest version is PopPUNK GPS database v10 ([.zip](https://gps-project.cog.sanger.ac.uk/GPS_v10.zip) or [.tar.gz](https://gps-project.cog.sanger.ac.uk/GPS_v10.tar.gz)) (10.6GB) and [GPSC designation v10](https://gps-project.cog.sanger.ac.uk/GPS_v10_external_clusters.csv) (790 kB)',
+          content: '- The latest PopPUNK GPS database and GPSC designation can be found on the [GPS Project GitHub page](https://github.com/GlobalPneumoSeq#database).',
         },
         {
           type: 'md',
-          content: "- You can explore the phylogenies of common GPSCs in Microreact, and their recombination pattern in Phandango by hovering over the cluster (each cluster represents a GPSC) in the following grid",
+          content: "You can explore the phylogenies of common GPSCs in Microreact, and their recombination pattern in Phandango by hovering over the cluster (each cluster represents a GPSC) in the following grid:",
         },
       ]
     }

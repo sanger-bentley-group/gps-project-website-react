@@ -1,5 +1,5 @@
 const content = {
-  title: 'Command Line Training',
+  title: 'Command Line Tools',
   sections: [
     {
       subtitle: {
@@ -12,11 +12,11 @@ const content = {
         },
         {
           type: 'md',
-          content: 'The original SeroBA ([Epping et al 2018](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000186)), available [here](https://github.com/sanger-pathogens/seroba), is no longer maintained. Therefore, we recommend using the [containerised fork](https://github.com/sanger-bentley-group/seroba) maintained by our group, which includes the latest database updates and bug fixes.',
+          content: 'The original SeroBA ([Epping et al 2018](https://doi.org/10.1099/mgen.0.000186)), available [here](https://github.com/sanger-pathogens/seroba), is no longer maintained. Therefore, we recommend using [SeroBA v2](https://github.com/sanger-bentley-group/seroba) maintained by our group, which includes the latest database updates and bug fixes.',
         },
         {
           type: 'md',
-          content: 'The following instructions are based on our containerised fork and the usage of Docker or Singularity.',
+          content: 'The following instructions are based on SeroBA v2 and the usage of Docker or Singularity.',
         },
         {
           type: 'md',
@@ -24,27 +24,17 @@ const content = {
         },
         {
           type: 'md',
-          content: '**Running with Docker**',
-        },
-        {
-          type: 'md',
           content: '- Replace placeholder values (`/path/to/reads`, `read1_file_name`, `read2_file_name`, `output_folder_prefix`) in the command'
         },
         {
           type: 'code',
-          content: ['docker run --rm -it -u $(id -u):$(id -g) -v /path/to/reads:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix']
-        },
-        {
-          type: 'md',
-          content: '**Running with Singularity**',
-        },
-        {
-          type: 'md',
-          content: '- Replace placeholder values (`/path/to/reads`, `read1_file_name`, `read2_file_name`, `output_folder_prefix`) in the command'
-        },
-        {
-          type: 'code',
-          content: ['singularity exec --bind /path/to/reads:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix']
+          content: [
+            '# Using Docker',
+            'docker run --rm -it -u $(id -u):$(id -g) -v /path/to/reads:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix',
+            '',
+            '# Using Singularity',
+            'singularity exec --bind /path/to/reads:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/read1_file_name /data/read2_file_name /data/output_folder_prefix'
+          ]
         },
         {
           type: 'md',
@@ -52,10 +42,6 @@ const content = {
         },
         {
           type: 'md',
-          content: '**Running with Docker**',
-        },
-        {
-          type: 'md',
           content: '1. Place all the read files into a single directory and then `cd` (change directory) into that directory'
         },
         {
@@ -65,7 +51,13 @@ const content = {
         {
           type: 'code',
           // eslint-disable-next-line
-          content: ['for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done']
+          content: [
+            '# Using Docker',
+            'for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done',
+            '',
+            '# Using Singularity',
+            'for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done'
+          ]
         },
         {
           type: 'md',
@@ -73,36 +65,13 @@ const content = {
         },
         {
           type: 'code',
-          content: ['docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba summary /data/']
-        },
-        {
-          type: 'md',
-          content: '4. The summarised result is available as `summary.csv` in the directory'
-        },
-        {
-          type: 'md',
-          content: '**Running with Singularity**',
-        },
-        {
-          type: 'md',
-          content: '1. Place all the read files into a single directory and then `cd` (change directory) into that directory'
-        },
-        {
-          type: 'md',
-          content: '2. Run SeroBA on all the samples using a for-loop'
-        },
-        {
-          type: 'code',
-          // eslint-disable-next-line
-          content: ['for READ1 in *1.fastq.gz; do SAMPLE=${READ1%_1.fastq.gz}; singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba runSerotyping /seroba/database /data/${SAMPLE}_1.fastq.gz /data/${SAMPLE}_2.fastq.gz /data/${SAMPLE}_RESULT; done']
-        },
-        {
-          type: 'md',
-          content: '3. Run SeroBA summary function on the results'
-        },
-        {
-          type: 'code',
-          content: ['singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba summary /data/']
+          content: [
+            '# Using Docker',
+            'docker run --rm -it -u $(id -u):$(id -g) -v $PWD:/data sangerbentleygroup/seroba seroba summary /data/',
+            '',
+            '# Using Singularity',
+            'singularity exec --bind $PWD:/data docker://sangerbentleygroup/seroba seroba summary /data/'
+          ]
         },
         {
           type: 'md',
@@ -121,15 +90,15 @@ const content = {
         },
         {
           type: 'md',
-          content: '1. Install the latest PopPUNK (v2.6.3 or later) as per instructions at [PopPUNK documentation](https://poppunk.readthedocs.io/en/latest/installation.html)',
+          content: '1. Install the latest PopPUNK (v2.6.3 or later) as per instructions at [PopPUNK documentation](https://poppunk-docs.bacpop.org/installation.html)',
         },
         {
           type: 'md',
-          content: '2. Download PopPUNK GPS database v10 ([.zip](https://gps-project.cog.sanger.ac.uk/GPS_v10.zip) or [.tar.gz](https://gps-project.cog.sanger.ac.uk/GPS_v10.tar.gz)) (10.6GB) and [GPSC designation v10](https://gps-project.cog.sanger.ac.uk/GPS_v10_external_clusters.csv) (790 kB)'
+          content: '2. Download the latest PopPUNK GPS database and GPSC designation from the [GPS Project GitHub page](https://github.com/GlobalPneumoSeq#database)'
         },
         {
           type: 'md',
-          content: '3. Unzip the downloaded PopPUNK GPS database v10'
+          content: '3. Unzip the downloaded PopPUNK GPS database'
         },
         {
           type: 'md',
@@ -141,21 +110,25 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `GPS_v10`: PopPUNK GPS database v10',
+          content: '- `GPS_<version>`: PopPUNK GPS database',
         },
         {
           type: 'md',
-          content: '- `GPS_v10_external_clusters.csv`: GPSC designation v10'
+          content: '- `GPS_<version>_external_clusters.csv`: GPSC designation'
         },
         {
           type: 'md',
           content: '### Run GPSC Assignment',
         },
         {
+          type: 'md',
+          content: '- Replace placeholder values (`<version>`, `<output folder>`) in the command'
+        },
+        {
           type: 'code',
           content: [
             '# (Optional) To increase speed, add: --threads <number of threads>',
-            'poppunk_assign --db GPS_v10 --external-clustering GPS_v10_external_clusters.csv --query qfile.txt --output <output folder>'
+            'poppunk_assign --db GPS_<version> --external-clustering GPS_<version>_external_clusters.csv --query qfile.txt --output <output folder>'
           ]
         },
         {
@@ -168,7 +141,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `*_external_clusters.csv`: GPSC designation based on v10 scheme',
+          content: '- `*_external_clusters.csv`: GPSC designation based on the provided database and designation',
         },
         {
           type: 'md',

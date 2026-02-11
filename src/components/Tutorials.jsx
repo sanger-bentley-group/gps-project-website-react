@@ -1,8 +1,8 @@
 import { Section, TitleText } from "./Common"
 
-import content from "../content/gpsToolsContent"
+import content from "../content/tutorialsContent"
 
-const GPSTools = () => (
+const Tutorials = () => (
   <div className="hero flex flex-col justify-center space-y-10 py-20">
     <div className="hero-content w-full flex-col text-center">
       <TitleText text={content.title}/>
@@ -13,4 +13,4 @@ const GPSTools = () => (
   </div>
 )
 
-export default GPSTools
+export default Tutorials

@@ -114,9 +114,11 @@ const Lineages = () => (
     <div className="hero-content w-full flex-col text-center">
       <TitleText text={content.title}/>
     </div>
-    {content.sections.map( (props, index) => 
-      <Section {...props} key={index} />
-    )}
+    <div className='mb-0'>
+      {content.sections.map( (props, index) => 
+        <Section {...props} key={index} />
+      )}
+    </div>
     <div className="hero-content mt-0 w-full">
       <GPSCGrid clusters={content.gpscGrid} />
     </div>

@@ -5,46 +5,17 @@ const content = {
       content: [
         {
           type: 'md',
-          content: 'The GPS project provides interactive bioinformatic outputs to explore pneumococcal serotypes, lineages, and antibiotic resistance patterns over time and across geographical regions.',
-        },
-      ]
-    },
-    {
-      subtitle: { 
-        content: 'Spatiotemporal Dynamics of Pneumococcal Serotypes and Lineages'
-      },
-      content: [
-        {
-          type: 'md',
-          content: '*Use the GPS visualiser to explore changes in pneumococcal serotype and lineage distribution between countries and over the vaccine periods. Watch the video below to learn about the functions of the GPS visualizer and how to use it, including how to interpret the values and visualisations displayed, and how to select the data groups that you are most interested in.*'
+          content: 'The GPS project provides a suite of open source bioinformatics tools, curated databases, and step-by-step tutorials designed for pneumococcal genomic surveillance and research. We have established a dedicated GitHub page to showcase our latest developments, facilitating transparent and reproducible research worldwide.',
         },
         {
-          type: 'youtube',
+          type: 'button',
           content: {
-            id: 'uaps7SgdlVw',
-            title: 'GPS Visualiser Video Guide'
+            text: 'Access the GitHub page',
+            url: 'https://github.com/GlobalPneumoSeq',
           }
-        }
-      ]
-    },
-    {
-      subtitle: { 
-        content: 'Interactive Analyses of Specific Countries and Lineages'
-      },
-      content: [
-        {
-          type: 'md',
-          content: '*Watch the video below to learn about the country-specific and lineage-specific analyses available on the GPS website. Go to the [Drag and Drop Tools](../training#drag-and-drop-tools) to learn about using interactive visualisation tools such as Microreact and Phandango.*'
         },
-        {
-          type: 'youtube',
-          content: {
-            id: 'Qp10o4tO8JU',
-            title: 'Explore the GPS website'
-          }
-        }
       ]
-    },
+    }
   ]
 }
 
