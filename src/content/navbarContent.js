@@ -119,16 +119,16 @@ const content = [
         url: '/training#gps-tools',
       },
       {
-        title: 'Bioinformatics Training',
-        url: '/training#bioinformatics-training',
+        title: 'Command Line Tools',
+        url: '/training#command-line',
       },
       {
         title: 'Drag and Drop Tools',
         url: '/training#drag-and-drop-tools',
       },
       {
-        title: 'Command Line',
-        url: '/training#command-line',
+        title: 'Training Site',
+        url: '/training#bioinformatics-training',
       },
     ]
   },
