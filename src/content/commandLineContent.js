@@ -94,11 +94,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '2. Download PopPUNK GPS database v10 ([.zip](https://gps-project.cog.sanger.ac.uk/GPS_v10.zip) or [.tar.gz](https://gps-project.cog.sanger.ac.uk/GPS_v10.tar.gz)) (10.6GB) and [GPSC designation v10](https://gps-project.cog.sanger.ac.uk/GPS_v10_external_clusters.csv) (790 kB)'
+          content: '2. Download the latest PopPUNK GPS database and GPSC designation from the [Global Pneumococcal Sequencing Project GitHub page](https://github.com/GlobalPneumoSeq#database)'
         },
         {
           type: 'md',
-          content: '3. Unzip the downloaded PopPUNK GPS database v10'
+          content: '3. Unzip the downloaded PopPUNK GPS database'
         },
         {
           type: 'md',
@@ -110,21 +110,25 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `GPS_v10`: PopPUNK GPS database v10',
+          content: '- `GPS_<version>`: PopPUNK GPS database',
         },
         {
           type: 'md',
-          content: '- `GPS_v10_external_clusters.csv`: GPSC designation v10'
+          content: '- `GPS_<version>_external_clusters.csv`: GPSC designation'
         },
         {
           type: 'md',
           content: '### Run GPSC Assignment',
         },
         {
+          type: 'md',
+          content: '- Replace placeholder values (`<version>`, `<output folder>`) in the command'
+        },
+        {
           type: 'code',
           content: [
             '# (Optional) To increase speed, add: --threads <number of threads>',
-            'poppunk_assign --db GPS_v10 --external-clustering GPS_v10_external_clusters.csv --query qfile.txt --output <output folder>'
+            'poppunk_assign --db GPS_<version> --external-clustering GPS_<version>_external_clusters.csv --query qfile.txt --output <output folder>'
           ]
         },
         {
@@ -137,7 +141,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- `*_external_clusters.csv`: GPSC designation based on v10 scheme',
+          content: '- `*_external_clusters.csv`: GPSC designation based on the provided database and designation',
         },
         {
           type: 'md',
