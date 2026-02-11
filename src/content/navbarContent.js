@@ -115,8 +115,8 @@ const content = [
     url: '/training',
     submenu: [
       {
-        title: 'GPS Tools',
-        url: '/training#gps-tools',
+        title: 'Tutorials',
+        url: '/training#tutorials',
       },
       {
         title: 'Command Line Tools',
