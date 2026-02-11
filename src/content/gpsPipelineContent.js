@@ -8,7 +8,7 @@ const content = {
       content: [
         {
           type: 'md',
-          content: "Ensuring quality control of sequence data and generating succinct, reliable data characterising genomes can be time consuming and require substantial bioinformatic training. During GPS2, a portable pipeline named GPS Pipeline is being developed which will enable collaborators to easily input whole genome sequencing data and generate the *in silico* typing data required for downstream analysis. The pipeline is still under active development, its latest version is available on GitHub: [https://github.com/GlobalPneumoSeq/gps-pipeline](https://github.com/GlobalPneumoSeq/gps-pipeline)"
+          content: "Ensuring quality control of sequence data and generating succinct, reliable data characterising genomes can be time consuming and require substantial bioinformatic training. During GPS2, a portable pipeline named GPS Pipeline was developed, which enables collaborators to easily input whole genome sequencing data and generate the *in silico* typing data required for downstream analysis. The pipeline is published on [Nature Communications](https://doi.org/10.1038/s41467-025-64018-5), and its latest version is available on GitHub: [https://github.com/GlobalPneumoSeq/gps-pipeline](https://github.com/GlobalPneumoSeq/gps-pipeline)"
         },
         {
           type: 'md',
