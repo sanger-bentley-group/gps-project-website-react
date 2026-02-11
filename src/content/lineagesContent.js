@@ -9,11 +9,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '- You can assign GPSCs using command line ([step-by-step instruction](../training#gpsc-assignment)) or Pathogenwatch ([tutorial video](https://www.youtube.com/watch?v=Q8bDuZZ3hXg)).',
+          content: '- You can assign GPSCs using the [GPS Pipeline](../resources#gps-pipeline), command line ([step-by-step instruction](../training#gpsc-assignment)), or Pathogenwatch ([tutorial video](https://www.youtube.com/watch?v=Q8bDuZZ3hXg)).',
         },
         {
           type: 'md',
-          content: '- The latest version is PopPUNK GPS database v10 ([.zip](https://gps-project.cog.sanger.ac.uk/GPS_v10.zip) or [.tar.gz](https://gps-project.cog.sanger.ac.uk/GPS_v10.tar.gz)) (10.6GB) and [GPSC designation v10](https://gps-project.cog.sanger.ac.uk/GPS_v10_external_clusters.csv) (790 kB)',
+          content: '- The latest PopPUNK GPS database and GPSC designation can be found on the [Global Pneumococcal Sequencing Project GitHub Page](https://github.com/GlobalPneumoSeq#database)',
         },
         {
           type: 'md',
