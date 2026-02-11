@@ -94,7 +94,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '2. Download the latest PopPUNK GPS database and GPSC designation from the [Global Pneumococcal Sequencing Project GitHub page](https://github.com/GlobalPneumoSeq#database)'
+          content: '2. Download the latest PopPUNK GPS database and GPSC designation from the [GPS Project GitHub page](https://github.com/GlobalPneumoSeq#database)'
         },
         {
           type: 'md',

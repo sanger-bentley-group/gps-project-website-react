@@ -13,7 +13,7 @@ const content = {
         },
         {
           type: 'md',
-          content: '- The latest PopPUNK GPS database and GPSC designation can be found on the [Global Pneumococcal Sequencing Project GitHub Page](https://github.com/GlobalPneumoSeq#database).',
+          content: '- The latest PopPUNK GPS database and GPSC designation can be found on the [GPS Project GitHub page](https://github.com/GlobalPneumoSeq#database).',
         },
         {
           type: 'md',
