@@ -13,11 +13,11 @@ const content = {
         },
         {
           type: 'md',
-          content: '- The latest PopPUNK GPS database and GPSC designation can be found on the [Global Pneumococcal Sequencing Project GitHub Page](https://github.com/GlobalPneumoSeq#database)',
+          content: '- The latest PopPUNK GPS database and GPSC designation can be found on the [Global Pneumococcal Sequencing Project GitHub Page](https://github.com/GlobalPneumoSeq#database).',
         },
         {
           type: 'md',
-          content: "- You can explore the phylogenies of common GPSCs in Microreact, and their recombination pattern in Phandango by hovering over the cluster (each cluster represents a GPSC) in the following grid",
+          content: "You can explore the phylogenies of common GPSCs in Microreact, and their recombination pattern in Phandango by hovering over the cluster (each cluster represents a GPSC) in the following grid:",
         },
       ]
     }
