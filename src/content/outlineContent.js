@@ -75,19 +75,8 @@ const content = {
       ]
     },
     {
-      subtitle: { 
-        content: 'Open Data and Findings'
-      },
-      content: [
-        {
-          type: 'md',
-          content: 'The GPS project generates a rich source of genome and epidemiological data for tracking pneumococcal transmission and evolution on both national and international levels. The genome data are deposited in [ENA](https://www.ebi.ac.uk/ena/data/view/PRJEB3084). High-level analyses are interactively presented by [countries](../resources#countries) and by [strains](../gpsc#lineages) using [Microreact](https://microreact.org/) and [Phandango](https://jameshadfield.github.io/phandango/#/GPS). Illustrations of how to use these resources are summarised in a publication ([Gladstone *et al* 2020](https://doi.org/10.1099/mgen.0.000357)) and videos on the [Resources pages](../resources#overview). '
-        },
-      ]
-    },
-    {
       subtitle: {
-        content: "GPS2 - the Next Chapter"
+        content: "GPS2"
       },
       content: [
         {
@@ -122,6 +111,17 @@ const content = {
           type: 'md',
           content: "3. [NHMRC Centre of Research Excellence for Pneumococcal Disease Control in the Asia-Pacific (CRE-PDC)](https://www.mcri.edu.au/research/strategic-collaborations/centres/centre-pneumococcal-disease-control-asia-pacific) at the Murdoch Children's Research Institute to understand the sustainability of national immunisation PCV programs in the Asia-Pacific region."
         }
+      ]
+    },
+    {
+      subtitle: { 
+        content: 'Open Data and Findings'
+      },
+      content: [
+        {
+          type: 'md',
+          content: 'The GPS project generates a rich source of genome and epidemiological data for tracking pneumococcal transmission and evolution on both national and international levels. The genome data are deposited in [ENA](https://www.ebi.ac.uk/ena/data/view/PRJEB3084). High-level analyses are interactively presented by [countries](../resources#countries) and by [strains](../gpsc#lineages) using [Microreact](https://microreact.org/) and [Phandango](https://jameshadfield.github.io/phandango/#/GPS). Illustrations of how to use these resources are summarised in a publication ([Gladstone *et al* 2020](https://doi.org/10.1099/mgen.0.000357)) and videos on the [Resources pages](../resources#overview). '
+        },
       ]
     },
     {
