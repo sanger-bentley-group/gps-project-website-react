@@ -15,6 +15,16 @@ const content = {
           type: 'publicationGrid',
           content: [
             {
+              title: 'Genomic characterization of invasive disease-causing *Streptococcus pneumoniae* in Lebanon, 2003-2025',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001664'
+                }
+              ]
+            },
+            {
               title: 'Population snapshot of *Streptococcus pneumoniae* causing invasive disease among adults aged ≥18 years in South Africa before and after implementation of pneumococcal conjugate vaccines in 2005-2020',
               platform: 'Microbial Genomics',
               buttons: [
