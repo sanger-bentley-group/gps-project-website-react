@@ -76,7 +76,7 @@ importers:
         version: 4.3.0(rollup@4.52.5)(vite@6.4.1(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.5.0))
       vite-svg:
         specifier: ^1.6.0
-        version: 1.6.0
+        version: 1.7.0
 
 packages:
 
@@ -1816,8 +1816,8 @@ packages:
     resolution: {integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==}
     engines: {node: '>=6'}
 
-  tar@7.5.7:
-    resolution: {integrity: sha512-fov56fJiRuThVFXD6o6/Q354S7pnWMJIVlDBYijsTNx6jKSE4pvrDTs6lUnmGvNyfJwFQQwWy3owKz1ucIhveQ==}
+  tar@7.5.9:
+    resolution: {integrity: sha512-BTLcK0xsDh2+PUe9F6c2TlRp4zOOBMTkoQHQIWSIzI0R7KG46uEwq4OPk2W7bZcprBMsuaeFsqwYr7pjh6CuHg==}
     engines: {node: '>=18'}
 
   tinyglobby@0.2.15:
@@ -1880,8 +1880,8 @@ packages:
     peerDependencies:
       vite: '>=2.6.0'
 
-  vite-svg@1.6.0:
-    resolution: {integrity: sha512-Ra8L2KvbGUwzphtVG0HJvBKEKTmAmOTkdiXcSZa3kM2Z6bZ0BgHP8ZlKNsPGMb10R8vkECcen4V4n9dp0cvT+Q==}
+  vite-svg@1.7.0:
+    resolution: {integrity: sha512-5fVfpUNYnfzb7jMmHt787bBSOxaNpDNEzqjowx6lgOTWle82gVt87x77J9xrA5oZ+TWAMC51WDLzEfx8nt19Ng==}
 
   vite@6.4.1:
     resolution: {integrity: sha512-+Oxm7q9hDoLMyJOYfUYBuHQo+dkAloi33apOPP56pzj+vsdJDzr+j1NISE5pyaAuKL4A3UD34qd0lx5+kfKp2g==}
@@ -2528,7 +2528,7 @@ snapshots:
   '@tailwindcss/oxide@4.1.7':
     dependencies:
       detect-libc: 2.0.4
-      tar: 7.5.7
+      tar: 7.5.9
     optionalDependencies:
       '@tailwindcss/oxide-android-arm64': 4.1.7
       '@tailwindcss/oxide-darwin-arm64': 4.1.7
@@ -3816,7 +3816,7 @@ snapshots:
 
   tapable@2.2.2: {}
 
-  tar@7.5.7:
+  tar@7.5.9:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
@@ -3909,7 +3909,7 @@ snapshots:
       - supports-color
       - typescript
 
-  vite-svg@1.6.0: {}
+  vite-svg@1.7.0: {}
 
   vite@6.4.1(jiti@2.4.2)(lightningcss@1.30.1)(yaml@2.5.0):
     dependencies:
