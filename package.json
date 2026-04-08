@@ -1,7 +1,7 @@
 {
   "name": "gps-project-website-react",
   "version": "0.1.0",
-  "homepage": "gps",
+  "homepage": ".",
   "private": true,
   "type": "module",
   "dependencies": {
