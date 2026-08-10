@@ -137,9 +137,9 @@ function buildBarChart(data, group, yearLowerBound) {
     const container = document.querySelector(`#summary-view-${group}-chart`);
 
     // Set dimension of the chart
-    const margin = {top: 30, right: 10, bottom: 70, left: 60},
+    const margin = {top: 30, right: 10, bottom: 100, left: 60},
     width = 800 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    height = 500 - margin.top - margin.bottom;
 
     // Prepare data for d3.js consumption
     let dataArr = [];
@@ -162,6 +162,8 @@ function buildBarChart(data, group, yearLowerBound) {
         for (const [key, val] of Object.entries(data)) {
             // Comment out below line to show unknown age
             if (key === "NaN") { continue; }
+            // Comment out below line to show Range-only age
+            if (key === "Range-only") { continue; }
 
             dataArr.push({ key: key, value: val });
         }
@@ -186,7 +188,7 @@ function buildBarChart(data, group, yearLowerBound) {
     
     // Setup Y-axis linear scale, the upper limit is rounded up
     const yScale = d3.scaleLinear()
-        .domain([0, roundUp(Math.max(...Object.values(data)))])
+        .domain([0, roundUp(Math.max(...dataArr.map((d) => d.value)))])
         .range([height, 0]);
 
     // Add X-axis and labels
@@ -582,7 +584,7 @@ function buildStackedChart(data, type, yearLowerBound) {
                     chart.append("circle")
                         .attr("r", 5)
                         .attr("cx", width + 20)
-                        .attr("cy", i * 20 + 20)
+                        .attr("cy", i * 20 + 5)
                         .attr("fill", color(key))
                         .attr("class", `legend-${type}`)
                         .style("opacity", 0)
@@ -591,7 +593,7 @@ function buildStackedChart(data, type, yearLowerBound) {
                             .style("opacity", 1);
                     // Insert key to legend
                     chart.append("text")
-                        .attr("transform", `translate(${width + 40}, ${i * 20 + 25})`)
+                        .attr("transform", `translate(${width + 40}, ${i * 20 + 10})`)
                         .attr("class", `legend-${type}`)
                         .style("opacity", 0)
                         .style("font-size", "14px")
@@ -601,7 +603,7 @@ function buildStackedChart(data, type, yearLowerBound) {
                             .style("opacity", 1);
                     // Insert value to legend
                     chart.append("text")
-                        .attr("transform", `translate(${width + margin.right}, ${i * 20 + 25})`)
+                        .attr("transform", `translate(${width + margin.right}, ${i * 20 + 10})`)
                         .attr("class", `legend-${type}`)
                         .style("opacity", 0)
                         .style("text-anchor", "end")
