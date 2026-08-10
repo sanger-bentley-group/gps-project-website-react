@@ -180,6 +180,28 @@ const content = {
     },
     {
       subtitle: {
+        content: '2026 Journal Articles'
+      },
+      content: [
+        {
+          type: 'publicationGrid',
+          content: [
+            {
+              title: 'Clonal expansion of global pneumococcal sequence cluster 3 within serotype 8 after 13-valent pneumococcal conjugate vaccine introduction, South Africa',
+              platform: 'Microbial Genomics',
+              buttons: [
+                {
+                  text: 'Journal',
+                  url: 'https://doi.org/10.1099/mgen.0.001737'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
+    {
+      subtitle: {
         content: '2025 Journal Articles'
       },
       content: [
